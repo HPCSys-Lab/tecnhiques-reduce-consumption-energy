@@ -50,9 +50,9 @@ function Y {
   CORES="0,1,2,3"
   
   #alterar caminhos
-  export MOA_HOME=/home/pi/moa/moa-LAST
-  export RESULT_DIR=/home/pi/reginaldojunior/experimentos/moa
-  export REMOTE_DIR=/home/pi/moa/bases
+  export MOA_HOME=/home/reginaldojunior/Documentos/UFscar/MOA-last/moa-release-2019.05.1-SNAPSHOT
+  export RESULT_DIR=/home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results
+  export REMOTE_DIR=/home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/datasets
 
   faux=${1##*\/}
   onlyname=${faux%%.*}
@@ -60,15 +60,15 @@ function Y {
   if [[ $2 == *"MAX"* ]]; then
     IDENT="chunk"
     echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-50-4-50"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 50 -c 3) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-4-50" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-4-50
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 50 -c 3) -t 20 -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-4-50" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-4-50
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
     echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-50-4-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 50 -c 3) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-4-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-4-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 50 -c 3) -t 20 -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-4-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-4-1
   else
     IDENT="interleaved"
     echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-50-1-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 50) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-1-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 50) -t 20 -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-50-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-50-1-1
   fi
   echo ""
 }
@@ -101,96 +101,32 @@ function X {
 }
 
 # alterar para o caminho do HD/scratch
-mkdir -p /home/pi/reginaldojunior/experimentos/moa
-mkdir -p /home/pi/reginaldojunior/experimentos/moa
-mkdir -p /home/pi/reginaldojunior/experimentos/moa/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/first \
-        /home/pi/reginaldojunior/experimentos/moa/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/second \
-        /home/pi/reginaldojunior/experimentos/moa/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/third
+mkdir -p /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results
+mkdir -p /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results
+mkdir -p /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/first \
+        /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/second \
+        /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/third
 
 #----------- FIRST ROUND
-X /home/pi/moa/bases/elecNormNew.arff ARF first
-X /home/pi/moa/bases/elecNormNew.arff LBag first
-X /home/pi/moa/bases/elecNormNew.arff OBagAd first
-X /home/pi/moa/bases/elecNormNew.arff OBag first
-X /home/pi/moa/bases/elecNormNew.arff OBagASHT first
-X /home/pi/moa/bases/elecNormNew.arff SRP first
-
-X /home/pi/moa/bases/airlines.arff ARF first
-X /home/pi/moa/bases/airlines.arff LBag first
-X /home/pi/moa/bases/airlines.arff OBagAd first
-X /home/pi/moa/bases/airlines.arff OBag first
-X /home/pi/moa/bases/airlines.arff OBagASHT first
-X /home/pi/moa/bases/airlines.arff SRP first
-
-X /home/pi/moa/bases/covtypeNorm.arff ARF first
-X /home/pi/moa/bases/covtypeNorm.arff LBag first
-X /home/pi/moa/bases/covtypeNorm.arff OBagAd first
-X /home/pi/moa/bases/covtypeNorm.arff OBag first
-X /home/pi/moa/bases/covtypeNorm.arff OBagASHT first
-X /home/pi/moa/bases/covtypeNorm.arff SRP first
-
-X /home/pi/moa/bases/GMSC.arff ARF first
-X /home/pi/moa/bases/GMSC.arff LBag first
-X /home/pi/moa/bases/GMSC.arff OBagAd first
-X /home/pi/moa/bases/GMSC.arff OBag first
-X /home/pi/moa/bases/GMSC.arff OBagASHT first
-X /home/pi/moa/bases/GMSC.arff SRP first
+X elecNormNew.arff ARF first
+X elecNormNew.arff LBag first
+X elecNormNew.arff OBagAd first
+X elecNormNew.arff OBag first
+X elecNormNew.arff OBagASHT first
+X elecNormNew.arff SRP first
 
 #----------- SECOND ROUND
-
-X /home/pi/moa/bases/elecNormNew.arff ARF second
-X /home/pi/moa/bases/elecNormNew.arff LBag second
-X /home/pi/moa/bases/elecNormNew.arff OBagAd second
-X /home/pi/moa/bases/elecNormNew.arff OBag second
-X /home/pi/moa/bases/elecNormNew.arff OBagASHT second
-X /home/pi/moa/bases/elecNormNew.arff SRP second
-
-X /home/pi/moa/bases/airlines.arff ARF second
-X /home/pi/moa/bases/airlines.arff LBag second
-X /home/pi/moa/bases/airlines.arff OBagAd second
-X /home/pi/moa/bases/airlines.arff OBag second
-X /home/pi/moa/bases/airlines.arff OBagASHT second
-X /home/pi/moa/bases/airlines.arff SRP second
-
-X /home/pi/moa/bases/covtypeNorm.arff ARF second
-X /home/pi/moa/bases/covtypeNorm.arff LBag second
-X /home/pi/moa/bases/covtypeNorm.arff OBagAd second
-X /home/pi/moa/bases/covtypeNorm.arff OBag second
-X /home/pi/moa/bases/covtypeNorm.arff OBagASHT second
-X /home/pi/moa/bases/covtypeNorm.arff SRP second
-
-X /home/pi/moa/bases/GMSC.arff ARF second
-X /home/pi/moa/bases/GMSC.arff LBag second
-X /home/pi/moa/bases/GMSC.arff OBagAd second
-X /home/pi/moa/bases/GMSC.arff OBag second
-X /home/pi/moa/bases/GMSC.arff OBagASHT second
-X /home/pi/moa/bases/GMSC.arff SRP second
+X elecNormNew.arff ARF second
+X elecNormNew.arff LBag second
+X elecNormNew.arff OBagAd second
+X elecNormNew.arff OBag second
+X elecNormNew.arff OBagASHT second
+X elecNormNew.arff SRP second
 
 #----------- THIRD ROUND
-X /home/pi/moa/bases/elecNormNew.arff ARF third
-X /home/pi/moa/bases/elecNormNew.arff LBag third
-X /home/pi/moa/bases/elecNormNew.arff OBagAd third
-X /home/pi/moa/bases/elecNormNew.arff OBag third
-X /home/pi/moa/bases/elecNormNew.arff OBagASHT third
-X /home/pi/moa/bases/elecNormNew.arff SRP third
-
-X /home/pi/moa/bases/airlines.arff ARF third
-X /home/pi/moa/bases/airlines.arff LBag third
-X /home/pi/moa/bases/airlines.arff OBagAd third
-X /home/pi/moa/bases/airlines.arff OBag third
-X /home/pi/moa/bases/airlines.arff OBagASHT third
-X /home/pi/moa/bases/airlines.arff SRP third
-
-X /home/pi/moa/bases/covtypeNorm.arff ARF third
-X /home/pi/moa/bases/covtypeNorm.arff LBag third
-X /home/pi/moa/bases/covtypeNorm.arff OBagAd third
-X /home/pi/moa/bases/covtypeNorm.arff OBag third
-X /home/pi/moa/bases/covtypeNorm.arff OBagASHT third
-X /home/pi/moa/bases/covtypeNorm.arff SRP third
-
-X /home/pi/moa/bases/GMSC.arff ARF third
-X /home/pi/moa/bases/GMSC.arff LBag third
-X /home/pi/moa/bases/GMSC.arff OBagAd third
-X /home/pi/moa/bases/GMSC.arff OBag third
-X /home/pi/moa/bases/GMSC.arff OBagASHT third
-X /home/pi/moa/bases/GMSC.arff SRP third
+X elecNormNew.arff ARF third
+X elecNormNew.arff LBag third
+X elecNormNew.arff OBagAd third
+X elecNormNew.arff OBag third
+X elecNormNew.arff OBagASHT third
+X elecNormNew.arff SRP third

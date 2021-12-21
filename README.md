@@ -15,7 +15,7 @@ All packages is disponible in folder /packages. To install only run `sudo dpkg -
 
 ## How to use
 
-First step, is set number of cores disponibles in script `frequential-change.sh`. You can too change frequentials same file.
+First step, is set number of cores disponibles in script `frequential-change.sh`. You can to change same file to modify frequencies.
 
 After changed this. You can run follow command.
 

@@ -1,0 +1,5 @@
+ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.OzaBagExecutorRUNPER -s 50 -c 3) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/2000/2000/third/dump-elecNormNew-OzaBagExecutorRUNPER-50-4-1
+
+try clistring:  EITTTExperiments -l (meta.OzaBagExecutorRUNPER -s 50 -c 3) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/2000/2000/third/dump-elecNormNew-OzaBagExecutorRUNPER-50-4-1
+
+class moa.classifiers.meta.OzaBagExecutorRUNPER
