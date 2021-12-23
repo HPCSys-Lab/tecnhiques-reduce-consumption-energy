@@ -1,13 +1,57 @@
 #!/bin/bash
+
+if [[ "$#" -eq 0 ]]; then
+  echo "This program requires inputs. Type -h for help." >&2
+  exit 1
+fi
+
+while getopts ":f:F:h" opt;
+do
+    case $opt in
+        h)
+            echo "f: Frequencia Minima."
+            echo "F: Frequencia Máxima."
+            echo "h: Help Opções disponiveis."
+        ;;
+    f)
+      if [[ -n $FREQUENCIA_MINIMA ]]; then
+        echo "Invalid input: option -f has already been used!" >&2
+        exit 1
+      else
+        FREQUENCIA_MINIMA="${OPTARG//,/ }"
+      fi
+    ;;
+        F)
+            if [[ -n $FREQUENCIA_MAXIMA ]]; then
+        echo "Invalid input: option -F has already been used!" >&2
+        exit 1
+      else
+        FREQUENCIA_MAXIMA="$OPTARG"
+      fi
+        ;;
+    esac
+done
+
+#Critical checks
+if [[ -z $FREQUENCIA_MINIMA && -z $FREQUENCIA_MINIMA ]]; then
+    echo "Nothing to run. Expected -f!" >&2
+    exit 1
+fi
+
+if [[ -z $FREQUENCIA_MAXIMA && -z $FREQUENCIA_MAXIMA ]]; then
+    echo "Nothing to run. Expected -f!" >&2
+    exit 1
+fi
+
 function Y {
   #Usage: $0 FILE ALGORITHM RATE
   Memory=700M
   echo "file: $1 algorithm: $2 batch_size: $3 rate: $4"
 
   export MOA_HOME=/home/pi/moa/moa-LAST
-  export RESULT_DIR=/home/pi/moa/ChannelProdb50and250
-  export REMOTE_DIR=/home/gcassales/bases/
-  export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-bsize50and250.log
+  export RESULT_DIR=/home/pi/reginaldojunior/experimentos/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/
+  export REMOTE_DIR=/home/pi/moa/bases/
+  export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
 
   declare -a esize=(25)
   mkdir -p $RESULT_DIR
@@ -25,19 +69,16 @@ function Y {
     #CHUNK
     IDENT="timedchunk"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" >> ${EXPER_ORDER_FILE}
-    #echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelChunksTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -c ${bsize} -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}
   elif [[ ${2} == *"RUNPER"* ]]; then
     #PARALLEL
     IDENT="timedinterleaved"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" >> ${EXPER_ORDER_FILE}
-    #echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}
   else
     #SEQUENTIAL OR PARALLEL
     IDENT="timedinterleaved"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-1-1-${rate}" >> ${EXPER_ORDER_FILE}
-    #echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-1-1-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize}) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-1-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-1-1-${rate}
   fi
   echo ""
@@ -72,6 +113,10 @@ function X {
   #Y $1 ${algs[$(( ID+1 ))]} $3 $5
   Y $1 ${algs[$(( ID+2 ))]} $3 $6
 }
+
+mkdir -p /home/pi/reginaldojunior/experimentos/socket
+mkdir -p /home/pi/reginaldojunior/experimentos/socket
+mkdir -p /home/pi/reginaldojunior/experimentos/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
 ## Adiciona aqui a geração dinamica do notebook
 
