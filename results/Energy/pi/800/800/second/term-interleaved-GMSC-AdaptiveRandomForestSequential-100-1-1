@@ -1,0 +1,7 @@
+ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 100) -s (ArffFileStream -f /home/pi/moa/bases/GMSC.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/800/800/second/dump-GMSC-AdaptiveRandomForestSequential-100-1-1
+
+try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 100) -s (ArffFileStream -f /home/pi/moa/bases/GMSC.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/800/800/second/dump-GMSC-AdaptiveRandomForestSequential-100-1-1
+
+class moa.classifiers.meta.AdaptiveRandomForestSequential
+learning evaluation instances,Wall Time (Actual Time),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+7599.0,60.005001068115234,7599.0,93.57810238189236,3.906688495737613,44.419134396355375,-2.092050209204917,57.25816613507788,96.67710744927142,4.687499999999999,65.09564318842669,93.82765001321702,36.36363636363637,51.10513769322793,99.70505617977527,2.5052192066805845,7599.0,1.0

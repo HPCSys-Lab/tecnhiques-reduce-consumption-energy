@@ -25,19 +25,19 @@ do
 	echo "Rodando na frequencia 600MHz x 600MHz com a governança userspace"
 	# setar a frequencia nova nestes cpus
 	cpufreq-set -c 0,1,2,3 -d 600MHz -u 600MHz -g userspace
-	./moa-exec-socket.sh -f 600 -F 600
+	./moa-exec-socket-600.sh -f 600 -F 600
 
 	echo "Rodando na frequencia 800MHz x 800MHz com a governança userspace"
 	cpufreq-set -c 0,1,2,3 -d 800MHz -u 800MHz -g userspace
-	./moa-exec-socket.sh -f 800 -F 800
+	./moa-exec-socket-800.sh -f 800 -F 800
 	
 	echo "Rodando na frequencia 1000MHz x 1000MHz com a governança userspace"
 	cpufreq-set -c 0,1,2,3 -d 1000MHz -u 1000MHz -g userspace
-	./moa-exec-socket.sh -f 1000 -F 1000
+	./moa-exec-socket-1000.sh -f 1000 -F 1000
 
 	echo "Rodando na frequencia 1200MHz x 1200MHz com a governança userspace"
 	cpufreq-set -c 0,1,2,3 -d 1200MHz -u 1200MHz -g userspace
-	./moa-exec-socket.sh -f 1200 -F 1200
+	./moa-exec-socket-1200.sh -f 1200 -F 1200
 done
 
 echo "Retorna padrão do CPU"

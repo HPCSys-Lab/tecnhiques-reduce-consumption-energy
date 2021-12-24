@@ -1,0 +1,4 @@
+ANTESSSSSSS try clistring:  EvaluateInterleavedTestThenTrainChunks -l (meta.LBagExecutorMAXChunk -s 150 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/airlines.arff) -t 60 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/second/dump-airlines-LBagExecutorMAXChunk-150-8-50
+
+try clistring:  EvaluateInterleavedTestThenTrainChunks -l (meta.LBagExecutorMAXChunk -s 150 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/airlines.arff) -t 60 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/second/dump-airlines-LBagExecutorMAXChunk-150-8-50
+

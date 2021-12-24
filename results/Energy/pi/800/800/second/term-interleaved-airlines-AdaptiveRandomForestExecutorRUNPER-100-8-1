@@ -1,0 +1,7 @@
+ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestExecutorRUNPER -s 100 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/airlines.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/800/800/second/dump-airlines-AdaptiveRandomForestExecutorRUNPER-100-8-1
+
+try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestExecutorRUNPER -s 100 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/airlines.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/800/800/second/dump-airlines-AdaptiveRandomForestExecutorRUNPER-100-8-1
+
+class moa.classifiers.meta.AdaptiveRandomForestExecutorRUNPER
+learning evaluation instances,Wall Time (Actual Time),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+2456.0,61.09400177001953,2456.0,72.27198697068404,13.794091633490746,24.164810690423185,-8.439490445859853,57.619574792311624,82.772577789021,28.98852971845673,59.53661734941132,76.95202257761053,42.12121212121212,55.82213624809974,89.54570333880679,22.098569157392685,2456.0,1.0

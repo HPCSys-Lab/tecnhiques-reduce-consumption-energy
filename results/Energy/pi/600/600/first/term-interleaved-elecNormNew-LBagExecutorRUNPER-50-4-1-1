@@ -1,0 +1,5 @@
+ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.LBagExecutorRUNPER -s 50 -c 3) -t 20 -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/first/dump-elecNormNew-LBagExecutorRUNPER-50-4-1
+
+try clistring:  EITTTExperiments -l (meta.LBagExecutorRUNPER -s 50 -c 3) -t 20 -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/first/dump-elecNormNew-LBagExecutorRUNPER-50-4-1
+
+class moa.classifiers.meta.LBagExecutorRUNPER

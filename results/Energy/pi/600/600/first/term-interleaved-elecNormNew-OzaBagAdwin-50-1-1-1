@@ -1,0 +1,5 @@
+ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.OzaBagAdwin -s 50) -t 20 -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/first/dump-elecNormNew-OzaBagAdwin-50-1-1
+
+try clistring:  EITTTExperiments -l (meta.OzaBagAdwin -s 50) -t 20 -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/600/600/first/dump-elecNormNew-OzaBagAdwin-50-1-1
+
+class moa.classifiers.meta.OzaBagAdwin
