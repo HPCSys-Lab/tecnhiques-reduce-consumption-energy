@@ -1,7 +1,0 @@
-ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 50) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/2000/2000/second/dump-elecNormNew-AdaptiveRandomForestSequential-50-1-1
-
-try clistring:  EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 50) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/2000/2000/second/dump-elecNormNew-AdaptiveRandomForestSequential-50-1-1
-
-class moa.classifiers.meta.AdaptiveRandomForestSequential
-learning evaluation instances,Wall Time (Actual Time),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-17356.0,20.0,17356.0,89.60013828070984,78.80219710918936,32.899628252788105,76.15587846763539,89.40963276859925,87.94335715717054,90.85659287776708,89.5223702294997,88.99553873191834,90.04920172708103,89.29717889602524,86.9157644573541,91.67859333469637,17356.0,1.0

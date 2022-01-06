@@ -1,7 +1,0 @@
-ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.StreamingRandomPatches -s 50) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/1000/1000/second/dump-elecNormNew-StreamingRandomPatches-50-1-1
-
-try clistring:  EITTTExperiments -l (meta.StreamingRandomPatches -s 50) -t 20 -s (ArffFileStream -f elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/reginaldojunior/Documentos/UFscar/compare-dvfs-moa/results/1000/1000/second/dump-elecNormNew-StreamingRandomPatches-50-1-1
-
-class moa.classifiers.meta.StreamingRandomPatches
-learning evaluation instances,Wall Time (Actual Time),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-9842.0,20.0,9842.0,91.76996545417599,83.18709956894381,49.40662086196131,80.90973367900072,91.59929648924792,90.37318754456858,92.81277728482698,91.69964552615527,91.24070074394048,92.15859030837005,91.49916684078947,89.52201554038145,93.4763181411975,9842.0,1.0
