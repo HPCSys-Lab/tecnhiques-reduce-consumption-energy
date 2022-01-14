@@ -42,4 +42,4 @@ done
 
 echo "Retorna padrão do CPU"
 cset shield --reset --force
-cpufreq-set -c 0,1,2,3 -d 600MHz -u 3200MHz
+cpufreq-set -c 0,1,2,3 -d 600MHz -u 1200MHz
