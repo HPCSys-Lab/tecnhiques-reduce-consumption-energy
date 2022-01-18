@@ -121,77 +121,131 @@ mkdir -p /home/reginaldo/experimentos/socket
 mkdir -p /home/reginaldo/experimentos/socket
 mkdir -p /home/reginaldo/experimentos/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff ARF 50 12 21 12
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff ARF 50 63 105 63
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff ARF 50 113 189 113
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff LBag 50 15 25 15
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff LBag 50 77 125 77
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff LBag 50 140 226 140
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff SRP 50 7 12 7
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff SRP 50 36 60 36
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff SRP 50 65 109 65
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagAd 50 42 45 45
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagAd 50 211 225 225
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagAd 50 380 406 406
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagASHT 50 63 58 58
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagASHT 50 319 294 294
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBagASHT 50 575 529 529
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 50 54 49 49
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 50 273 246 246
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 50 492 443 443
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 7 13 13
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 35 65 65
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 63 117 117
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 11 21 21
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 55 109 109
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 99 197 197
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 4 8 4
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 22 43 22
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 40 78 40
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 31 33 31
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 156 165 156
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 281 297 281
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 32 30 32
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 162 154 162
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 293 278 293
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 44 44 44
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 220 224 220
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 397 403 397
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 4 9 4
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 21 48 21
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 39 87 39
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 3 6 3
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 19 32 19
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 34 59 34
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 1 3 1
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 9 16 9
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 16 30 16
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 4 6 6
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 21 31 31
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 38 56 56
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 4 7 4
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 24 36 24
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 44 65 44
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 5 7 5
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 28 37 28
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 51 68 51
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff ARF 50 1 4 1
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff ARF 50 7 20 7
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff ARF 50 14 36 14
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff LBag 50 1 4 1
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff LBag 50 5 20 5
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff LBag 50 9 36 9
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff SRP 50 2 4 2
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff SRP 50 10 21 10
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff SRP 50 18 39 18
-# X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagAd 50 2 7 2
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagAd 50 12 35 12
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagAd 50 22 64 22
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 50 9 10 9
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 50 48 50 48
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 50 87 91 87
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBag 50 2 8 8
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBag 50 13 41 41
-X /home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/airlines.arff OBag 50 24 75 75
+X $1elecNormNew.arff ARF 50 3 8 9
+X $1elecNormNew.arff ARF 50 18 42 49
+X $1elecNormNew.arff ARF 50 33 75 89
+X $1elecNormNew.arff LBag 50 6 13 17
+X $1elecNormNew.arff LBag 50 30 65 87
+X $1elecNormNew.arff LBag 50 54 117 158
+X $1elecNormNew.arff SRP 50 2 4 6
+X $1elecNormNew.arff SRP 50 12 22 30
+X $1elecNormNew.arff SRP 50 22 40 55
+X $1elecNormNew.arff OBagAd 50 17 20 42
+X $1elecNormNew.arff OBagAd 50 89 102 212
+X $1elecNormNew.arff OBagAd 50 161 184 382
+X $1elecNormNew.arff OBagASHT 50 18 22 46
+X $1elecNormNew.arff OBagASHT 50 91 113 230
+X $1elecNormNew.arff OBagASHT 50 164 204 415
+X $1elecNormNew.arff OBag 50 24 26 51
+X $1elecNormNew.arff OBag 50 123 132 255
+X $1elecNormNew.arff OBag 50 222 237 460
+X $1covtypeNorm.arff ARF 50 2 6 5
+X $1covtypeNorm.arff ARF 50 11 31 29
+X $1covtypeNorm.arff ARF 50 20 56 52
+X $1covtypeNorm.arff LBag 50 0 0 0
+X $1covtypeNorm.arff LBag 50 0 0 0
+X $1covtypeNorm.arff LBag 50 0 0 0
+X $1covtypeNorm.arff SRP 50 0 0 0
+X $1covtypeNorm.arff SRP 50 0 0 0
+X $1covtypeNorm.arff SRP 50 0 0 0
+X $1covtypeNorm.arff OBagAd 50 0 0 0
+X $1covtypeNorm.arff OBagAd 50 0 0 0
+X $1covtypeNorm.arff OBagAd 50 0 0 0
+X $1covtypeNorm.arff OBagASHT 50 0 0 0
+X $1covtypeNorm.arff OBagASHT 50 0 0 0
+X $1covtypeNorm.arff OBagASHT 50 0 0 0
+X $1covtypeNorm.arff OBag 50 0 0 0
+X $1covtypeNorm.arff OBag 50 0 0 0
+X $1covtypeNorm.arff OBag 50 0 0 0
+
+
+
+#--------------------
+#18-01-2022
+#esize 100
+#bsize 500
+#with incremental: True
+
+X $1elecNormNew.arff ARF 500 3 8 9
+X $1elecNormNew.arff ARF 500 18 42 48
+X $1elecNormNew.arff ARF 500 33 75 88
+X $1elecNormNew.arff LBag 500 6 13 19
+X $1elecNormNew.arff LBag 500 30 65 97
+X $1elecNormNew.arff LBag 500 54 117 175
+X $1elecNormNew.arff SRP 500 2 4 6
+X $1elecNormNew.arff SRP 500 12 22 30
+X $1elecNormNew.arff SRP 500 22 40 54
+X $1elecNormNew.arff OBagAd 500 17 20 41
+X $1elecNormNew.arff OBagAd 500 89 102 208
+X $1elecNormNew.arff OBagAd 500 161 184 374
+X $1elecNormNew.arff OBagASHT 500 18 22 48
+X $1elecNormNew.arff OBagASHT 500 91 113 243
+X $1elecNormNew.arff OBagASHT 500 164 204 439
+X $1elecNormNew.arff OBag 500 24 26 54
+X $1elecNormNew.arff OBag 500 123 132 271
+X $1elecNormNew.arff OBag 500 222 237 489
+X $1covtypeNorm.arff ARF 500 2 6 7
+X $1covtypeNorm.arff ARF 500 11 31 35
+X $1covtypeNorm.arff ARF 500 20 56 64
+X $1covtypeNorm.arff LBag 500 0 0 0
+X $1covtypeNorm.arff LBag 500 0 0 0
+X $1covtypeNorm.arff LBag 500 0 0 0
+X $1covtypeNorm.arff SRP 500 0 0 0
+X $1covtypeNorm.arff SRP 500 0 0 0
+X $1covtypeNorm.arff SRP 500 0 0 0
+X $1covtypeNorm.arff OBagAd 500 0 0 0
+X $1covtypeNorm.arff OBagAd 500 0 0 0
+X $1covtypeNorm.arff OBagAd 500 0 0 0
+X $1covtypeNorm.arff OBagASHT 500 0 0 0
+X $1covtypeNorm.arff OBagASHT 500 0 0 0
+X $1covtypeNorm.arff OBagASHT 500 0 0 0
+X $1covtypeNorm.arff OBag 500 0 0 0
+X $1covtypeNorm.arff OBag 500 0 0 0
+X $1covtypeNorm.arff OBag 500 0 0 0
+
+
+
+#--------------------
+#18-01-2022
+#esize 100
+#bsize 2000
+#with incremental: True
+
+X $1elecNormNew.arff ARF 2000 3 8 9
+X $1elecNormNew.arff ARF 2000 18 42 46
+X $1elecNormNew.arff ARF 2000 33 75 83
+X $1elecNormNew.arff LBag 2000 6 13 18
+X $1elecNormNew.arff LBag 2000 30 65 91
+X $1elecNormNew.arff LBag 2000 54 117 164
+X $1elecNormNew.arff SRP 2000 2 4 6
+X $1elecNormNew.arff SRP 2000 12 22 30
+X $1elecNormNew.arff SRP 2000 22 40 54
+X $1elecNormNew.arff OBagAd 2000 17 20 43
+X $1elecNormNew.arff OBagAd 2000 89 102 216
+X $1elecNormNew.arff OBagAd 2000 161 184 390
+X $1elecNormNew.arff OBagASHT 2000 18 22 46
+X $1elecNormNew.arff OBagASHT 2000 91 113 233
+X $1elecNormNew.arff OBagASHT 2000 164 204 419
+X $1elecNormNew.arff OBag 2000 24 26 50
+X $1elecNormNew.arff OBag 2000 123 132 250
+X $1elecNormNew.arff OBag 2000 222 237 451
+X $1covtypeNorm.arff ARF 2000 2 6 7
+X $1covtypeNorm.arff ARF 2000 11 31 36
+X $1covtypeNorm.arff ARF 2000 20 56 65
+X $1covtypeNorm.arff LBag 2000 0 0 0
+X $1covtypeNorm.arff LBag 2000 0 0 0
+X $1covtypeNorm.arff LBag 2000 0 0 0
+X $1covtypeNorm.arff SRP 2000 0 0 0
+X $1covtypeNorm.arff SRP 2000 0 0 0
+X $1covtypeNorm.arff SRP 2000 0 0 0
+X $1covtypeNorm.arff OBagAd 2000 0 0 0
+X $1covtypeNorm.arff OBagAd 2000 0 0 0
+X $1covtypeNorm.arff OBagAd 2000 0 0 0
+X $1covtypeNorm.arff OBagASHT 2000 0 0 0
+X $1covtypeNorm.arff OBagASHT 2000 0 0 0
+X $1covtypeNorm.arff OBagASHT 2000 0 0 0
+X $1covtypeNorm.arff OBag 2000 0 0 0
+X $1covtypeNorm.arff OBag 2000 0 0 0
+X $1covtypeNorm.arff OBag 2000 0 0 0
 
 date + "%d/%m/%y %T" >> $EXPER_ORDER_FILE
