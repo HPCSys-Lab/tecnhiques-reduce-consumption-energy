@@ -48,9 +48,9 @@ function Y {
   Memory=700M
   echo "file: $1 algorithm: $2 batch_size: $3 rate: $4"
 
-  export MOA_HOME=/home/reginaldo/UFscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT
-  export RESULT_DIR=/home/reginaldo/experimentos/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
-  export REMOTE_DIR=/home/reginaldo/UFscar/comparison-xue3m-minibatching/datasets/
+  export MOA_HOME=/home/pi/moa/moa-LAST/
+  export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+  export REMOTE_DIR=/home/gcassales/bases/
   export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
 
   declare -a esize=(25)
@@ -117,46 +117,46 @@ function X {
   Y $1 ${algs[$(( ID+2 ))]} $3 $6
 }
 
-mkdir -p /home/reginaldo/experimentos/socket
-mkdir -p /home/reginaldo/experimentos/socket
-mkdir -p /home/reginaldo/experimentos/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
-X $1elecNormNew.arff ARF 50 3 8 9
-X $1elecNormNew.arff ARF 50 18 42 49
-X $1elecNormNew.arff ARF 50 33 75 89
-X $1elecNormNew.arff LBag 50 6 13 17
-X $1elecNormNew.arff LBag 50 30 65 87
-X $1elecNormNew.arff LBag 50 54 117 158
-X $1elecNormNew.arff SRP 50 2 4 6
-X $1elecNormNew.arff SRP 50 12 22 30
-X $1elecNormNew.arff SRP 50 22 40 55
-X $1elecNormNew.arff OBagAd 50 17 20 42
-X $1elecNormNew.arff OBagAd 50 89 102 212
-X $1elecNormNew.arff OBagAd 50 161 184 382
-X $1elecNormNew.arff OBagASHT 50 18 22 46
-X $1elecNormNew.arff OBagASHT 50 91 113 230
-X $1elecNormNew.arff OBagASHT 50 164 204 415
-X $1elecNormNew.arff OBag 50 24 26 51
-X $1elecNormNew.arff OBag 50 123 132 255
-X $1elecNormNew.arff OBag 50 222 237 460
-X $1covtypeNorm.arff ARF 50 2 6 5
-X $1covtypeNorm.arff ARF 50 11 31 29
-X $1covtypeNorm.arff ARF 50 20 56 52
-X $1covtypeNorm.arff LBag 50 0 0 0
-X $1covtypeNorm.arff LBag 50 0 0 0
-X $1covtypeNorm.arff LBag 50 0 0 0
-X $1covtypeNorm.arff SRP 50 0 0 0
-X $1covtypeNorm.arff SRP 50 0 0 0
-X $1covtypeNorm.arff SRP 50 0 0 0
-X $1covtypeNorm.arff OBagAd 50 0 0 0
-X $1covtypeNorm.arff OBagAd 50 0 0 0
-X $1covtypeNorm.arff OBagAd 50 0 0 0
-X $1covtypeNorm.arff OBagASHT 50 0 0 0
-X $1covtypeNorm.arff OBagASHT 50 0 0 0
-X $1covtypeNorm.arff OBagASHT 50 0 0 0
-X $1covtypeNorm.arff OBag 50 0 0 0
-X $1covtypeNorm.arff OBag 50 0 0 0
-X $1covtypeNorm.arff OBag 50 0 0 0
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 3 8 9
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 18 42 49
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 50 33 75 89
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 6 13 17
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 30 65 87
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 50 54 117 158
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 2 4 6
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 12 22 30
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 50 22 40 55
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 17 20 42
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 89 102 212
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 50 161 184 382
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 18 22 46
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 91 113 230
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 50 164 204 415
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 24 26 51
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 123 132 255
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 50 222 237 460
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 2 6 5
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 11 31 29
+# X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 50 20 56 52
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 50 0 0 5
 
 
 
@@ -166,42 +166,42 @@ X $1covtypeNorm.arff OBag 50 0 0 0
 #bsize 500
 #with incremental: True
 
-X $1elecNormNew.arff ARF 500 3 8 9
-X $1elecNormNew.arff ARF 500 18 42 48
-X $1elecNormNew.arff ARF 500 33 75 88
-X $1elecNormNew.arff LBag 500 6 13 19
-X $1elecNormNew.arff LBag 500 30 65 97
-X $1elecNormNew.arff LBag 500 54 117 175
-X $1elecNormNew.arff SRP 500 2 4 6
-X $1elecNormNew.arff SRP 500 12 22 30
-X $1elecNormNew.arff SRP 500 22 40 54
-X $1elecNormNew.arff OBagAd 500 17 20 41
-X $1elecNormNew.arff OBagAd 500 89 102 208
-X $1elecNormNew.arff OBagAd 500 161 184 374
-X $1elecNormNew.arff OBagASHT 500 18 22 48
-X $1elecNormNew.arff OBagASHT 500 91 113 243
-X $1elecNormNew.arff OBagASHT 500 164 204 439
-X $1elecNormNew.arff OBag 500 24 26 54
-X $1elecNormNew.arff OBag 500 123 132 271
-X $1elecNormNew.arff OBag 500 222 237 489
-X $1covtypeNorm.arff ARF 500 2 6 7
-X $1covtypeNorm.arff ARF 500 11 31 35
-X $1covtypeNorm.arff ARF 500 20 56 64
-X $1covtypeNorm.arff LBag 500 0 0 0
-X $1covtypeNorm.arff LBag 500 0 0 0
-X $1covtypeNorm.arff LBag 500 0 0 0
-X $1covtypeNorm.arff SRP 500 0 0 0
-X $1covtypeNorm.arff SRP 500 0 0 0
-X $1covtypeNorm.arff SRP 500 0 0 0
-X $1covtypeNorm.arff OBagAd 500 0 0 0
-X $1covtypeNorm.arff OBagAd 500 0 0 0
-X $1covtypeNorm.arff OBagAd 500 0 0 0
-X $1covtypeNorm.arff OBagASHT 500 0 0 0
-X $1covtypeNorm.arff OBagASHT 500 0 0 0
-X $1covtypeNorm.arff OBagASHT 500 0 0 0
-X $1covtypeNorm.arff OBag 500 0 0 0
-X $1covtypeNorm.arff OBag 500 0 0 0
-X $1covtypeNorm.arff OBag 500 0 0 0
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 500 3 8 9
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 500 18 42 48
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 500 33 75 88
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 500 6 13 19
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 500 30 65 97
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 500 54 117 175
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 500 2 4 6
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 500 12 22 30
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 500 22 40 54
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 500 17 20 41
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 500 89 102 208
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 500 161 184 374
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 500 18 22 48
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 500 91 113 243
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 500 164 204 439
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 500 24 26 54
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 500 123 132 271
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 500 222 237 489
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 500 2 6 7
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 500 11 31 35
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 500 20 56 64
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 500 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 500 0 0 5
 
 
 
@@ -211,41 +211,41 @@ X $1covtypeNorm.arff OBag 500 0 0 0
 #bsize 2000
 #with incremental: True
 
-X $1elecNormNew.arff ARF 2000 3 8 9
-X $1elecNormNew.arff ARF 2000 18 42 46
-X $1elecNormNew.arff ARF 2000 33 75 83
-X $1elecNormNew.arff LBag 2000 6 13 18
-X $1elecNormNew.arff LBag 2000 30 65 91
-X $1elecNormNew.arff LBag 2000 54 117 164
-X $1elecNormNew.arff SRP 2000 2 4 6
-X $1elecNormNew.arff SRP 2000 12 22 30
-X $1elecNormNew.arff SRP 2000 22 40 54
-X $1elecNormNew.arff OBagAd 2000 17 20 43
-X $1elecNormNew.arff OBagAd 2000 89 102 216
-X $1elecNormNew.arff OBagAd 2000 161 184 390
-X $1elecNormNew.arff OBagASHT 2000 18 22 46
-X $1elecNormNew.arff OBagASHT 2000 91 113 233
-X $1elecNormNew.arff OBagASHT 2000 164 204 419
-X $1elecNormNew.arff OBag 2000 24 26 50
-X $1elecNormNew.arff OBag 2000 123 132 250
-X $1elecNormNew.arff OBag 2000 222 237 451
-X $1covtypeNorm.arff ARF 2000 2 6 7
-X $1covtypeNorm.arff ARF 2000 11 31 36
-X $1covtypeNorm.arff ARF 2000 20 56 65
-X $1covtypeNorm.arff LBag 2000 0 0 0
-X $1covtypeNorm.arff LBag 2000 0 0 0
-X $1covtypeNorm.arff LBag 2000 0 0 0
-X $1covtypeNorm.arff SRP 2000 0 0 0
-X $1covtypeNorm.arff SRP 2000 0 0 0
-X $1covtypeNorm.arff SRP 2000 0 0 0
-X $1covtypeNorm.arff OBagAd 2000 0 0 0
-X $1covtypeNorm.arff OBagAd 2000 0 0 0
-X $1covtypeNorm.arff OBagAd 2000 0 0 0
-X $1covtypeNorm.arff OBagASHT 2000 0 0 0
-X $1covtypeNorm.arff OBagASHT 2000 0 0 0
-X $1covtypeNorm.arff OBagASHT 2000 0 0 0
-X $1covtypeNorm.arff OBag 2000 0 0 0
-X $1covtypeNorm.arff OBag 2000 0 0 0
-X $1covtypeNorm.arff OBag 2000 0 0 0
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 2000 3 8 9
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 2000 18 42 46
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff ARF 2000 33 75 83
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 2000 6 13 18
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 2000 30 65 91
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff LBag 2000 54 117 164
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 2000 2 4 6
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 2000 12 22 30
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff SRP 2000 22 40 54
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 2000 17 20 43
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 2000 89 102 216
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagAd 2000 161 184 390
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 2000 18 22 46
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 2000 91 113 233
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBagASHT 2000 164 204 419
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 2000 24 26 50
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 2000 123 132 250
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff OBag 2000 222 237 451
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 2000 2 6 7
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 2000 11 31 36
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff ARF 2000 20 56 65
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff LBag 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff SRP 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagAd 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBagASHT 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 2000 0 0 5
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff OBag 2000 0 0 5
 
 date + "%d/%m/%y %T" >> $EXPER_ORDER_FILE
