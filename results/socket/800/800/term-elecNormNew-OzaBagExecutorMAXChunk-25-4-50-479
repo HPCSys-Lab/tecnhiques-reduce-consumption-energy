@@ -1,28 +1,25 @@
 Connected!
 linha fdp!!!!
+OWN0.022521,3,0.106383,0.045455,0.196221,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.022521"
+linha fdp!!!!
 N0.425778,4,1,0.084634,0.384261,0.003467,0.422915,0.414912,DOWN
 java.lang.NumberFormatException: For input string: "N0.425778"
 linha fdp!!!!
-N0.438919,7,0.170213,0.045304,0.054597,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "N0.438919"
+OWN0.442635,1,0.574468,0.058995,0.360161,0.003398,0.194977,0.569737,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.442635"
 linha fdp!!!!
 P0.442812,5,0.531915,0.05218,0.476941,0.0036,0.49767,0.334211,DOWN
 java.lang.NumberFormatException: For input string: "P0.442812"
 linha fdp!!!!
+OWN0.446706,3,0.234043,0.022367,0.305415,0.000976,0.308907,0.765789,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.446706"
+linha fdp!!!!
 OWN0.451352,3,0.425532,0.040891,0.686403,0.00269,0.625583,0.599123,UP
 java.lang.NumberFormatException: For input string: "OWN0.451352"
 linha fdp!!!!
-WN0.451484,6,0.93617,0.042452,0.635525,0.002846,0.467892,0.659211,UP
-java.lang.NumberFormatException: For input string: "WN0.451484"
-linha fdp!!!!
-N0.452104,6,0.787234,0.035667,0.682832,0.002451,0.592698,0.280263,DOWN
-java.lang.NumberFormatException: For input string: "N0.452104"
-linha fdp!!!!
-WN0.456042,5,0.574468,0.034556,0.510265,0.002418,0.591403,0.259649,DOWN
-java.lang.NumberFormatException: For input string: "WN0.456042"
-linha fdp!!!!
-OWN0.459891,2,0.851064,0.050258,0.558762,0.002933,0.473589,0.435088,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.459891"
+WN0.464714,6,0.978723,0.029723,0.425469,0.00204,0.409632,0.387281,DOWN
+java.lang.NumberFormatException: For input string: "WN0.464714"
 linha fdp!!!!
 OWN0.474404,2,0.148936,0.024018,0.060994,0.001616,0.091144,0.71886,DOWN
 java.lang.NumberFormatException: For input string: "OWN0.474404"
@@ -33,19 +30,10 @@ linha fdp!!!!
 OWN0.885138,3,0.723404,0.188183,0.614252,0.013155,0.641378,0.264474,UP
 java.lang.NumberFormatException: For input string: "OWN0.885138"
 linha fdp!!!!
-WN0.889828,5,0.680851,0.028942,0.589557,0.002073,0.624029,0.266228,DOWN
-java.lang.NumberFormatException: For input string: "WN0.889828"
-linha fdp!!!!
-N0.894429,4,0.489362,0.061577,0.597441,0.004173,0.657172,0.368421,DOWN
-java.lang.NumberFormatException: For input string: "N0.894429"
+P0.889385,2,0.787234,0.081272,0.640583,0.005436,0.503625,0.643421,UP
+java.lang.NumberFormatException: For input string: "P0.889385"
 linha fdp!!!!
 N0.898589,1,0.170213,0.024168,0.140583,0.001581,0.268255,0.642544,DOWN
 java.lang.NumberFormatException: For input string: "N0.898589"
-linha fdp!!!!
-OWN0.898854,7,0.106383,0.044704,0.254835,0.002973,0.329104,0.506579,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.898854"
-linha fdp!!!!
-OWN0.912393,7,0.617021,0.044194,0.321333,0.002919,0.305023,0.617105,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.912393"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-45312.0,95.48999786376953,58.0,474.5209045410156,45262.0,79.0110909813972,56.527073118088424,-42.62122804383722,50.59031570187757,78.36854752728242,74.08944465680119,82.38001558962176,78.80562399033926,77.9143218100379,79.69692617064062,77.93629260194363,70.62252758692485,85.25005761696244,0.0,1.0,25.0,45344.96000000001,305.1679155262988,1.0,0.0,48.84,10.147577707676515,33.56000000000001,7.461456515542615,33.56000000000001,7.461456515542615,7.28,1.4866068747318506,0.0,0.0,0.0,0.0,1.0,0.0
+45312.0,95.46700286865234,57.0,474.63519287109375,45262.0,78.98899739295656,56.493973585974,-42.87860576923075,50.5254396004578,78.34314654753211,74.09567943301076,82.34157578910212,78.76433277521254,77.77841364312692,79.75025190729812,77.9264408824753,70.74592681276351,85.10695495218711,0.0,1.0,25.0,45307.72,214.02502190164498,1.0,0.0,50.919999999999995,11.306045580425838,35.44000000000001,8.485674202246203,35.44000000000001,8.485674202246203,7.239999999999999,1.3625955623979797,0.0,0.0,0.0,0.0,1.0,0.0
