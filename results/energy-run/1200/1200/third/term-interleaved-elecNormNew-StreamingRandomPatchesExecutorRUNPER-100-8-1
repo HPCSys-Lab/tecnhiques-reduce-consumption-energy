@@ -1,7 +1,0 @@
-ANTESSSSSSS try clistring:  EITTTExperiments -l (meta.StreamingRandomPatchesExecutorRUNPER -s 100 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/1200/1200/third/dump-elecNormNew-StreamingRandomPatchesExecutorRUNPER-100-8-1
-
-try clistring:  EITTTExperiments -l (meta.StreamingRandomPatchesExecutorRUNPER -s 100 -c 3) -s (ArffFileStream -f /home/pi/moa/bases/elecNormNew.arff) -t 60 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/energy-run/1200/1200/third/dump-elecNormNew-StreamingRandomPatchesExecutorRUNPER-100-8-1
-
-class moa.classifiers.meta.StreamingRandomPatchesExecutorRUNPER
-learning evaluation instances,Wall Time (Actual Time),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-5341.0,60.00600051879883,5341.0,91.70567309492604,82.4417046350365,47.88235294117648,78.70192307692308,91.24438978391287,89.15013470487388,93.2868616457039,91.57303068051081,91.0455227613807,92.10053859964094,90.91809933071954,87.3320537428023,94.50414491863678,5341.0,1.0
