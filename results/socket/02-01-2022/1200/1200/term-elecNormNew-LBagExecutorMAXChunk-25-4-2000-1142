@@ -1,0 +1,18 @@
+Connected!
+linha fdp!!!!
+N0.004159,6,0.148936,0.043833,0.171229,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.004159"
+linha fdp!!!!
+N0.00438,4,0.638298,0.043743,0.459387,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.00438"
+linha fdp!!!!
+0.01323,2,0.446809,0.048247,0.58078,0.003467,0.4229150.027432,3,0.255319,0.074817,0.384112,0.003467,0.422915,0.414912,DOWN0.027432,3,0.276596,0.074817,0.440643,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+WN0.452148,7,0.255319,0.033025,0.232966,0.002254,0.200155,0.598246,DOWN
+java.lang.NumberFormatException: For input string: "WN0.452148"
+linha fdp!!!!
+WN0.464714,6,0.234043,0.025189,0.196073,0.001691,0.20637,0.652193,DOWN
+java.lang.NumberFormatException: For input string: "WN0.464714"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+39896.0,39.76900100708008,1973.0,1003.1934204101562,37896.0,75.44595735697699,48.57445300755821,-69.644484958979,41.595531006778806,?,68.47402487376732,79.89455716168624,?,?,74.40164960600927,76.02911543364725,?,?,63.42121782799749,84.17410307776362,?,0.0,1.0,25.0,20.0,155882.95999999996,91173.11281543845,1.0,0.0,304.24000000000007,185.06198961429115,168.20000000000002,98.1584603247898,168.20000000000002,98.1584603247898,12.12,5.085272854036448,0.0,0.0,0.0,0.0,1.0,0.0

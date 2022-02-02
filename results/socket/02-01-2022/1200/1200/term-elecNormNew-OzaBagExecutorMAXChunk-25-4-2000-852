@@ -1,0 +1,57 @@
+Connected!
+linha fdp!!!!
+N0.000487,6,0.723404,0.07932,0.467272,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.000487"
+linha fdp!!!!
+0.01323,2,0.574468,0.048247,0.506248,0.0.014026,6,0.808511,0.073976,0.590003,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+OWN0.434361,1,0.893617,0.059115,0.382327,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.434361"
+linha fdp!!!!
+N0.442547,6,0.085106,0.054221,0.305861,0.003698,0.390471,0.500526,DOWN
+java.lang.NumberFormatException: For input string: "N0.442547"
+linha fdp!!!!
+WN0.44737,4,0.659574,0.045184,0.618417,0.003135,0.547126,0.514912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.44737"
+linha fdp!!!!
+WN0.451219,7,0.468085,0.042993,0.583606,0.002869,0.431383,0.540789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451219"
+linha fdp!!!!
+WN0.452237,2,0.723404,0.033836,0.645641,0.002254,0.586225,0.591228,DOWN
+java.lang.NumberFormatException: For input string: "WN0.452237"
+linha fdp!!!!
+WN0.465112,1,0.723404,0.027501,0.271348,0.001872,0.269549,0.483772,DOWN
+java.lang.NumberFormatException: For input string: "WN0.465112"
+linha fdp!!!!
+N0.465378,7,0.617021,0.029182,0.351681,0.001963,0.319524,0.596053,DOWN
+java.lang.NumberFormatException: For input string: "N0.465378"
+linha fdp!!!!
+WN0.469316,6,0.851064,0.03972,0.416096,0.002657,0.366649,0.460526,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469316"
+linha fdp!!!!
+OWN0.868192,5,0.744681,0.028582,0.550134,0.0015,0.454428,0.704825,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.868192"
+linha fdp!!!!
+P0.87213,4,0.93617,0.028822,0.420113,0.000833,0.316934,0.777193,UP
+java.lang.NumberFormatException: For input string: "P0.87213"
+linha fdp!!!!
+OWN0.87589,3,0.765957,0.033085,0.538828,0.0022,0.600207,0.550877,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.87589"
+linha fdp!!!!
+N0.876775,2,0.829787,0.033866,0.615591,0.002273,0.408079,0.513596,DOWN
+java.lang.NumberFormatException: For input string: "N0.876775"
+linha fdp!!!!
+N0.881111,3,0.893617,0.029242,0.407319,0.001967,0.41999,0.549561,DOWN
+java.lang.NumberFormatException: For input string: "N0.881111"
+linha fdp!!!!
+N0.893943,7,0.468085,0.06566,0.576465,0.004144,0.502848,0.804825,DOWN
+java.lang.NumberFormatException: For input string: "N0.893943"
+linha fdp!!!!
+OWN0.90288,1,0.212766,0.02624,0.086581,0.001708,0.14552,0.735965,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.90288"
+linha fdp!!!!
+OWN0.907349,4,0.659574,0.048757,0.457751,0.003278,0.513723,0.503947,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.907349"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+44437.0,53.400001525878906,1721.0,832.153564453125,42437.0,74.588213115913,47.89325285504523,-72.10341525694218,40.4823665765219,?,69.82268410879855,78.07319107386236,?,?,70.82859740850193,77.25131838492814,?,49.252560787218975,68.84494282715572,78.9127395345012,0.0,0.0,1.0,25.0,44407.47999999999,231.0359135141817,1.0,0.0,50.03999999999999,10.94105418443153,34.15999999999999,8.429511650544573,34.15999999999999,8.429511650544573,6.959999999999999,1.0598742063723097,0.0,0.0,0.0,0.0,1.0,0.0

@@ -353,6 +353,6 @@ X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBagASHT 2000 2037 1728 4115
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 226 183 452
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 1130 916 2260
-X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 2034 1648 4068#
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 2034 1648 4068
 
 date + "%d/%m/%y %T" >> $EXPER_ORDER_FILE

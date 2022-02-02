@@ -1,0 +1,25 @@
+Connected!
+linha fdp!!!!
+N0.001018,4,0.574468,0.043983,0.482446,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.001018"
+linha fdp!!!!
+OWN0.004823,7,0.404255,0.062598,0.52886,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.004823"
+linha fdp!!!!
+0.013274,3,0.425532,0.041732,0.583011,0.003467,0.4220.014203,3,0.914894,0.040711,0.394674,0.003467,0.422915,0.414912,DOWN0.014203,3,0.93617,0.040711,0.438114,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+N0.872484,5,0.06383,0.038339,0.225677,0.001068,0.367944,0.703509,DOWN
+java.lang.NumberFormatException: For input string: "N0.872484"
+linha fdp!!!!
+N0.885492,4,0.489362,0.030173,0.541506,0.002071,0.605127,0.363158,DOWN
+java.lang.NumberFormatException: For input string: "N0.885492"
+linha fdp!!!!
+WN0.982169,4,0.893617,0.053351,0.574978,0.003633,0.494045,0.473246,DOWN
+java.lang.NumberFormatException: For input string: "WN0.982169"
+linha fdp!!!!
+N0.890315,2,0.87234,0.044884,0.735049,0.003043,0.58001,0.549561,DOWN
+java.lang.NumberFormatException: For input string: "N0.890315"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),F1 Score for class 3 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Precision for class 3 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),Recall for class 3 (percent),model training instances,model serialized size (bytes)
+41497.0,119.88999938964844,4524.0,346.1256103515625,39497.0,76.79823784084867,51.9184002025102,-57.70091206332819,45.63037674280629,?,71.26862160890703,80.5477125570534,?,?,?,75.5753625116403,77.5497690389568,?,?,?,67.42626550353094,83.78676795336101,0.0,?,0.0,1.0
