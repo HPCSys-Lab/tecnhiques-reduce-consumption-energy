@@ -1,0 +1,33 @@
+Connected!
+linha fdp!!!!
+P0.424539,4,0.468085,0.058394,0.348259,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.424539"
+linha fdp!!!!
+WN0.451219,7,0.468085,0.042993,0.583606,0.002869,0.431383,0.540789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451219"
+linha fdp!!!!
+P0.452237,2,0.808511,0.051579,0.74457,0.003459,0.603573,0.572368,UP
+java.lang.NumberFormatException: For input string: "P0.452237"
+linha fdp!!!!
+OWN0.469227,4,0.468085,0.055842,0.559655,0.003652,0.460383,0.519737,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.469227"
+linha fdp!!!!
+OWN0.474404,2,0.148936,0.024018,0.060994,0.001616,0.091144,0.71886,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.474404"
+linha fdp!!!!
+WN0.866953,5,0.468085,0.033746,0.355549,0.002262,0.245987,0.729825,DOWN
+java.lang.NumberFormatException: For input string: "WN0.866953"
+linha fdp!!!!
+OWN0.875979,5,0.808511,0.031494,0.513686,0.001284,0.442258,0.703509,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.875979"
+linha fdp!!!!
+WN0.893677,1,0.468085,0.048157,0.490479,0.00275,0.35189,0.679825,DOWN
+java.lang.NumberFormatException: For input string: "WN0.893677"
+linha fdp!!!!
+P0.902571,1,0.808511,0.089138,0.486462,0.005958,0.435267,0.471491,UP
+java.lang.NumberFormatException: For input string: "P0.902571"
+linha fdp!!!!
+WN0.907482,7,0.255319,0.055032,0.177328,0.003671,0.185396,0.570614,DOWN
+java.lang.NumberFormatException: For input string: "WN0.907482"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+44563.0,113.59300231933594,1060.0,392.3041076660156,44063.0,78.01102966207476,54.502595161074716,-49.56776782957703,48.24252136752138,77.3360535568589,72.96587926509186,81.48218963308541,77.71885453334278,76.41382536990467,79.0238836967809,76.95700503828746,69.81565589099652,84.0983541855784,0.0,1.0
