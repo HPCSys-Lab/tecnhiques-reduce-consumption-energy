@@ -1,0 +1,28 @@
+Connected!
+linha fdp!!!!
+WN0.026724,1,0.702128,0.05221,0.44704,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.026724"
+linha fdp!!!!
+WN0.031415,2,0.361702,0.102258,0.570663,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.031415"
+linha fdp!!!!
+OWN0.451617,2,0.255319,0.034826,0.41803,0.0022,0.396427,0.765351,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.451617"
+linha fdp!!!!
+N0.456307,4,0.723404,0.035157,0.648319,0.002385,0.593993,0.552632,DOWN
+java.lang.NumberFormatException: For input string: "N0.456307"
+linha fdp!!!!
+OWN0.461042,7,0.638298,0.027021,0.274918,0.001828,0.191611,0.561842,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.461042"
+linha fdp!!!!
+N0.491261,5,0.595745,0.056083,0.47233,0.003893,0.473589,0.221491,UP
+java.lang.NumberFormatException: For input string: "N0.491261"
+linha fdp!!!!
+WN0.469935,6,0.93617,0.029182,0.452098,0.002005,0.259451,0.611842,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469935"
+linha fdp!!!!
+N0.889961,1,0.404255,0.046295,0.511901,0.001971,0.302434,0.687719,DOWN
+java.lang.NumberFormatException: For input string: "N0.889961"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+38935.0,119.92500305175781,107.0,324.6612243652344,38885.0,79.57824353863958,57.44979898610495,-40.32514578547443,50.89661142715806,78.81023758668975,74.36676143706383,83.03781243324076,79.24086290688666,77.83187935348617,80.64984646028715,78.38426733621783,71.19703062171358,85.57150405072208,0.0,1.0
