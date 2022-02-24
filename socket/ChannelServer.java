@@ -29,11 +29,12 @@ public class ChannelServer {
         String filename = args[2];
         int IPS = Integer.parseInt(args[3]);
         int IPB;
-        if (IPS > 5) {
-            IPB = IPS/5;
-        } else {
-            IPB = IPS;
-        }
+        IPB = IPS/5;
+        // if (IPS > 5) {
+        //     IPB = IPS/5;
+        // } else {
+        //     IPB = IPS;
+        // }
         int instancesSent = 0;
         // load all file to memory
         List<String> lines = Files.readAllLines(Paths.get(filename));

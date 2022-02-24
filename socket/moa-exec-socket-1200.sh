@@ -355,4 +355,4 @@ X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 1130 916 2260
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 2034 1648 4068
 
-date + "%d/%m/%y %T" >> $EXPER_ORDER_FILE
+date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
