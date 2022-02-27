@@ -1,0 +1,13 @@
+Connected!
+linha fdp!!!!
+0.013274,3,1,0.090309,0.545076,0.003460.014247,4,0.489362,0.040591,0.524844,0.003467,0.422915,0.414912,DOWN0.014247,4,0.510638,0.040591,0.515323,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+N0.031459,3,0.787234,0.054642,0.369235,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.031459"
+linha fdp!!!!
+WN0.451086,4,0.659574,0.040891,0.562928,0.002709,0.617297,0.398684,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451086"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+19932.0,119.81999969482422,11335.0,166.34951782226562,17932.0,78.96497880883338,56.30501319283032,-34.61812990720911,52.73182957393485,78.99740598090145,72.88940025888107,82.82018582619784,80.61699856233258,85.49257759784076,75.74141952682439,77.44160690290582,63.5246929054901,91.35852090032154,0.0,1.0

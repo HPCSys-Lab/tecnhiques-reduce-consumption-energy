@@ -1,0 +1,31 @@
+Connected!
+linha fdp!!!!
+P0.031945,7,0.297872,0.077489,0.151145,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.031945"
+linha fdp!!!!
+N0.429583,7,0.468085,0.080611,0.374888,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.429583"
+linha fdp!!!!
+OWN0.438565,6,0.978723,0.053381,0.340524,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438565"
+linha fdp!!!!
+N0.451175,6,0.638298,0.041401,0.566349,0.002752,0.524081,0.452632,DOWN
+java.lang.NumberFormatException: For input string: "N0.451175"
+linha fdp!!!!
+WN0.451219,7,0.468085,0.042993,0.583606,0.002869,0.431383,0.540789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451219"
+linha fdp!!!!
+P0.452237,2,0.808511,0.051579,0.74457,0.003459,0.603573,0.572368,UP
+java.lang.NumberFormatException: For input string: "P0.452237"
+linha fdp!!!!
+P0.455467,6,0.978723,0.083433,0.652782,0.005658,0.51709,0.470614,UP
+java.lang.NumberFormatException: For input string: "P0.455467"
+linha fdp!!!!
+P0.455953,3,0.808511,0.041041,0.726421,0.002769,0.632056,0.449561,UP
+java.lang.NumberFormatException: For input string: "P0.455953"
+linha fdp!!!!
+WN0.460422,7,0.468085,0.031074,0.401964,0.002069,0.295443,0.580263,UP
+java.lang.NumberFormatException: For input string: "WN0.460422"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+23960.0,119.96199798583984,190.0,199.72991943359375,23910.0,80.98285236302803,60.724296670387346,-22.264049475665495,55.59570312500001,80.47125930098855,76.7347774875813,83.94145099703012,80.91362176074932,80.60247444862829,81.22476907287034,80.03370741656973,73.22126661454261,86.84614821859682,0.0,1.0
