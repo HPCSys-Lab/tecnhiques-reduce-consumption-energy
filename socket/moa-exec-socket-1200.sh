@@ -5,52 +5,68 @@ if [[ "$#" -eq 0 ]]; then
   exit 1
 fi
 
-while getopts ":f:F:h" opt;
+while getopts ":c:f:F:h" opt;
 do
+    echo $opt
     case $opt in
         h)
             echo "f: Frequencia Minima."
             echo "F: Frequencia Máxima."
+            echo "c: Quantidade de CPUs a ser utilizada"
             echo "h: Help Opções disponiveis."
+            exit 1
         ;;
-    f)
-      if [[ -n $FREQUENCIA_MINIMA ]]; then
-        echo "Invalid input: option -f has already been used!" >&2
-        exit 1
-      else
-        FREQUENCIA_MINIMA="${OPTARG//,/ }"
-      fi
-    ;;
+        c)
+            if [[ -n $CPUS ]]; then
+                echo "Invalid input: option -c has already been used!" >&2
+                exit 1
+            else
+                CPUS="${OPTARG//,/ }"
+            fi
+        ;;
+        f)
+            if [[ -n $FREQUENCIA_MINIMA ]]; then
+                echo "Invalid input: option -f has already been used!" >&2
+                exit 1
+            else
+                FREQUENCIA_MINIMA="${OPTARG//,/ }"
+            fi
+        ;;
         F)
             if [[ -n $FREQUENCIA_MAXIMA ]]; then
-        echo "Invalid input: option -F has already been used!" >&2
-        exit 1
-      else
-        FREQUENCIA_MAXIMA="$OPTARG"
-      fi
+                echo "Invalid input: option -F has already been used!" >&2
+                exit 1
+            else
+                FREQUENCIA_MAXIMA="$OPTARG"
+            fi
         ;;
     esac
 done
 
 #Critical checks
+if [[ -z $CPUS && -z $CPUS ]]; then
+    echo "Nothing to run. Expected -c!" >&2
+    exit 1
+fi
+
 if [[ -z $FREQUENCIA_MINIMA && -z $FREQUENCIA_MINIMA ]]; then
     echo "Nothing to run. Expected -f!" >&2
     exit 1
 fi
 
 if [[ -z $FREQUENCIA_MAXIMA && -z $FREQUENCIA_MAXIMA ]]; then
-    echo "Nothing to run. Expected -f!" >&2
+    echo "Nothing to run. Expected -F!" >&2
     exit 1
 fi
 
 function Y {
   #Usage: $0 FILE ALGORITHM RATE
   Memory=700M
-  echo "file: $1 algorithm: $2 batch_size: $3 rate: $4"
+  echo "file: $1 algorithm: $2 batch_size: $3 rate: $4 cores: $CPUS"
 
-  export MOA_HOME=/home/pi/moa/moa-LAST
-  export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
-  export REMOTE_DIR=/home/gcassales/bases/
+  export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
+  export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+  export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching/datasets/
   export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
 
   declare -a esize=(25)
@@ -59,11 +75,12 @@ function Y {
   onlyname=${faux%%.*}
   bsize=${3}
   rate=${4}
-  nCores=4
+  nCores=$CPUS
   date +"%d/%m/%y %T"
   date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
   echo "ssh-${onlyname}-${2##*.}-${bsize}-${rate}" >> ${RESULT_DIR}/ssh-log
-  ssh gcassales@192.168.0.11 java ChannelServer 192.168.0.11 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
+  # ssh gcassales@192.168.0.11 java ChannelServer 192.168.0.11 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
+  java ChannelServer 127.0.0.1 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
   
   sleep 3
   if [[ $2 == *"MAX"* ]]; then
@@ -115,7 +132,6 @@ function X {
   Y $1 ${algs[$(( ID+2 ))]} $3 $6
 }
 
-mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
 mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
 mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
