@@ -1,6 +1,0 @@
-Connected!
-linha fdp!!!!
-DL, 1697, PHHA, 167, KOA, HNL, 3, 698 , 42, 0OO, 6526, PHX, LAX, 3, 698 , 87, 0
-java.lang.NumberFormatException: For input string: "HNL"
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-8000.0,158.25999450683594,37784.0,50.54972839355469,6000.0,60.93333333333333,16.021527007373,13.728376886271606,11.178476695718057,59.32982934800988,71.05458137811806,39.93847731350936,61.206592664910644,60.734642178594044,61.67854315122724,57.56473544034853,85.599523951205,29.52994692949204,0.0,1.0

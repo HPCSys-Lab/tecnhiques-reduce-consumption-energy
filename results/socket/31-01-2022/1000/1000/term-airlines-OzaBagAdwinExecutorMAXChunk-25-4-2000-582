@@ -1,9 +1,0 @@
-Connected!
-linha fdp!!!!
-UA, 936, DEN, UA, 109, ORD, MSP, 3, 873 , 93, 0UA, 372, DFW, ORD, 3, 873 , 140, 0
-java.lang.NumberFormatException: For input string: "ORD"
-linha fdp!!!!
-UA, 936, DEN, UA, 109, ORD, MSP, 3, 873 , 93, 0UA, 372, DFW, ORD, 3, 873 , 140, 0
-java.lang.NumberFormatException: For input string: "MSP"
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-32000.0,150.9340057373047,9321.0,212.01318359375,30000.0,63.78,18.47460753750348,11.203726403530293,4.002120328650942,59.52650620670013,73.16639502148466,44.29633427326326,60.34010532613259,67.91362948700316,52.766581165262004,58.73455560498684,79.29982334992773,38.16928786004594,0.0,1.0,25.0,26689.44,9995.206893306411,1.0,0.0,12139.319999999998,3899.678199544162,12115.279999999999,3891.8461291954145,12115.279999999999,3891.8461291954145,1.8399999999999996,0.5537749241945382,0.0,0.0,0.0,0.0,1.0,0.0

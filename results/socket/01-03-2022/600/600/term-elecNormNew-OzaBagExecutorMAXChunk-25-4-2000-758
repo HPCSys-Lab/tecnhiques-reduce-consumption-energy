@@ -1,0 +1,18 @@
+Connected!
+linha fdp!!!!
+0.013274,3,0.212766,0.051249,0.231479,0.003467,0.422915,0.4149120.022433,1,0.446809,0.074847,0.487206,0.003467,0.422915,0.414912,UP0.022433,1,0.468085,0.059926,0.486016,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+OWN0.473917,5,0.893617,0.032785,0.438857,0.002131,0.324702,0.791667,UP
+java.lang.NumberFormatException: For input string: "OWN0.473917"
+linha fdp!!!!
+N0.867838,4,1,0.028672,0.388426,0.001847,0.387364,0.667982,DOWN
+java.lang.NumberFormatException: For input string: "N0.867838"
+linha fdp!!!!
+OWN0.876289,5,0.93617,0.034856,0.459833,0.001973,0.414552,0.743421,UP
+java.lang.NumberFormatException: For input string: "OWN0.876289"
+linha fdp!!!!
+P0.889474,4,0.361702,0.040261,0.631508,0.002821,0.7087,0.233772,UP
+java.lang.NumberFormatException: For input string: "P0.889474"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+42036.0,60.750999450683594,2359.0,691.939208984375,40036.0,74.46298331501649,47.66928828156753,-75.39886773031392,39.929494712103406,73.83764244645002,69.77198119066632,77.8986055561561,73.87583834292761,70.22682621896767,77.52485046688756,73.79948602627816,69.32299012693936,78.27598192561696,0.0,1.0,25.0,42084.520000000004,214.31365643218695,1.0,0.0,71.24000000000001,8.353043357563358,50.160000000000004,6.6123621598739835,50.160000000000004,6.6123621598739835,8.2,1.1902380714238083,0.0,0.0,0.0,0.0,1.0,0.0

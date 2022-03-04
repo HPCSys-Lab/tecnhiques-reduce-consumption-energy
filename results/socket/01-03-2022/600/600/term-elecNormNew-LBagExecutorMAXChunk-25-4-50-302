@@ -1,0 +1,22 @@
+Connected!
+linha fdp!!!!
+N0.429583,7,0.468085,0.080611,0.374888,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.429583"
+linha fdp!!!!
+P0.447591,2,0.425532,0.071304,0.692353,0.005073,0.61419,0.31886,UP
+java.lang.NumberFormatException: For input string: "P0.447591"
+linha fdp!!!!
+WN0.464714,6,0.978723,0.029723,0.425469,0.00204,0.409632,0.387281,DOWN
+java.lang.NumberFormatException: For input string: "WN0.464714"
+linha fdp!!!!
+OWN0.469227,4,0.914894,0.030203,0.412229,0.002,0.263076,0.666667,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.469227"
+linha fdp!!!!
+OWN0.880227,4,0.914894,0.032214,0.372954,0.002192,0.38581,0.324123,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.880227"
+linha fdp!!!!
+P0.881067,2,0.680851,0.099225,0.516513,0.006932,0.508545,0.356579,UP
+java.lang.NumberFormatException: For input string: "P0.881067"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+35940.0,119.91600036621094,121.0,299.7098083496094,35890.0,80.4346614655893,59.30060421633652,-34.65004793863859,53.2832146896414,79.74751077406967,75.54362977418455,83.7039788291007,80.21451541642826,79.29041697147036,81.13861386138615,79.28591240903022,72.13496605883137,86.43685875922907,0.0,1.0,25.0,714.0,5622.559999999999,3932.746962789919,1.0,0.0,11.840000000000002,13.177253128023306,7.239999999999999,8.115212053093048,7.239999999999999,8.115212053093048,2.72,2.072036035722674,0.0,0.0,0.0,0.0,1.0,0.0

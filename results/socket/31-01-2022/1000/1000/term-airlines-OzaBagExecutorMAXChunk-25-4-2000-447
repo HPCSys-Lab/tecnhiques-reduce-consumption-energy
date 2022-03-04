@@ -1,9 +1,0 @@
-Connected!
-linha fdp!!!!
-MQ, 3212, DFW,US, 1842, PHL, PVD, 3, 825 , 64, 0US, 651, SFO, PHL, 3, 825 , 312, 0
-java.lang.NumberFormatException: For input string: "PHL"
-linha fdp!!!!
-MQ, 3212, DFW,US, 1842, PHL, PVD, 3, 825 , 64, 0US, 651, SFO, PHL, 3, 825 , 312, 0
-java.lang.NumberFormatException: For input string: "PVD"
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-24000.0,138.27699279785156,11327.0,173.56466674804688,22000.0,63.17272727272727,19.110578322696895,9.636404193620335,5.856379270276543,59.79387498613157,71.98091022271407,46.2905257574753,60.46843092848049,67.04677232315423,53.89008953380673,59.13420303106051,77.69896968791996,40.56943637420105,0.0,1.0,25.0,23949.68,142.61273902892867,1.0,0.0,12598.76,858.4571567643898,12573.68,856.6469381645315,12573.68,856.6469381645315,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0

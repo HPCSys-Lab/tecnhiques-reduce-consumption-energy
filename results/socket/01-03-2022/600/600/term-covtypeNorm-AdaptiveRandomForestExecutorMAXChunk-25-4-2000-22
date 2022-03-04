@@ -1,0 +1,5 @@
+Connected!
+>>>>> ENTREI AQUI <<<<<<
+NullPointerException thrown getFractionCorrectlyClassified()!
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),Precision (percent),Recall (percent),model training instances,model serialized size (bytes)
+2000.0,120.94599914550781,70970.0,16.536306381225586,0.0,100.0,0.0,0.0,0.0,?,?,?,0.0,1.0

@@ -65,7 +65,7 @@ function Y {
   echo "file: $1 algorithm: $2 batch_size: $3 rate: $4 cores: $CPUS"
 
   export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
-  export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+  export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local/$CPUS/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
   export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching/datasets/
   export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
 
@@ -87,6 +87,7 @@ function Y {
     #CHUNK
     IDENT="timedchunk"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" >> ${EXPER_ORDER_FILE}
+    echo "java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"ChannelChunksTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c ${bsize} -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}\" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelChunksTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c ${bsize} -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}
   elif [[ ${2} == *"RUNPER"* ]]; then
     #PARALLEL
@@ -133,7 +134,8 @@ function X {
 }
 
 mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
-mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$CPUS
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$CPUS/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
 # 31-01-2022
 # esize 25
@@ -349,7 +351,7 @@ X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff 
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 2000 8 27 22
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 2000 44 136 114
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBagASHT 2000 79 245 206
-X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBag 2000 8 45 21
+X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBag 2000 18 55 31
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBag 2000 42 225 105
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBag 2000 76 406 189
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff ARF 2000 26 38 65
@@ -371,4 +373,4 @@ X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 598 491 1202
 X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff OBag 2000 1077 884 2165
 
-date + "%d/%m/%y %T" >> $EXPER_ORDER_FILE
+date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE

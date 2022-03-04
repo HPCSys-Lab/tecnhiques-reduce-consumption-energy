@@ -1,0 +1,34 @@
+Connected!
+linha fdp!!!!
+P0.017654,5,0.978723,0.07842,0.511157,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.017654"
+linha fdp!!!!
+P0.031945,7,0.297872,0.077489,0.151145,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.031945"
+linha fdp!!!!
+N0.429583,7,0.468085,0.080611,0.374888,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.429583"
+linha fdp!!!!
+OWN0.438565,6,0.978723,0.053381,0.340524,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438565"
+linha fdp!!!!
+N0.451175,6,0.638298,0.041401,0.566349,0.002752,0.524081,0.452632,DOWN
+java.lang.NumberFormatException: For input string: "N0.451175"
+linha fdp!!!!
+WN0.451219,7,0.468085,0.042993,0.583606,0.002869,0.431383,0.540789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451219"
+linha fdp!!!!
+P0.452237,2,0.808511,0.051579,0.74457,0.003459,0.603573,0.572368,UP
+java.lang.NumberFormatException: For input string: "P0.452237"
+linha fdp!!!!
+P0.455467,6,0.978723,0.083433,0.652782,0.005658,0.51709,0.470614,UP
+java.lang.NumberFormatException: For input string: "P0.455467"
+linha fdp!!!!
+P0.455953,3,0.808511,0.041041,0.726421,0.002769,0.632056,0.449561,UP
+java.lang.NumberFormatException: For input string: "P0.455953"
+linha fdp!!!!
+WN0.460422,7,0.468085,0.031074,0.401964,0.002069,0.295443,0.580263,UP
+java.lang.NumberFormatException: For input string: "WN0.460422"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+23960.0,119.91899871826172,184.0,199.80152893066406,23910.0,81.34671685487244,61.50527914883329,-19.860252620263413,56.4453125,80.85173115251327,77.25299974470258,84.21612046058458,81.26233540817609,80.87449219585204,81.65017862050014,80.44525545780252,73.94194115922197,86.94856975638305,0.0,1.0

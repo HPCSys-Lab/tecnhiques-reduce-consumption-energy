@@ -65,7 +65,7 @@ function Y {
   echo "file: $1 algorithm: $2 batch_size: $3 rate: $4 cores: $CPUS"
 
   export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
-  export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+  export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local/$CPUS/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
   export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching/datasets/
   export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
 
@@ -133,7 +133,8 @@ function X {
 }
 
 mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
-mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$CPUS
+mkdir -p /home/pi/reginaldojunior/experimentos/results/socket/$CPUS/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
 
 #31-01-2022
 #esize 25

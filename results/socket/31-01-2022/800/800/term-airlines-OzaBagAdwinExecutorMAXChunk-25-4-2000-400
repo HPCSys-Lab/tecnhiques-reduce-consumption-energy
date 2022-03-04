@@ -1,9 +1,0 @@
-Connected!
-linha fdp!!!!
-WN, 3320, LAS, OO, 6417, SMX, LAX, 3, 693 , 57, 0OO, 6626, DEN, PSP, 3, 693 , 133, 1
-java.lang.NumberFormatException: For input string: "SMX"
-linha fdp!!!!
-WN, 3320, LAS, OO, 6417, SMX, LAX, 3, 693 , 57, 0OO, 6626, DEN, PSP, 3, 693 , 133, 1
-java.lang.NumberFormatException: For input string: "LAX"
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-26000.0,120.71099853515625,9091.0,215.39048767089844,24000.0,62.80833333333333,19.843024576103076,9.7563441512486,8.064682253579157,60.13955119471069,71.03828682673587,48.047034169625704,60.73465715850538,66.22905196926614,55.24026234774462,59.55599430888774,76.60065775663004,42.511330861145446,0.0,1.0,25.0,21632.12,8986.168841243378,1.0,0.0,10916.239999999998,4605.301657510251,10894.800000000001,4596.158015125241,10894.800000000001,4596.158015125241,1.8399999999999994,0.5537749241945384,0.0,0.0,0.0,0.0,1.0,0.0
