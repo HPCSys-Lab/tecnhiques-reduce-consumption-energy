@@ -1,0 +1,445 @@
+#!/bin/bash
+
+#alterar caminhos
+export MOA_HOME=/home/pi/moa/moa-LAST
+export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/socket/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+export REMOTE_DIR=/home/gcassales/bases/
+export EXPER_ORDER_FILE=$RESULT_DIR/exper_order-freq-max-$FREQUENCIA_MAXIMA-freq-min-$FREQUENCIA_MINIMA.log
+
+if [[ "$#" -eq 0 ]]; then
+  echo "This program requires inputs. Type -h for help." >&2
+  exit 1
+fi
+
+while getopts ":f:F:h" opt;
+do
+    case $opt in
+        h)
+            echo "f: Frequencia Minima."
+            echo "F: Frequencia Máxima."
+            echo "h: Help Opções disponiveis."
+        ;;
+    f)
+      if [[ -n $FREQUENCIA_MINIMA ]]; then
+        echo "Invalid input: option -f has already been used!" >&2
+        exit 1
+      else
+        FREQUENCIA_MINIMA="${OPTARG//,/ }"
+      fi
+    ;;
+        F)
+            if [[ -n $FREQUENCIA_MAXIMA ]]; then
+        echo "Invalid input: option -F has already been used!" >&2
+        exit 1
+      else
+        FREQUENCIA_MAXIMA="$OPTARG"
+      fi
+        ;;
+    esac
+done
+
+#Critical checks
+if [[ -z $FREQUENCIA_MINIMA && -z $FREQUENCIA_MINIMA ]]; then
+    echo "Nothing to run. Expected -f!" >&2
+    exit 1
+fi
+
+if [[ -z $FREQUENCIA_MAXIMA && -z $FREQUENCIA_MAXIMA ]]; then
+    echo "Nothing to run. Expected -f!" >&2
+    exit 1
+fi
+
+function Y {
+  #Usage: $0 FILE ALGORITHM RATE
+  Memory=700M
+  echo "file: $1 algorithm: $2 batch_size: $3 rate: $4"
+
+  declare -a esize=(25)
+  mkdir -p $RESULT_DIR
+  faux=${1##*\/}
+  onlyname=${faux%%.*}
+  bsize=${3}
+  rate=${4}
+  nCores=4
+  date +"%d/%m/%y %T"
+  date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
+  echo "ssh-${onlyname}-${2##*.}-${bsize}-${rate}" >> ${RESULT_DIR}/ssh-log
+  ssh gcassales@192.168.0.11 java ChannelServer 192.168.0.11 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
+  
+  sleep 3
+  if [[ $2 == *"MAX"* ]]; then
+    #CHUNK
+    IDENT="timedchunk"
+    echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" >> ${EXPER_ORDER_FILE}
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelChunksTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c ${bsize} -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-${bsize}-${rate}
+  elif [[ ${2} == *"RUNPER"* ]]; then
+    #PARALLEL
+    IDENT="timedinterleaved"
+    echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" >> ${EXPER_ORDER_FILE}
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}
+  else
+    #SEQUENTIAL OR PARALLEL
+    IDENT="timedinterleaved"
+    echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-1-1-${rate}" >> ${EXPER_ORDER_FILE}
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-1-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-1-1-${rate}
+  fi
+  echo ""
+  date +"%d/%m/%y %T"
+  date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
+}
+
+function X {
+  #Usage: $0 FILE ID RS RP RC
+  declare -a algs=(
+  "meta.AdaptiveRandomForestSequential" "meta.AdaptiveRandomForestExecutorRUNPER" "meta.AdaptiveRandomForestExecutorMAXChunk"
+  "meta.OzaBag" "meta.OzaBagExecutorRUNPER" "meta.OzaBagExecutorMAXChunk"
+  "meta.OzaBagAdwin" "meta.OzaBagAdwinExecutorRUNPER" "meta.OzaBagAdwinExecutorMAXChunk"
+  "meta.LeveragingBag" "meta.LBagExecutorRUNPER" "meta.LBagExecutorMAXChunk"
+  "meta.OzaBagASHT" "meta.OzaBagASHTExecutorRUNPER" "meta.OzaBagASHTExecutorMAXChunk"
+  "meta.StreamingRandomPatches" "meta.StreamingRandomPatchesExecutorRUNPER" "meta.StreamingRandomPatchesExecutorMAXChunk"
+  )
+  if [[ $2 == *"ARF"* ]]; then
+    ID=0
+  elif [[ $2 == "OBag" ]]; then
+    ID=3
+  elif [[ $2 == "OBagAd" ]]; then
+    ID=6
+  elif [[ $2 == "LBag" ]]; then
+    ID=9
+  elif [[ $2 == "OBagASHT" ]]; then
+    ID=12
+  elif [[ $2 == "SRP" ]]; then
+    ID=15
+  fi
+  #Y $1 ${algs[${ID}]} $3 $4
+  #Y $1 ${algs[$(( ID+1 ))]} $3 $5
+  Y $1 ${algs[$(( ID+2 ))]} $3 $6
+}
+
+# alterar para o caminho do HD/scratch
+mkdir -p /home/pi/reginaldojunior/experimentos/socket
+mkdir -p /home/pi/reginaldojunior/experimentos/socket/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA
+
+# --------------------
+# 06-03-2022
+# esize 25
+# bsize 25
+# with incremental: True
+
+X $REMOTE_DIR/elecNormNew.arff ARF 25 31 47 68
+X $REMOTE_DIR/elecNormNew.arff ARF 25 157 236 344
+X $REMOTE_DIR/elecNormNew.arff ARF 25 282 425 619
+X $REMOTE_DIR/elecNormNew.arff LBag 25 52 68 108
+X $REMOTE_DIR/elecNormNew.arff LBag 25 260 344 542
+X $REMOTE_DIR/elecNormNew.arff LBag 25 468 619 976
+X $REMOTE_DIR/elecNormNew.arff SRP 25 17 25 36
+X $REMOTE_DIR/elecNormNew.arff SRP 25 85 128 184
+X $REMOTE_DIR/elecNormNew.arff SRP 25 153 232 332
+X $REMOTE_DIR/elecNormNew.arff OBagAd 25 119 115 183
+X $REMOTE_DIR/elecNormNew.arff OBagAd 25 599 575 917
+X $REMOTE_DIR/elecNormNew.arff OBagAd 25 1079 1035 1652
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 25 150 133 255
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 25 751 669 1279
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 25 1352 1204 2303
+X $REMOTE_DIR/elecNormNew.arff OBag 25 165 138 258
+X $REMOTE_DIR/elecNormNew.arff OBag 25 827 693 1293
+X $REMOTE_DIR/elecNormNew.arff OBag 25 1490 1248 2328
+X $REMOTE_DIR/airlines.arff ARF 25 6 15 18
+X $REMOTE_DIR/airlines.arff ARF 25 33 79 94
+X $REMOTE_DIR/airlines.arff ARF 25 60 143 170
+X $REMOTE_DIR/airlines.arff LBag 25 4 15 17
+X $REMOTE_DIR/airlines.arff LBag 25 23 76 87
+X $REMOTE_DIR/airlines.arff LBag 25 41 137 156
+X $REMOTE_DIR/airlines.arff SRP 25 4 14 17
+X $REMOTE_DIR/airlines.arff SRP 25 21 73 85
+X $REMOTE_DIR/airlines.arff SRP 25 37 132 153
+X $REMOTE_DIR/airlines.arff OBagAd 25 17 25 56
+X $REMOTE_DIR/airlines.arff OBagAd 25 86 126 283
+X $REMOTE_DIR/airlines.arff OBagAd 25 155 226 509
+X $REMOTE_DIR/airlines.arff OBagASHT 25 18 57 133
+X $REMOTE_DIR/airlines.arff OBagASHT 25 92 289 668
+X $REMOTE_DIR/airlines.arff OBagASHT 25 166 521 1203
+X $REMOTE_DIR/airlines.arff OBag 25 17 98 173
+X $REMOTE_DIR/airlines.arff OBag 25 85 493 865
+X $REMOTE_DIR/airlines.arff OBag 25 154 887 1558
+X $REMOTE_DIR/covtypeNorm.arff ARF 25 20 40 55
+X $REMOTE_DIR/covtypeNorm.arff ARF 25 104 200 277
+X $REMOTE_DIR/covtypeNorm.arff ARF 25 187 360 499
+X $REMOTE_DIR/covtypeNorm.arff LBag 25 15 29 37
+X $REMOTE_DIR/covtypeNorm.arff LBag 25 75 146 189
+X $REMOTE_DIR/covtypeNorm.arff LBag 25 135 264 340
+X $REMOTE_DIR/covtypeNorm.arff SRP 25 6 12 12
+X $REMOTE_DIR/covtypeNorm.arff SRP 25 34 60 63
+X $REMOTE_DIR/covtypeNorm.arff SRP 25 61 108 114
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 25 28 43 52
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 25 140 216 262
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 25 252 389 472
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 25 22 42 63
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 25 110 213 319
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 25 198 383 575
+X $REMOTE_DIR/covtypeNorm.arff OBag 25 28 42 66
+X $REMOTE_DIR/covtypeNorm.arff OBag 25 143 210 330
+X $REMOTE_DIR/covtypeNorm.arff OBag 25 257 379 595
+X $REMOTE_DIR/GMSC.arff ARF 25 53 68 119
+X $REMOTE_DIR/GMSC.arff ARF 25 267 344 595
+X $REMOTE_DIR/GMSC.arff ARF 25 482 620 1071
+X $REMOTE_DIR/GMSC.arff LBag 25 71 89 149
+X $REMOTE_DIR/GMSC.arff LBag 25 359 447 746
+X $REMOTE_DIR/GMSC.arff LBag 25 647 805 1343
+X $REMOTE_DIR/GMSC.arff SRP 25 29 33 67
+X $REMOTE_DIR/GMSC.arff SRP 25 149 168 336
+X $REMOTE_DIR/GMSC.arff SRP 25 268 302 605
+X $REMOTE_DIR/GMSC.arff OBagAd 25 169 171 269
+X $REMOTE_DIR/GMSC.arff OBagAd 25 845 858 1349
+X $REMOTE_DIR/GMSC.arff OBagAd 25 1521 1545 2428
+X $REMOTE_DIR/GMSC.arff OBagASHT 25 222 192 367
+X $REMOTE_DIR/GMSC.arff OBagASHT 25 1114 962 1838
+X $REMOTE_DIR/GMSC.arff OBagASHT 25 2005 1731 3308
+X $REMOTE_DIR/GMSC.arff OBag 25 225 184 345
+X $REMOTE_DIR/GMSC.arff OBag 25 1125 920 1728
+X $REMOTE_DIR/GMSC.arff OBag 25 2025 1656 3111
+
+
+
+# --------------------
+# 06-03-2022
+# esize 25
+# bsize 50
+# with incremental: True
+
+X $REMOTE_DIR/elecNormNew.arff ARF 50 31 47 77
+X $REMOTE_DIR/elecNormNew.arff ARF 50 157 236 386
+X $REMOTE_DIR/elecNormNew.arff ARF 50 282 425 694
+X $REMOTE_DIR/elecNormNew.arff LBag 50 52 68 113
+X $REMOTE_DIR/elecNormNew.arff LBag 50 260 344 565
+X $REMOTE_DIR/elecNormNew.arff LBag 50 468 619 1017
+X $REMOTE_DIR/elecNormNew.arff SRP 50 17 25 39
+X $REMOTE_DIR/elecNormNew.arff SRP 50 85 128 195
+X $REMOTE_DIR/elecNormNew.arff SRP 50 153 232 351
+X $REMOTE_DIR/elecNormNew.arff OBagAd 50 119 115 214
+X $REMOTE_DIR/elecNormNew.arff OBagAd 50 599 575 1072
+X $REMOTE_DIR/elecNormNew.arff OBagAd 50 1079 1035 1931
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 50 150 133 271
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 50 751 669 1355
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 50 1352 1204 2439
+X $REMOTE_DIR/elecNormNew.arff OBag 50 165 138 257
+X $REMOTE_DIR/elecNormNew.arff OBag 50 827 693 1288
+X $REMOTE_DIR/elecNormNew.arff OBag 50 1490 1248 2318
+X $REMOTE_DIR/airlines.arff ARF 50 6 15 19
+X $REMOTE_DIR/airlines.arff ARF 50 33 79 97
+X $REMOTE_DIR/airlines.arff ARF 50 60 143 174
+X $REMOTE_DIR/airlines.arff LBag 50 4 15 17
+X $REMOTE_DIR/airlines.arff LBag 50 23 76 89
+X $REMOTE_DIR/airlines.arff LBag 50 41 137 161
+X $REMOTE_DIR/airlines.arff SRP 50 4 14 17
+X $REMOTE_DIR/airlines.arff SRP 50 21 73 87
+X $REMOTE_DIR/airlines.arff SRP 50 37 132 156
+X $REMOTE_DIR/airlines.arff OBagAd 50 17 25 53
+X $REMOTE_DIR/airlines.arff OBagAd 50 86 126 266
+X $REMOTE_DIR/airlines.arff OBagAd 50 155 226 479
+X $REMOTE_DIR/airlines.arff OBagASHT 50 18 57 150
+X $REMOTE_DIR/airlines.arff OBagASHT 50 92 289 754
+X $REMOTE_DIR/airlines.arff OBagASHT 50 166 521 1358
+X $REMOTE_DIR/airlines.arff OBag 50 17 98 180
+X $REMOTE_DIR/airlines.arff OBag 50 85 493 904
+X $REMOTE_DIR/airlines.arff OBag 50 154 887 1627
+X $REMOTE_DIR/covtypeNorm.arff ARF 50 20 40 58
+X $REMOTE_DIR/covtypeNorm.arff ARF 50 104 200 294
+X $REMOTE_DIR/covtypeNorm.arff ARF 50 187 360 530
+X $REMOTE_DIR/covtypeNorm.arff LBag 50 15 29 44
+X $REMOTE_DIR/covtypeNorm.arff LBag 50 75 146 223
+X $REMOTE_DIR/covtypeNorm.arff LBag 50 135 264 402
+X $REMOTE_DIR/covtypeNorm.arff SRP 50 6 12 14
+X $REMOTE_DIR/covtypeNorm.arff SRP 50 34 60 70
+X $REMOTE_DIR/covtypeNorm.arff SRP 50 61 108 126
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 50 28 43 61
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 50 140 216 309
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 50 252 389 556
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 50 22 42 69
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 50 110 213 347
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 50 198 383 626
+X $REMOTE_DIR/covtypeNorm.arff OBag 50 28 42 72
+X $REMOTE_DIR/covtypeNorm.arff OBag 50 143 210 362
+X $REMOTE_DIR/covtypeNorm.arff OBag 50 257 379 652
+X $REMOTE_DIR/GMSC.arff ARF 50 53 68 111
+X $REMOTE_DIR/GMSC.arff ARF 50 267 344 555
+X $REMOTE_DIR/GMSC.arff ARF 50 482 620 1000
+X $REMOTE_DIR/GMSC.arff LBag 50 71 89 156
+X $REMOTE_DIR/GMSC.arff LBag 50 359 447 782
+X $REMOTE_DIR/GMSC.arff LBag 50 647 805 1408
+X $REMOTE_DIR/GMSC.arff SRP 50 29 33 63
+X $REMOTE_DIR/GMSC.arff SRP 50 149 168 317
+X $REMOTE_DIR/GMSC.arff SRP 50 268 302 572
+X $REMOTE_DIR/GMSC.arff OBagAd 50 169 171 364
+X $REMOTE_DIR/GMSC.arff OBagAd 50 845 858 1821
+X $REMOTE_DIR/GMSC.arff OBagAd 50 1521 1545 3278
+X $REMOTE_DIR/GMSC.arff OBagASHT 50 222 192 406
+X $REMOTE_DIR/GMSC.arff OBagASHT 50 1114 962 2033
+X $REMOTE_DIR/GMSC.arff OBagASHT 50 2005 1731 3660
+X $REMOTE_DIR/GMSC.arff OBag 50 225 184 391
+X $REMOTE_DIR/GMSC.arff OBag 50 1125 920 1955
+X $REMOTE_DIR/GMSC.arff OBag 50 2025 1656 3520
+
+
+
+# --------------------
+# 06-03-2022
+# esize 25
+# bsize 75
+# with incremental: True
+
+X $REMOTE_DIR/elecNormNew.arff ARF 75 31 47 79
+X $REMOTE_DIR/elecNormNew.arff ARF 75 157 236 396
+X $REMOTE_DIR/elecNormNew.arff ARF 75 282 425 713
+X $REMOTE_DIR/elecNormNew.arff LBag 75 52 68 115
+X $REMOTE_DIR/elecNormNew.arff LBag 75 260 344 579
+X $REMOTE_DIR/elecNormNew.arff LBag 75 468 619 1043
+X $REMOTE_DIR/elecNormNew.arff SRP 75 17 25 39
+X $REMOTE_DIR/elecNormNew.arff SRP 75 85 128 195
+X $REMOTE_DIR/elecNormNew.arff SRP 75 153 232 352
+X $REMOTE_DIR/elecNormNew.arff OBagAd 75 119 115 234
+X $REMOTE_DIR/elecNormNew.arff OBagAd 75 599 575 1171
+X $REMOTE_DIR/elecNormNew.arff OBagAd 75 1079 1035 2108
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 75 150 133 277
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 75 751 669 1385
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 75 1352 1204 2493
+X $REMOTE_DIR/elecNormNew.arff OBag 75 165 138 281
+X $REMOTE_DIR/elecNormNew.arff OBag 75 827 693 1406
+X $REMOTE_DIR/elecNormNew.arff OBag 75 1490 1248 2531
+X $REMOTE_DIR/airlines.arff ARF 75 6 15 19
+X $REMOTE_DIR/airlines.arff ARF 75 33 79 99
+X $REMOTE_DIR/airlines.arff ARF 75 60 143 178
+X $REMOTE_DIR/airlines.arff LBag 75 4 15 18
+X $REMOTE_DIR/airlines.arff LBag 75 23 76 90
+X $REMOTE_DIR/airlines.arff LBag 75 41 137 162
+X $REMOTE_DIR/airlines.arff SRP 75 4 14 17
+X $REMOTE_DIR/airlines.arff SRP 75 21 73 86
+X $REMOTE_DIR/airlines.arff SRP 75 37 132 156
+X $REMOTE_DIR/airlines.arff OBagAd 75 17 25 52
+X $REMOTE_DIR/airlines.arff OBagAd 75 86 126 264
+X $REMOTE_DIR/airlines.arff OBagAd 75 155 226 476
+X $REMOTE_DIR/airlines.arff OBagASHT 75 18 57 154
+X $REMOTE_DIR/airlines.arff OBagASHT 75 92 289 771
+X $REMOTE_DIR/airlines.arff OBagASHT 75 166 521 1389
+X $REMOTE_DIR/airlines.arff OBag 75 17 98 181
+X $REMOTE_DIR/airlines.arff OBag 75 85 493 905
+X $REMOTE_DIR/airlines.arff OBag 75 154 887 1630
+X $REMOTE_DIR/covtypeNorm.arff ARF 75 20 40 60
+X $REMOTE_DIR/covtypeNorm.arff ARF 75 104 200 304
+X $REMOTE_DIR/covtypeNorm.arff ARF 75 187 360 548
+X $REMOTE_DIR/covtypeNorm.arff LBag 75 15 29 46
+X $REMOTE_DIR/covtypeNorm.arff LBag 75 75 146 232
+X $REMOTE_DIR/covtypeNorm.arff LBag 75 135 264 417
+X $REMOTE_DIR/covtypeNorm.arff SRP 75 6 12 15
+X $REMOTE_DIR/covtypeNorm.arff SRP 75 34 60 75
+X $REMOTE_DIR/covtypeNorm.arff SRP 75 61 108 135
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 75 28 43 67
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 75 140 216 338
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 75 252 389 608
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 75 22 42 73
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 75 110 213 369
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 75 198 383 664
+X $REMOTE_DIR/covtypeNorm.arff OBag 75 28 42 66
+X $REMOTE_DIR/covtypeNorm.arff OBag 75 143 210 333
+X $REMOTE_DIR/covtypeNorm.arff OBag 75 257 379 600
+X $REMOTE_DIR/GMSC.arff ARF 75 53 68 116
+X $REMOTE_DIR/GMSC.arff ARF 75 267 344 584
+X $REMOTE_DIR/GMSC.arff ARF 75 482 620 1052
+X $REMOTE_DIR/GMSC.arff LBag 75 71 89 172
+X $REMOTE_DIR/GMSC.arff LBag 75 359 447 864
+X $REMOTE_DIR/GMSC.arff LBag 75 647 805 1556
+X $REMOTE_DIR/GMSC.arff SRP 75 29 33 65
+X $REMOTE_DIR/GMSC.arff SRP 75 149 168 329
+X $REMOTE_DIR/GMSC.arff SRP 75 268 302 592
+X $REMOTE_DIR/GMSC.arff OBagAd 75 169 171 413
+X $REMOTE_DIR/GMSC.arff OBagAd 75 845 858 2068
+X $REMOTE_DIR/GMSC.arff OBagAd 75 1521 1545 3722
+X $REMOTE_DIR/GMSC.arff OBagASHT 75 222 192 426
+X $REMOTE_DIR/GMSC.arff OBagASHT 75 1114 962 2133
+X $REMOTE_DIR/GMSC.arff OBagASHT 75 2005 1731 3839
+X $REMOTE_DIR/GMSC.arff OBag 75 225 184 411
+X $REMOTE_DIR/GMSC.arff OBag 75 1125 920 2056
+X $REMOTE_DIR/GMSC.arff OBag 75 2025 1656 3701
+
+
+
+# --------------------
+# 06-03-2022
+# esize 25
+# bsize 100
+# with incremental: True
+
+X $REMOTE_DIR/elecNormNew.arff ARF 100 31 47 75
+X $REMOTE_DIR/elecNormNew.arff ARF 100 157 236 375
+X $REMOTE_DIR/elecNormNew.arff ARF 100 282 425 676
+X $REMOTE_DIR/elecNormNew.arff LBag 100 52 68 120
+X $REMOTE_DIR/elecNormNew.arff LBag 100 260 344 604
+X $REMOTE_DIR/elecNormNew.arff LBag 100 468 619 1087
+X $REMOTE_DIR/elecNormNew.arff SRP 100 17 25 40
+X $REMOTE_DIR/elecNormNew.arff SRP 100 85 128 203
+X $REMOTE_DIR/elecNormNew.arff SRP 100 153 232 365
+X $REMOTE_DIR/elecNormNew.arff OBagAd 100 119 115 232
+X $REMOTE_DIR/elecNormNew.arff OBagAd 100 599 575 1164
+X $REMOTE_DIR/elecNormNew.arff OBagAd 100 1079 1035 2096
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 100 150 133 285
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 100 751 669 1429
+X $REMOTE_DIR/elecNormNew.arff OBagASHT 100 1352 1204 2573
+X $REMOTE_DIR/elecNormNew.arff OBag 100 165 138 279
+X $REMOTE_DIR/elecNormNew.arff OBag 100 827 693 1399
+X $REMOTE_DIR/elecNormNew.arff OBag 100 1490 1248 2519
+X $REMOTE_DIR/airlines.arff ARF 100 6 15 19
+X $REMOTE_DIR/airlines.arff ARF 100 33 79 99
+X $REMOTE_DIR/airlines.arff ARF 100 60 143 179
+X $REMOTE_DIR/airlines.arff LBag 100 4 15 18
+X $REMOTE_DIR/airlines.arff LBag 100 23 76 90
+X $REMOTE_DIR/airlines.arff LBag 100 41 137 163
+X $REMOTE_DIR/airlines.arff SRP 100 4 14 18
+X $REMOTE_DIR/airlines.arff SRP 100 21 73 91
+X $REMOTE_DIR/airlines.arff SRP 100 37 132 164
+X $REMOTE_DIR/airlines.arff OBagAd 100 17 25 53
+X $REMOTE_DIR/airlines.arff OBagAd 100 86 126 265
+X $REMOTE_DIR/airlines.arff OBagAd 100 155 226 477
+X $REMOTE_DIR/airlines.arff OBagASHT 100 18 57 153
+X $REMOTE_DIR/airlines.arff OBagASHT 100 92 289 768
+X $REMOTE_DIR/airlines.arff OBagASHT 100 166 521 1383
+X $REMOTE_DIR/airlines.arff OBag 100 17 98 185
+X $REMOTE_DIR/airlines.arff OBag 100 85 493 929
+X $REMOTE_DIR/airlines.arff OBag 100 154 887 1672
+X $REMOTE_DIR/covtypeNorm.arff ARF 100 20 40 69
+X $REMOTE_DIR/covtypeNorm.arff ARF 100 104 200 346
+X $REMOTE_DIR/covtypeNorm.arff ARF 100 187 360 624
+X $REMOTE_DIR/covtypeNorm.arff LBag 100 15 29 47
+X $REMOTE_DIR/covtypeNorm.arff LBag 100 75 146 237
+X $REMOTE_DIR/covtypeNorm.arff LBag 100 135 264 427
+X $REMOTE_DIR/covtypeNorm.arff SRP 100 6 12 13
+X $REMOTE_DIR/covtypeNorm.arff SRP 100 34 60 69
+X $REMOTE_DIR/covtypeNorm.arff SRP 100 61 108 125
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 100 28 43 70
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 100 140 216 353
+X $REMOTE_DIR/covtypeNorm.arff OBagAd 100 252 389 635
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 100 22 42 72
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 100 110 213 361
+X $REMOTE_DIR/covtypeNorm.arff OBagASHT 100 198 383 651
+X $REMOTE_DIR/covtypeNorm.arff OBag 100 28 42 74
+X $REMOTE_DIR/covtypeNorm.arff OBag 100 143 210 371
+X $REMOTE_DIR/covtypeNorm.arff OBag 100 257 379 668
+X $REMOTE_DIR/GMSC.arff ARF 100 53 68 121
+X $REMOTE_DIR/GMSC.arff ARF 100 267 344 608
+X $REMOTE_DIR/GMSC.arff ARF 100 482 620 1096
+X $REMOTE_DIR/GMSC.arff LBag 100 71 89 161
+X $REMOTE_DIR/GMSC.arff LBag 100 359 447 805
+X $REMOTE_DIR/GMSC.arff LBag 100 647 805 1449
+X $REMOTE_DIR/GMSC.arff SRP 100 29 33 68
+X $REMOTE_DIR/GMSC.arff SRP 100 149 168 342
+X $REMOTE_DIR/GMSC.arff SRP 100 268 302 615
+X $REMOTE_DIR/GMSC.arff OBagAd 100 169 171 391
+X $REMOTE_DIR/GMSC.arff OBagAd 100 845 858 1957
+X $REMOTE_DIR/GMSC.arff OBagAd 100 1521 1545 3523
+X $REMOTE_DIR/GMSC.arff OBagASHT 100 222 192 428
+X $REMOTE_DIR/GMSC.arff OBagASHT 100 1114 962 2141
+X $REMOTE_DIR/GMSC.arff OBagASHT 100 2005 1731 3854
+X $REMOTE_DIR/GMSC.arff OBag 100 225 184 420
+X $REMOTE_DIR/GMSC.arff OBag 100 1125 920 2101
+X $REMOTE_DIR/GMSC.arff OBag 100 2025 1656 3781
+
+date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
