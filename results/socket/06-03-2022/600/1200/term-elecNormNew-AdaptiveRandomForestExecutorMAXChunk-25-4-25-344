@@ -1,0 +1,31 @@
+Connected!
+linha fdp!!!!
+WN0.031149,3,0.638298,0.069293,0.476049,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.031149"
+linha fdp!!!!
+N0.437945,6,0.829787,0.048337,0.340821,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.437945"
+linha fdp!!!!
+N0.442812,5,0.468085,0.055062,0.507438,0.003816,0.516831,0.343421,DOWN
+java.lang.NumberFormatException: For input string: "N0.442812"
+linha fdp!!!!
+OWN0.447724,5,0.978723,0.071184,0.609491,0.004595,0.532367,0.449561,UP
+java.lang.NumberFormatException: For input string: "OWN0.447724"
+linha fdp!!!!
+OWN0.473519,3,0.723404,0.026,0.501636,0.001708,0.470482,0.600877,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.473519"
+linha fdp!!!!
+N0.868015,1,0.468085,0.032064,0.357929,0.000841,0.238995,0.814474,DOWN
+java.lang.NumberFormatException: For input string: "N0.868015"
+linha fdp!!!!
+OWN0.885403,2,0.808511,0.036748,0.598929,0.002455,0.565251,0.482456,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.885403"
+linha fdp!!!!
+OWN0.889076,2,0.978723,0.029092,0.480363,0.001967,0.45391,0.502193,UP
+java.lang.NumberFormatException: For input string: "OWN0.889076"
+linha fdp!!!!
+OWN0.898987,3,0.978723,0.089138,0.562779,0.00586,0.532108,0.587719,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.898987"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+40732.0,119.97000122070312,52.0,339.5182189941406,40707.0,81.2685778858673,61.250315331083826,-28.151260504201677,55.56267847776678,80.68226051752305,77.03623319467053,84.19481246501212,81.00178732498382,79.74786244773139,82.25571220223627,80.36524467245324,74.50294443472684,86.22754491017965,0.0,1.0

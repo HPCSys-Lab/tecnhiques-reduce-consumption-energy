@@ -84,7 +84,9 @@ function Y {
   
   sleep 3
   
-  if [[ ${2} == *"RUNPER"* ]]; then
+  if [[ $2 == *"MAX"* ]]; then
+    IDENT="chunk"
+  elif [[ ${2} == *"RUNPER"* ]]; then
     #PARALLEL
     IDENT="timedinterleaved"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" >> ${EXPER_ORDER_FILE}

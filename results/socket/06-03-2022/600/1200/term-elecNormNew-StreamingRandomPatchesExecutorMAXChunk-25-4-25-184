@@ -1,0 +1,52 @@
+Connected!
+linha fdp!!!!
+WN0.013318,4,0.468085,0.051099,0.594763,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.013318"
+linha fdp!!!!
+N0.014291,5,0.212766,0.040591,0.215263,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.014291"
+linha fdp!!!!
+N0.017566,3,0.468085,0.068842,0.524249,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.017566"
+linha fdp!!!!
+N0.017743,7,0.978723,0.046385,0.370425,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.017743"
+linha fdp!!!!
+P0.022123,1,0.468085,0.081542,0.322672,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.022123"
+linha fdp!!!!
+WN0.026724,1,0.723404,0.05221,0.437519,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.026724"
+linha fdp!!!!
+P0.424539,4,0.468085,0.058394,0.348259,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.424539"
+linha fdp!!!!
+P0.424671,7,0.468085,0.087787,0.293216,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.424671"
+linha fdp!!!!
+P0.424937,6,0.468085,0.074517,0.339334,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "P0.424937"
+linha fdp!!!!
+WN0.429362,2,0.212766,0.077519,0.297828,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.429362"
+linha fdp!!!!
+N0.429583,7,0.468085,0.080611,0.374888,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.429583"
+linha fdp!!!!
+WN0.433344,6,0.212766,0.071184,0.133889,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.433344"
+linha fdp!!!!
+WN0.437989,7,0.212766,0.046806,0.067688,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.437989"
+linha fdp!!!!
+N0.442901,7,0.978723,0.05323,0.385451,0.003637,0.377525,0.406579,UP
+java.lang.NumberFormatException: For input string: "N0.442901"
+linha fdp!!!!
+N0.447458,6,0.723404,0.050949,0.705445,0.003662,0.593993,0.339912,UP
+java.lang.NumberFormatException: For input string: "N0.447458"
+linha fdp!!!!
+N0.452237,2,0.978723,0.038429,0.587623,0.002572,0.497411,0.62193,UP
+java.lang.NumberFormatException: For input string: "N0.452237"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+21564.0,119.87999725341797,101.0,179.8798828125,21539.0,84.83216491016296,68.8942705808386,2.6519666269368156,64.96514745308309,84.52505701607049,81.96430550936702,86.95443645083934,84.8074872518933,84.67704993128721,84.93792457249941,84.24450166367599,79.41997851772288,89.06902480962908,0.0,1.0
