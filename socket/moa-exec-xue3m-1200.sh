@@ -62,7 +62,7 @@ fi
 function Y {
   #Usage: $0 FILE ALGORITHM RATE
   Memory=700M
-  echo "file: $1 algorithm: $2 batch_size: $3 rate: $4 cores: $CPUS"
+  echo "file: $1 algorithm: $2 batch_size: $3 rate: $4 cores: $CPUS freq-min: $FREQUENCIA_MINIMA freq-max: $FREQUENCIA_MAXIMA"
 
   export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
   export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/socket/$CPUS/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
@@ -78,24 +78,23 @@ function Y {
   nCores=$CPUS
   date +"%d/%m/%y %T"
   date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
-  
   echo "ssh-${onlyname}-${2##*.}-${bsize}-${rate}" >> ${RESULT_DIR}/ssh-log
   ssh gcassales@192.168.0.11 java ChannelServer 192.168.0.11 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
   # java ChannelServer 127.0.0.1 9004 ${REMOTE_DIR}${faux} ${rate} >> ${RESULT_DIR}/ssh-log &
   
   sleep 3
   
-  if [[ $2 == *"MAX"* ]]; then
-    IDENT="chunk"
-  elif [[ ${2} == *"RUNPER"* ]]; then
+  if [[ ${2} == *"RUNPER"* ]]; then
     #PARALLEL
     IDENT="timedinterleaved"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" >> ${EXPER_ORDER_FILE}
+    echo "java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"ChannelTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}\" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}-1-${rate}
   else
     #SEQUENTIAL OR PARALLEL
     IDENT="timedinterleaved"
     echo "$RESULT_DIR/${onlyname}-${2##*.}-${esize}-1-1-${rate}" >> ${EXPER_ORDER_FILE}
+    echo "java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"ChannelTIMED -l ($2 -s ${esize}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-1-1-${rate}\" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-1-1-${rate}"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelTIMED -l ($2 -s ${esize}) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-1-1-${rate}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-1-1-${rate}
   fi
 
@@ -127,9 +126,9 @@ function X {
   elif [[ $2 == "SRP" ]]; then
     ID=15
   fi
-  #Y $1 ${algs[${ID}]} $3 $4
-  #Y $1 ${algs[$(( ID+1 ))]} $3 $5
-  Y $1 ${algs[$(( ID+2 ))]} $3 $6
+  Y $1 ${algs[${ID}]} $3 $6
+  Y $1 ${algs[$(( ID+1 ))]} $3 $6
+  # Y $1 ${algs[$(( ID+2 ))]} $3 $6
 }
 
 mkdir -p /home/pi/reginaldojunior/experimentos/results/socket
