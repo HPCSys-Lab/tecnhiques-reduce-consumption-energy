@@ -1,0 +1,15 @@
+Connected!
+linha fdp!!!!
+UA, 942, LAX, OUA, 351, PIT, ORD, 3, 988 , 103, 0XE, 3113, OMA, EWR, 3, 988 , 172, 0
+java.lang.NumberFormatException: For input string: "PIT"
+linha fdp!!!!
+UA, 942, LAX, OUA, 351, PIT, ORD, 3, 988 , 103, 0XE, 3113, OMA, EWR, 3, 988 , 172, 0
+java.lang.NumberFormatException: For input string: "ORD"
+linha fdp!!!!
+DL, 1106, SEA, SLCOO, 6438, GJT, DEN, 4, 378 , 60, 0OO, 6568, SAN, LAX, 4, 378 , 52, 0
+java.lang.NumberFormatException: For input string: "GJT"
+linha fdp!!!!
+DL, 1106, SEA, SLCOO, 6438, GJT, DEN, 4, 378 , 60, 0OO, 6568, SAN, LAX, 4, 378 , 52, 0
+java.lang.NumberFormatException: For input string: "DEN"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+12863.0,120.91400146484375,16001.0,106.38139343261719,12863.0,64.58057995801913,22.28027818607068,14.936519790888727,12.603107615576443,?,73.35789904661637,47.21159420289855,?,?,66.35978835978837,59.654263111632,?,40.35657152889409,82.00601543088794,39.06369915579432,0.0,12863.0,1.0,25.0,12845.04,71.14918598737921,1.0,0.0,7684.28,1683.3120506905425,7669.4,1680.0342010407608,7669.4,1680.0342010407608,1.9199999999999997,0.39999999999999997,0.0,0.0,0.0,0.0,1.0,0.0
