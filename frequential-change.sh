@@ -1,15 +1,9 @@
-# printar as informações do cpu
-echo "Informações sobre o CPU:\n"
-cat /proc/cpuinfo
-lscpu
-
-# resetar todos os cpus virtuais
-echo "Resetando todos os CPUs virtuais"
-sudo cset shield --reset --force
-
-# setar os novos cpus disponiveis
-echo "Criando novos CPUs virtuais"
-cset shield -c 0,1,2,3 -k on --force
+function cpu_info {
+	# printar as informações do cpu
+	echo "Informações sobre o CPU:\n"
+	cat /proc/cpuinfo
+	lscpu
+}
 
 function run_minibatching_without_dvfs_and_dpm {
 	echo "Retorna padrão do CPU"
@@ -49,6 +43,14 @@ function run_2_cores_minimum_and_maximum_frequency {
 
 function reset_cpu {
 	echo "Retorna padrão do CPU"
-	cset shield --reset --force
+
+	# resetar todos os cpus virtuais
+	echo "Resetando todos os CPUs virtuais"
+	sudo cset shield --reset --force
+
+	# setar os novos cpus disponiveis
+	echo "Criando novos CPUs virtuais"
+	sudo cset shield -c 0,1,2,3 -k on --force
+
 	cpufreq-set -c 0,1,2,3 -d 600MHz -u 1200MHz
 }
