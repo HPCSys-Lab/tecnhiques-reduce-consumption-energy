@@ -1,50 +1,61 @@
 #!/bin/bash
 
-#alterar caminhos
-export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
-export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results
-export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
-
 if [[ "$#" -eq 0 ]]; then
   echo "This program requires inputs. Type -h for help." >&2
   exit 1
 fi
 
-while getopts ":f:F:h" opt;
+while getopts ":c:f:F:h" opt;
 do
+    echo $opt
     case $opt in
         h)
             echo "f: Frequencia Minima."
             echo "F: Frequencia Máxima."
+            echo "c: Quantidade de CPUs a ser utilizada"
             echo "h: Help Opções disponiveis."
+            exit 1
         ;;
-    f)
-      if [[ -n $FREQUENCIA_MINIMA ]]; then
-        echo "Invalid input: option -f has already been used!" >&2
-        exit 1
-      else
-        FREQUENCIA_MINIMA="${OPTARG//,/ }"
-      fi
-    ;;
+        c)
+            if [[ -n $CPUS ]]; then
+                echo "Invalid input: option -c has already been used!" >&2
+                exit 1
+            else
+                CPUS="${OPTARG//,/ }"
+            fi
+        ;;
+        f)
+            if [[ -n $FREQUENCIA_MINIMA ]]; then
+                echo "Invalid input: option -f has already been used!" >&2
+                exit 1
+            else
+                FREQUENCIA_MINIMA="${OPTARG//,/ }"
+            fi
+        ;;
         F)
             if [[ -n $FREQUENCIA_MAXIMA ]]; then
-        echo "Invalid input: option -F has already been used!" >&2
-        exit 1
-      else
-        FREQUENCIA_MAXIMA="$OPTARG"
-      fi
+                echo "Invalid input: option -F has already been used!" >&2
+                exit 1
+            else
+                FREQUENCIA_MAXIMA="$OPTARG"
+            fi
         ;;
     esac
 done
 
 #Critical checks
+if [[ -z $CPUS && -z $CPUS ]]; then
+    echo "Nothing to run. Expected -c!" >&2
+    exit 1
+fi
+
 if [[ -z $FREQUENCIA_MINIMA && -z $FREQUENCIA_MINIMA ]]; then
     echo "Nothing to run. Expected -f!" >&2
     exit 1
 fi
 
 if [[ -z $FREQUENCIA_MAXIMA && -z $FREQUENCIA_MAXIMA ]]; then
-    echo "Nothing to run. Expected -f!" >&2
+    echo "Nothing to run. Expected -F!" >&2
     exit 1
 fi
 
@@ -53,6 +64,7 @@ function Y {
   #alterar para memória do servidor
   Memory=700M
   CORES="0,1,2,3"
+  nCores=$CPUS
 
   faux=${1##*\/}
   onlyname=${faux%%.*}
@@ -62,8 +74,8 @@ function Y {
     IDENT="chunk"
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
-    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-1-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-25-4-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-1-1
+    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-{$nCores}-1-1"
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-25-4-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-1-1
   else
     IDENT="interleaved"
     echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
@@ -100,9 +112,15 @@ function X {
   # Y $1 ${algs[$(( ID+2 ))]} $3
 }
 
+#alterar caminhos
+export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
+export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/$CPUS
+export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
+
 # alterar para o caminho do HD/scratch
-mkdir -p /home/pi/reginaldojunior/experimentos/results
+mkdir -p /home/pi/reginaldojunior/experimentos/results/$CPUS
 mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA
+mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/first
 
 #----------- FIRST ROUND
 X $REMOTE_DIR/datasets/elecNormNew.arff ARF first
