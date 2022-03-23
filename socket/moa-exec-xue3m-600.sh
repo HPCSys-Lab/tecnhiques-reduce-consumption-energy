@@ -290,4 +290,6 @@ function 4_cores {
   X /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff OBag 1 76 409 409
 }
 
+# 2_cores
+# 4_cores
 date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
