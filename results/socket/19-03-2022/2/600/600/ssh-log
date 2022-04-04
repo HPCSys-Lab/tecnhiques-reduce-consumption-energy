@@ -588,12 +588,12 @@ ssh-covtypeNorm-OzaBagASHTExecutorRUNPER-1-108
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:52932]!
-ssh-covtypeNorm-OzaBag-1-15
 
 Total Time Producer (s): 120.193
 Total instances Producer: 12600
 Producer Rate (inst per second): 104.83139617115806
 Closing socket and terminating program.
+ssh-covtypeNorm-OzaBag-1-15
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:52936]!

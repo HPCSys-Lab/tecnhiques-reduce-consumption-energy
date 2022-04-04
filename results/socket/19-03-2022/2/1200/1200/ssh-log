@@ -11,12 +11,12 @@ ssh-elecNormNew-AdaptiveRandomForestExecutorRUNPER-1-43
 read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51504]!
-ssh-elecNormNew-AdaptiveRandomForestSequential-1-219
 
 Total Time Producer (s): 120.174
 Total instances Producer: 4800
 Producer Rate (inst per second): 39.942083978231565
 Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestSequential-1-219
 read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51508]!
@@ -326,12 +326,12 @@ ssh-covtypeNorm-AdaptiveRandomForestSequential-1-40
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51644]!
-ssh-covtypeNorm-AdaptiveRandomForestExecutorRUNPER-1-40
 
 Total Time Producer (s): 120.168
 Total instances Producer: 4800
 Producer Rate (inst per second): 39.94407829039345
 Closing socket and terminating program.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorRUNPER-1-40
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51648]!
@@ -461,12 +461,12 @@ ssh-covtypeNorm-StreamingRandomPatchesExecutorRUNPER-1-60
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51704]!
-ssh-covtypeNorm-StreamingRandomPatches-1-108
 
 Total Time Producer (s): 120.191
 Total instances Producer: 7200
 Producer Rate (inst per second): 59.904651762611174
 Closing socket and terminating program.
+ssh-covtypeNorm-StreamingRandomPatches-1-108
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51708]!
@@ -524,12 +524,12 @@ ssh-covtypeNorm-OzaBagAdwin-1-379
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51732]!
-ssh-covtypeNorm-OzaBagAdwinExecutorRUNPER-1-379
 
 Total Time Producer (s): 120.112
 Total instances Producer: 44925
 Producer Rate (inst per second): 374.0259091514587
 Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwinExecutorRUNPER-1-379
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51736]!
@@ -659,12 +659,12 @@ ssh-GMSC-AdaptiveRandomForestExecutorRUNPER-1-70
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51792]!
-ssh-GMSC-AdaptiveRandomForestSequential-1-350
 
 Total Time Producer (s): 120.188
 Total instances Producer: 8400
 Producer Rate (inst per second): 69.89050487569475
 Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestSequential-1-350
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51796]!
@@ -742,10 +742,10 @@ ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51828]!
 
 Total Time Producer (s): 120.163
-ssh-GMSC-LBagExecutorRUNPER-1-814
 Total instances Producer: 97038
 Producer Rate (inst per second): 807.5530737415012
 Closing socket and terminating program.
+ssh-GMSC-LBagExecutorRUNPER-1-814
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51832]!
@@ -1118,21 +1118,21 @@ ssh-airlines-StreamingRandomPatches-1-139
 read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:51996]!
-ssh-airlines-StreamingRandomPatchesExecutorRUNPER-1-139
 
 Total Time Producer (s): 120.186
 Total instances Producer: 16200
 Producer Rate (inst per second): 134.79107383555487
 Closing socket and terminating program.
+ssh-airlines-StreamingRandomPatchesExecutorRUNPER-1-139
 read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:52000]!
-ssh-airlines-OzaBagAdwin-1-22
 
 Total Time Producer (s): 120.193
 Total instances Producer: 16200
 Producer Rate (inst per second): 134.78322364863178
 Closing socket and terminating program.
+ssh-airlines-OzaBagAdwin-1-22
 read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:52004]!
