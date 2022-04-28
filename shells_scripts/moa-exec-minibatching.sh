@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #alterar caminhos
-export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
+export MOA_HOME=/home/pi/moa/moa-LAST
 export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results
 export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 
@@ -59,6 +59,7 @@ function Y {
   echo "$2  $1 $3"
 
   if [[ $2 == *"MAX"* ]]; then
+    echo "ENTREI AQUI"
     IDENT="chunk"
     echo "$RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-25-1"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 25 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-25-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-25-1
@@ -93,7 +94,7 @@ function X {
   if [[ $2 == *"ARF"* ]]; then
     ID=0
   elif [[ $2 == "OBag" ]]; then
-    ID=3
+    ID=3s
   elif [[ $2 == "OBagAd" ]]; then
     ID=6
   elif [[ $2 == "LBag" ]]; then

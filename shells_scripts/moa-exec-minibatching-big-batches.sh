@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #alterar caminhos
-export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
+export MOA_HOME=/home/pi/moa/moa-LAST
 export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results
 export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 
@@ -61,11 +61,11 @@ function Y {
   if [[ $2 == *"MAX"* ]]; then
     IDENT="chunk"
     echo "$RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-250-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 5 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-250-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-250-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 250 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-250-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-250-1
     echo "$RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-500-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 15 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-500-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-500-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 500 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-500-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-500-1
     echo "$RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-2000-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 15 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-2000-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-2000-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c 3) -s (ArffFileStream -f $1) -t 120 -c 2000 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/dump-${onlyname}-${2##*.}-25-4-2000-1" > ${RESULT_DIR}/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-2000-1
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
     echo "$RESULT_DIR/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-4-1-1"
