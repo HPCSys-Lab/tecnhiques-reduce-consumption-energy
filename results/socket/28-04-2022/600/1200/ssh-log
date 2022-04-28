@@ -1,18 +1,6 @@
 ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-5-234
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
-read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
-ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-5-46
-ServerSocketChannel awaiting connections.../192.168.0.11:9004
-Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:42054]!
-
-Total Time Producer (s): 120.17
-Total instances Producer: 5400
-Producer Rate (inst per second): 44.936340184738285
-Closing socket and terminating program.
-ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-5-234
-read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
-ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:42058]!
 
 Total Time Producer (s): 120.061
