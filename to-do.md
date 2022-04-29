@@ -1,7 +1,7 @@
-Algorithm 3 process minibatch routine
-Input: mini-batch B
-for each trainer Ti in trainers T do in parallel
-   for each instance J in Ti.instances do 
+Algorithm 3 process minibatch routine   
+Input: mini-batch B  
+for each trainer Ti in trainers T do in parallel   
+for each instance J in Ti.instances do 
       votes[i,j] ← Ti.classify(B[j])
       k ← poisson(λ)
       W_inst ← j ∗ k
