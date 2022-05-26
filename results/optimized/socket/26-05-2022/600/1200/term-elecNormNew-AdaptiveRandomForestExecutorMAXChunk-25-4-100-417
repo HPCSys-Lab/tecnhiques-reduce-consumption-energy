@@ -1,0 +1,33 @@
+Connected!
+linha fdp!!!!
+OWN0.424494,3,0.531915,0.056923,0.170039,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.424494"
+linha fdp!!!!
+N0.438919,7,0.382979,0.048337,0.312705,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.438919"
+linha fdp!!!!
+N0.447635,3,0.638298,0.045635,0.527373,0.003149,0.630243,0.260088,DOWN
+java.lang.NumberFormatException: For input string: "N0.447635"
+linha fdp!!!!
+N0.46113,2,0.468085,0.031374,0.488991,0.002121,0.475919,0.369737,DOWN
+java.lang.NumberFormatException: For input string: "N0.46113"
+linha fdp!!!!
+N0.465555,4,0.702128,0.030323,0.493454,0.00209,0.384775,0.517105,DOWN
+java.lang.NumberFormatException: For input string: "N0.465555"
+linha fdp!!!!
+WN0.469227,4,0.978723,0.045184,0.426956,0.002973,0.333506,0.563596,UP
+java.lang.NumberFormatException: For input string: "WN0.469227"
+linha fdp!!!!
+WN0.469979,7,0.829787,0.029182,0.413121,0.001969,0.258674,0.549561,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469979"
+linha fdp!!!!
+OWN0.881377,2,0.978723,0.029482,0.452693,0.00194,0.422838,0.475877,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.881377"
+linha fdp!!!!
+OWN0.889208,5,0.574468,0.028582,0.528712,0.001994,0.540394,0.359649,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.889208"
+linha fdp!!!!
+WN0.894828,6,0.638298,0.072805,0.553704,0.004892,0.625583,0.492105,DOWN
+java.lang.NumberFormatException: For input string: "WN0.894828"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+45312.0,109.33200073242188,182.0,414.4440612792969,45212.0,88.75077413076174,76.83811232776135,23.530296196060718,73.51179626061143,88.46397120209706,86.45243941496743,90.39398632569032,88.73813630432363,88.67232411716397,88.80394849148328,88.19149500133896,84.34098838723116,92.04200161544675,0.0,1.0
