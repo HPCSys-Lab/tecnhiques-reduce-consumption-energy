@@ -123,7 +123,7 @@ function X {
   if [[ $2 == *"ARF"* ]]; then
     ID=0
   elif [[ $2 == "OBag" ]]; then
-    ID=3s
+    ID=3
   elif [[ $2 == "OBagAd" ]]; then
     ID=6
   elif [[ $2 == "LBag" ]]; then
@@ -133,22 +133,23 @@ function X {
   elif [[ $2 == "SRP" ]]; then
     ID=15
   fi
+
   Y $1 ${algs[${ID}]} $3
   Y $1 ${algs[$(( ID+1 ))]} $3
   Y $1 ${algs[$(( ID+2 ))]} $3
 }
 
 # alterar para o caminho do HD/scratch
-mkdir -p /home/pi/reginaldojunior/experimentos/results
-mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/first \
-         /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/second \
-         /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/third
+# mkdir -p /home/pi/reginaldojunior/experimentos/results
+# mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/first \
+#          /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/second \
+#          /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/third
 
 # experimento teste
 
-X $REMOTE_DIR/datasets/elecNormNew.arff ARF first
+# X $REMOTE_DIR/datasets/elecNormNew.arff ARF first
 X $REMOTE_DIR/datasets/elecNormNew.arff OBag first
-X $REMOTE_DIR/datasets/airlines.arff ARF first
+# X $REMOTE_DIR/datasets/airlines.arff ARF first
 X $REMOTE_DIR/datasets/airlines.arff OBag first
 
 #----------- FIRST ROUND
