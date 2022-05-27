@@ -1,0 +1,31 @@
+doMainTask -> Updated
+Connected!
+linha fdp!!!!
+0.013495,1,0.93617,0.074817,0.513538,0.003467,0.0.017698,6,0.340426,0.086736,0.435585,0.003467,0.422915,0.414912,UP0.017698,6,0.361702,0.090219,0.471288,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+OWN0.460068,6,0,0.030653,0.480214,0.002044,0.43216,0.473684,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.460068"
+linha fdp!!!!
+OWN0.469227,4,0.468085,0.055842,0.559655,0.003652,0.460383,0.519737,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.469227"
+linha fdp!!!!
+N0.474315,7,0.617021,0.024919,0.231479,0.00161,0.139047,0.881579,DOWN
+java.lang.NumberFormatException: For input string: "N0.474315"
+linha fdp!!!!
+N0.868015,1,0.468085,0.032064,0.357929,0.000841,0.238995,0.814474,DOWN
+java.lang.NumberFormatException: For input string: "N0.868015"
+linha fdp!!!!
+N0.890138,5,1,0.055362,0.622731,0.00371,0.532108,0.599123,DOWN
+java.lang.NumberFormatException: For input string: "N0.890138"
+linha fdp!!!!
+OWN0.898943,2,0.021277,0.048427,0.351681,0.00318,0.406784,0.584211,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.898943"
+linha fdp!!!!
+N0.906907,1,0.680851,0.027231,0.236239,0.001805,0.175298,0.583772,DOWN
+java.lang.NumberFormatException: For input string: "N0.906907"
+linha fdp!!!!
+OWN0.907172,7,0.617021,0.075988,0.335763,0.004915,0.33506,0.757456,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.907172"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+44091.0,61.41400146484375,94.0,717.9307250976562,44016.0,88.95856052344601,77.27903582638402,24.837612124961346,74.02875006679848,88.67912390822468,86.72319474835885,90.56039173014146,88.94083407987985,88.84716695622933,89.03450120353035,88.4189493926323,84.69840252177165,92.13949626349293,0.0,1.0

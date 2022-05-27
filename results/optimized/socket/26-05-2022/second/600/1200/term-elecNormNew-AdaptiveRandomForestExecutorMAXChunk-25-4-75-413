@@ -1,0 +1,34 @@
+doMainTask -> Updated
+Connected!
+linha fdp!!!!
+WN0.429362,2,0.638298,0.077519,0.543291,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.429362"
+linha fdp!!!!
+N0.430025,3,0.170213,0.069593,0.194882,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.430025"
+linha fdp!!!!
+P0.438476,4,0.553191,0.063468,0.523654,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.438476"
+linha fdp!!!!
+P0.443255,1,0.851064,0.070013,0.503868,0.004757,0.355256,0.464912,UP
+java.lang.NumberFormatException: For input string: "P0.443255"
+linha fdp!!!!
+WN0.460245,3,0.212766,0.028191,0.22166,0.001917,0.23537,0.566228,DOWN
+java.lang.NumberFormatException: For input string: "WN0.460245"
+linha fdp!!!!
+WN0.464758,7,0.659574,0.028221,0.340524,0.001888,0.226567,0.652193,UP
+java.lang.NumberFormatException: For input string: "WN0.464758"
+linha fdp!!!!
+OWN0.868103,3,0.297872,0.028462,0.442874,0.001853,0.454687,0.579825,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.868103"
+linha fdp!!!!
+WN0.876864,4,0.93617,0.028702,0.430675,0.001911,0.259451,0.598246,DOWN
+java.lang.NumberFormatException: For input string: "WN0.876864"
+linha fdp!!!!
+N0.889651,1,0.659574,0.024168,0.30958,0.000837,0.264371,0.601316,DOWN
+java.lang.NumberFormatException: For input string: "N0.889651"
+linha fdp!!!!
+P0.907261,2,0.702128,0.164015,0.475751,0.010704,0.635422,0.555702,UP
+java.lang.NumberFormatException: For input string: "P0.907261"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+45312.0,110.78099822998047,137.0,409.0232238769531,45237.0,88.71056878219157,76.74886582245773,23.237637156170166,73.40796667534497,88.4200936730451,86.38184245660881,90.37235447240352,88.70304390274404,88.664145151565,88.74194265392309,88.13894284634809,84.21408861352631,92.06379707916987,0.0,1.0
