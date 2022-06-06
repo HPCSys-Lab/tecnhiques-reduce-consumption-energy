@@ -74,7 +74,7 @@ function Y {
     IDENT="chunk"
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
-    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-{$nCores}-1-1"
+    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-1-1"
     java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-25-4-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-1-1
   else
     IDENT="interleaved"
@@ -113,14 +113,13 @@ function X {
 }
 
 #alterar caminhos
-export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
-export RESULT_DIR=/home/pi/reginaldojunior/experimentos/results/$CPUS
-export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
+export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
+export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local
+export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
 
 # alterar para o caminho do HD/scratch
-mkdir -p /home/pi/reginaldojunior/experimentos/results/$CPUS
-mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA
-mkdir -p /home/pi/reginaldojunior/experimentos/results/$FREQUENCIA_MINIMA/$FREQUENCIA_MAXIMA/first
+mkdir -p $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
+mkdir -p $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/first
 
 #----------- FIRST ROUND
 X $REMOTE_DIR/datasets/elecNormNew.arff ARF first
