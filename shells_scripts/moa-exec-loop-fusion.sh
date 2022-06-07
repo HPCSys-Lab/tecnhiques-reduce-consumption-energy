@@ -71,13 +71,13 @@ function Y {
   echo "$2  $1 $3"
   
   if [[ $2 == *"MAX"* ]]; then
-    IDENT="interleaved"
-    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-1-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-25-4-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-4-1-1
+    IDENT="timedchunk"
+    echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1"
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
   else
     IDENT="interleaved"
-    echo "$RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
+    echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
   fi
 
   echo ""
@@ -113,38 +113,16 @@ function X {
 
 #alterar caminhos
 export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
-export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results-local
+export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results/speedup/$CPUS/
 export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
 
 # alterar para o caminho do HD/scratch
-mkdir -p $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA
-mkdir -p $RESULT_DIR/$FREQUENCIA_MAXIMA/$FREQUENCIA_MINIMA/first
+mkdir -p $RESULT_DIR
+mkdir -p $RESULT_DIR/first
 
 #----------- FIRST ROUND
 X $REMOTE_DIR/datasets/elecNormNew.arff ARF first
-X $REMOTE_DIR/datasets/elecNormNew.arff LBag first
-X $REMOTE_DIR/datasets/elecNormNew.arff OBagAd first
 X $REMOTE_DIR/datasets/elecNormNew.arff OBag first
-X $REMOTE_DIR/datasets/elecNormNew.arff OBagASHT first
-X $REMOTE_DIR/datasets/elecNormNew.arff SRP first
 
 X $REMOTE_DIR/datasets/airlines.arff ARF first
-X $REMOTE_DIR/datasets/airlines.arff LBag first
-X $REMOTE_DIR/datasets/airlines.arff OBagAd first
 X $REMOTE_DIR/datasets/airlines.arff OBag first
-X $REMOTE_DIR/datasets/airlines.arff OBagASHT first
-X $REMOTE_DIR/datasets/airlines.arff SRP first
-
-X $REMOTE_DIR/datasets/covtypeNorm.arff ARF first
-X $REMOTE_DIR/datasets/covtypeNorm.arff LBag first
-X $REMOTE_DIR/datasets/covtypeNorm.arff OBagAd first
-X $REMOTE_DIR/datasets/covtypeNorm.arff OBag first
-X $REMOTE_DIR/datasets/covtypeNorm.arff OBagASHT first
-X $REMOTE_DIR/datasets/covtypeNorm.arff SRP first
-
-X $REMOTE_DIR/datasets/GMSC.arff ARF first
-X $REMOTE_DIR/datasets/GMSC.arff LBag first
-X $REMOTE_DIR/datasets/GMSC.arff OBagAd first
-X $REMOTE_DIR/datasets/GMSC.arff OBag first
-X $REMOTE_DIR/datasets/GMSC.arff OBagASHT first
-X $REMOTE_DIR/datasets/GMSC.arff SRP first
