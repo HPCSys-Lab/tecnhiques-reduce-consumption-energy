@@ -73,11 +73,11 @@ function Y {
   if [[ $2 == *"MAX"* ]]; then
     IDENT="timedchunk"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
   else
     IDENT="interleaved"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -t 120 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
+    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
   fi
 
   echo ""
@@ -85,8 +85,8 @@ function Y {
 
 function X {
   declare -a algs=(
-  "meta.AdaptiveRandomForestSequential" "meta.AdaptiveRandomForestExecutorRUNPER" "meta.AdaptiveRandomForestExecutorMAXChunk" "meta.AdaptiveRandomForestExecutorMAXChunk"
-  "meta.OzaBag" "meta.OzaBagExecutorRUNPER" "meta.OzaBagExecutorMAXChunk" "meta.OzaBagExecutorMAXChunk"
+  "meta.AdaptiveRandomForestSequential" "meta.AdaptiveRandomForestExecutorRUNPER" "meta.AdaptiveRandomForestExecutorMAXChunk"
+  "meta.OzaBag" "meta.OzaBagExecutorRUNPER" "meta.OzaBagExecutorMAXChunk"
   "meta.OzaBagAdwin" "meta.OzaBagAdwinExecutorRUNPER" "meta.OzaBagAdwinExecutorMAXChunk"
   "meta.LeveragingBag" "meta.LBagExecutorRUNPER" "meta.LBagExecutorMAXChunk"
   "meta.OzaBagASHT" "meta.OzaBagASHTExecutorRUNPER" "meta.OzaBagASHTExecutorMAXChunk"
@@ -105,16 +105,22 @@ function X {
   elif [[ $2 == "SRP" ]]; then
     ID=15
   fi
-  # Y $1 ${algs[${ID}]} $3 # without loop fusion
-  Y $1 ${algs[$(( ID+3 ))]} $3 # loop fusion
+  Y $1 ${algs[${ID}]} $3 # without loop fusion
   # Y $1 ${algs[$(( ID+1 ))]} $3
-  # Y $1 ${algs[$(( ID+2 ))]} $3
+  # Y $1 ${algs[$(( ID+2 ))]} $3 # loop fusion
 }
 
 #alterar caminhos
-export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
-export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results/speedup/$CPUS/
-export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
+
+## local mac
+# export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
+# export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results/speedup/$CPUS/
+# export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
+
+## rasp
+export MOA_HOME=/home/pi/moa/moa-LAST
+export RESULT_DIR=/home/pi/reginaldojunior/experimentos/loop-fusion/results/$CPUS/
+export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 
 # alterar para o caminho do HD/scratch
 mkdir -p $RESULT_DIR
