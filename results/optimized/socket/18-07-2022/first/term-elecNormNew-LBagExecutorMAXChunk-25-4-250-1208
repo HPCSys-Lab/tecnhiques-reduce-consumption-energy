@@ -1,0 +1,21 @@
+Connected!
+linha fdp!!!!
+P0.000265,1,0.446809,0.074817,0.498959,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.000265"
+linha fdp!!!!
+N0.004203,7,0.276596,0.043833,0.129872,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.004203"
+linha fdp!!!!
+OWN0.867041,7,1,0.028492,0.211395,0.001938,0.220611,0.558333,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.867041"
+linha fdp!!!!
+OWN0.871776,3,0.808511,0.028221,0.428295,0.001822,0.49508,0.753509,UP
+java.lang.NumberFormatException: For input string: "OWN0.871776"
+linha fdp!!!!
+OWN0.995443,7,0.021277,0.040261,0.505653,0.0023,0.381409,0.833772,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.995443"
+linha fdp!!!!
+OWN0.912393,7,1,0.043983,0.282803,0.002939,0.376748,0.521053,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.912393"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+42923.0,37.76300048828125,202.0,1136.6417236328125,42673.0,89.42656949359079,78.12677771230877,27.26100274060937,74.84388938447813,?,87.04746580852775,91.0756688301409,?,?,89.80317761441783,89.18039139701608,?,59.16969866654287,84.45584299732381,93.0532530023048,0.0,0.0,1.0,25.0,171.0,32068.04,18221.19370513359,1.0,0.0,53.2,29.650744791095327,36.319999999999986,19.165333286953295,36.319999999999986,19.165333286953295,5.88,2.5219040425836985,0.0,0.0,0.0,0.0,1.0,0.0
