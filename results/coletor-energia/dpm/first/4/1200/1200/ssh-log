@@ -2,21 +2,21 @@ ssh-elecNormNew-AdaptiveRandomForestSequential-1-43
 read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48458]!
-ssh-elecNormNew-AdaptiveRandomForestExecutorRUNPER-1-43
 
 Total Time Producer (s): 120.174
 Total instances Producer: 4800
 Producer Rate (inst per second): 39.942083978231565
 Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorRUNPER-1-43
 read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48462]!
-ssh-elecNormNew-AdaptiveRandomForestSequential-1-219
 
 Total Time Producer (s): 120.175
 Total instances Producer: 4800
 Producer Rate (inst per second): 39.94175161223216
 Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestSequential-1-219
 read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48466]!
@@ -481,10 +481,10 @@ ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48670]!
 
 Total Time Producer (s): 120.198
-ssh-covtypeNorm-OzaBagAdwin-1-42
 Total instances Producer: 12600
 Producer Rate (inst per second): 104.82703539160386
 Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwin-1-42
 read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48674]!
@@ -650,21 +650,21 @@ ssh-GMSC-AdaptiveRandomForestSequential-1-70
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48746]!
-ssh-GMSC-AdaptiveRandomForestExecutorRUNPER-1-70
 
 Total Time Producer (s): 120.188
 Total instances Producer: 8400
 Producer Rate (inst per second): 69.89050487569475
 Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestExecutorRUNPER-1-70
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48750]!
-ssh-GMSC-AdaptiveRandomForestSequential-1-350
 
 Total Time Producer (s): 120.188
 Total instances Producer: 8400
 Producer Rate (inst per second): 69.89050487569475
 Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestSequential-1-350
 read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
 ServerSocketChannel awaiting connections.../192.168.0.11:9004
 Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:48754]!
