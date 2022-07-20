@@ -1,0 +1,34 @@
+Connected!
+linha fdp!!!!
+OWN0.424494,3,0.595745,0.056923,0.150848,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.424494"
+linha fdp!!!!
+OWN0.434361,1,0.510638,0.045605,0.478132,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.434361"
+linha fdp!!!!
+OWN0.451175,6,0.808511,0.043233,0.743826,0.002823,0.582341,0.539912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.451175"
+linha fdp!!!!
+WN0.452104,6,0.744681,0.036688,0.689973,0.002474,0.609529,0.282895,DOWN
+java.lang.NumberFormatException: For input string: "WN0.452104"
+linha fdp!!!!
+OWN0.452237,2,0.531915,0.033325,0.556382,0.002252,0.545313,0.557895,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.452237"
+linha fdp!!!!
+OWN0.46113,2,0.808511,0.031644,0.556531,0.002129,0.515795,0.30307,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.46113"
+linha fdp!!!!
+OWN0.474138,3,0.489362,0.029422,0.517852,0.001963,0.377266,0.639912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.474138"
+linha fdp!!!!
+P0.868015,1,1,0.028522,0.216305,0.000837,0.263076,0.770614,DOWN
+java.lang.NumberFormatException: For input string: "P0.868015"
+linha fdp!!!!
+OWN0.889518,5,0.787234,0.032275,0.713776,0.004792,0.680476,0.148684,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.889518"
+linha fdp!!!!
+WN0.893677,1,0.510638,0.045755,0.441386,0.00275,0.394096,0.681579,DOWN
+java.lang.NumberFormatException: For input string: "WN0.893677"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+40133.0,119.9739990234375,137.0,334.51416015625,40083.0,80.79734550807075,60.02908722606025,-31.95611177781587,54.30962839843285,80.14648795306539,75.9160663952396,84.04595031725626,80.69928269459245,80.30212681375473,81.09643857543017,79.60121503832485,71.98432024707489,87.2181098295748,0.0,1.0
