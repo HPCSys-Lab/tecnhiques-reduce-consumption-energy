@@ -1,0 +1,4 @@
+doMainTask -> Updated
+Connected!
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+7788.0,120.00199890136719,39.0,64.89891815185547,7783.0,88.8217910831299,76.72562406974987,31.549960660896907,72.79549718574108,88.40275515593491,86.03082851637764,90.6832298136646,88.75343701114997,88.44503136348631,89.06184265881363,88.05483361674433,83.74492028758988,92.36474694589877,0.0,1.0

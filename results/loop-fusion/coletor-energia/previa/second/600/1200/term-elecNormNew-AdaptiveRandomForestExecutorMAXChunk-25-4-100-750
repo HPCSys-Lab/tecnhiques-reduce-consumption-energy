@@ -1,0 +1,10 @@
+doMainTask -> Updated
+Connected!
+linha fdp!!!!
+WN0.009026,4,0.93617,0.090159,0.619458,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.009026"
+linha fdp!!!!
+0.00.017477,1,0.765957,0.141828,0.714817,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: multiple points
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+44380.0,60.60599899291992,125.0,732.270751953125,44280.0,88.6720867208672,76.67697376258884,22.949308755760338,73.33900287020303,88.37465519846049,86.3466826386431,90.3218337578143,88.6544928885595,88.56249301909975,88.74649275801926,88.09657856356455,84.2390438247012,91.95411330242791,0.0,1.0

@@ -1,0 +1,972 @@
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-5-18
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38024]!
+
+Total Time Producer (s): 120.138
+Total instances Producer: 1800
+Producer Rate (inst per second): 14.982769814713079
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-5-91
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38028]!
+
+Total Time Producer (s): 120.187
+Total instances Producer: 10800
+Producer Rate (inst per second): 89.85996821619644
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-5-165
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38032]!
+
+Total Time Producer (s): 120.004
+Total instances Producer: 19767
+Producer Rate (inst per second): 164.71950934968834
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-5-356
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38036]!
+
+Total Time Producer (s): 120.074
+Total instances Producer: 42529
+Producer Rate (inst per second): 354.18991621833203
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-5-1784
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38040]!
+
+Total Time Producer (s): 120.179
+Total instances Producer: 213244
+Producer Rate (inst per second): 1774.3865400777174
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-5-3211
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38044]!
+
+Total Time Producer (s): 120.131
+Total instances Producer: 384558
+Producer Rate (inst per second): 3201.1554053491604
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-5-67
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38048]!
+
+Total Time Producer (s): 120.19
+Total instances Producer: 7800
+Producer Rate (inst per second): 64.89724602712373
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-5-337
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38052]!
+
+Total Time Producer (s): 120.08
+Total instances Producer: 40133
+Producer Rate (inst per second): 334.2188540972685
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-5-607
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38056]!
+
+Total Time Producer (s): 75.216
+Total instances Producer: 45312
+Producer Rate (inst per second): 602.4250159540524
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-5-311
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38060]!
+
+Total Time Producer (s): 120.071
+Total instances Producer: 37138
+Producer Rate (inst per second): 309.30033063770605
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-5-1558
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38064]!
+
+Total Time Producer (s): 29.256
+Total instances Producer: 45312
+Producer Rate (inst per second): 1548.8105004101722
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-5-2806
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38068]!
+
+Total Time Producer (s): 16.258
+Total instances Producer: 45312
+Producer Rate (inst per second): 2787.058678804281
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-15-18
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38072]!
+
+Total Time Producer (s): 120.14
+Total instances Producer: 1800
+Producer Rate (inst per second): 14.98252039287498
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-15-94
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38076]!
+
+Total Time Producer (s): 120.191
+Total instances Producer: 10800
+Producer Rate (inst per second): 89.85697764391676
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-15-170
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38080]!
+
+Total Time Producer (s): 120.004
+Total instances Producer: 20366
+Producer Rate (inst per second): 169.71100963301222
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-15-412
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38084]!
+
+Total Time Producer (s): 120.092
+Total instances Producer: 49118
+Producer Rate (inst per second): 409.00309762515406
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-15-2063
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38088]!
+
+Total Time Producer (s): 120.016
+Total instances Producer: 246376
+Producer Rate (inst per second): 2052.8596187175044
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-15-3714
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38092]!
+
+Total Time Producer (s): 120.182
+Total instances Producer: 444458
+Producer Rate (inst per second): 3698.2077182939206
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-15-80
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38096]!
+
+Total Time Producer (s): 120.009
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86067711588298
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-15-400
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38100]!
+
+Total Time Producer (s): 113.687
+Total instances Producer: 45312
+Producer Rate (inst per second): 398.5679981000466
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-15-721
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38104]!
+
+Total Time Producer (s): 63.203
+Total instances Producer: 45312
+Producer Rate (inst per second): 716.927993924339
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-15-379
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38108]!
+
+Total Time Producer (s): 120.094
+Total instances Producer: 44925
+Producer Rate (inst per second): 374.08196912418606
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-15-1899
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38112]!
+
+Total Time Producer (s): 24.063
+Total instances Producer: 45312
+Producer Rate (inst per second): 1883.0569754394714
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-15-3418
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38116]!
+
+Total Time Producer (s): 13.445
+Total instances Producer: 45312
+Producer Rate (inst per second): 3370.174786165861
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-25-19
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38120]!
+
+Total Time Producer (s): 120.14
+Total instances Producer: 1800
+Producer Rate (inst per second): 14.98252039287498
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-25-96
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38124]!
+
+Total Time Producer (s): 120.193
+Total instances Producer: 11400
+Producer Rate (inst per second): 94.84745367866681
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-25-173
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38128]!
+
+Total Time Producer (s): 120.2
+Total instances Producer: 20400
+Producer Rate (inst per second): 169.7171381031614
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-25-451
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38132]!
+
+Total Time Producer (s): 120.109
+Total instances Producer: 53910
+Producer Rate (inst per second): 448.84230157606845
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-25-2257
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38136]!
+
+Total Time Producer (s): 120.124
+Total instances Producer: 270149
+Producer Rate (inst per second): 2248.917784955546
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-25-4063
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38140]!
+
+Total Time Producer (s): 120.013
+Total instances Producer: 485576
+Producer Rate (inst per second): 4046.0283469290825
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-80
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38144]!
+
+Total Time Producer (s): 120.007
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86200804953044
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-401
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38148]!
+
+Total Time Producer (s): 113.693
+Total instances Producer: 45312
+Producer Rate (inst per second): 398.5469641930462
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-722
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38152]!
+
+Total Time Producer (s): 63.204
+Total instances Producer: 45312
+Producer Rate (inst per second): 716.9166508448832
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-25-412
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38156]!
+
+Total Time Producer (s): 110.889
+Total instances Producer: 45312
+Producer Rate (inst per second): 408.6248410572735
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-25-2061
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38160]!
+
+Total Time Producer (s): 22.065
+Total instances Producer: 45312
+Producer Rate (inst per second): 2053.5690006798095
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-25-3711
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38164]!
+
+Total Time Producer (s): 12.442
+Total instances Producer: 45312
+Producer Rate (inst per second): 3641.8582221507795
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-50-19
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38168]!
+
+Total Time Producer (s): 120.139
+Total instances Producer: 1800
+Producer Rate (inst per second): 14.982645102755974
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-50-98
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38172]!
+
+Total Time Producer (s): 120.19
+Total instances Producer: 11400
+Producer Rate (inst per second): 94.84982111656544
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-50-177
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38176]!
+
+Total Time Producer (s): 120.006
+Total instances Producer: 20965
+Producer Rate (inst per second): 174.69959835341567
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-50-491
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38180]!
+
+Total Time Producer (s): 120.122
+Total instances Producer: 58702
+Producer Rate (inst per second): 488.68650205624283
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-50-2455
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38184]!
+
+Total Time Producer (s): 120.055
+Total instances Producer: 294109
+Producer Rate (inst per second): 2449.785514972304
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-50-4420
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38188]!
+
+Total Time Producer (s): 120.025
+Total instances Producer: 528632
+Producer Rate (inst per second): 4404.349093938763
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-50-80
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38192]!
+
+Total Time Producer (s): 120.004
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86400453318223
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-50-400
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38196]!
+
+Total Time Producer (s): 113.697
+Total instances Producer: 45312
+Producer Rate (inst per second): 398.5329428217103
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-50-721
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38200]!
+
+Total Time Producer (s): 63.199
+Total instances Producer: 45312
+Producer Rate (inst per second): 716.9733698318012
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-50-405
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38204]!
+
+Total Time Producer (s): 112.284
+Total instances Producer: 45312
+Producer Rate (inst per second): 403.54814577321787
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-50-2029
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38208]!
+
+Total Time Producer (s): 22.473
+Total instances Producer: 45312
+Producer Rate (inst per second): 2016.2862101188093
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-50-3653
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38212]!
+
+Total Time Producer (s): 12.635
+Total instances Producer: 45312
+Producer Rate (inst per second): 3586.2287297190346
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-75-20
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38216]!
+
+Total Time Producer (s): 120.147
+Total instances Producer: 2400
+Producer Rate (inst per second): 19.97552997577967
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-75-100
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38220]!
+
+Total Time Producer (s): 120.192
+Total instances Producer: 12000
+Producer Rate (inst per second): 99.84025559105432
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-75-181
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38224]!
+
+Total Time Producer (s): 120.006
+Total instances Producer: 21564
+Producer Rate (inst per second): 179.69101544922754
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-75-512
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38228]!
+
+Total Time Producer (s): 120.115
+Total instances Producer: 61098
+Producer Rate (inst per second): 508.66253174041543
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-75-2560
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38232]!
+
+Total Time Producer (s): 120.082
+Total instances Producer: 306688
+Producer Rate (inst per second): 2553.988108126114
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-75-4609
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38236]!
+
+Total Time Producer (s): 117.56
+Total instances Producer: 539383
+Producer Rate (inst per second): 4588.15073154134
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-75-82
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38240]!
+
+Total Time Producer (s): 120.005
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86333902754052
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-75-413
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38244]!
+
+Total Time Producer (s): 110.888
+Total instances Producer: 45312
+Producer Rate (inst per second): 408.62852608036934
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-75-744
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38248]!
+
+Total Time Producer (s): 61.591
+Total instances Producer: 45312
+Producer Rate (inst per second): 735.6919030377815
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-75-449
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38252]!
+
+Total Time Producer (s): 102.271
+Total instances Producer: 45312
+Producer Rate (inst per second): 443.05814942652364
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-75-2248
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38256]!
+
+Total Time Producer (s): 20.268
+Total instances Producer: 45312
+Producer Rate (inst per second): 2235.642391947898
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-75-4047
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38260]!
+
+Total Time Producer (s): 11.441
+Total instances Producer: 45312
+Producer Rate (inst per second): 3960.4929639017564
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-100-20
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38264]!
+
+Total Time Producer (s): 120.145
+Total instances Producer: 2400
+Producer Rate (inst per second): 19.975862499479796
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-100-102
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38268]!
+
+Total Time Producer (s): 120.196
+Total instances Producer: 12000
+Producer Rate (inst per second): 99.83693300941795
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-100-183
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38272]!
+
+Total Time Producer (s): 120.006
+Total instances Producer: 21564
+Producer Rate (inst per second): 179.69101544922754
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-100-519
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38276]!
+
+Total Time Producer (s): 120.115
+Total instances Producer: 61697
+Producer Rate (inst per second): 513.649419306498
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-100-2595
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38280]!
+
+Total Time Producer (s): 120.099
+Total instances Producer: 310881
+Producer Rate (inst per second): 2588.5394549496664
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-100-4672
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38284]!
+
+Total Time Producer (s): 115.994
+Total instances Producer: 539383
+Producer Rate (inst per second): 4650.0939703777785
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-100-83
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38288]!
+
+Total Time Producer (s): 120.004
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86400453318223
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-100-417
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38292]!
+
+Total Time Producer (s): 109.477
+Total instances Producer: 45312
+Producer Rate (inst per second): 413.895156060177
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-100-750
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38296]!
+
+Total Time Producer (s): 60.795
+Total instances Producer: 45312
+Producer Rate (inst per second): 745.3244510239329
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-100-451
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38300]!
+
+Total Time Producer (s): 101.056
+Total instances Producer: 45312
+Producer Rate (inst per second): 448.385053831539
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-100-2258
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38304]!
+
+Total Time Producer (s): 20.268
+Total instances Producer: 45312
+Producer Rate (inst per second): 2235.642391947898
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-100-4064
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38308]!
+
+Total Time Producer (s): 11.241
+Total instances Producer: 45312
+Producer Rate (inst per second): 4030.958099813184
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-250-22
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38312]!
+
+Total Time Producer (s): 120.147
+Total instances Producer: 2400
+Producer Rate (inst per second): 19.97552997577967
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-250-111
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38316]!
+
+Total Time Producer (s): 120.001
+Total instances Producer: 13178
+Producer Rate (inst per second): 109.81575153540386
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-250-200
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38320]!
+
+Total Time Producer (s): 120.014
+Total instances Producer: 23960
+Producer Rate (inst per second): 199.6433749395904
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-250-536
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38324]!
+
+Total Time Producer (s): 120.116
+Total instances Producer: 64093
+Producer Rate (inst per second): 533.5925272236838
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-250-2683
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38328]!
+
+Total Time Producer (s): 120.115
+Total instances Producer: 321064
+Producer Rate (inst per second): 2672.9717354202226
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-250-4829
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38332]!
+
+Total Time Producer (s): 112.087
+Total instances Producer: 539383
+Producer Rate (inst per second): 4812.181608928779
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-250-83
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38336]!
+
+Total Time Producer (s): 120.002
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86533557774037
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-250-415
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38340]!
+
+Total Time Producer (s): 109.48
+Total instances Producer: 45312
+Producer Rate (inst per second): 413.8838143953233
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-250-748
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38344]!
+
+Total Time Producer (s): 61.196
+Total instances Producer: 45312
+Producer Rate (inst per second): 740.4405516700439
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-250-452
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38348]!
+
+Total Time Producer (s): 101.065
+Total instances Producer: 45312
+Producer Rate (inst per second): 448.3451244248751
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-250-2260
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38352]!
+
+Total Time Producer (s): 20.266
+Total instances Producer: 45312
+Producer Rate (inst per second): 2235.8630218099283
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-250-4068
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38356]!
+
+Total Time Producer (s): 11.232
+Total instances Producer: 45312
+Producer Rate (inst per second): 4034.1880341880346
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-500-23
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38360]!
+
+Total Time Producer (s): 120.147
+Total instances Producer: 2400
+Producer Rate (inst per second): 19.97552997577967
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-500-115
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38364]!
+
+Total Time Producer (s): 120.199
+Total instances Producer: 13800
+Producer Rate (inst per second): 114.8096074010599
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-500-208
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38368]!
+
+Total Time Producer (s): 120.019
+Total instances Producer: 24559
+Producer Rate (inst per second): 204.6259342270807
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-500-549
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38382]!
+
+Total Time Producer (s): 120.124
+Total instances Producer: 65291
+Producer Rate (inst per second): 543.5300189803869
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-500-2746
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38386]!
+
+Total Time Producer (s): 120.125
+Total instances Producer: 328851
+Producer Rate (inst per second): 2737.5733610822062
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-500-4944
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38390]!
+
+Total Time Producer (s): 109.5
+Total instances Producer: 539383
+Producer Rate (inst per second): 4925.8721461187215
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-500-81
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38394]!
+
+Total Time Producer (s): 120.196
+Total instances Producer: 9600
+Producer Rate (inst per second): 79.86954640753436
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-500-406
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38398]!
+
+Total Time Producer (s): 112.276
+Total instances Producer: 45312
+Producer Rate (inst per second): 403.5768997826784
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-500-732
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38402]!
+
+Total Time Producer (s): 62.388
+Total instances Producer: 45312
+Producer Rate (inst per second): 726.2935179842277
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-500-476
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38406]!
+
+Total Time Producer (s): 95.654
+Total instances Producer: 45312
+Producer Rate (inst per second): 473.7073201329793
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-500-2380
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38410]!
+
+Total Time Producer (s): 19.274
+Total instances Producer: 45312
+Producer Rate (inst per second): 2350.9390889280894
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-500-4284
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38414]!
+
+Total Time Producer (s): 10.629
+Total instances Producer: 45312
+Producer Rate (inst per second): 4263.053909116568
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-2000-23
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38418]!
+
+Total Time Producer (s): 120.149
+Total instances Producer: 2400
+Producer Rate (inst per second): 19.97519746314992
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-2000-118
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38422]!
+
+Total Time Producer (s): 120.199
+Total instances Producer: 13800
+Producer Rate (inst per second): 114.8096074010599
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-2000-212
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38426]!
+
+Total Time Producer (s): 120.015
+Total instances Producer: 25158
+Producer Rate (inst per second): 209.62379702537183
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-2000-541
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38430]!
+
+Total Time Producer (s): 120.128
+Total instances Producer: 64692
+Producer Rate (inst per second): 538.5255727224294
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-2000-2705
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38434]!
+
+Total Time Producer (s): 120.109
+Total instances Producer: 324059
+Producer Rate (inst per second): 2698.040946140589
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-2000-4869
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38438]!
+
+Total Time Producer (s): 111.276
+Total instances Producer: 539383
+Producer Rate (inst per second): 4847.25367554549
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-2000-82
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38442]!
+
+Total Time Producer (s): 120.003
+Total instances Producer: 9584
+Producer Rate (inst per second): 79.86467004991542
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-2000-411
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38446]!
+
+Total Time Producer (s): 110.88
+Total instances Producer: 45312
+Producer Rate (inst per second): 408.65800865800867
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-2000-741
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38450]!
+
+Total Time Producer (s): 61.602
+Total instances Producer: 45312
+Producer Rate (inst per second): 735.5605337489043
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-2000-428
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38454]!
+
+Total Time Producer (s): 107.06
+Total instances Producer: 45312
+Producer Rate (inst per second): 423.2393050625817
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-2000-2143
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38458]!
+
+Total Time Producer (s): 21.271
+Total instances Producer: 45312
+Producer Rate (inst per second): 2130.224248977481
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-2000-3857
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:38462]!
+
+Total Time Producer (s): 11.834
+Total instances Producer: 45312
+Producer Rate (inst per second): 3828.9673821193173
+Closing socket and terminating program.
