@@ -1,0 +1,28 @@
+Connected!
+linha fdp!!!!
+N0.014247,4,0.212766,0.040591,0.205296,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.014247"
+linha fdp!!!!
+P0.017654,5,0.978723,0.07842,0.511157,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.017654"
+linha fdp!!!!
+OWN0.021902,3,0.340426,0.057644,0.476198,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.021902"
+linha fdp!!!!
+WN0.429715,3,0.340426,0.085775,0.593276,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.429715"
+linha fdp!!!!
+N0.439051,3,0.340426,0.054612,0.472478,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.439051"
+linha fdp!!!!
+OWN0.447724,5,0.978723,0.071184,0.609491,0.004595,0.532367,0.449561,UP
+java.lang.NumberFormatException: For input string: "OWN0.447724"
+linha fdp!!!!
+OWN0.452104,6,0.851064,0.047376,0.591044,0.003234,0.493009,0.288596,UP
+java.lang.NumberFormatException: For input string: "OWN0.452104"
+linha fdp!!!!
+WN0.460024,5,0.978723,0.030533,0.497025,0.002023,0.471517,0.357895,DOWN
+java.lang.NumberFormatException: For input string: "WN0.460024"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+25158.0,119.89099884033203,410.0,209.84060668945312,25058.0,90.00718333466358,79.42607523517258,35.04539559014265,76.53893001030637,89.77552084477573,87.96144578313252,91.47762109135499,90.10411980530118,90.59863000099276,89.6096096096096,89.4493098977554,85.47344759763979,93.425172197871,0.0,1.0

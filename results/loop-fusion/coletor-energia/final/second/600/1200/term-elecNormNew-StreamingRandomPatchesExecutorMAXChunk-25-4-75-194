@@ -1,0 +1,30 @@
+Connected!
+linha fdp!!!!
+N0.014291,5,0.255319,0.067671,0.36388,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.014291"
+linha fdp!!!!
+OWN0.018716,1,0.93617,0.075718,0.422196,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.018716"
+linha fdp!!!!
+N0.026724,1,0.893617,0.059865,0.373252,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.026724"
+linha fdp!!!!
+N0.429583,7,0.468085,0.080611,0.374888,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.429583"
+linha fdp!!!!
+N0.433344,6,0.12766,0.040351,0.089408,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.433344"
+linha fdp!!!!
+N0.438919,7,0.93617,0.049898,0.293514,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.438919"
+linha fdp!!!!
+OWN0.451175,6,0.808511,0.043233,0.743826,0.002823,0.582341,0.539912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.451175"
+linha fdp!!!!
+WN0.452325,4,0.93617,0.03882,0.634633,0.002588,0.446401,0.669737,UP
+java.lang.NumberFormatException: For input string: "WN0.452325"
+linha fdp!!!!
+N0.455644,3,0.468085,0.080431,0.615293,0.005503,0.635681,0.375,UP
+java.lang.NumberFormatException: For input string: "N0.455644"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+22725.0,120.01499938964844,327.0,189.35133361816406,22650.0,90.64459161147903,80.79893421840046,39.93764172335604,78.20855614973262,90.45702019770032,88.86896915370419,91.9547215680316,90.73429151638156,91.22104351591254,90.24753951685058,90.18143832114639,86.63513930297111,93.72773733932166,0.0,1.0

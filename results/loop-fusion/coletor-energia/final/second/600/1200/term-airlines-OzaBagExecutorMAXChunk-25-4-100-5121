@@ -1,0 +1,24 @@
+Connected!
+linha fdp!!!!
+DL, 2DL, 2437, ATL, SAT, 5, 502 , 166, 0OO, 7052, DEN, BOI, 5, 502 , 128, 0
+java.lang.NumberFormatException: For input string: "2DL"
+linha fdp!!!!
+AS, 340, SEA,US, 945, ROC, CLT, 7, 505 , 129, 1WN, 1023, OAK, ABQ, 7, 505 , 135, 1
+java.lang.NumberFormatException: For input string: "ROC"
+linha fdp!!!!
+AS, 340, SEA,US, 945, ROC, CLT, 7, 505 , 129, 1WN, 1023, OAK, ABQ, 7, 505 , 135, 1
+java.lang.NumberFormatException: For input string: "CLT"
+linha fdp!!!!
+US, 413, CLT, SFOXE, 2841, DAY, CLE, 4, 1040 , 53, 0XE, 3073, CLE, GRR, 4, 1040 , 60, 1
+java.lang.NumberFormatException: For input string: "DAY"
+linha fdp!!!!
+US, 413, CLT, SFOXE, 2841, DAY, CLE, 4, 1040 , 53, 0XE, 3073, CLE, GRR, 4, 1040 , 60, 1
+java.lang.NumberFormatException: For input string: "CLE"
+linha fdp!!!!
+EV, 5069, DTW, MEAA, 1630, DFW, LAS, 4, 735 , 180, 0AA, 1878, DFW, OKC, 4, 735 , 55, 1
+java.lang.NumberFormatException: For input string: "DFW"
+linha fdp!!!!
+EV, 5069, DTW, MEAA, 1630, DFW, LAS, 4, 735 , 180, 0AA, 1878, DFW, OKC, 4, 735 , 55, 1
+java.lang.NumberFormatException: For input string: "LAS"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+167200.0,120.0199966430664,71.0,1393.1011962890625,167100.0,61.950329144225016,15.1493360347008,6.327715245447581,1.162772621990082,57.82966880617657,71.58899469575437,42.41710668127847,58.501378330083995,66.1934353617823,50.809321298385704,57.173209244739276,77.94222105457766,36.404197434900894,0.0,1.0,25.0,128070.51999999996,58489.56069470857,1.0,0.0,10884.999999999998,10943.984249349043,10851.96,10915.327539290793,10851.96,10915.327539290793,2.6400000000000006,1.036018017861337,0.0,0.0,0.0,0.0,1.0,0.0

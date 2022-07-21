@@ -1,0 +1,36 @@
+Connected!
+linha fdp!!!!
+OWN0.004203,7,0.382979,0.044134,0.391996,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.004203"
+linha fdp!!!!
+OWN0.004911,2,0.446809,0.077669,0.58435,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.004911"
+linha fdp!!!!
+N0.013185,1,0.042553,0.040801,0.308093,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.013185"
+linha fdp!!!!
+OWN0.429362,2,0.851064,0.059265,0.404641,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.429362"
+linha fdp!!!!
+OWN0.460909,4,0.617021,0.069443,0.593127,0.004717,0.437856,0.514035,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.460909"
+linha fdp!!!!
+OWN0.47436,1,0.574468,0.025129,0.229545,0.001668,0.154842,0.837719,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.47436"
+linha fdp!!!!
+P0.875846,2,0.638298,0.046475,0.619905,0.003182,0.647333,0.431579,UP
+java.lang.NumberFormatException: For input string: "P0.875846"
+linha fdp!!!!
+WN0.880669,7,0.468085,0.037258,0.344838,0.002302,0.225013,0.87807,DOWN
+java.lang.NumberFormatException: For input string: "WN0.880669"
+linha fdp!!!!
+WN0.906863,7,0.617021,0.03978,0.359863,0.002601,0.193682,0.698246,DOWN
+java.lang.NumberFormatException: For input string: "WN0.906863"
+linha fdp!!!!
+N0.907349,4,0.808511,0.059745,0.516364,0.003992,0.568617,0.423684,DOWN
+java.lang.NumberFormatException: For input string: "N0.907349"
+linha fdp!!!!
+WN0.9158,7,0.340426,0.082473,0.460726,0.005675,0.371569,0.373684,UP
+java.lang.NumberFormatException: For input string: "WN0.9158"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,105.50399780273438,128.0,429.4813537597656,45212.0,76.71857029107316,51.2003357004274,-58.21433939576133,45.17993854486744,75.96007351941353,69.84145187648728,81.05304858285014,76.94727678130756,77.69343624417937,76.20111731843575,74.99788024744319,63.43089261535256,86.56486787953382,0.0,1.0,25.0,26064.359999999997,16582.68681456657,1.0,0.0,34.80000000000001,30.32875423312559,14.959999999999997,16.061029439816945,14.959999999999997,16.061029439816945,2.6799999999999997,2.7646579052991953,0.0,0.0,0.0,0.0,1.0,0.0
