@@ -1,0 +1,42 @@
+Connected!
+linha fdp!!!!
+WN0.000265,1,0.255319,0.047256,0.27953,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.000265"
+linha fdp!!!!
+0.013318,4,0.4468090.014114,1,0.680851,0.062477,0.462511,0.003467,0.422915,0.414912,UP0.014114,1,0.702128,0.061217,0.479024,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+P0.429406,3,0.340426,0.088237,0.561143,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.429406"
+linha fdp!!!!
+OWN0.45175,5,0.595745,0.033626,0.555489,0.002239,0.647074,0.436842,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.45175"
+linha fdp!!!!
+P0.452237,2,0.808511,0.051579,0.74457,0.003459,0.603573,0.572368,UP
+java.lang.NumberFormatException: For input string: "P0.452237"
+linha fdp!!!!
+OWN0.460334,5,0.021277,0.040651,0.469354,0.002773,0.415329,0.429386,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.460334"
+linha fdp!!!!
+WN0.875802,1,0.234043,0.024829,0.127343,0.000725,0.142672,0.841667,DOWN
+java.lang.NumberFormatException: For input string: "WN0.875802"
+linha fdp!!!!
+OWN0.875979,5,0.808511,0.031494,0.513686,0.001284,0.442258,0.703509,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.875979"
+linha fdp!!!!
+WN0.889253,4,0.914894,0.02579,0.413567,0.001741,0.410927,0.515789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.889253"
+linha fdp!!!!
+WN0.893545,5,0.148936,0.058064,0.313895,0.002869,0.387364,0.787719,DOWN
+java.lang.NumberFormatException: For input string: "WN0.893545"
+linha fdp!!!!
+WN0.893677,1,0.468085,0.048157,0.490479,0.00275,0.35189,0.679825,DOWN
+java.lang.NumberFormatException: For input string: "WN0.893677"
+linha fdp!!!!
+OWN0.89381,4,0.021277,0.058575,0.549688,0.00387,0.440963,0.607018,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.89381"
+linha fdp!!!!
+OWN0.898279,1,0.468085,0.075868,0.518893,0.002929,0.339461,0.879825,UP
+java.lang.NumberFormatException: For input string: "OWN0.898279"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes)
+44250.0,113.49500274658203,530.0,389.885009765625,44000.0,88.82045454545454,76.99531394685397,24.007415417889682,73.6965937650393,?,86.5619355191855,90.44509232264335,?,?,88.62362698946424,88.9547331396238,?,58.86007639070067,84.59398737562854,91.98624179647346,0.0,0.0,1.0

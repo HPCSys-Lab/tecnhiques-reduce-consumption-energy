@@ -1,0 +1,6 @@
+Connected!
+linha fdp!!!!
+0.3030.174834,39,1,1718,?,12,0,2,0,0,0
+java.lang.NumberFormatException: multiple points
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+140000.0,104.5989990234375,1473.0,1338.4449462890625,138000.0,93.5072463768116,14.674060050424146,48.01578092364819,3.019807338456562,63.70799158245638,96.62274221270692,16.230366492146594,76.72189931283435,93.86933054056232,59.57446808510638,54.46875975894879,99.54256335381055,9.394956164087022,0.0,1.0

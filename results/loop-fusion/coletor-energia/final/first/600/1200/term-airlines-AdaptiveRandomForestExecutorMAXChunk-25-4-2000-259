@@ -1,0 +1,6 @@
+Connected!
+linha fdp!!!!
+US, 1AS, 86, ANC, SEA, 3, 750 , 205, 0B6, 1433, SFO, LGB, 3, 750 , 80, 0
+java.lang.NumberFormatException: For input string: "1AS"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+10000.0,131.32899475097656,25476.0,76.14464569091797,8000.0,62.9375,23.072427568896074,17.616004445679366,17.84427819340538,62.057893115147714,70.00505816894284,51.52109911678116,62.913477984108624,62.97779395704405,62.849162011173185,61.2252668858545,78.79754042359372,43.6529933481153,0.0,1.0

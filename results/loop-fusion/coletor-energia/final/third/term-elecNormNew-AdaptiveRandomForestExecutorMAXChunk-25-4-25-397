@@ -1,0 +1,27 @@
+Connected!
+linha fdp!!!!
+WN0.425202,5,0.574468,0.060376,0.455817,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.425202"
+linha fdp!!!!
+N0.429008,1,0.021277,0.040351,0.193395,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.429008"
+linha fdp!!!!
+N0.434052,1,0.829787,0.046505,0.429485,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.434052"
+linha fdp!!!!
+P0.438874,6,0.765957,0.053321,0.453585,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.438874"
+linha fdp!!!!
+N0.464758,7,0.851064,0.027681,0.360756,0.001857,0.280684,0.582456,UP
+java.lang.NumberFormatException: For input string: "N0.464758"
+linha fdp!!!!
+N0.469935,6,0.574468,0.033325,0.636418,0.002929,0.5,0.228509,DOWN
+java.lang.NumberFormatException: For input string: "N0.469935"
+linha fdp!!!!
+WN0.885049,1,0.510638,0.030924,0.380393,0.002,0.278612,0.652632,DOWN
+java.lang.NumberFormatException: For input string: "WN0.885049"
+linha fdp!!!!
+WN0.907526,1,0.042553,0.046415,0.233413,0.003126,0.355515,0.489912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.907526"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+45300.0,114.94599914550781,47.0,394.0981140136719,45275.0,88.81722805080067,76.98199064210753,23.887552615754686,73.6699776379427,88.52812724897935,86.54158349966734,90.44499405290087,88.78113288630836,88.59042118454748,88.97184458806923,88.27655952869165,84.58537092914369,91.96774812823959,0.0,1.0
