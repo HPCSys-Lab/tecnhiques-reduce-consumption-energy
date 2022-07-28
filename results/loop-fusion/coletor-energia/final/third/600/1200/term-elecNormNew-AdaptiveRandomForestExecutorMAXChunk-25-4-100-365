@@ -1,0 +1,31 @@
+Connected!
+linha fdp!!!!
+WN0.447724,5,0.553191,0.050108,0.629872,0.003924,0.642672,0.257456,DOWN
+java.lang.NumberFormatException: For input string: "WN0.447724"
+linha fdp!!!!
+OWN0.455555,1,0.553191,0.033025,0.372508,0.001618,0.281719,0.842105,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.455555"
+linha fdp!!!!
+WN0.460776,1,0.212766,0.027021,0.093871,0.001855,0.099948,0.409649,DOWN
+java.lang.NumberFormatException: For input string: "WN0.460776"
+linha fdp!!!!
+OWN0.477988,2,0.617021,0.035577,0.447783,0.002482,0.431383,0.19386,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.477988"
+linha fdp!!!!
+OWN0.465555,4,0.893617,0.028852,0.393187,0.001955,0.235629,0.671491,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.465555"
+linha fdp!!!!
+WN0.867351,7,0.255319,0.029362,0.192949,0.001741,0.215173,0.857456,DOWN
+java.lang.NumberFormatException: For input string: "WN0.867351"
+linha fdp!!!!
+P0.968895,1,0.085106,0.029002,0.215263,0.00183,0.353962,0.613596,DOWN
+java.lang.NumberFormatException: For input string: "P0.968895"
+linha fdp!!!!
+N0.890182,6,0.531915,0.030413,0.63493,0.00216,0.629984,0.374123,DOWN
+java.lang.NumberFormatException: For input string: "N0.890182"
+linha fdp!!!!
+N0.894341,2,0.893617,0.059896,0.658881,0.004005,0.583894,0.517105,DOWN
+java.lang.NumberFormatException: For input string: "N0.894341"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+43700.0,119.96900177001953,212.0,364.2607727050781,43600.0,88.7178899082569,76.77654024760528,23.188632104934467,73.4481269567095,88.43086024192795,86.42207415189803,90.36102073615304,88.69896212208562,88.59977324263039,88.79815100154083,88.1643742095888,84.34885854606293,91.97988987311467,0.0,1.0

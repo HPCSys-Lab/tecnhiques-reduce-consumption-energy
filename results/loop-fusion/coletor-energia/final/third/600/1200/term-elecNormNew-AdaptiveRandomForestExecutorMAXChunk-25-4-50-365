@@ -1,0 +1,28 @@
+Connected!
+linha fdp!!!!
+0.008938,2,0.2127660.008938,2,0.893617,0.090369,0.636269,0.003467,0.422915,0.414912,UP0.008938,2,0.914894,0.074967,0.577358,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+N0.433963,6,0.234043,0.047286,0.178221,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.433963"
+linha fdp!!!!
+WN0.451484,6,0.319149,0.037739,0.644749,0.002486,0.578457,0.575,DOWN
+java.lang.NumberFormatException: For input string: "WN0.451484"
+linha fdp!!!!
+WN0.460776,1,0.212766,0.027021,0.093871,0.001855,0.099948,0.409649,DOWN
+java.lang.NumberFormatException: For input string: "WN0.460776"
+linha fdp!!!!
+WN0.867705,1,0.93617,0.030563,0.339185,0.001045,0.232522,0.858772,DOWN
+java.lang.NumberFormatException: For input string: "WN0.867705"
+linha fdp!!!!
+WN0.880669,7,0.489362,0.037889,0.334127,0.002291,0.211289,0.884649,DOWN
+java.lang.NumberFormatException: For input string: "WN0.880669"
+linha fdp!!!!
+P0.968895,1,0.085106,0.029002,0.215263,0.00183,0.353962,0.613596,DOWN
+java.lang.NumberFormatException: For input string: "P0.968895"
+linha fdp!!!!
+P0.897969,1,0.042553,0.087066,0.396162,0.00565,0.484464,0.705263,UP
+java.lang.NumberFormatException: For input string: "P0.897969"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+43650.0,119.93800354003906,105.0,363.9380187988281,43600.0,88.87614678899082,77.10377947455285,24.07639323731997,73.81209503239742,88.58883214983933,86.61508704061896,90.49271611473836,88.84307460395924,88.6682507354605,89.01789847245796,88.33604067600956,84.65485578481149,92.01722556720763,0.0,1.0

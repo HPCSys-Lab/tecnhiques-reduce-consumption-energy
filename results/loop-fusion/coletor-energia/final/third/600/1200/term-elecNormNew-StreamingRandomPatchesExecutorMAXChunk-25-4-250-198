@@ -1,0 +1,21 @@
+Connected!
+linha fdp!!!!
+OWN0.021902,3,0.340426,0.057644,0.476198,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.021902"
+linha fdp!!!!
+WN0.022433,1,0.531915,0.059926,0.475454,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.022433"
+linha fdp!!!!
+P0.425424,3,0.468085,0.117599,0.629426,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.425424"
+linha fdp!!!!
+OWN0.429317,1,0.978723,0.077219,0.411633,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.429317"
+linha fdp!!!!
+OWN0.433698,7,0.787234,0.068212,0.343201,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.433698"
+linha fdp!!!!
+N0.456307,4,0.723404,0.035157,0.648319,0.002385,0.593993,0.552632,DOWN
+java.lang.NumberFormatException: For input string: "N0.456307"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+23250.0,120.22100067138672,1098.0,193.39382934570312,23000.0,90.49565217391304,80.47418290311875,38.9385474860335,77.90133441164578,90.304892059654,88.63411329407474,91.8485357209476,90.64907500650736,91.45069362297022,89.84745639004453,89.96331286397009,85.98584428715874,93.94078144078144,0.0,1.0
