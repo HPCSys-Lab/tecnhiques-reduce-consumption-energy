@@ -1,0 +1,33 @@
+# started on Mon Aug  1 11:34:50 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/loop-fusion-perf/time-airlines-LBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/loop-fusion-perf/third/dump-airlines-LBagExecutorMAXChunk-25-4-50-1':
+
+                 0      context-switches:u                                          
+    65,799,971,700      cache-misses:u            #    2.579 % of all cache refs      (40.00%)
+ 2,551,128,041,887      cache-references:u                                            (40.00%)
+           572,246      minor-faults:u                                              
+                42      major-faults:u                                              
+    65,810,716,912      L1-dcache-load-misses:u   #    2.58% of all L1-dcache hits    (40.01%)
+ 2,551,119,596,193      L1-dcache-loads:u                                             (40.00%)
+ 2,550,791,755,001      L1-dcache-stores:u                                            (39.99%)
+   141,426,678,906      L1-icache-load-misses:u                                       (39.99%)
+    12,185,038,298      LLC-load-misses:u         #    4.31% of all LL-cache hits     (40.00%)
+   282,955,961,419      LLC-loads:u                                                   (40.00%)
+    12,183,314,989      LLC-store-misses:u                                            (40.00%)
+   282,989,535,666      LLC-stores:u                                                  (40.01%)
+    81,293,159,606      branch-load-misses:u                                          (40.00%)
+ 1,297,118,092,581      branch-loads:u                                                (40.00%)
+     3,873,812,676      dTLB-load-misses:u        #    0.00% of all dTLB cache hits   (40.00%)
+   <not supported>      dTLB-loads:u                                                
+     3,874,216,142      dTLB-store-misses:u                                           (40.00%)
+   <not supported>      dTLB-stores:u                                               
+     2,193,133,047      iTLB-load-misses:u        #    0.00% of all iTLB cache hits   (40.00%)
+   <not supported>      iTLB-loads:u                                                
+   <not supported>      node-load-misses:u                                          
+   <not supported>      node-loads:u                                                
+   <not supported>      node-store-misses:u                                         
+   <not supported>      node-stores:u                                               
+
+    3183.960009150 seconds time elapsed
+
