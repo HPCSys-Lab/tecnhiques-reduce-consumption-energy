@@ -73,8 +73,8 @@ function Y {
   if [[ $2 == *"MAX"* ]]; then
     IDENT="timedchunk"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1"
-    perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-$nCores-50-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-$nCores-50-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c 4) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${IDENT}-${onlyname}-${2##*.}-25-4-50-1" > ${RESULT_DIR}/term-${IDENT}-${onlyname}-${2##*.}-25-4-50-1
-    # java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
+    perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-$nCores-50-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-$nCores-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
+    #perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-$nCores-50-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-$nCores-50-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c ${nCores}) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-${nCores}-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-${nCores}-50-1
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-1-50-1"
@@ -82,9 +82,11 @@ function Y {
   else
     IDENT="interleaved"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
-    # java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
-    perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-1-1-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-1-1-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
-    echo "perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-1-1-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-1-1-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1\" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
+    #java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s  (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
+    #perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-$nCores-50-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-$nCores-50-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
+    #perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-1-1-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-1-1-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
+    #echo "perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-1-1-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time-1.9/time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-1-1-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1\" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1"
+    perf stat -o ${RESULT_DIR}/perf-${onlyname}-${2##*.}-25-1-1-1 -e context-switches,cache-misses,cache-references,minor-faults,major-faults,L1-dcache-load-misses,L1-dcache-loads,L1-dcache-stores,L1-icache-load-misses,LLC-load-misses,LLC-loads,LLC-store-misses,LLC-stores,branch-load-misses,branch-loads,dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores,iTLB-load-misses,iTLB-loads,node-load-misses,node-loads,node-store-misses,node-stores time -o ${RESULT_DIR}/time-${onlyname}-${2##*.}-25-1-1-1 -v numactl --physcpubind=$nCores java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l ($2 -s 25) -s (ArffFileStream -f $1) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-1-1-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-1-1-1
   fi
 
   echo ""
@@ -112,22 +114,23 @@ function X {
   elif [[ $2 == "SRP" ]]; then
     ID=15
   fi
-#   Y $1 ${algs[${ID}]} $3 # without loop fusion (sequential default)
-#   Y $1 ${algs[$(( ID+1 ))]} $3 # mini-batching sequential and without loop fusion
-  Y $1 ${algs[$(( ID+2 ))]} $3 # mini-batching parallel with loop fusion
+  Y $1 ${algs[${ID}]} $3 # without loop fusion (sequential default)
+#  Y $1 ${algs[$(( ID+1 ))]} $3 # mini-batching sequential and without loop fusion
+#  Y $1 ${algs[$(( ID+2 ))]} $3 # mini-batching parallel with loop fusion
 }
 
 #alterar caminhos
 
 ## local mac
-# export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
-# export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results/speedup/$CPUS/
-# export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
+export MOA_HOME=/Users/reginaldoluisdeluna/Documents/Ufscar/Parallel-Classifier-MOA/moa-full/target/moa-release-2019.05.1-SNAPSHOT/
+export RESULT_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/results/speedup/$CPUS/
+export REMOTE_DIR=/Users/reginaldoluisdeluna/Documents/Ufscar/comparison-xue3m-minibatching
 
 ## rasp
-export MOA_HOME=/home/pi/reginaldojunior/moa/target/moa-release-2019.05.1-SNAPSHOT
-export RESULT_DIR=/home/pi/reginaldojunior/experimentos/loop-fusion-all-algorithms-speedup/results/$CPUS/
-export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
+# export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/
+# export MOA_HOME=/home/pi/moa/moa-LAST
+# export RESULT_DIR=/home/pi/reginaldojunior/experimentos/loop-fusion-sequential
+# export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 
 # alterar para o caminho do HD/scratch
 mkdir -p $RESULT_DIR
