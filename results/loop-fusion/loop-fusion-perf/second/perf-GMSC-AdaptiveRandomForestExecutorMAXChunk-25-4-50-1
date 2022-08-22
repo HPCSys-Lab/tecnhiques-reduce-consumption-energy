@@ -1,33 +1,33 @@
-# started on Tue Aug 16 00:16:19 2022
+# started on Sat Aug 20 02:59:58 2022
 
 
- Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/loop-fusion-perf/time-GMSC-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/loop-fusion-perf/first/dump-GMSC-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/loop-fusion-perf/second/time-GMSC-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT//lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/loop-fusion-perf/second/dump-GMSC-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
 
                  0      context-switches:u                                          
-     1,854,566,334      cache-misses:u            #    2.550 % of all cache refs      (40.03%)
-    72,717,007,187      cache-references:u                                            (40.05%)
-            94,846      minor-faults:u                                              
+     1,844,551,251      cache-misses:u            #    2.548 % of all cache refs      (39.96%)
+    72,402,155,201      cache-references:u                                            (39.97%)
+            93,489      minor-faults:u                                              
                  0      major-faults:u                                              
-     1,857,797,368      L1-dcache-load-misses:u   #    2.55% of all L1-dcache hits    (40.07%)
-    72,779,891,937      L1-dcache-loads:u                                             (40.11%)
-    72,811,561,573      L1-dcache-stores:u                                            (40.08%)
-     3,229,857,840      L1-icache-load-misses:u                                       (40.03%)
-       781,510,988      LLC-load-misses:u         #   10.24% of all LL-cache hits     (39.97%)
-     7,634,417,618      LLC-loads:u                                                   (39.93%)
-       780,912,127      LLC-store-misses:u                                            (39.94%)
-     7,628,217,203      LLC-stores:u                                                  (39.93%)
-     2,400,779,513      branch-load-misses:u                                          (39.95%)
-    35,061,923,375      branch-loads:u                                                (39.95%)
-       133,924,738      dTLB-load-misses:u        #    0.00% of all dTLB cache hits   (39.97%)
+     1,845,829,405      L1-dcache-load-misses:u   #    2.55% of all L1-dcache hits    (39.94%)
+    72,374,656,271      L1-dcache-loads:u                                             (39.95%)
+    72,375,348,609      L1-dcache-stores:u                                            (40.02%)
+     3,324,708,017      L1-icache-load-misses:u                                       (40.03%)
+       772,653,429      LLC-load-misses:u         #   10.02% of all LL-cache hits     (40.05%)
+     7,710,828,910      LLC-loads:u                                                   (40.01%)
+       775,634,065      LLC-store-misses:u                                            (40.05%)
+     7,704,641,591      LLC-stores:u                                                  (40.08%)
+     2,331,925,144      branch-load-misses:u                                          (40.06%)
+    34,883,208,304      branch-loads:u                                                (40.03%)
+       151,060,111      dTLB-load-misses:u        #    0.00% of all dTLB cache hits   (39.96%)
    <not supported>      dTLB-loads:u                                                
-       133,976,579      dTLB-store-misses:u                                           (40.00%)
+       150,941,541      dTLB-store-misses:u                                           (39.94%)
    <not supported>      dTLB-stores:u                                               
-        65,523,322      iTLB-load-misses:u        #    0.00% of all iTLB cache hits   (40.02%)
+        73,688,599      iTLB-load-misses:u        #    0.00% of all iTLB cache hits   (39.95%)
    <not supported>      iTLB-loads:u                                                
    <not supported>      node-load-misses:u                                          
    <not supported>      node-loads:u                                                
    <not supported>      node-store-misses:u                                         
    <not supported>      node-stores:u                                               
 
-     114.140301363 seconds time elapsed
+      91.158451476 seconds time elapsed
 
