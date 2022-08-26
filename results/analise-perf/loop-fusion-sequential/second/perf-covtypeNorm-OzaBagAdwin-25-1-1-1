@@ -1,0 +1,10 @@
+# started on Wed Aug 24 18:06:16 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/second/time-covtypeNorm-OzaBagAdwin-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.OzaBagAdwin -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/second/dump-covtypeNorm-OzaBagAdwin-25-1-1-1':
+
+    12,075,044,435      cache-misses:u            #    2.941 % of all cache refs    
+   410,548,411,322      cache-references:u                                          
+
+    2017.591508970 seconds time elapsed
+

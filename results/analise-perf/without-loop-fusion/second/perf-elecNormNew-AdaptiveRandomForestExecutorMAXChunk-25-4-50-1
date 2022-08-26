@@ -1,0 +1,10 @@
+# started on Wed Aug 24 20:07:03 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/second/time-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/second/dump-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
+
+           169,337      cache-misses:u            #    1.926 % of all cache refs    
+         8,790,556      cache-references:u                                          
+
+       0.050833750 seconds time elapsed
+

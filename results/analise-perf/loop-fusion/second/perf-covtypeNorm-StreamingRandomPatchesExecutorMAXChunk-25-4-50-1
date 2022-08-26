@@ -1,0 +1,10 @@
+# started on Wed Aug 24 20:07:02 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/second/time-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.StreamingRandomPatchesExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/second/dump-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1':
+
+           160,451      cache-misses:u            #    1.973 % of all cache refs    
+         8,133,344      cache-references:u                                          
+
+       0.048417031 seconds time elapsed
+
