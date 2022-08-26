@@ -1,0 +1,60 @@
+-> sequencial      
+      
+       715,469,794      cache-misses:u            #    4.152 % of all cache refs    
+    17,233,348,528      cache-references:u                                          
+
+      69.600911327 seconds time elapsed
+
+    Elapsed (wall clock) time (h:mm:ss or m:ss): 1:09.59
+
+-> mb sem loop fusion
+
+       641,015,561      cache-misses:u            #    3.504 % of all cache refs    
+    18,292,663,602      cache-references:u                                          
+
+      43.669324150 seconds time elapsed
+
+    Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.66
+
+    (1.6 -> speedup)
+
+-> mb com loop fusion
+
+       378,922,186      cache-misses:u            #    3.064 % of all cache refs    
+    12,365,568,738      cache-references:u                                          
+
+      25.681619417 seconds time elapsed
+
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.67
+
+    (2.76 -> speedup)
+
+
+========= airlines
+
+-> sequencial
+       657,986,989      cache-misses:u            #    3.003 % of all cache refs    
+    21,908,531,267      cache-references:u                                          
+
+      64.027452580 seconds time elapsed
+
+
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.02
+
+-> sem loop fusion
+
+       672,715,141      cache-misses:u            #    3.020 % of all cache refs    
+    22,278,417,249      cache-references:u                                          
+
+      36.971601184 seconds time elapsed
+
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.96
+
+-> com loop fusion
+
+       320,971,705      cache-misses:u            #    3.455 % of all cache refs    
+     9,290,841,889      cache-references:u                                          
+
+      13.626630515 seconds time elapsed
+
+    Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.62

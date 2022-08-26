@@ -1,0 +1,10 @@
+# started on Wed Aug 24 11:02:16 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/time-covtypeNorm-OzaBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.OzaBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/dump-covtypeNorm-OzaBagExecutorMAXChunk-25-4-50-1':
+
+         1,153,798      cache-misses:u            #    1.947 % of all cache refs    
+        59,261,571      cache-references:u                                          
+
+       0.224204791 seconds time elapsed
+
