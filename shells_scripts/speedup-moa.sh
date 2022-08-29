@@ -23,11 +23,11 @@ do
                     mkdir -p $BASE_RESULT_DIR/$RESULT_DIR/$interation
                     
                     echo "[$dataset][$algs][$method]"
-                    if [ $dataset = "airlines" ]; then
-                        numactl --physcpubind=0 java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
-                    else
-                        numactl --physcpubind=0 java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
-                    fi
+                    # if [ $dataset = "airlines" ]; then
+                    #     numactl --physcpubind=0 java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
+                    # else
+                    #     numactl --physcpubind=0 java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
+                    # fi
                 fi
             done
 
