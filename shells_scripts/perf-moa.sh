@@ -3,10 +3,10 @@
 export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 export BASE_RESULT_DIR=/home/pi/reginaldojunior/experimentos/testes
 
-interations=( "first" "second" "third" )
+interations=( "first" )
 for interation in "${interations[@]}"
 do
-    datasets=( "GMSC" "airlines" "covtypeNorm" "elecNormNew" )
+    datasets=( "GMSC", "elecNormNew" "covtypeNorm" "airlines" )
     for dataset in "${datasets[@]}"
     do
         methods=( "sequential" "mini-batching" "mini-batching-loop-fusion")
@@ -22,12 +22,11 @@ do
                     mkdir -p $BASE_RESULT_DIR/$RESULT_DIR/$interation
                     
                     echo "[$dataset][$algs][$method]"
-                    if [ $dataset = "airlines" ]; then
-                        numactl --physcpubind=0 perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-1-1-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-1-1-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
+                    if [[ $dataset == "airlines" || $dataset == "covtypeNorm" ]]; then
+                        numactl --physcpubind=0 perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-1-1-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-1-1-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 100000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
                     else
                         numactl --physcpubind=0 perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-1-1-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-1-1-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EITTTExperiments -l (meta.$algs -s 25) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-1-1-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-1-1-1
                     fi
-                    echo "sequential"
                 fi
             done
 
@@ -41,7 +40,11 @@ do
                     mkdir -p $BASE_RESULT_DIR/$RESULT_DIR/$interation
 
                     echo "[$dataset][$algs][$method]"
-                    numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    if [[ $dataset == "airlines" || $dataset == "covtypeNorm" ]]; then
+                        numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    else
+                        numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunks -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    fi
                 fi
 
                 if [ $method = "mini-batching-loop-fusion" ]; then
@@ -51,7 +54,11 @@ do
                     mkdir -p $BASE_RESULT_DIR/$RESULT_DIR/$interation
 
                     echo "[$dataset][$algs][$method]"
-                    numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    if [[ $dataset == "airlines" || $dataset == "covtypeNorm" ]]; then
+                        numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 100000 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    else
+                        numactl --physcpubind="0,1,2,3" perf stat -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/perf-$dataset-$algs-25-4-50-1 -e cache-misses,cache-references time -o $BASE_RESULT_DIR/$RESULT_DIR/$interation/time-$dataset-$algs-25-4-50-1 -v  java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.$algs -s 25 -c 4) -s (ArffFileStream -f $REMOTE_DIR/datasets/$dataset.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $BASE_RESULT_DIR/$RESULT_DIR/$interation/dump-$dataset-$algs-25-4-50-1" > $BASE_RESULT_DIR/$RESULT_DIR/$interation/term-interleaved-$dataset-$algs-25-4-50-1
+                    fi
                 fi
             done
         done
