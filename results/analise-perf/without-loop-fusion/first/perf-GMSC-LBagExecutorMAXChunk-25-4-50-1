@@ -1,10 +1,10 @@
-# started on Tue Aug 23 22:53:51 2022
+# started on Sun Aug 28 20:47:36 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/time-GMSC-LBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-GMSC-LBagExecutorMAXChunk-25-4-50-1':
 
-     1,533,555,025      cache-misses:u            #    2.800 % of all cache refs    
-    54,761,069,495      cache-references:u                                          
+     1,486,536,898      cache-misses:u            #    2.649 % of all cache refs    
+    56,108,908,455      cache-references:u                                          
 
-      96.915133036 seconds time elapsed
+      84.789001061 seconds time elapsed
 

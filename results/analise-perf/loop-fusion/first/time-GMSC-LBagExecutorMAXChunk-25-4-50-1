@@ -1,18 +1,18 @@
 	Command being timed: "java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/dump-GMSC-LBagExecutorMAXChunk-25-4-50-1"
-	User time (seconds): 230.28
-	System time (seconds): 2.92
+	User time (seconds): 232.88
+	System time (seconds): 2.85
 	Percent of CPU this job got: 303%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.72
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:17.75
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 293300
+	Maximum resident set size (kbytes): 296356
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 73998
-	Voluntary context switches: 35714
-	Involuntary context switches: 24184
+	Minor (reclaiming a frame) page faults: 75241
+	Voluntary context switches: 36166
+	Involuntary context switches: 25298
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 144

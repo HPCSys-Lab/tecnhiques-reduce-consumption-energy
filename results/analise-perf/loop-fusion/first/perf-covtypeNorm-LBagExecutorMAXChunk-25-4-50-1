@@ -1,10 +1,10 @@
-# started on Wed Aug 24 11:02:16 2022
+# started on Sun Aug 28 21:35:11 2022
 
 
- Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/time-covtypeNorm-LBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/dump-covtypeNorm-LBagExecutorMAXChunk-25-4-50-1':
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/time-covtypeNorm-LBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/dump-covtypeNorm-LBagExecutorMAXChunk-25-4-50-1':
 
-           671,193      cache-misses:u            #    1.895 % of all cache refs    
-        35,419,723      cache-references:u                                          
+       632,860,724      cache-misses:u            #    2.600 % of all cache refs    
+    24,337,807,774      cache-references:u                                          
 
-       0.150827812 seconds time elapsed
+      31.653930300 seconds time elapsed
 

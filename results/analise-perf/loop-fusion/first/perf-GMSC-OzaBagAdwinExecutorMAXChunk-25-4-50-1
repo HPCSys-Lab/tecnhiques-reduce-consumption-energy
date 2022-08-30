@@ -1,10 +1,10 @@
-# started on Tue Aug 23 23:01:59 2022
+# started on Sun Aug 28 20:55:14 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/time-GMSC-OzaBagAdwinExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.OzaBagAdwinExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/first/dump-GMSC-OzaBagAdwinExecutorMAXChunk-25-4-50-1':
 
-       593,811,536      cache-misses:u            #    2.387 % of all cache refs    
-    24,880,138,111      cache-references:u                                          
+       542,176,014      cache-misses:u            #    2.267 % of all cache refs    
+    23,920,466,336      cache-references:u                                          
 
-      41.619120297 seconds time elapsed
+      41.571825505 seconds time elapsed
 

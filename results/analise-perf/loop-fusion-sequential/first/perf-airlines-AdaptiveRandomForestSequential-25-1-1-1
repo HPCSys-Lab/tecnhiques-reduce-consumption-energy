@@ -1,10 +1,10 @@
-# started on Tue Aug 23 23:07:27 2022
+# started on Sun Aug 28 21:36:49 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/time-airlines-AdaptiveRandomForestSequential-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/dump-airlines-AdaptiveRandomForestSequential-25-1-1-1':
 
-     1,292,042,637      cache-misses:u            #    2.346 % of all cache refs    
-    55,080,152,519      cache-references:u                                          
+     1,331,475,100      cache-misses:u            #    2.417 % of all cache refs    
+    55,088,720,596      cache-references:u                                          
 
-     184.750931648 seconds time elapsed
+     184.977377065 seconds time elapsed
 

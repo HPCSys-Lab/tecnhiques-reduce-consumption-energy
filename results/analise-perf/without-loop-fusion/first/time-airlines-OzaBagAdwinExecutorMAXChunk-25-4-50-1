@@ -1,21 +1,21 @@
-	Command being timed: "java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.OzaBagAdwinExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-airlines-OzaBagAdwinExecutorMAXChunk-25-4-50-1"
-	User time (seconds): 2713.28
-	System time (seconds): 15.03
-	Percent of CPU this job got: 314%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:26.79
+	Command being timed: "java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.OzaBagAdwinExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-airlines-OzaBagAdwinExecutorMAXChunk-25-4-50-1"
+	User time (seconds): 80.95
+	System time (seconds): 1.35
+	Percent of CPU this job got: 317%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.89
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 538800
+	Maximum resident set size (kbytes): 321804
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 226433
-	Voluntary context switches: 166130
-	Involuntary context switches: 144364
+	Minor (reclaiming a frame) page faults: 81103
+	Voluntary context switches: 4521
+	Involuntary context switches: 5514
 	Swaps: 0
-	File system inputs: 8
-	File system outputs: 976
+	File system inputs: 0
+	File system outputs: 80
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

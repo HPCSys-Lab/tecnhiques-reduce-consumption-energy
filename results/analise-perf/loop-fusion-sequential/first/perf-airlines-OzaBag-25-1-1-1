@@ -1,10 +1,10 @@
-# started on Tue Aug 23 23:10:32 2022
+# started on Sun Aug 28 21:39:54 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/time-airlines-OzaBag-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.OzaBag -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/dump-airlines-OzaBag-25-1-1-1':
 
-       610,933,003      cache-misses:u            #    2.803 % of all cache refs    
-    21,792,007,914      cache-references:u                                          
+       629,853,122      cache-misses:u            #    2.856 % of all cache refs    
+    22,055,927,686      cache-references:u                                          
 
-      88.865323924 seconds time elapsed
+      79.554559761 seconds time elapsed
 

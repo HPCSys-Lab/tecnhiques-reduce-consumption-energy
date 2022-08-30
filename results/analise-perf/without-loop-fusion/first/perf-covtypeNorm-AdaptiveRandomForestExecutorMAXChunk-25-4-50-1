@@ -1,10 +1,10 @@
-# started on Wed Aug 24 09:18:01 2022
+# started on Sun Aug 28 21:30:15 2022
 
 
- Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/time-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/time-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
 
-    12,652,772,798      cache-misses:u            #    2.518 % of all cache refs    
-   502,443,827,898      cache-references:u                                          
+       592,164,275      cache-misses:u            #    2.872 % of all cache refs    
+    20,618,747,245      cache-references:u                                          
 
-     695.637683432 seconds time elapsed
+      28.615927177 seconds time elapsed
 

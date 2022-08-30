@@ -1,18 +1,18 @@
 	Command being timed: "java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.OzaBagASHT -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/dump-GMSC-OzaBagASHT-25-1-1-1"
-	User time (seconds): 81.68
-	System time (seconds): 1.05
+	User time (seconds): 82.35
+	System time (seconds): 0.83
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.08
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 162388
+	Maximum resident set size (kbytes): 155416
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 40618
-	Voluntary context switches: 2942
-	Involuntary context switches: 4777
+	Minor (reclaiming a frame) page faults: 38443
+	Voluntary context switches: 2944
+	Involuntary context switches: 4845
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 152

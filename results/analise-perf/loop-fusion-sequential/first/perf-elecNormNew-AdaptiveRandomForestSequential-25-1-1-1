@@ -1,10 +1,10 @@
-# started on Wed Aug 24 11:02:17 2022
+# started on Sun Aug 28 21:00:28 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/time-elecNormNew-AdaptiveRandomForestSequential-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/first/dump-elecNormNew-AdaptiveRandomForestSequential-25-1-1-1':
 
-           159,608      cache-misses:u            #    1.946 % of all cache refs    
-         8,203,389      cache-references:u                                          
+     1,302,794,359      cache-misses:u            #    3.077 % of all cache refs    
+    42,346,255,090      cache-references:u                                          
 
-       0.051956927 seconds time elapsed
+     165.461953062 seconds time elapsed
 

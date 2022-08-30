@@ -1,10 +1,10 @@
-# started on Wed Aug 24 11:02:18 2022
+# started on Sun Aug 28 21:13:47 2022
 
 
  Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/time-elecNormNew-OzaBagAdwinExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.OzaBagAdwinExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/first/dump-elecNormNew-OzaBagAdwinExecutorMAXChunk-25-4-50-1':
 
-           171,232      cache-misses:u            #    1.918 % of all cache refs    
-         8,928,644      cache-references:u                                          
+       395,926,921      cache-misses:u            #    2.999 % of all cache refs    
+    13,203,340,749      cache-references:u                                          
 
-       0.051739843 seconds time elapsed
+      23.588988532 seconds time elapsed
 
