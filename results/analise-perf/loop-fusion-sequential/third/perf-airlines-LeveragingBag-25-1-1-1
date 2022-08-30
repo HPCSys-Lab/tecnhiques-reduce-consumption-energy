@@ -1,0 +1,10 @@
+# started on Mon Aug 29 02:12:12 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/time-airlines-LeveragingBag-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.LeveragingBag -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/dump-airlines-LeveragingBag-25-1-1-1':
+
+     1,659,783,226      cache-misses:u            #    2.499 % of all cache refs    
+    66,428,782,316      cache-references:u                                          
+
+     229.585806111 seconds time elapsed
+

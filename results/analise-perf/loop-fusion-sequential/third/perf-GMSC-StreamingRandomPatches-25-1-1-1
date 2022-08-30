@@ -1,0 +1,10 @@
+# started on Mon Aug 29 01:03:49 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/time-GMSC-StreamingRandomPatches-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.StreamingRandomPatches -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/dump-GMSC-StreamingRandomPatches-25-1-1-1':
+
+     4,441,440,848      cache-misses:u            #    2.783 % of all cache refs    
+   159,582,762,344      cache-references:u                                          
+
+     638.720496475 seconds time elapsed
+

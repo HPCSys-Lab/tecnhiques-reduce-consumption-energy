@@ -1,0 +1,10 @@
+# started on Mon Aug 29 02:17:19 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/time-airlines-StreamingRandomPatches-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.StreamingRandomPatches -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/dump-airlines-StreamingRandomPatches-25-1-1-1':
+
+     1,286,198,122      cache-misses:u            #    2.411 % of all cache refs    
+    53,337,916,703      cache-references:u                                          
+
+     179.304910296 seconds time elapsed
+

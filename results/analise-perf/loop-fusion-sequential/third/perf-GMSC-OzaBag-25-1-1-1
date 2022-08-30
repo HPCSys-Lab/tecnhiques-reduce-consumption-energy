@@ -1,0 +1,10 @@
+# started on Mon Aug 29 00:55:32 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/time-GMSC-OzaBag-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.OzaBag -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/third/dump-GMSC-OzaBag-25-1-1-1':
+
+       713,986,056      cache-misses:u            #    4.166 % of all cache refs    
+    17,137,059,345      cache-references:u                                          
+
+      83.087509968 seconds time elapsed
+
