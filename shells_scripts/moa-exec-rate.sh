@@ -107,9 +107,9 @@ function X {
   elif [[ $2 == "SRP" ]]; then
     ID=15
   fi
-  Y $1 ${algs[${ID}]} $3
-  Y $1 ${algs[$(( ID+1 ))]} $3
-  # Y $1 ${algs[$(( ID+2 ))]} $3
+  # Y $1 ${algs[${ID}]} $3
+  # Y $1 ${algs[$(( ID+1 ))]} $3
+  Y $1 ${algs[$(( ID+2 ))]} $3
 }
 
 #alterar caminhos

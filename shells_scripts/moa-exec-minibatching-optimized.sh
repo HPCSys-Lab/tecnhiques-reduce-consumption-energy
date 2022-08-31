@@ -76,39 +76,39 @@ function Y {
     
     # batch -> 5
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-5-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 5 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-5-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-5-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 5 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-5-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-5-1
     
     # batch -> 15
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-15-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 15 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-15-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-15-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 15 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-15-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-15-1
 
     # batch -> 25
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-25-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 25 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-25-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-25-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 25 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-25-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-25-1
 
     # batch -> 50
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-50-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-50-1
 
     # batch -> 75
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-75-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 75 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-75-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-75-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 75 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-75-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-75-1
 
     # batch -> 100
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-100-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 100 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-100-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-100-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 100 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-100-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-100-1
 
     # batch -> 250
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-250-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 250 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-250-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-250-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 250 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-250-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-250-1
 
     # batch -> 500
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-500-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 500 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-500-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-500-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 500 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-500-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-500-1
 
     # batch -> 2000
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-$nCores-2000-1"
-    java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 2000 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-2000-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-2000-1
+    numactl --physcpubind="0,1,2,3" java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "EvaluateInterleavedTestThenTrainChunksOptimized -l ($2 -s 25 -c $nCores) -s (ArffFileStream -f $1) -t 120 -c 2000 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/$3/dump-${onlyname}-${2##*.}-25-$nCores-2000-1" > ${RESULT_DIR}/$3/term-${IDENT}-${onlyname}-${2##*.}-25-$nCores-2000-1
   elif [[ ${2} == *"RUNPER"* ]]; then
     IDENT="interleaved"
     echo "$RESULT_DIR/$3/${IDENT}-${onlyname}-${2##*.}-25-4-1-1"
@@ -145,14 +145,14 @@ function X {
     ID=15
   fi
 
-  Y $1 ${algs[${ID}]} $3
-  Y $1 ${algs[$(( ID+1 ))]} $3
+  # Y $1 ${algs[${ID}]} $3
+  # Y $1 ${algs[$(( ID+1 ))]} $3
   Y $1 ${algs[$(( ID+2 ))]} $3
 }
 
 # alterar para o caminho do HD/scratch
 ## rasp
-export MOA_HOME=/home/pi/moa/moa-LAST
+export MOA_HOME=/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT
 export RESULT_DIR=/home/pi/reginaldojunior/experimentos/loop-fusion-all-algorithms/results/$CPUS/
 export REMOTE_DIR=/home/pi/reginaldojunior/comparison-xue3m-minibatching
 
