@@ -1,0 +1,10 @@
+# started on Sun Sep 11 21:05:53 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/time-GMSC-AdaptiveRandomForestSequential-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.AdaptiveRandomForestSequential -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/dump-GMSC-AdaptiveRandomForestSequential-25-1-1-1':
+
+     2,159,268,671      cache-misses:u            #    2.877 % of all cache refs    
+    75,058,285,292      cache-references:u                                          
+
+     318.649060972 seconds time elapsed
+

@@ -1,0 +1,10 @@
+# started on Sat Sep 10 18:00:17 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/extra/time-airlines-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.AdaptiveRandomForestExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/extra/dump-airlines-AdaptiveRandomForestExecutorMAXChunk-25-4-50-1':
+
+     1,362,883,825      cache-misses:u            #    2.471 % of all cache refs    
+    55,154,658,783      cache-references:u                                          
+
+      71.823935337 seconds time elapsed
+

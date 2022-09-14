@@ -1,0 +1,10 @@
+# started on Sun Sep 11 22:47:50 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/fixed/time-airlines-OzaBagAdwinExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.OzaBagAdwinExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/fixed/dump-airlines-OzaBagAdwinExecutorMAXChunk-25-4-50-1':
+
+       585,152,281      cache-misses:u            #    2.759 % of all cache refs    
+    21,212,149,292      cache-references:u                                          
+
+      29.608150666 seconds time elapsed
+

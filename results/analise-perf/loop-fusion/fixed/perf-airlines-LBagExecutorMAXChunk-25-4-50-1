@@ -1,0 +1,10 @@
+# started on Sun Sep 11 22:48:20 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion/fixed/time-airlines-LBagExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/:/home/pi/reginaldojunior/moa/moa-release-2019.05.1-SNAPSHOT/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunksOptimized -l (meta.LBagExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion/fixed/dump-airlines-LBagExecutorMAXChunk-25-4-50-1':
+
+     1,709,491,571      cache-misses:u            #    2.535 % of all cache refs    
+    67,446,859,391      cache-references:u                                          
+
+      88.471357310 seconds time elapsed
+

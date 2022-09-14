@@ -1,0 +1,10 @@
+# started on Sun Sep 11 21:36:02 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/fixed/time-GMSC-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.StreamingRandomPatchesExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/GMSC.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/fixed/dump-GMSC-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1':
+
+     3,796,515,125      cache-misses:u            #    2.675 % of all cache refs    
+   141,919,343,117      cache-references:u                                          
+
+     229.537836006 seconds time elapsed
+

@@ -1,0 +1,10 @@
+# started on Sun Sep 11 21:54:28 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/time-elecNormNew-OzaBagASHT-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.OzaBagASHT -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/elecNormNew.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/dump-elecNormNew-OzaBagASHT-25-1-1-1':
+
+       365,706,996      cache-misses:u            #    3.313 % of all cache refs    
+    11,038,383,124      cache-references:u                                          
+
+      45.004783368 seconds time elapsed
+

@@ -1,0 +1,10 @@
+# started on Sun Sep 11 22:44:56 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/fixed/time-airlines-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EvaluateInterleavedTestThenTrainChunks -l (meta.StreamingRandomPatchesExecutorMAXChunk -s 25 -c 4) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/airlines.arff) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/without-loop-fusion/fixed/dump-airlines-StreamingRandomPatchesExecutorMAXChunk-25-4-50-1':
+
+     1,321,236,963      cache-misses:u            #    2.428 % of all cache refs    
+    54,426,097,361      cache-references:u                                          
+
+      76.819912315 seconds time elapsed
+

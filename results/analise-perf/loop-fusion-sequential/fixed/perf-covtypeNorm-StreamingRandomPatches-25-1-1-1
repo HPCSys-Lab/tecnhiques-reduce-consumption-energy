@@ -1,0 +1,10 @@
+# started on Sun Sep 11 22:16:29 2022
+
+
+ Performance counter stats for 'time -o /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/time-covtypeNorm-StreamingRandomPatches-25-1-1-1 -v java -Xshare:off -XX:+UseParallelGC -Xmx700M -cp /home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/:/home/pi/reginaldojunior/moa/moa-without-loop-fusion/lib/moa.jar moa.DoTask EITTTExperiments -l (meta.StreamingRandomPatches -s 25) -s (ArffFileStream -f /home/pi/reginaldojunior/comparison-xue3m-minibatching/datasets/covtypeNorm.arff) -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i 10000 -d /home/pi/reginaldojunior/experimentos/testes/loop-fusion-sequential/fixed/dump-covtypeNorm-StreamingRandomPatches-25-1-1-1':
+
+     1,159,308,048      cache-misses:u            #    2.568 % of all cache refs    
+    45,151,029,942      cache-references:u                                          
+
+     174.777287642 seconds time elapsed
+
