@@ -1,0 +1,21 @@
+Connected!
+linha fdp!!!!
+N0.424981,7,0.87234,0.056923,0.264653,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.424981"
+linha fdp!!!!
+N0.451086,4,0.808511,0.041191,0.777001,0.002694,0.633092,0.537719,DOWN
+java.lang.NumberFormatException: For input string: "N0.451086"
+linha fdp!!!!
+OWN0.460378,6,0.446809,0.042512,0.538679,0.0029,0.534438,0.319298,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.460378"
+linha fdp!!!!
+OWN0.885403,2,0.808511,0.036748,0.598929,0.002455,0.565251,0.482456,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.885403"
+linha fdp!!!!
+WN0.889076,2,0.446809,0.028942,0.560101,0.001961,0.564992,0.39693,DOWN
+java.lang.NumberFormatException: For input string: "WN0.889076"
+linha fdp!!!!
+WN0.91142,6,0,0.047406,0.397352,0.003166,0.392802,0.524561,DOWN
+java.lang.NumberFormatException: For input string: "WN0.91142"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+44600.0,69.2509994506836,61.0,644.0339965820312,44550.0,90.32323232323233,80.09813977722064,33.870225494707796,77.27943501633816,90.08645063870313,88.39153296481057,91.7110500105751,90.34671904060878,90.47251048796645,90.22092759325112,89.82767747779252,86.40413305920185,93.25122189638319,0.0,1.0,25.0,880.0,18022.76,13571.726085505854,1.0,0.0,31.839999999999993,24.54193689721059,22.28,16.962016389568785,22.28,16.962016389568785,4.2,2.9439202887759492,0.0,0.0,0.0,0.0,1.0,0.0
