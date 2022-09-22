@@ -109,15 +109,15 @@ function X {
   if [[ $2 == *"ARF"* ]]; then
     ID=0
   elif [[ $2 == "OBag" ]]; then
-    ID=3
+    ID=2
   elif [[ $2 == "OBagAd" ]]; then
-    ID=6
+    ID=4
   elif [[ $2 == "LBag" ]]; then
-    ID=9
+    ID=6
   elif [[ $2 == "OBagASHT" ]]; then
-    ID=12
+    ID=8
   elif [[ $2 == "SRP" ]]; then
-    ID=15
+    ID=10
   fi
   Y $1 ${algs[${ID}]} "1" $4 "1"
   Y $1 ${algs[$(( ID+1 ))]} $3 $5 "2"
