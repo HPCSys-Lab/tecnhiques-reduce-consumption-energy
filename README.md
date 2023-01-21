@@ -55,3 +55,4 @@ In folder notebooks the structure is similar results. Each folder is represent a
  - [Comparison with loop fusion mini-batching and without loop fusion mini-batching results](./notebooks/mini-batching/Comparison-MiniBatchsExperiences.ipynb)
  - [Comparison XUE3M tecnhique (DVFS, DPM) with mini-batching results](./notebooks/dvfs/Comparison-XUE3M-MiniBatching.ipynb)
  - [Results mini-batching reproduce and big batches (500, 2000) and small batches (5, 15) analisys](./notebooks/mini-batching/MOA-MiniBatching-Batchs.ipynb)
+  - [Results with comparisons MB-LF and DVFS/DPM analysis research](./notebooks/dvfs/comparison-mb-dvfs-tecnhiques-mblf.ipynb)

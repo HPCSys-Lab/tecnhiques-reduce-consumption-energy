@@ -1,4 +1,4 @@
-dataset,algorithm,ensemble_size,cores,batch_size,rate,instances,time,acc,prec,recall,change
+dataset,algorithm,ensemble_size,cores,batch_size,instances,time,acc,prec,recall,change
 covtypeNorm,OzaBagExecutorMAXChunk,25,4,250,1,581012.0,176.36199951171875,76.97731600896753,74.67612086019695,55.61531534451395,0
 airlines,AdaptiveRandomForestExecutorMAXChunk,25,4,0,1,10000.0,69.197998046875,65.21608040201005,64.17828989934111,61.80113873061622,0
 airlines,OzaBagExecutorMAXChunk,25,4,75,1,539383.0,102.14399719238281,59.13485429476292,58.6092678151785,58.5904009754703,0
