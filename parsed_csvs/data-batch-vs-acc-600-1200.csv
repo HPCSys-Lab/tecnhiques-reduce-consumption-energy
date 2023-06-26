@@ -1,4 +1,4 @@
-dataset,algorithm,ensemble_size,cores,batch_size,rate,instances,time,acc,prec,recall,change
+dataset,algorithm,ensemble_size,cores,batch_size,x,instances,time,acc,prec,recall,change
 elecNormNew,OzaBagASHTExecutorRUNPER,25,4,1,1,45312.0,33.85499954223633,83.35981638418079,83.12334923993745,82.668029027435,0
 airlines,OzaBagExecutorMAXChunk,25,4,75,1,539383.0,297.72900390625,65.02221365156831,65.84998690376234,62.67500918556054,0
 covtypeNorm,StreamingRandomPatchesExecutorRUNPER,25,4,1,1,63130.0,521.8939819335938,93.08252811658483,87.60608146118301,87.39656397606097,0
