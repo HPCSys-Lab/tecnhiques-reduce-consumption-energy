@@ -1,0 +1,13 @@
+Connected!
+linha fdp!!!!
+N0.005265,3,0.468085,0.10475,0.572002,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.005265"
+linha fdp!!!!
+P0.424981,7,1,0.072895,0.225974,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.424981"
+linha fdp!!!!
+WN0.425468,4,0.93617,0.096013,0.433204,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.425468"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+14975.0,119.86199951171875,42.0,124.93534088134766,14950.0,92.31438127090301,84.41467246505397,50.45278137128073,82.77619547294259,92.22509961991919,91.28718882817243,93.14036241851565,92.32689689349752,92.42354387582603,92.23024991116901,92.12352657724665,90.1784375468586,94.0686156076347,0.0,1.0,25.0,589.0,5537.68,4999.324843749737,1.0,0.0,17.119999999999994,16.684124190379308,12.239999999999998,12.370260034992528,12.239999999999998,12.370260034992528,2.7599999999999993,1.9209372712298545,0.0,0.0,0.0,0.0,1.0,0.0

@@ -1,4 +1,4 @@
-dataset,algorithm,ensemble_size,cores,batch_size,inc_rate,instances,time,delay,out_rate,acc
+dataset,algorithm,ensemble_size,cores,batch_size,inc_rate,methodology,instances,time,delay,out_rate,acc
 covtypeNorm,OzaBagExecutorMAXChunk,25,4,100,74,8400.0,120.24700164794922,921.0,69.85620880126953,60.433734939759034
 elecNormNew,OzaBagASHTExecutorMAXChunk,25,4,75,2493,44158.0,19.884000778198242,33.0,2220.780517578125,79.29814214096137
 GMSC,OzaBagAdwinExecutorMAXChunk,25,4,100,3523,149922.0,42.731998443603516,27.0,3508.4248046875,93.39015631883169
