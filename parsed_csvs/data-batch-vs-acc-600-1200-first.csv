@@ -1,4 +1,4 @@
-dataset,algorithm,ensemble_size,cores,batch_size,instances,time,acc,prec,recall,change
+dataset,algorithm,ensemble_size,cores,batch_size,x,instances,time,acc,prec,recall,change
 elecNormNew,OzaBagExecutorMAXChunk,25,4,50,1,45312.0,10.418000221252441,76.84591931421501,78.98112438863242,74.1401170739804,0
 airlines,OzaBagExecutorMAXChunk,25,4,50,1,539383.0,122.06099700927734,61.136811580229654,61.2243864337846,58.5024177858493,0
 GMSC,StreamingRandomPatchesExecutorMAXChunk,25,4,50,1,150000.0,182.6300048828125,93.51250416805603,79.35003692018527,53.055445349143895,0

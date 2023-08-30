@@ -1,4 +1,4 @@
-dataset,algorithm,ensemble_size,cores,batch_size,inc_rate,instances,time,delay,out_rate,acc
+dataset,algorithm,ensemble_size,cores,batch_size,inc_rate,methodology,instances,time,delay,out_rate,acc
 covtypeNorm,OzaBagASHTExecutorMAXChunk,25,4,75,1503,177636.0,120.0009994506836,43.0,1480.2877197265625,81.13774984371568
 airlines,OzaBagAdwinExecutorMAXChunk,25,4,2000,95,11386.0,120.0009994506836,14917.0,94.8825454711914,77.77541018538248
 covtypeNorm,StreamingRandomPatchesExecutorMAXChunk,25,4,75,22,2400.0,120.197998046875,2250.0,19.96705436706543,78.58064516129032
