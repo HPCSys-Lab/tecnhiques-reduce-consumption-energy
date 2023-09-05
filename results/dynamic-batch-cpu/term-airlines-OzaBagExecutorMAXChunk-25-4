@@ -1,12 +1,35 @@
 Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB500
 print extradionario!!!!
-WN, 1141, DAL, LIT, 3, 670 ,FL, 319, CLT, ATL, 3, 994 , 76, 0UA, 377, PHX, DEN, 3, 994 , 110, 1
-java.lang.NumberFormatException: For input string: "FL"
-print extradionario!!!!
-DL, 2434, TPA, DCACO, 1476, IAH, PHL, 4, 602 , 192, 1EV, 5240, SAV, ATL, 4, 602 , 73, 1
-java.lang.NumberFormatException: For input string: "IAH"
-print extradionario!!!!
-DL, 2434, TPA, DCACO, 1476, IAH, PHL, 4, 602 , 192, 1EV, 5240, SAV, ATL, 4, 602 , 73, 1
-java.lang.NumberFormatException: For input string: "PHL"
+MQ, 3339, DFW, AEX, 3, B6, 1600, BOS, DCA, 4, 450 , 102, 0B6, 670, LAX, JFK, 4, 450 , 309, 0
+java.lang.NumberFormatException: For input string: "B6"
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-201251.0,120.00700378417969,148.0,1676.9937744140625,201250.0,64.44670807453417,13.514399352489153,11.754766779309843,-1.1936583365154732,57.34338076373351,75.4420769378621,35.62521368290356,58.649310817743824,68.34214290156085,48.95647873392681,56.09434159302782,84.18823060777373,28.000452578281898,0.0,1.0,25.0,138087.28000000006,83622.44933056756,1.0,0.0,11506.960000000001,11097.613258714688,11467.279999999999,11062.655650581071,11467.279999999999,11062.655650581071,2.9999999999999996,1.0801234497346432,0.0,0.0,0.0,0.0,1.0,0.0
+287549.0,120.0009994506836,188.0,2396.2216796875,287500.0,62.66991304347827,10.306924290468636,9.28654140358886,4.832674197953428,57.50410507486563,75.0576358160116,25.83650058738166,60.860378414028936,63.18676803762673,58.53398879043116,54.49866194623624,92.42066103877522,16.57666285369725,0.0,1.0,25.0,208552.16,94050.86568256564,1.0,0.0,12311.679999999998,11437.862936755273,12259.520000000002,11390.63325032166,12259.520000000002,11390.63325032166,3.0400000000000005,1.019803902718557,0.0,0.0,0.0,0.0,1.0,0.0

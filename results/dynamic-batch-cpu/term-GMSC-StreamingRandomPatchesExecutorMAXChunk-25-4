@@ -1,7 +1,32 @@
 Connected!
-print extradionario!!!!
-0.088953,72,0,1.0800.083269,49,0,0.347732,12500,9,0,1,0,4,00.023999,39,0,0.138111,3822,7,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB2000
+[newChuckSize]:2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-88501.0,119.96399688720703,628.0,737.7296752929688,88500.0,93.48813559322033,8.210842327501169,47.50409910730549,1.8228279386711197,62.493572498309845,96.62309049039312,9.115281501340482,77.50942744476288,93.66004384918605,61.3588110403397,52.351540013042275,99.77974101415951,4.923339011925043,0.0,1.0
+86273.0,119.1500015258789,1603.0,724.0704956054688,86000.0,93.50348837209303,8.315321500848476,47.54975591438226,1.8446943078005171,62.51583077274782,96.63119177545299,9.228269699431356,77.50834134375204,93.6775898149339,61.33909287257019,52.38328351167751,99.77710813368532,4.989458889669711,0.0,1.0
