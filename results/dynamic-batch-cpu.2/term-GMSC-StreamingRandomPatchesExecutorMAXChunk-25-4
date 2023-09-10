@@ -1,0 +1,32 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB2000
+[newChuckSize]:2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+86273.0,119.1500015258789,1603.0,724.0704956054688,86000.0,93.50348837209303,8.315321500848476,47.54975591438226,1.8446943078005171,62.51583077274782,96.63119177545299,9.228269699431356,77.50834134375204,93.6775898149339,61.33909287257019,52.38328351167751,99.77710813368532,4.989458889669711,0.0,1.0

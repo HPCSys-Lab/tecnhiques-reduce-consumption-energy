@@ -1,30 +1,30 @@
 Connected!
 [newChuckSize]:0
-thread is open, sizeMB500
-[newChuckSize]:500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-84001.0,119.30000305175781,420.0,704.1156616210938,84000.0,93.45714285714286,6.927216270260566,47.30584851390223,1.3639626704954222,61.97289881482158,96.60832860210806,7.723304231027535,76.75355195177957,93.61127057022578,59.895833333333336,51.965711661279826,99.80364155658692,4.1277817659727205,0.0,1.0,25.0,13778.240000000002,10233.131018412692,1.0,0.0,11.52,8.431686268673268,6.239999999999998,4.245389656242796,6.239999999999998,4.245389656242796,4.48,2.987752778706208,0.0,0.0,0.0,0.0,1.0,0.0
+88751.0,119.36699676513672,205.0,743.5137329101562,88750.0,93.41070422535212,5.098772811808822,46.91358024691362,0.696213278994791,61.02527202597287,96.58602652718102,5.738233397807866,75.02504305466933,93.54214960140216,56.507936507936506,51.428623674340216,99.83466286914229,3.0225844795381223,0.0,1.0,25.0,9932.640000000001,6015.6225008999145,1.0,0.0,9.359999999999998,5.51422403123655,5.16,2.794041278626117,5.16,2.794041278626117,4.08,2.6127890589687235,0.0,0.0,0.0,0.0,1.0,0.0
