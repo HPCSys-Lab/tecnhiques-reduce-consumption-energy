@@ -1,0 +1,32 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB2000
+[newChuckSize]:2000
+thread is open, sizeMB2000
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+CO, 1048, IAH, FLL, 3, 465 EV, 7111, IAD, JFK, 3, 495 , 75, 1F9, 320, MKE, DCA, 3, 495 , 110, 0
+java.lang.NumberFormatException: For input string: "465 EV"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+UA, 30B6, 15, JFK, FLL, 3, 995 , 195, 1DL, 1065, PDX, SLC, 3, 995 , 105, 1
+java.lang.NumberFormatException: For input string: "30B6"
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+UA, 240, IAD, SAN, 3, 108MQ, 2870, HOU, DFW, 3, 1105 , 70, 0MQ, 2886, LRD, DFW, 3, 1105 , 80, 0
+java.lang.NumberFormatException: For input string: "108MQ"
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 61079552 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/pi/reginaldojunior/comparison-xue3m-minibatching/socket/hs_err_pid25949.log
