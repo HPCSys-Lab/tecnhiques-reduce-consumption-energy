@@ -44,8 +44,7 @@ Folder follow structure:
                 - previa {previa foi a execução limitando os algoritmos e datasets}
                 - final
         - sem-coletor
-        - pareto
-        - dynamic-batch-cpu
+        - dynamic-mini-batching
         - speedup
             - example: {device-tecnhique}
             - m1-loopfusion
@@ -58,4 +57,4 @@ In folder notebooks the structure is similar results. Each folder is represent a
  - [Comparison XUE3M tecnhique (DVFS, DPM) with mini-batching results](./notebooks/dvfs/Comparison-XUE3M-MiniBatching.ipynb)
  - [Results mini-batching reproduce and big batches (500, 2000) and small batches (5, 15) analisys](./notebooks/mini-batching/MOA-MiniBatching-Batchs.ipynb)
  - [Results with comparisons MB-LF and DVFS/DPM analysis research](./notebooks/dvfs/comparison-mb-dvfs-tecnhiques-mblf.ipynb)
- - [Results with comparisons MB-LF Fixed and MB-LF Batch Dynamic analysis research](./notebooks/dvfs/comparison-mb-lf-fixed-vs-dynamic.ipynb)
+ - [Results with comparisons MB-LF Fixed and MB-LF Batch Dynamic analysis research with ensemble size 25](./notebooks/dynamic-mini-batching/comparison-mblf-fixed-vs-dynamic-ensemble-25.ipynb)
