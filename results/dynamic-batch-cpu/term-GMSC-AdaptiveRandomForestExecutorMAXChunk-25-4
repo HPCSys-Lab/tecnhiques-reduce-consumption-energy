@@ -5,14 +5,6 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
 thread is open, sizeMB2000
 [newChuckSize]:2000
 thread is open, sizeMB2000
@@ -20,13 +12,20 @@ thread is open, sizeMB2000
 thread is open, sizeMB2000
 thread is open, sizeMB2000
 thread is open, sizeMB2000
-thread is open, sizeMB500
-[newChuckSize]:500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
+thread is open, sizeMB2000
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-85501.0,119.34300231933594,912.0,716.4307861328125,85500.0,93.52865497076024,14.005756126354788,47.8609121748964,2.416225749559166,63.25653698398087,96.63543104549132,15.539612272935429,75.83807617663787,93.90089696167527,57.77525539160045,54.255541040584255,99.53400977076286,8.977072310405644,0.0,1.0
+87501.0,119.09500122070312,1865.0,734.7160034179688,87500.0,93.52342857142857,12.588450554557584,47.80806778412226,2.360441075120599,63.07794562312141,96.6350578637041,13.966904508881129,76.29291438183463,93.83742518767947,58.748403575989784,53.765100189558204,99.60463180571875,7.925568573397657,0.0,1.0

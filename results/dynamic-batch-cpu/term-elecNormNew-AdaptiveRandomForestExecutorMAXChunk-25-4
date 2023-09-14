@@ -6,11 +6,9 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
+print extradionario!!!!
+N0.014247,4,0.382979,0.040591,0.578102,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.014247"
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
@@ -22,12 +20,23 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 print extradionario!!!!
-P0.460776,1,0.851064,0.033385,0.470842,0.002306,0.319006,0.260526,UP
-java.lang.NumberFormatException: For input string: "P0.460776"
+N0.438078,2,0.085106,0.068032,0.267331,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.438078"
+thread is open, sizeMB500
+print extradionario!!!!
+WN0.442857,6,0.978723,0.067461,0.539274,0.004643,0.457535,0.4,UP
+java.lang.NumberFormatException: For input string: "WN0.442857"
 thread is open, sizeMB500
 thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+N0.469227,4,0.212766,0.042422,0.294555,0.002759,0.287675,0.608333,DOWN
+java.lang.NumberFormatException: For input string: "N0.469227"
 thread is open, sizeMB500
 thread is open, sizeMB500
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-28501.0,119.53800201416016,1421.0,238.42626953125,28500.0,89.15789473684211,77.6750450436672,27.277006354436317,74.4691398826737,88.87225866998818,86.92561563848693,90.74179529447025,89.14814089572187,89.09705958886288,89.19922220258087,88.59807869382503,84.85749690210656,92.33866048554349,0.0,1.0
+28501.0,119.08300018310547,1496.0,239.33726501464844,28500.0,89.05964912280702,77.46838103627708,26.704278326281155,74.24630379119517,88.777994713993,86.80732079308592,90.66243411595593,89.06657743538669,89.10245260045225,89.03070227032114,88.49127601448544,84.62745745911118,92.35509456985967,0.0,1.0

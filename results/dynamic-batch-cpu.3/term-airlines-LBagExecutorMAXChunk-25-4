@@ -1,0 +1,31 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB2000
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+EV, 5425, ECP,WN, 2528, MCO, PIT, 3, 620 , 135, 1WN, 2697, BWI, BHM, 3, 620 , 135, 1
+java.lang.NumberFormatException: For input string: "MCO"
+print extradionario!!!!
+EV, 5425, ECP,WN, 2528, MCO, PIT, 3, 620 , 135, 1WN, 2697, BWI, BHM, 3, 620 , 135, 1
+java.lang.NumberFormatException: For input string: "PIT"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB2000
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 63176704 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /home/pi/reginaldojunior/comparison-xue3m-minibatching/socket/hs_err_pid6419.log
+# [ timer expired, abort... ]

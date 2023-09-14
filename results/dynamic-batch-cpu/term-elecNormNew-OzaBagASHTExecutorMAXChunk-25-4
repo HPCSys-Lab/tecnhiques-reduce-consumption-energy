@@ -1,33 +1,45 @@
 Connected!
 [newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 thread is open, sizeMB250
 [newChuckSize]:250
 thread is open, sizeMB250
 thread is open, sizeMB250
+print extradionario!!!!
+OWN0.424848,4,0.148936,0.055242,0.087325,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.424848"
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB250
 thread is open, sizeMB250
 print extradionario!!!!
-OWN0.456175,1,0.191489,0.0133,0.119458,0.000885,0.153288,0.813158,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.456175"
+WN0.46874,7,0.085106,0.02621,0.142368,0.00177,0.251165,0.597807,DOWN
+java.lang.NumberFormatException: For input string: "WN0.46874"
+print extradionario!!!!
+WN0.469316,6,0.12766,0.027381,0.136864,0.001816,0.220611,0.584211,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469316"
 thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
+print extradionario!!!!
+WN0.469846,4,0.06383,0.046505,0.236686,0.003162,0.363542,0.499561,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469846"
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-26001.0,119.10800170898438,580.0,218.2976837158203,26000.0,72.42692307692307,39.12908479399738,-80.39758429793658,35.43186526164101,73.7429619163738,54.378818737270876,80.24361341527269,80.39171397430522,92.72845669633168,68.05497125227879,68.10996507996143,38.469158036920305,97.75077212300255,0.0,1.0,25.0,26339.039999999997,20797.31444898595,1.0,0.0,27.96,27.031586462260528,12.719999999999999,15.393505123915084,12.719999999999999,15.393505123915084,2.3999999999999995,2.723355773061365,0.0,0.0,0.0,0.0,1.0,0.0
+27630.0,119.23100280761719,826.0,231.7350311279297,27500.0,78.63636363636364,54.75513485987303,-42.666342884895606,50.00850918992512,78.33237622796157,70.95146207510761,83.11053615063965,80.35053925473593,84.80189237137789,75.899186138094,76.41310955113137,60.99013269819666,91.83608640406608,0.0,1.0,25.0,29906.759999999995,18514.3563469001,1.0,0.0,28.640000000000004,24.49809516404626,13.56,13.850631754544628,13.56,13.850631754544628,2.44,2.364318083507378,0.0,0.0,0.0,0.0,1.0,0.0

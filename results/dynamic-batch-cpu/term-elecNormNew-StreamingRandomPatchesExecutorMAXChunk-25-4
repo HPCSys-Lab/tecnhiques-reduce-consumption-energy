@@ -1,20 +1,5 @@
 Connected!
 [newChuckSize]:0
-thread is open, sizeMB250
-[newChuckSize]:250
-thread is open, sizeMB250
-thread is open, sizeMB500
-[newChuckSize]:500
-thread is open, sizeMB500
-thread is open, sizeMB500
-print extradionario!!!!
-OWN0.017698,6,0.553191,0.047346,0.325945,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.017698"
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB250
-[newChuckSize]:250
 thread is open, sizeMB500
 [newChuckSize]:500
 thread is open, sizeMB500
@@ -22,17 +7,31 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 print extradionario!!!!
-P0.442503,5,0.93617,0.0662,0.475602,0.00451,0.414034,0.500526,DOWN
-java.lang.NumberFormatException: For input string: "P0.442503"
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
+WN0.455865,1,0.489362,0.034556,0.437965,0.001479,0.245728,0.763596,DOWN
+java.lang.NumberFormatException: For input string: "WN0.455865"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+WN0.473784,2,0.957447,0.028071,0.440048,0.001462,0.278094,0.740351,DOWN
+java.lang.NumberFormatException: For input string: "WN0.473784"
+BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-27751.0,120.00900268554688,1562.0,231.24098205566406,27750.0,90.59099099099099,80.66223736503827,36.93236714975849,77.95508274231679,90.36530095992626,88.73634675991883,91.9251584969847,90.62386706649738,90.80226188372504,90.44547224926973,90.10820612627626,86.76234698184888,93.45406527070365,0.0,1.0
+28921.0,119.93499755859375,1254.0,241.1389617919922,28750.0,90.08695652173913,79.55823667332498,33.161350844277656,76.65847665847664,89.83569512130656,87.98413635980087,91.56704935495326,90.19617773453388,90.74057958402227,89.65177588504548,89.47808248393613,85.39022193104577,93.56594303682651,0.0,1.0

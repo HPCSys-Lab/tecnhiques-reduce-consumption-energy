@@ -3,15 +3,13 @@ Connected!
 thread is open, sizeMB500
 [newChuckSize]:500
 thread is open, sizeMB500
-thread is open, sizeMB2000
-[newChuckSize]:2000
-thread is open, sizeMB2000
-thread is open, sizeMB2000
-thread is open, sizeMB2000
-thread is open, sizeMB2000
-thread is open, sizeMB2000
 thread is open, sizeMB500
-[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
@@ -29,4 +27,4 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-85935.0,119.08699798583984,691.0,721.6152954101562,84500.0,93.31952662721893,17.646039463755635,46.227852924366495,-0.6059525931207366,62.645761340517126,96.51446389429162,19.8722498225692,71.4511693260935,94.08783377073652,48.81450488145049,55.77253666974498,99.06957877524117,12.475494564248796,0.0,1.0,25.0,79893.76,22812.65168767834,1.0,0.0,33.64000000000001,32.98343018345223,17.320000000000004,16.491715091726114,17.320000000000004,16.491715091726114,6.5200000000000005,6.097267147392073,0.0,0.0,0.0,0.0,1.0,0.0
+97129.0,119.14900207519531,330.0,815.1893920898438,96500.0,92.9782383419689,25.847756991154604,43.62728785357737,-5.31551134597458,64.33030659060334,96.30626996500334,29.076826460121417,69.55828747714054,94.59734418505033,44.51923076923077,59.83325625450051,98.07807607754313,21.58843643145788,0.0,1.0,25.0,68395.59999999999,29134.921135697845,1.0,0.0,38.360000000000014,33.797041290621884,19.680000000000007,16.898520645310942,19.680000000000007,16.898520645310942,6.76,5.166236541235795,0.0,0.0,0.0,0.0,1.0,0.0
