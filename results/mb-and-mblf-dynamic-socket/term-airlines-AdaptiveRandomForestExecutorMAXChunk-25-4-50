@@ -1,0 +1,9 @@
+Connected!
+linha fdp!!!!
+EV, 5115, CLE, ATL, 3, AA, 2065, DFW, DEN, 3, 525 , 125, 1AA, 253, LAX, OGG, 3, 525 , 345, 0
+java.lang.NumberFormatException: For input string: "AA"
+linha fdp!!!!
+DL, B6, 336, MCO, IAD, 4, 465 , 120, 0B6, 363, LGA, PBI, 4, 465 , 168, 1
+java.lang.NumberFormatException: For input string: "B6"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+9900.0,120.16799926757812,606.0,82.38465881347656,9850.0,65.22842639593908,21.312684830202866,16.259168704156473,8.103031929165542,61.08934450308793,74.4460195478624,45.62351072279587,62.20285308077137,68.53021978021978,55.87548638132296,60.015001200227545,81.47966682998529,38.5503355704698,0.0,1.0

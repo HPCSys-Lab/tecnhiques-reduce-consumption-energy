@@ -1,0 +1,6 @@
+Connected!
+linha fdp!!!!
+WN, 580, 9E, 4076, BGM, DTW, 4, 745 , 99, 19E, 4309, DTW, CID, 4, 745 , 104, 1
+java.lang.NumberFormatException: For input string: "DTW"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+8000.0,120.09700012207031,750.0,66.61282348632812,7950.0,67.9119496855346,15.128339173780144,22.391238211134766,2.223073974702931,58.89664926671772,78.98162643157288,32.21690590111642,61.51988936299566,70.52678045909359,52.512998266897746,56.48797271483592,89.73974911065343,23.236196319018404,0.0,1.0
