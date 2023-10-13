@@ -1,0 +1,22 @@
+Connected!
+linha fdp!!!!
+P0.017654,5,0.978723,0.07842,0.511157,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.017654"
+linha fdp!!!!
+OWN0.017698,6,0.553191,0.047346,0.325945,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.017698"
+linha fdp!!!!
+OWN0.018583,5,0.382979,0.088237,0.524844,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.018583"
+linha fdp!!!!
+N0.026724,1,0.893617,0.059865,0.373252,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.026724"
+linha fdp!!!!
+WN0.424937,6,0.553191,0.066801,0.29396,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.424937"
+linha fdp!!!!
+WN0.430069,4,0.808511,0.057674,0.481404,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.430069"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+16700.0,119.81999969482422,433.0,139.375732421875,16600.0,91.31927710843374,82.37606892870731,44.47013487475917,80.3491067775808,91.20896360859702,90.125154724247,92.27964829508899,91.279201075439,90.97598222962654,91.58241992125147,91.13883415121467,89.29009401825861,92.98757428417072,0.0,1.0,25.0,150.0,11323.320000000003,8247.846874184801,1.0,0.0,40.72,26.866211741392444,28.399999999999995,18.60555472612055,28.399999999999995,18.60555472612055,5.28,2.4583192089989723,0.0,0.0,0.0,0.0,1.0,0.0

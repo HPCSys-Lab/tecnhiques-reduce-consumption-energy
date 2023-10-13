@@ -1,0 +1,22 @@
+Connected!
+linha fdp!!!!
+N0.022256,4,0.340426,0.047286,0.422493,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.022256"
+linha fdp!!!!
+N0.031282,6,0.595745,0.054642,0.281315,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.031282"
+linha fdp!!!!
+OWN0.031459,3,0.829787,0.056713,0.401666,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.031459"
+linha fdp!!!!
+WN0.429362,2,0.191489,0.074216,0.220916,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.429362"
+linha fdp!!!!
+OWN0.433698,7,0.787234,0.068212,0.343201,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.433698"
+linha fdp!!!!
+WN0.438078,2,1,0.048967,0.448676,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.438078"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+17000.0,119.82099914550781,2106.0,141.8782958984375,16500.0,89.7939393939394,79.19654552147131,35.18090839107003,76.74033149171271,89.63885221148735,88.17810342398197,91.04255319148936,89.82074355190714,89.9913718723037,89.65011523151058,89.45769605975973,86.43646408839778,92.47892803112168,0.0,1.0,25.0,34.0,50737.03999999999,35967.8956090011,1.0,0.0,121.84,74.07748195864473,72.76,38.9938884100231,72.76,38.9938884100231,9.08,3.914928692411481,0.0,0.0,0.0,0.0,1.0,0.0

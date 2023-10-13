@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+DL, 2528, SRQ, OO, 4870, SLC, DEN, 3, 1210 , 83, 1OO, 6567, ORD, COS, 3, 1210 , 153, 1
+java.lang.NumberFormatException: For input string: "SLC"
+linha fdp!!!!
+DL, 2528, SRQ, OO, 4870, SLC, DEN, 3, 1210 , 83, 1OO, 6567, ORD, COS, 3, 1210 , 153, 1
+java.lang.NumberFormatException: For input string: "DEN"
+linha fdp!!!!
+UA, 697, DENUS, 1032, CLT, ABE, 4, 1215 , 100, 0US, 1033, CLT, MIA, 4, 1215 , 127, 0
+java.lang.NumberFormatException: For input string: "ABE"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+43500.0,120.29100036621094,689.0,361.6230773925781,43250.0,67.83352601156069,8.31088931583091,16.66966157532196,-1.9866578696576254,55.77675610041067,79.75258332120507,21.80121430177648,58.40326473673198,70.07237666555842,46.734152807905524,53.37631901033295,92.53605322705934,14.216584793606568,0.0,1.0,25.0,35993.04,19070.085427356287,1.0,0.0,1929.08,3439.0177851628896,1921.0,3432.9082422925317,1921.0,3432.9082422925317,1.2399999999999998,1.0519822558706333,0.0,0.0,0.0,0.0,1.0,0.0

@@ -1,0 +1,9 @@
+Connected!
+linha fdp!!!!
+OO, 4680, SLC, 9E, 3991, DTW, MDW, 3, 750 , 73, 09E, 4250, IND, JFK, 3, 750 , 145, 0
+java.lang.NumberFormatException: For input string: "DTW"
+linha fdp!!!!
+OO, 4680, SLC, 9E, 3991, DTW, MDW, 3, 750 , 73, 09E, 4250, IND, JFK, 3, 750 , 145, 0
+java.lang.NumberFormatException: For input string: "MDW"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+10000.0,141.14100646972656,27400.0,70.85112762451172,8000.0,63.5875,24.39560525123521,18.74476987447698,19.485903814262024,62.814311629830264,70.64987405541562,52.05795192624301,63.79885574365098,63.25094714053762,64.34676434676435,61.85969268554964,80.00912825193976,43.71025711915952,0.0,1.0

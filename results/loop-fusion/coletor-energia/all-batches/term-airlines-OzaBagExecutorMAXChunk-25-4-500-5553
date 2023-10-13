@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+EV, 5498, ATL, FAY,OO, 4637, LAS, LAX, 4, 976 , 73, 0OO, 6446, LAX, SMX, 4, 976 , 56, 0
+java.lang.NumberFormatException: For input string: "LAS"
+linha fdp!!!!
+EV,UA, 732, SEA, ORD, 6, 371 , 242, 1YV, 7305, CLT, IAD, 6, 371 , 79, 0
+java.lang.NumberFormatException: For input string: "UA"
+linha fdp!!!!
+HA, MQ, 4371, ORD, OMA, 6, 705 , 95, 0OH, 6392, IAH, MEM, 6, 705 , 102, 0
+java.lang.NumberFormatException: For input string: "MQ"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+291000.0,120.125,205.0,2422.4765625,290500.0,62.22271944922547,14.492287259357262,9.15088950884541,7.948397486977756,58.76112347668769,73.2911152106931,35.49010963171972,61.07616612719065,62.84118796013423,59.311144294247086,56.615171227740014,87.90971403215825,25.320628423321782,0.0,1.0,25.0,221146.99999999997,88570.19976079235,1.0,0.0,12571.520000000002,11855.958266908105,12518.8,11805.262001186871,12518.8,11805.262001186871,2.8,1.0408329997330663,0.0,0.0,0.0,0.0,1.0,0.0
