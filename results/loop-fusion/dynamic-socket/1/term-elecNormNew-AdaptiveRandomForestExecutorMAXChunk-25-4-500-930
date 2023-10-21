@@ -1,0 +1,9 @@
+Connected!
+linha fdp!!!!
+P0.438609,7,0.829787,0.05305,0.373252,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.438609"
+linha fdp!!!!
+WN0.885182,4,0.510638,0.029302,0.516959,0.002013,0.520456,0.312719,DOWN
+java.lang.NumberFormatException: For input string: "WN0.885182"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+45000.0,246.15199279785156,1746.0,182.81387329101562,44500.0,88.73033707865169,76.77676482809511,23.20061255742726,73.3796910664048,88.42198662718184,86.37722110525458,90.39316370324954,88.69199790919828,88.49301341646718,88.89098240192939,88.15361438396586,84.36023987687736,91.94698889105437,0.0,1.0

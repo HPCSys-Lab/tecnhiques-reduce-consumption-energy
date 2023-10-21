@@ -1,0 +1,15 @@
+Connected!
+linha fdp!!!!
+WN0.434671,1,0.319149,0.053921,0.187444,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.434671"
+linha fdp!!!!
+WN0.880227,4,0.744681,0.03882,0.532133,0.002715,0.559296,0.135526,UP
+java.lang.NumberFormatException: For input string: "WN0.880227"
+linha fdp!!!!
+OWN0.908057,6,0.87234,0.040591,0.378905,0.002723,0.37623,0.433772,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.908057"
+linha fdp!!!!
+OWN0.911287,3,0.085106,0.041492,0.224784,0.002694,0.302434,0.75307,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.911287"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45000.0,126.30400085449219,897.0,356.28326416015625,44500.0,88.79325842696629,76.86792321359846,23.62940275650841,73.5325337013056,88.49062452853529,86.37146842436343,90.48881429634011,88.84741905970752,89.11338111631582,88.58145700309922,88.13668417503808,83.79324984079814,92.48011850927803,0.0,1.0,25.0,90.0,50945.08,44292.21624894529,1.0,0.0,91.80000000000001,85.76081078596836,54.88,45.19063324775759,54.88,45.19063324775759,7.36,3.7067505985701277,0.0,0.0,0.0,0.0,1.0,0.0
