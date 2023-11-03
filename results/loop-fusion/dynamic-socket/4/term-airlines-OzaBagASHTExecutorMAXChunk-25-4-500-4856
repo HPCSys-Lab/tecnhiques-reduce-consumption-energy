@@ -1,0 +1,69 @@
+Connected!
+linha fdp!!!!
+WN, 9099E, 3663, CMH, CVG, 3, 705 , 57, 19E, 3672, LBB, MEM, 3, 705 , 117, 0
+java.lang.NumberFormatException: For input string: "9099E"
+linha fdp!!!!
+CO, 165FL, 1012, TPA, DAY, 3, 1140 , 134, 0HA, 195, OGG, HNL, 3, 1140 , 33, 0
+java.lang.NumberFormatException: For input string: "165FL"
+linha fdp!!!!
+MQ, 4364,WN, 857, LAS, SMF, 3, 1265 , 90, 1XE, 2353, IAH, ATL, 3, 1265 , 108, 0
+java.lang.NumberFormatException: For input string: "SMF"
+linha fdp!!!!
+EV, 5062, ATL, GSO, 4OO, 6812, ORD, SPI, 4, 490 , 51, 0OO, 7759, EKO, SLC, 4, 490 , 78, 1
+java.lang.NumberFormatException: For input string: "ORD"
+linha fdp!!!!
+XE, 2643, EWR, ATL, 4,WN, 1590, MCI, BWI, 4, 820 , 140, 1WN, 2198, BWI, SLC, 4, 820 , 305, 1
+java.lang.NumberFormatException: For input string: "WN"
+linha fdp!!!!
+B6, 489, BOS, LWN, 1503, IND, DEN, 4, 1135 , 180, 0WN, 2466, ONT, PHX, 4, 1135 , 70, 1
+java.lang.NumberFormatException: For input string: "IND"
+linha fdp!!!!
+B6, 489, BOS, LWN, 1503, IND, DEN, 4, 1135 , 180, 0WN, 2466, ONT, PHX, 4, 1135 , 70, 1
+java.lang.NumberFormatException: For input string: "DEN"
+linha fdp!!!!
+XE,MQ, 3650, TYS, MIA, 5, 360 , 135, 0MQ, 3736, ORD, EWR, 5, 360 , 120, 0
+java.lang.NumberFormatException: For input string: "MQ"
+linha fdp!!!!
+DL, 183, JFK, SEA, 5, 4MQ, 2912, GRK, DFW, 5, 580 , 50, 0MQ, 3218, JAN, DFW, 5, 580 , 95, 0
+java.lang.NumberFormatException: For input string: "4MQ"
+linha fdp!!!!
+HA, 383, ITO, HNL, 5, UA, 920, ORD, BOS, 5, 740 , 139, 0WN, 1105, MDW, SDF, 5, 740 , 65, 0
+java.lang.NumberFormatException: For input string: "UA"
+linha fdp!!!!
+AA, 544, DFW, MCO, 5, 8DL, 2210, DFW, ATL, 5, 1020 , 125, 1DL, 2363, JFK, LAX, 5, 1020 , 394, 0
+java.lang.NumberFormatException: For input string: "8DL"
+linha fdp!!!!
+AA, 417, DOO, 6534, DEN, IDA, 7, 687 , 100, 1OO, 6574, RDM, DEN, 7, 687 , 136, 0
+java.lang.NumberFormatException: For input string: "IDA"
+linha fdp!!!!
+WN, 3074, RSW, MDXE, 5986, FAR, ORD, 1, 360 , 112, 0XE, 5991, XNA, ORD, 1, 360 , 105, 0
+java.lang.NumberFormatException: For input string: "FAR"
+linha fdp!!!!
+WN, 3074, RSW, MDXE, 5986, FAR, ORD, 1, 360 , 112, 0XE, 5991, XNA, ORD, 1, 360 , 105, 0
+java.lang.NumberFormatException: For input string: "ORD"
+linha fdp!!!!
+US, 1451, CLT, SFO, 1,OO, 6390, SFO, SNA, 1, 617 , 85, 1OO, 6489, CIC, SFO, 1, 617 , 65, 0
+java.lang.NumberFormatException: For input string: "OO"
+linha fdp!!!!
+YV, 2622, CLT, IADWN, 588, BWI, MCO, 1, 720 , 140, 1WN, 663, LAX, MDW, 1, 720 , 230, 1
+java.lang.NumberFormatException: For input string: "BWI"
+linha fdp!!!!
+YV, 2622, CLT, IADWN, 588, BWI, MCO, 1, 720 , 140, 1WN, 663, LAX, MDW, 1, 720 , 230, 1
+java.lang.NumberFormatException: For input string: "MCO"
+linha fdp!!!!
+WN,DL, 1838, ATL, DCA, 1, 1040 , 106, 1DL, 2612, MSP, PDX, 1, 1040 , 225, 1
+java.lang.NumberFormatException: For input string: "DL"
+linha fdp!!!!
+CO, 616, IAH, MSP, 1, 114F9, 402, LAX, DEN, 1, 1220 , 131, 0FL, 951, BWI, FLL, 1, 1220 , 155, 1
+java.lang.NumberFormatException: For input string: "114F9"
+linha fdp!!!!
+UA, 68, B6, 1303, JFK, IAD, 2, 615 , 73, 0B6, 51, BTV, JFK, 2, 615 , 75, 0
+java.lang.NumberFormatException: For input string: "IAD"
+linha fdp!!!!
+DL, 242, MIA, DTW, 2, 807 , 1MQ, 3656, PIT, MIA, 2, 1040 , 170, 0MQ, 3691, CLE, MIA, 2, 1040 , 180, 0
+java.lang.NumberFormatException: For input string: "1MQ"
+linha fdp!!!!
+OO, 666WN, 2524, MDW, HOU, 2, 1240 , 170, 0WN, 3311, MSY, HOU, 2, 1240 , 70, 0
+java.lang.NumberFormatException: For input string: "666WN"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+69500.0,610.5490112304688,4390.0,113.83197784423828,69000.0,64.4768115942029,11.208050328142246,11.982907210571678,-1.5957887755947924,56.44109304510966,76.04452740937656,31.322733518409468,58.033489927636836,67.72037320707423,48.34660664819945,54.93375075773025,86.70187871899445,23.16562279646605,0.0,1.0,25.0,47679.600000000006,23692.61946260903,1.0,0.0,3430.6,5982.62480716728,3419.0,5969.9741694025215,3419.0,5969.9741694025215,1.5999999999999999,0.9128709291752768,0.0,0.0,0.0,0.0,1.0,0.0

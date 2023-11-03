@@ -1,0 +1,45 @@
+Connected!
+linha fdp!!!!
+DL, 1800, JAX,WN, 100, ISP, FLL, 5, 460 , 185, 0
+java.lang.NumberFormatException: For input string: "ISP"
+linha fdp!!!!
+DL, 1800, JAX,WN, 100, ISP, FLL, 5, 460 , 185, 0
+java.lang.NumberFormatException: For input string: "FLL"
+linha fdp!!!!
+FL, 59, ATL, LAX, 5, 676WN, 1098, MCO, BUF, 5, 715 , 155, 1
+java.lang.NumberFormatException: For input string: "676WN"
+linha fdp!!!!
+CO, 32, MSY, IAH, 5, 810 , 7OO, 6845, SFO, SBA, 5, 850 , 82, 1
+java.lang.NumberFormatException: For input string: "7OO"
+linha fdp!!!!
+US, 2178, DCA, LGA, 5UA, 304, MCO, IAD, 5, 993 , 132, 09E, 3896, BGM, DTW, 5, 994 , 96, 0
+java.lang.NumberFormatException: For input string: "MCO"
+linha fdp!!!!
+DL, 1070, ATOO, 6766, MCI, SFO, 6, 479 , 238, 19E, 3987, TYS, MEM, 6, 480 , 89, 0
+java.lang.NumberFormatException: For input string: "SFO"
+linha fdp!!!!
+WN, 1192, BWOH, 6449, GSO, ATL, 6, 743 , 106, 0OH, 6772, IND, DCA, 6, 743 , 96, 0
+java.lang.NumberFormatException: For input string: "ATL"
+linha fdp!!!!
+UA, 419US, 1126, CLT, DFW, 6, 885 , 175, 0US, 1439, LGA, CLT, 6, 885 , 126, 1
+java.lang.NumberFormatException: For input string: "419US"
+linha fdp!!!!
+MQ, 4523, BOSDL, 1830, SLC, JFK, 6, 1020 , 271, 1DL, 2117, CMH, ATL, 6, 1020 , 101, 0
+java.lang.NumberFormatException: For input string: "JFK"
+linha fdp!!!!
+AA, 1896, DFW, SDF, 6, 1160 , 1MQ, 4015, JAX, ORD, 7, 365 , 160, 0MQ, 4077, ABE, ORD, 7, 365 , 140, 1
+java.lang.NumberFormatException: For input string: "1MQ"
+linha fdp!!!!
+XE, 2352AA, 2004, LAX, ORD, 7, 510 , 250, 0AA, 2022, SJU, ORD, 7, 510 , 305, 0
+java.lang.NumberFormatException: For input string: "2352AA"
+linha fdp!!!!
+MQ, 3297, DMQ, 3642, MIA, JAX, 7, 650 , 75, 0MQ, 4106, GRR, ORD, 7, 650 , 65, 1
+java.lang.NumberFormatException: For input string: "JAX"
+linha fdp!!!!
+MQ, 3971, SPI, ORD, 7, 860 , 6US, 1697, CLT, RSW, 7, 985 , 117, 1US, 301, CLT, PHX, 7, 985 , 278, 0
+java.lang.NumberFormatException: For input string: "6US"
+linha fdp!!!!
+AA, 443, LGYV, 7245, PVD, IAD, 4, 865 , 104, 0AS, 44, BET, ANC, 4, 866 , 69, 0
+java.lang.NumberFormatException: For input string: "IAD"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+68000.0,738.0,20312.0,92.14092254638672,66000.0,64.69242424242424,15.866147518620089,12.421076368009615,1.695844758489755,58.52314533411649,75.2440747468953,38.47840443798705,59.869202707149796,68.31931476194151,51.41909065235809,57.236284653186566,83.7309374630571,30.741631843316025,0.0,1.0,25.0,58334.36000000001,30635.80576694532,1.0,0.0,2901.84,4820.4483684957495,2887.6000000000004,4812.234693985737,2887.6000000000004,4812.234693985737,1.88,1.4236104336041748,0.0,0.0,0.0,0.0,1.0,0.0

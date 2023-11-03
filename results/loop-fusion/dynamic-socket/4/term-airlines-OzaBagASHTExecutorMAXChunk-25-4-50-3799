@@ -1,0 +1,57 @@
+Connected!
+linha fdp!!!!
+WN,HA, 126, HNL, OGG, 6, 670 , 37, 0
+java.lang.NumberFormatException: For input string: "HA"
+linha fdp!!!!
+WN, 1629, BUR, PCO, 810, IAH, EWR, 6, 790 , 202, 1DL, 1293, PNS, ATL, 6, 790 , 75, 0
+java.lang.NumberFormatException: For input string: "IAH"
+linha fdp!!!!
+WN, 1629, BUR, PCO, 810, IAH, EWR, 6, 790 , 202, 1DL, 1293, PNS, ATL, 6, 790 , 75, 0
+java.lang.NumberFormatException: For input string: "EWR"
+linha fdp!!!!
+XE, 3009, EWR, MKE, 6,FL, 289, ATL, HOU, 6, 900 , 139, 0
+java.lang.NumberFormatException: For input string: "FL"
+linha fdp!!!!
+AA, 1353, JFUA, 364, LAX, DEN, 6, 1110 , 141, 0US, 1285, LGA, PHL, 6, 1110 , 71, 0
+java.lang.NumberFormatException: For input string: "DEN"
+linha fdp!!!!
+DL, 1792, SAN, ATL, 6, DL, 1297, JFK, ATL, 7, 360 , 168, 0DL, 1301, IND, ATL, 7, 360 , 105, 0
+java.lang.NumberFormatException: For input string: "DL"
+linha fdp!!!!
+MQ, 3771, ORD, IAHWN, 1746, BWI, CLE, 7, 500 , 75, 0WN, 1814, OAK, LAX, 7, 500 , 75, 0
+java.lang.NumberFormatException: For input string: "BWI"
+linha fdp!!!!
+MQ, 3771, ORD, IAHWN, 1746, BWI, CLE, 7, 500 , 75, 0WN, 1814, OAK, LAX, 7, 500 , 75, 0
+java.lang.NumberFormatException: For input string: "CLE"
+linha fdp!!!!
+AA, 543, ORD,UA, 532, ORD, BOS, 7, 611 , 136, 0DL, 2292, PHX, MSP, 7, 612 , 196, 1
+java.lang.NumberFormatException: For input string: "ORD"
+linha fdp!!!!
+AA, 543, ORD,UA, 532, ORD, BOS, 7, 611 , 136, 0DL, 2292, PHX, MSP, 7, 612 , 196, 1
+java.lang.NumberFormatException: For input string: "BOS"
+linha fdp!!!!
+AA, 1938, MIA, TPA, 7, 715 9E, 4009, ITH, DTW, 7, 741 , 96, 1DL, 166, TPA, JFK, 7, 741 , 165, 0
+java.lang.NumberFormatException: For input string: "715 9E"
+linha fdp!!!!
+FL, 936, ATL, JAX, 7, 846OH, 6322, MEM, CMH, 7, 860 , 93, 1OH, 6672, MEM, STL, 7, 860 , 73, 0
+java.lang.NumberFormatException: For input string: "846OH"
+linha fdp!!!!
+MQ, 3353WN, 827, DEN, TUL, 7, 1090 , 90, 1WN, 860, SNA, SMF, 7, 1090 , 85, 1
+java.lang.NumberFormatException: For input string: "3353WN"
+linha fdp!!!!
+MQ, 3659, MIA, GSO, 7, 1185 , OO, 6855, DEN, LIT, 7, 1221 , 116, 1EV, 5444, ATL, HPN, 7, 1222 , 137, 1
+java.lang.NumberFormatException: For input string: "OO"
+linha fdp!!!!
+EV,WN, 907, SAT, BWI, 1, 650 , 190, 0WN, 970, PBI, PHL, 1, 650 , 165, 1
+java.lang.NumberFormatException: For input string: "WN"
+linha fdp!!!!
+YV, 2650, CHS, CLT, WN, 1082, SAN, HOU, 1, 805 , 180, 1WN, 1100, PVD, BWI, 1, 805 , 80, 1
+java.lang.NumberFormatException: For input string: "SAN"
+linha fdp!!!!
+EV, 5440, ATL, GNV, 1, 898OO, 4511, SLC, GEG, 1, 1010 , 115, 1OO, 4625, SLC, TUS, 1, 1010 , 106, 1
+java.lang.NumberFormatException: For input string: "898OO"
+linha fdp!!!!
+WN, 961, OMA, PHX, 2, AA, 1765, IAD, SJU, 2, 475 , 230, 0AA, 1775, RSW, DFW, 2, 475 , 185, 0
+java.lang.NumberFormatException: For input string: "AA"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+95750.0,600.676025390625,264.0,159.4037322998047,95700.0,64.06583072100314,13.357599428003782,10.480281140179617,-2.3695412734795984,57.13797162812796,74.9645075098469,36.379115692843,58.23443253970918,68.41958376524998,48.04928131416838,56.08203687284379,82.89403770911491,29.270036036572655,0.0,1.0,25.0,62036.92,33391.350326993364,1.0,0.0,3910.920000000001,6636.90942708527,3893.52,6623.791638983421,3893.52,6623.791638983421,1.7199999999999998,1.2754084313139329,0.0,0.0,0.0,0.0,1.0,0.0

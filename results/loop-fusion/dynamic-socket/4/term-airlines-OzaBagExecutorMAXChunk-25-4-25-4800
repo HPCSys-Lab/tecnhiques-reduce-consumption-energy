@@ -1,0 +1,90 @@
+Connected!
+linha fdp!!!!
+DL, 14WN, 655, LAS, TUS, 2, 630 , 75, 1WN, 811, SEA, MCI, 2, 630 , 205, 1
+java.lang.NumberFormatException: For input string: "14WN"
+linha fdp!!!!
+AA, 1901, DFW, MIMQ, 3374, CVG, DFW, 2, 795 , 165, 1MQ, 3809, ABQ, ORD, 2, 795 , 160, 0
+java.lang.NumberFormatException: For input string: "CVG"
+linha fdp!!!!
+AA, 1901, DFW, MIMQ, 3374, CVG, DFW, 2, 795 , 165, 1MQ, 3809, ABQ, ORD, 2, 795 , 160, 0
+java.lang.NumberFormatException: For input string: "DFW"
+linha fdp!!!!
+AA, 41CO, 63, EWR, IAH, 2, 1045 , 244, 0CO, 667, IAH, SEA, 2, 1045 , 277, 1
+java.lang.NumberFormatException: For input string: "41CO"
+linha fdp!!!!
+AA, 1410, DFW, TUL,XE, 3133, EWR, CLT, 3, 400 , 130, 0XE, 2190, MHT, EWR, 3, 401 , 79, 0
+java.lang.NumberFormatException: For input string: "EWR"
+linha fdp!!!!
+EV,MQ, 3078, MRY, LAX, 3, 695 , 65, 0MQ, 3482, LIT, DFW, 3, 695 , 70, 0
+java.lang.NumberFormatException: For input string: "MQ"
+linha fdp!!!!
+YV, 2878, PHX, ELP,B6, 1009, BOS, JFK, 3, 885 , 80, 0
+java.lang.NumberFormatException: For input string: "BOS"
+linha fdp!!!!
+B6, 436, MWN, 1255, SAT, DAL, 3, 1255 , 55, 0WN, 1654, ABQ, LAX, 3, 1255 , 125, 1
+java.lang.NumberFormatException: For input string: "DAL"
+linha fdp!!!!
+9E,DL, 2379, SDF, ATL, 4, 431 , 89, 0FL, 660, HPN, ATL, 4, 431 , 149, 0
+java.lang.NumberFormatException: For input string: "DL"
+linha fdp!!!!
+XE, 5979, ORD, FSD, 4, 762 WN, 1656, SJC, LAX, 4, 780 , 70, 1WN, 1843, ONT, SMF, 4, 780 , 80, 0
+java.lang.NumberFormatException: For input string: "762 WN"
+linha fdp!!!!
+MQ, 2709, DFW, PIA, 4, 895 ,OH, 6389, MCI, CVG, 4, 925 , 106, 0OH, 6479, ROC, JFK, 4, 925 , 103, 1
+java.lang.NumberFormatException: For input string: "OH"
+linha fdp!!!!
+AA, 1304, DFW, ATL, 4, 1150 , 1AA, 1812, MIA, LAX, 4, 1170 , 355, 0AA, 2418, DFW, TUL, 4, 1170 , 60, 1
+java.lang.NumberFormatException: For input string: "1AA"
+linha fdp!!!!
+OO, 6765, BMQ, 4113, CMH, ORD, 5, 835 , 85, 1MQ, 4344, ORD, DTW, 5, 835 , 80, 0
+java.lang.NumberFormatException: For input string: "ORD"
+linha fdp!!!!
+9E, 3774, DTW, SWF, 5, 1310 , US, 122, ANC, PHX, 6, 113 , 327, 1AS, 114, ANC, SEA, 6, 150 , 200, 0
+java.lang.NumberFormatException: For input string: "US"
+linha fdp!!!!
+OO, 6638, RKS, DEN, B6, 421, BOS, PBI, 6, 580 , 195, 0B6, 681, BOS, DCA, 6, 580 , 101, 0
+java.lang.NumberFormatException: For input string: "BOS"
+linha fdp!!!!
+DL, 21UA, 227, DEN, LAX, 6, 691 , 156, 0US, 1021, CLT, TPA, 6, 691 , 103, 0
+java.lang.NumberFormatException: For input string: "21UA"
+linha fdp!!!!
+OO, 6765, BZN, DEUS, 490, PHX, DEN, 6, 955 , 105, 0US, 835, PHL, MCO, 6, 955 , 153, 0
+java.lang.NumberFormatException: For input string: "PHX"
+linha fdp!!!!
+OO, 6765, BZN, DEUS, 490, PHX, DEN, 6, 955 , 105, 0US, 835, PHL, MCO, 6, 955 , 153, 0
+java.lang.NumberFormatException: For input string: "DEN"
+linha fdp!!!!
+OO, 6390, SFO, SNFL, 691, SRQ, ATL, 7, 674 , 96, 1OO, 4461, SNA, SLC, 7, 674 , 106, 0
+java.lang.NumberFormatException: For input string: "SRQ"
+linha fdp!!!!
+OO, 6390, SFO, SNFL, 691, SRQ, ATL, 7, 674 , 96, 1OO, 4461, SNA, SLC, 7, 674 , 106, 0
+java.lang.NumberFormatException: For input string: "ATL"
+linha fdp!!!!
+US, 1B6, 240, LGB, OAK, 1, 415 , 78, 0CO, 40, LAX, EWR, 1, 415 , 317, 0
+java.lang.NumberFormatException: For input string: "1B6"
+linha fdp!!!!
+DL, 1442, ATL, MSP, 1, 520 ,US, 270, PHX, LAS, 1, 520 , 71, 0WN, 1002, AUS, HRL, 1, 520 , 60, 1
+java.lang.NumberFormatException: For input string: "US"
+linha fdp!!!!
+YV, 1003, OGG, HNL, 1,WN, 1259, SAT, DAL, 1, 695 , 60, 1WN, 1392, LAS, BUR, 1, 695 , 70, 1
+java.lang.NumberFormatException: For input string: "WN"
+linha fdp!!!!
+OO, 6488,UA, 467, DEN, SJC, 1, 1292 , 164, 0DL, 1014, ATL, BDL, 1, 1293 , 146, 1
+java.lang.NumberFormatException: For input string: "SJC"
+linha fdp!!!!
+AA, 581, DCAEV, 4969, MGM, ATL, 2, 450 , 65, 1EV, 5008, CVG, EWR, 2, 450 , 118, 1
+java.lang.NumberFormatException: For input string: "ATL"
+linha fdp!!!!
+WN, 1727, ISP, FLLAA, 1264, DFW, AUS, 2, 685 , 55, 0AA, 1502, ORD, TPA, 2, 685 , 155, 0
+java.lang.NumberFormatException: For input string: "DFW"
+linha fdp!!!!
+WN, 1727, ISP, FLLAA, 1264, DFW, AUS, 2, 685 , 55, 0AA, 1502, ORD, TPA, 2, 685 , 155, 0
+java.lang.NumberFormatException: For input string: "AUS"
+linha fdp!!!!
+WN, 3836, B6, 506, FLL, EWR, 2, 810 , 183, 1CO, 1500, FLL, EWR, 2, 810 , 185, 1
+java.lang.NumberFormatException: For input string: "EWR"
+linha fdp!!!!
+9E,WN, 1440, MDW, OAK, 2, 910 , 300, 1WN, 1599, STL, BHM, 2, 910 , 75, 1
+java.lang.NumberFormatException: For input string: "WN"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+328275.0,600.0120239257812,34.0,547.114013671875,328250.0,59.64417364813405,12.889373444510657,2.975880935465224,2.6428739416745044,56.7310135452072,68.9680699041863,42.31633595233533,57.3220307262053,62.72349201479436,51.92056943761622,56.152059321378765,76.59350837209786,35.71061027065967,0.0,1.0,25.0,297793.48,123011.79103786487,1.0,0.0,13569.919999999998,12650.571406462239,13500.799999999997,12588.775691728986,13500.799999999997,12588.775691728986,3.8,1.8027756377319946,0.0,0.0,0.0,0.0,1.0,0.0
