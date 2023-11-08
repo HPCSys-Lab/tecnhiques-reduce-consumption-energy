@@ -1,18 +1,15 @@
 Connected!
 linha fdp!!!!
-N0.004513,7,0.702128,0.089768,0.418179,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "N0.004513"
+P0.013406,6,0.787234,0.108833,0.654716,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.013406"
 linha fdp!!!!
-WN0.021946,4,0.106383,0.045455,0.226272,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "WN0.021946"
+N0.451484,6,0.93617,0.042452,0.635525,0.002846,0.467892,0.659211,UP
+java.lang.NumberFormatException: For input string: "N0.451484"
 linha fdp!!!!
-N0.429229,6,0.06383,0.055242,0.198602,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "N0.429229"
+P0.473873,4,0.680851,0.030924,0.674055,0.002065,0.554117,0.550439,DOWN
+java.lang.NumberFormatException: For input string: "P0.473873"
 linha fdp!!!!
-P0.434096,2,0.425532,0.073136,0.565903,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "P0.434096"
-linha fdp!!!!
-WN0.87682,3,0.765957,0.028612,0.502231,0.001834,0.41015,0.612281,DOWN
-java.lang.NumberFormatException: For input string: "WN0.87682"
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-45312.0,490.2650146484375,12150.0,92.4234848022461,43312.0,75.7226634650905,49.35523733775623,-64.94117647058822,43.00195143104942,?,69.13703497078427,79.99543405056788,?,?,75.40511112534426,75.90165709953428,?,49.46234690867091,63.83105617002819,84.55598455598455,0.0,0.0,1.0,25.0,23.0,155900.88,101080.1744179342,1.0,0.0,302.59999999999997,201.96761291520644,166.51999999999995,104.49606053180504,166.51999999999995,104.49606053180504,11.720000000000002,5.248174285723877,0.0,0.0,0.0,0.0,1.0,0.0
+N0.977744,3,0.851064,0.116729,0.649509,0.008124,0.576644,0.376316,UP
+java.lang.NumberFormatException: For input string: "N0.977744"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,293.1780090332031,7697.0,154.5545654296875,43312.0,75.87735500554119,49.64093794259117,-63.99309370585469,43.36206429229685,75.07680801473306,69.23280812840524,80.16709389537644,75.85442321748583,75.77359463641052,75.93525179856115,74.31497434189956,63.7314970449493,84.89845163884979,0.0,1.0,25.0,23.0,164433.79999999996,105819.75991711882,1.0,0.0,317.92,208.13095236733372,173.60000000000005,106.28813041288603,173.60000000000005,106.28813041288603,12.36,5.2032041410397625,0.0,0.0,0.0,0.0,1.0,0.0

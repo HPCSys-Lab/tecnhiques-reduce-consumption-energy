@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+N0.438919,7,0.340426,0.047046,0.225826,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.438919"
+linha fdp!!!!
+N0.469448,2,0.042553,0.028101,0.173907,0.001884,0.319006,0.366228,DOWN
+java.lang.NumberFormatException: For input string: "N0.469448"
+linha fdp!!!!
+P0.903544,2,0.638298,0.082353,0.481404,0.005598,0.470999,0.501316,UP
+java.lang.NumberFormatException: For input string: "P0.903544"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,117.43399810791016,39.0,385.85076904296875,45287.0,80.60149711837835,59.84237787178437,-32.12513159873664,54.306668053677306,80.01154866526645,76.11692726036709,83.67164844969886,80.44419196192456,79.74474388923709,81.14364003461205,79.58353414077888,72.80482729920932,86.36224098234842,0.0,1.0,25.0,45277.15999999999,220.0508804799455,1.0,0.0,70.16,15.949608145656748,41.48,20.0377144405244,41.48,20.0377144405244,7.119999999999999,3.3580748453044738,0.0,0.0,0.0,0.0,1.0,0.0

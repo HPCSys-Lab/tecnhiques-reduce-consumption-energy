@@ -1,0 +1,6 @@
+Connected!
+linha fdp!!!!
+OWN0.021902,3,0.340426,0.057644,0.476198,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.021902"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+30000.0,603.1890258789062,23018.0,49.735652923583984,28000.0,77.23571428571428,52.14910167467044,-54.82147194559147,46.490933512424434,76.54364148435062,70.15407671053248,81.60249379437742,77.74920759430198,79.32641389536114,76.17200129324281,75.37489112542421,62.88304928217614,87.8667329686723,0.0,1.0

@@ -1,25 +1,13 @@
 Connected!
 linha fdp!!!!
-N0.004513,7,0.702128,0.089768,0.418179,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "N0.004513"
+P0.013008,4,0.489362,0.041732,0.564118,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "P0.013008"
 linha fdp!!!!
-N0.017521,2,0.446809,0.080581,0.585689,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "N0.017521"
+N0.429892,7,0.148936,0.068602,0.116037,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.429892"
 linha fdp!!!!
-OWN0.443476,6,0.319149,0.088657,0.550283,0.006076,0.583894,0.431579,UP
-java.lang.NumberFormatException: For input string: "OWN0.443476"
-linha fdp!!!!
-N0.447724,5,0.510638,0.045034,0.657989,0.003675,0.621699,0.271491,DOWN
-java.lang.NumberFormatException: For input string: "N0.447724"
-linha fdp!!!!
-OWN0.460068,6,0.680851,0.028882,0.44332,0.001909,0.415588,0.50307,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.460068"
-linha fdp!!!!
-N0.469846,4,0.085106,0.036448,0.193395,0.002472,0.312015,0.51886,DOWN
-java.lang.NumberFormatException: For input string: "N0.469846"
-linha fdp!!!!
-OWN0.469935,6,0.468085,0.033686,0.679113,0.002538,0.505179,0.227193,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.469935"
+WN0.438388,2,0.893617,0.050829,0.385302,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.438388"
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-30961.0,599.4749755859375,540.0,51.64685821533203,30911.0,81.43055870078612,61.308276379267525,-26.62695786454886,55.97821918858807,80.83410383689953,76.5947026894666,84.6215694682676,81.50904843559708,81.81342632955536,81.2046705416388,80.17024534376807,72.00184147932173,88.33864920821442,0.0,1.0
+21253.0,599.52197265625,772.0,35.44990921020508,21203.0,82.91751167287647,64.93889414659337,-10.832313341493261,60.775395278319245,82.55813434137825,79.57341157882857,85.32879542968276,82.93962423298744,83.05064782096584,82.82860064500905,82.18013779089705,76.37564991334489,87.9846256684492,0.0,1.0

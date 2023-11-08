@@ -1,16 +1,33 @@
 Connected!
 linha fdp!!!!
-OWN0.443078,4,0.234043,0.040711,0.261827,0.002663,0.249871,0.713158,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.443078"
+P0.013406,6,0.787234,0.108833,0.654716,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.013406"
 linha fdp!!!!
-N0.890182,6,0.638298,0.027141,0.573936,0.001907,0.596064,0.384211,DOWN
-java.lang.NumberFormatException: For input string: "N0.890182"
+OWN0.429229,6,0.085106,0.055242,0.17346,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.429229"
 linha fdp!!!!
-N0.906818,6,0.723404,0.072295,0.545076,0.004807,0.477214,0.559649,DOWN
-java.lang.NumberFormatException: For input string: "N0.906818"
+N0.429406,3,0.148936,0.067341,0.163195,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.429406"
 linha fdp!!!!
-OWN0.911508,1,0.319149,0.042542,0.294853,0.002547,0.208441,0.853509,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.911508"
-BYTES READ -1
+OWN0.433609,5,0.744681,0.068932,0.397352,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.433609"
+linha fdp!!!!
+OWN0.438343,1,0.893617,0.061187,0.396459,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438343"
+linha fdp!!!!
+WN0.442547,6,0.723404,0.093971,0.599821,0.006506,0.547903,0.500526,UP
+java.lang.NumberFormatException: For input string: "WN0.442547"
+linha fdp!!!!
+P0.447812,7,0.787234,0.046295,0.705445,0.003157,0.485241,0.462719,UP
+java.lang.NumberFormatException: For input string: "P0.447812"
+linha fdp!!!!
+P0.451529,7,0.87234,0.041401,0.616781,0.002345,0.42957,0.726316,UP
+java.lang.NumberFormatException: For input string: "P0.451529"
+linha fdp!!!!
+P0.89412,4,0.021277,0.124445,0.593425,0.00828,0.505697,0.650439,UP
+java.lang.NumberFormatException: For input string: "P0.89412"
+linha fdp!!!!
+P0.894562,7,0.021277,0.074216,0.560845,0.004317,0.498705,0.623684,UP
+java.lang.NumberFormatException: For input string: "P0.894562"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-43985.0,599.3109741210938,3805.0,73.39261627197266,43485.0,77.84523398873175,54.037484038337105,-50.578305720537706,47.678270786944005,77.12239893476912,72.51084722539393,81.44953209843263,77.57597520020111,76.43377264247458,78.71817775792765,76.67409583635396,68.9709475970676,84.3772440756403,0.0,1.0
+45312.0,394.2460021972656,2586.0,114.93331146240234,44812.0,78.46335802909935,55.40918338732628,-46.22727272727267,49.22397011627296,77.7903770959251,73.45658633212281,81.8946419855067,78.18772133205722,76.9674257711156,79.40801689299887,77.39705098819552,70.25206546334789,84.54203651304314,0.0,1.0

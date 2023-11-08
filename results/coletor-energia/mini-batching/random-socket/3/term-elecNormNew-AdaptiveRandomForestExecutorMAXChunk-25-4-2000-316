@@ -1,13 +1,9 @@
 Connected!
 linha fdp!!!!
-WN0.009026,4,0.425532,0.058514,0.707081,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "WN0.009026"
+OWN0.017698,6,0.893617,0.047346,0.366409,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.017698"
 linha fdp!!!!
-N0.013495,1,0.489362,0.051759,0.551324,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "N0.013495"
-linha fdp!!!!
-WN0.014026,6,0.191489,0.040651,0.180899,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "WN0.014026"
-BYTES READ -1
-learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes)
-23198.0,599.2849731445312,26665.0,38.70946502685547,21198.0,77.76205302387018,53.82437652396735,-41.646634615384585,48.705114254624604,?,72.02992341031884,81.54990215264189,?,?,79.2319749216301,76.93102939004578,?,50.928970203118695,66.02808316098834,86.75882744836775,0.0,0.0,1.0
+OWN0.889474,4,0.680851,0.029663,0.57587,0.002108,0.573537,0.289035,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.889474"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+45312.0,466.2699890136719,12876.0,97.17974853515625,43312.0,76.19366457332842,50.37189240211875,-61.86813186813188,44.10473247682551,75.41056674337757,69.82231199320861,80.34539943958369,76.12710635153891,75.88444896920336,76.36976373387448,74.70739008809676,64.65708864190837,84.75769153428514,0.0,1.0
