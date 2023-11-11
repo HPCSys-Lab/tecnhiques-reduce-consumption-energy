@@ -1,0 +1,38 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OO, 7028, COS, DDL, 2456, SLC, MSP, 3, 525 , 165, 0DL, 2553, DTW, MSY, 3, 525 , 170, 0
+java.lang.NumberFormatException: For input string: "SLC"
+print extradionario!!!!
+OO, 7028, COS, DDL, 2456, SLC, MSP, 3, 525 , 165, 0DL, 2553, DTW, MSY, 3, 525 , 170, 0
+java.lang.NumberFormatException: For input string: "MSP"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+XE, 2443, RIC, CLE,XE, 5906, ORD, ROA, 1, 426 , 95, 1F9, 472, MKE, RSW, 1, 427 , 181, 0
+java.lang.NumberFormatException: For input string: "ORD"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+11001.0,121.08899688720703,2720.0,90.85053253173828,11000.0,64.75454545454545,24.21793179262022,17.440374787052807,14.244636142446366,62.465219361470844,72.58326851000636,50.68092147129949,63.317764656972074,66.97116012005742,59.66436919388672,61.635327329805165,79.22198209323865,44.048672566371685,0.0,1.0

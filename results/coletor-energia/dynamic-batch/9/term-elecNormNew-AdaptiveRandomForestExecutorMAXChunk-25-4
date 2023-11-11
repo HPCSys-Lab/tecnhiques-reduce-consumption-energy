@@ -1,0 +1,39 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+N0.009601,3,0.212766,0.046385,0.214222,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.009601"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+P0.026326,6,0.510638,0.074517,0.326242,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.026326"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+N0.447724,5,0.510638,0.045034,0.657989,0.003675,0.621699,0.271491,DOWN
+java.lang.NumberFormatException: For input string: "N0.447724"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+24501.0,119.08699798583984,1592.0,205.74034118652344,24500.0,89.35102040816327,78.09857682876404,30.703851261620148,75.01436506416394,89.08735801466895,87.2162016378169,90.88239407075933,89.35368811333898,89.36790272334439,89.33947350333356,88.82261085969552,85.1656770733576,92.47954464603345,0.0,1.0

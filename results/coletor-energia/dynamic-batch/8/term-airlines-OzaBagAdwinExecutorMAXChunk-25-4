@@ -1,0 +1,35 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+WN, 925, OH, 6354, PHL, CVG, 3, 640 , 127, 0OH, 6600, STL, JFK, 3, 640 , 145, 1
+java.lang.NumberFormatException: For input string: "CVG"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+EV, 5289, ATL, JAN, 3, 88DL, 1897, MSP, SAT, 4, 1050 , 183, 0DL, 2179, DCA, SLC, 4, 1050 , 295, 0
+java.lang.NumberFormatException: For input string: "88DL"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+31001.0,120.34200286865234,1935.0,257.60748291015625,31000.0,66.92258064516129,18.292008559297276,15.819719234873988,3.0171190768939593,59.84523655523522,77.32189069031872,38.92297611246798,61.5444325625155,70.52249344361509,52.56637168141592,58.23734672808565,85.57230980123373,30.90238365493757,0.0,1.0,25.0,23784.28,10889.848833967655,1.0,0.0,11249.4,4761.9912151675935,11227.28,4752.489027867397,11227.28,4752.489027867397,1.7599999999999996,0.6633249580710799,0.0,0.0,0.0,0.0,1.0,0.0

@@ -1,0 +1,39 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.008805,6,0.276596,0.041582,0.228206,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.008805"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+P0.022256,4,0.382979,0.076138,0.493454,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.022256"
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.026592,5,0.553191,0.086075,0.46147,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.026592"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+26751.0,119.10900115966797,588.0,224.59259033203125,26750.0,78.67663551401868,54.65942864954818,-40.38887521535814,49.97807594492677,78.43461515990545,70.56880355115103,83.28693256747647,80.71525708618552,85.76088320160582,75.66963097076521,76.2793126216625,59.949136192230114,92.6094890510949,0.0,1.0,25.0,16061.799999999997,10278.342955781669,1.0,0.0,26.199999999999996,24.006943440041116,13.08,14.95248028477773,13.08,14.95248028477773,2.8400000000000007,2.808914381037628,0.0,0.0,0.0,0.0,1.0,0.0

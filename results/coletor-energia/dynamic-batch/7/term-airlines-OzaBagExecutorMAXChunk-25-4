@@ -1,0 +1,50 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+print extradionario!!!!
+WN, 3312, DALDL, 2073, CMH, ATL, 3, 485 , 100, 1DL, 2119, LGA, MSP, 3, 485 , 192, 0
+java.lang.NumberFormatException: For input string: "ATL"
+thread is open, sizeMB500
+print extradionario!!!!
+WN, 2198, BWI, SF9, 834, SEA, DEN, 3, 893 , 152, 1OO, 7773, SGU, SLC, 3, 893 , 77, 0
+java.lang.NumberFormatException: For input string: "SEA"
+print extradionario!!!!
+WN, 2198, BWI, SF9, 834, SEA, DEN, 3, 893 , 152, 1OO, 7773, SGU, SLC, 3, 893 , 77, 0
+java.lang.NumberFormatException: For input string: "DEN"
+print extradionario!!!!
+HA, 280, OGG, KOA, 3, 9F9, 843, MDW, DEN, 3, 940 , 157, 0HA, 26, HNL, PDX, 3, 940 , 325, 0
+java.lang.NumberFormatException: For input string: "9F9"
+thread is open, sizeMB500
+print extradionario!!!!
+9E, 3682, DTW, LAN, WN, 2198, SLC, RNO, 3, 1040 , 85, 1WN, 2357, BOS, PHL, 3, 1040 , 105, 1
+java.lang.NumberFormatException: For input string: "SLC"
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+B6, 370, FLL, LGUA, 632, ORD, TPA, 5, 570 , 161, 0UA, 897, BOS, IAD, 5, 570 , 111, 0
+java.lang.NumberFormatException: For input string: "ORD"
+print extradionario!!!!
+B6, 370, FLL, LGUA, 632, ORD, TPA, 5, 570 , 161, 0UA, 897, BOS, IAD, 5, 570 , 111, 0
+java.lang.NumberFormatException: For input string: "TPA"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+279001.0,120.0250015258789,213.0,2324.52392578125,279000.0,63.44265232974911,16.050668628149843,11.307924416734053,6.058596520313538,58.91766767696538,73.92437037093852,38.8727734758948,60.57236389109995,65.50243071444429,55.64229706775561,57.350972392215574,84.83153978852992,29.87040499590122,0.0,1.0,25.0,220252.4,106258.3669470315,1.0,0.0,12085.240000000002,11242.701885667879,12035.000000000002,11196.644404314477,12035.000000000002,11196.644404314477,2.7999999999999994,1.1547005383792512,0.0,0.0,0.0,0.0,1.0,0.0
