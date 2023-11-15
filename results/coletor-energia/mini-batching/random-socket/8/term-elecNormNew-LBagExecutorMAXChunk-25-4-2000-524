@@ -1,0 +1,18 @@
+Connected!
+linha fdp!!!!
+P0.009159,7,0.680851,0.093281,0.43127,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.009159"
+linha fdp!!!!
+OWN0.871908,6,0.702128,0.028642,0.589705,0.001849,0.531849,0.599561,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.871908"
+linha fdp!!!!
+WN0.881156,4,0.382979,0.035397,0.539125,0.002389,0.552563,0.496053,UP
+java.lang.NumberFormatException: For input string: "WN0.881156"
+linha fdp!!!!
+P0.88912,3,0.617021,0.028942,0.537935,0.002027,0.571724,0.326316,DOWN
+java.lang.NumberFormatException: For input string: "P0.88912"
+linha fdp!!!!
+WN0.889828,5,0.702128,0.035787,0.657691,0.002553,0.648628,0.273246,DOWN
+java.lang.NumberFormatException: For input string: "WN0.889828"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,287.19000244140625,7374.0,157.77708435058594,43312.0,75.4571481344662,48.76235929102361,-66.74509803921562,42.37857762359064,?,68.69531917400654,79.82229647630619,?,?,75.20639834881321,75.59695051783659,?,49.25658645803146,63.22181857615355,84.5479407979408,0.0,0.0,1.0,25.0,23.0,158274.88,102321.63260047538,1.0,0.0,302.68000000000006,206.62803133489254,165.96000000000004,106.45362057409476,165.96000000000004,106.45362057409476,11.200000000000001,4.890466917040403,0.0,0.0,0.0,0.0,1.0,0.0

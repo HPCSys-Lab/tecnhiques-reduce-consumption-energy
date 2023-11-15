@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+P0.031105,2,0.276596,0.101777,0.423237,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.031105"
+linha fdp!!!!
+N0.460997,6,0.425532,0.033025,0.555192,0.002262,0.488348,0.394298,DOWN
+java.lang.NumberFormatException: For input string: "N0.460997"
+linha fdp!!!!
+N0.889253,4,0.382979,0.028942,0.542249,0.001988,0.578457,0.389035,DOWN
+java.lang.NumberFormatException: For input string: "N0.889253"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,216.13699340820312,67.0,209.6448211669922,45287.0,80.5727913087641,59.62219457686935,-32.32064972176265,54.239051284718606,79.97471169245912,75.70031493452677,83.82101410626598,80.60178193877444,80.71756804524567,80.48599583230317,79.35732315610859,71.27028714107367,87.44435917114352,0.0,1.0,25.0,855.48,1462.6049569176225,1.0,0.0,2.0,3.3416562759605704,1.7199999999999998,2.508651696296904,1.7199999999999998,2.508651696296904,0.24,0.7234178138070235,0.0,0.0,0.0,0.0,1.0,0.0

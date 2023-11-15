@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+P0.022964,6,0.978723,0.087426,0.313746,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.022964"
+linha fdp!!!!
+OWN0.460068,6,0.489362,0.030353,0.511009,0.002025,0.50492,0.389474,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.460068"
+linha fdp!!!!
+WN0.460422,7,0.659574,0.027741,0.284142,0.001892,0.204298,0.620614,DOWN
+java.lang.NumberFormatException: For input string: "WN0.460422"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,114.08999633789062,736.0,397.16015625,44812.0,77.37659555476212,52.81117577187224,-53.86249810289876,46.65333613976006,76.61971744812377,71.30400317082838,81.33114790327629,77.3359936990749,77.18663806313208,77.48534933501772,75.91658755839966,66.25453780186247,85.57863731493683,0.0,1.0,25.0,45305.2,222.62917598553855,1.0,0.0,62.11999999999998,13.339540221961679,35.599999999999994,16.87700605360244,35.599999999999994,16.87700605360244,7.079999999999999,3.353108010985231,0.0,0.0,0.0,0.0,1.0,0.0

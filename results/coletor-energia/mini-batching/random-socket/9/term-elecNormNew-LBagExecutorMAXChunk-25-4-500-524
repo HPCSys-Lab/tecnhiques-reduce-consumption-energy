@@ -1,0 +1,12 @@
+Connected!
+linha fdp!!!!
+N0.473253,4,0.106383,0.026,0.172716,0.001766,0.21595,0.55,DOWN
+java.lang.NumberFormatException: For input string: "N0.473253"
+linha fdp!!!!
+N0.880757,2,0.276596,0.029122,0.127789,0.000825,0.117815,0.873246,DOWN
+java.lang.NumberFormatException: For input string: "N0.880757"
+linha fdp!!!!
+WN0.911199,1,0.553191,0.027921,0.291877,0.001786,0.223977,0.788158,DOWN
+java.lang.NumberFormatException: For input string: "WN0.911199"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,327.2030029296875,2014.0,138.4828338623047,44812.0,77.51495135231634,53.42079638697842,-52.921535893155266,46.98237305972112,76.79733180396356,72.24640476059288,81.10571423213247,77.20280728989552,75.83574320416425,78.56987137562678,76.39609324645758,68.98148148148148,83.81070501143367,0.0,1.0,25.0,91.0,51943.6,34216.083434305176,1.0,0.0,98.15999999999998,72.08194410992718,60.84,41.361898731400935,60.84,41.361898731400935,6.88,3.2444824959716865,0.0,0.0,0.0,0.0,1.0,0.0
