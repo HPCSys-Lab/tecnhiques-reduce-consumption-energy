@@ -25,6 +25,5 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-87001.0,119.98799896240234,614.0,725.0808715820312,87000.0,93.48620689655172,8.255128128747897,47.508336420896676,1.8021140183677726,62.46368500735667,96.62198007880258,9.168135919217823,77.38620779981203,93.66130448851293,61.111111111111114,52.365877820079476,99.77594208964778,4.955813550511177,0.0,1.0
+95501.0,120.01599884033203,569.0,795.735595703125,95500.0,93.51204188481675,8.950801076246787,47.61582685153874,2.08596713021496,62.76416024985897,96.63483994308122,9.91567316080256,77.84728804634018,93.69457609268036,62.0,52.5771849576293,99.76562149553672,5.388748419721871,0.0,1.0

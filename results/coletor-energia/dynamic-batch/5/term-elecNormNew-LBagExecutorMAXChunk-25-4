@@ -1,10 +1,14 @@
 Connected!
 [newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
 thread is open, sizeMB250
 [newChuckSize]:250
 thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
+print extradionario!!!!
+WN0.009513,1,0.106383,0.041492,0.250372,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.009513"
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
@@ -18,9 +22,6 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-print extradionario!!!!
-OWN0.443476,6,0.319149,0.088657,0.550283,0.006076,0.583894,0.431579,UP
-java.lang.NumberFormatException: For input string: "OWN0.443476"
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
@@ -31,4 +32,4 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-27501.0,119.34300231933594,1115.0,230.43663024902344,27500.0,89.34181818181818,78.03593330304075,28.686131386861312,75.01917668115571,89.08261844622861,87.10046667253675,90.92148056372928,89.46886424015905,90.09928044448493,88.83844803583318,88.69969323836774,84.29484448231786,93.10454199441766,0.0,1.0,25.0,73.0,58891.56,40467.46316083247,1.0,0.0,125.76,92.50508094153531,80.6,57.794175023670576,80.6,57.794175023670576,8.32,4.570922591045853,0.0,0.0,0.0,0.0,1.0,0.0
+23536.0,119.38200378417969,1227.0,197.1486358642578,23500.0,89.85106382978724,79.13052814939043,34.585847504114106,76.28988965105876,89.61392612222684,87.81684382665577,91.30545732929897,89.93513007687181,90.3755127800568,89.49474737368685,89.2950083668074,85.39906569923467,93.19095103438012,0.0,1.0,25.0,60.0,48589.56,34486.63140875509,1.0,0.0,115.04,82.07947368252309,73.96,50.410382528469924,73.96,50.410382528469924,8.96,3.37243729865113,0.0,0.0,0.0,0.0,1.0,0.0
