@@ -1,0 +1,35 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+OWN0.439051,3,0.085106,0.047766,0.265546,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.439051"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+27001.0,119.47200012207031,1297.0,226.00274658203125,27000.0,90.42962962962963,80.29533215403761,36.69769720725134,77.55775577557755,90.19881340588017,88.45999195818254,91.82692307692307,90.53928279792063,91.10149995398913,89.9770656418521,89.86089506408187,85.96734977422716,93.75444035393657,0.0,1.0

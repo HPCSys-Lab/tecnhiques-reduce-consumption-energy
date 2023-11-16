@@ -1,0 +1,32 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+UA, 675, ORD, DEN, 3, 527 , 170EV, 7082, IAD, BOS, 3, 626 , 87, 1F9, 234, SNA, DEN, 3, 626 , 129, 0
+java.lang.NumberFormatException: For input string: "170EV"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+7001.0,120.63999938964844,4260.0,58.032161712646484,7000.0,66.07142857142857,22.947503404098175,19.7635135135135,12.069603850425773,62.247653834431574,75.3400477624338,45.650183150183146,63.9186451102804,68.02925182823927,59.808038392321535,60.661804419334196,84.41135411819451,36.912254720473896,0.0,1.0

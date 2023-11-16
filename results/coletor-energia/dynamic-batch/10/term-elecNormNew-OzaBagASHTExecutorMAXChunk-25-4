@@ -1,0 +1,37 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.465643,6,0.829787,0.048427,0.454478,0.003324,0.386587,0.440789,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.465643"
+thread is open, sizeMB250
+thread is open, sizeMB250
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+29587.0,119.1729965209961,702.0,248.2693328857422,29250.0,77.19658119658119,51.20635553591234,-54.72048248666211,46.20533914025324,76.84769213581643,67.83992285438765,82.3379856458063,79.35074906081702,84.36263340928168,74.33886471235235,74.49772018699592,56.729296024514156,92.26614434947768,0.0,1.0,25.0,26220.64,14251.691802729947,1.0,0.0,32.28,27.29853475921372,14.76,15.809490820390135,14.76,15.809490820390135,3.24,2.6814175355583845,0.0,0.0,0.0,0.0,1.0,0.0

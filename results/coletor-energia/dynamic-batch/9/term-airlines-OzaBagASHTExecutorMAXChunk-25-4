@@ -1,0 +1,41 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+WN, 2265, GEGDL, 1916, DEN, ATL, 3, 790 , 174, 1DL, 2204, LAX, SLC, 3, 790 , 114, 0
+java.lang.NumberFormatException: For input string: "ATL"
+print extradionario!!!!
+US, 1899, CLT, SAT, 3WN, 506, SNA, SJC, 3, 1110 , 75, 1WN, 50, HOU, DAL, 3, 1110 , 60, 1
+java.lang.NumberFormatException: For input string: "SNA"
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+WN, 268, SNA, LYV, 7282, SYR, IAD, 4, 1194 , 77, 19E, 3677, DTW, MBS, 4, 1195 , 55, 1
+java.lang.NumberFormatException: For input string: "SYR"
+print extradionario!!!!
+WN, 268, SNA, LYV, 7282, SYR, IAD, 4, 1194 , 77, 19E, 3677, DTW, MBS, 4, 1195 , 55, 1
+java.lang.NumberFormatException: For input string: "IAD"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+210014.0,120.01000213623047,282.0,1749.9708251953125,210000.0,64.94142857142857,14.777429923563028,13.337806342255801,2.661431064572432,58.323420291628025,75.93351094258209,35.46747076664154,60.160617575522494,67.7034817634406,52.61775338760436,56.59510729236852,86.44130868387366,26.748905900863377,0.0,1.0,25.0,160095.52000000005,65663.95540497595,1.0,0.0,5602.4400000000005,8012.634788673866,5551.68,8011.311465255445,5551.68,8011.311465255445,2.4000000000000004,1.5275252316519465,0.0,0.0,0.0,0.0,1.0,0.0

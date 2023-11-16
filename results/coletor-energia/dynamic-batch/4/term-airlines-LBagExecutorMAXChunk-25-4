@@ -1,0 +1,41 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+B6, 5WN, 781, SMF, ONT, 3, 495 , 75, 0XE, 2234, EWR, DAY, 3, 495 , 122, 1
+java.lang.NumberFormatException: For input string: "5WN"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+WN, 1615, LAS, DL, 2194, PBI, ATL, 4, 475 , 121, 0DL, 2232, ORD, MSP, 4, 475 , 94, 0
+java.lang.NumberFormatException: For input string: "PBI"
+print extradionario!!!!
+WN, 1615, LAS, DL, 2194, PBI, ATL, 4, 475 , 121, 0DL, 2232, ORD, MSP, 4, 475 , 94, 0
+java.lang.NumberFormatException: For input string: "ATL"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+DL, 1737, BWI, DTW, 4, 585 , 95UA, 28, LAX, JFK, 5, 980 , 320, 0UA, 903, IAD, DEN, 5, 980 , 239, 1
+java.lang.NumberFormatException: For input string: "95UA"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+13401.0,120.31600189208984,447.0,111.3816909790039,13400.0,62.895522388059696,15.626580423370298,11.166696444523838,1.270849880857819,58.14563123469269,72.85729883175019,41.396391083854226,58.987519308586755,67.03164239075842,50.943396226415096,57.327436376559035,79.79194069113954,34.86293206197855,0.0,1.0,25.0,226.0,23244.32,20564.04350583805,1.0,0.0,12380.919999999998,8372.116095110005,12354.839999999998,8354.132568575467,12354.839999999998,8354.132568575467,1.8399999999999996,0.5537749241945383,0.0,0.0,0.0,0.0,1.0,0.0

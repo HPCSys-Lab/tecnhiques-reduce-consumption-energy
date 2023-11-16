@@ -1,0 +1,34 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+US, 1270, PUS, 2164, DCA, LGA, 3, 540 , 83, 0US, 2167, LGA, DCA, 3, 540 , 78, 0
+java.lang.NumberFormatException: For input string: "LGA"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+print extradionario!!!!
+MQ, 4659, ATL, LGA, 3, 93OH, 6492, JFK, SYR, 5, 1305 , 92, 0OO, 4715, MSP, GFK, 5, 1305 , 75, 1
+java.lang.NumberFormatException: For input string: "93OH"
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+10201.0,121.927001953125,595.0,83.6648178100586,10200.0,60.97058823529412,16.946367408349186,7.804539138490051,7.5261324041812045,58.75314670229644,69.30906847624922,46.433378196500676,59.35537778038253,63.52841391009329,55.18234165067179,58.16301358069387,76.24703087885986,40.07899628252788,0.0,1.0,25.0,164.0,39860.92,29182.408332361243,1.0,0.0,14248.999999999998,10331.800907876612,14214.199999999999,10306.312911673762,14214.199999999999,10306.312911673762,2.000000000000001,0.6454972243679029,0.0,0.0,0.0,0.0,1.0,0.0

@@ -1,0 +1,34 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+95310.0,119.3550033569336,265.0,798.5421142578125,95300.0,93.4585519412382,9.956295610584167,47.09775967413444,1.079022532529406,61.801731402204,96.60424224597183,11.171273867198634,74.25009462193046,93.7515858919056,54.7486033519553,52.92809720783701,99.63594687521068,6.220247540463345,0.0,1.0,25.0,277.0,118004.68,93487.85885108288,1.0,0.0,92.15999999999998,70.77881038842064,46.559999999999995,35.416662745097824,46.559999999999995,35.416662745097824,12.280000000000003,5.16010335813796,0.0,0.0,0.0,0.0,1.0,0.0

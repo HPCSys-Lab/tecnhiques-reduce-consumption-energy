@@ -1,0 +1,35 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OO, 6532, CLE, DEN, 3, 5359E, 3990, MEM, SGF, 3, 560 , 75, 19E, 4185, MEM, DFW, 3, 560 , 107, 0
+java.lang.NumberFormatException: For input string: "5359E"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+AA, B6, 738, BQN, JFK, 5, 675 , 229, 1B6, 908, ORD, JFK, 5, 675 , 125, 0
+java.lang.NumberFormatException: For input string: "B6"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+10751.0,120.88600158691406,2779.0,88.93502807617188,10750.0,65.17209302325581,22.88103928951227,17.24137931034484,9.236363636363649,61.704368918162686,73.70786516853933,48.44309727197575,62.501005507499755,68.90756302521008,56.09444798978941,60.92778457198818,79.22705314009661,42.62851600387973,0.0,1.0
