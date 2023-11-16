@@ -1,12 +1,38 @@
 Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
 print extradionario!!!!
-WN, 1141, DAL, LIT, 3, 670 ,FL, 319, CLT, ATL, 3, 994 , 76, 0UA, 377, PHX, DEN, 3, 994 , 110, 1
-java.lang.NumberFormatException: For input string: "FL"
+AA, 1413, DFW, LAS, 3, 465DL, 2348, BHM, ATL, 3, 480 , 67, 1DL, 2418, DTW, RSW, 3, 480 , 180, 0
+java.lang.NumberFormatException: For input string: "465DL"
+thread is open, sizeMB500
 print extradionario!!!!
-DL, 2434, TPA, DCACO, 1476, IAH, PHL, 4, 602 , 192, 1EV, 5240, SAV, ATL, 4, 602 , 73, 1
-java.lang.NumberFormatException: For input string: "IAH"
+FL, 850, EYWMQ, 2913, DFW, VPS, 3, 810 , 110, 0MQ, 3080, LAX, SBA, 3, 810 , 40, 0
+java.lang.NumberFormatException: For input string: "VPS"
+thread is open, sizeMB500
 print extradionario!!!!
-DL, 2434, TPA, DCACO, 1476, IAH, PHL, 4, 602 , 192, 1EV, 5240, SAV, ATL, 4, 602 , 73, 1
-java.lang.NumberFormatException: For input string: "PHL"
+UA, 376, ORD, PHL, 4, 360AA, 382, ORD, LGA, 4, 610 , 120, 0AS, 183, ANC, FAI, 4, 610 , 61, 0
+java.lang.NumberFormatException: For input string: "360AA"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-201251.0,120.00700378417969,148.0,1676.9937744140625,201250.0,64.44670807453417,13.514399352489153,11.754766779309843,-1.1936583365154732,57.34338076373351,75.4420769378621,35.62521368290356,58.649310817743824,68.34214290156085,48.95647873392681,56.09434159302782,84.18823060777373,28.000452578281898,0.0,1.0,25.0,138087.28000000006,83622.44933056756,1.0,0.0,11506.960000000001,11097.613258714688,11467.279999999999,11062.655650581071,11467.279999999999,11062.655650581071,2.9999999999999996,1.0801234497346432,0.0,0.0,0.0,0.0,1.0,0.0
+286001.0,120.05699920654297,209.0,2382.210205078125,286000.0,62.32762237762238,12.877844131087624,8.612602525933678,4.376342368248238,57.5508969522279,73.55902671263974,34.50933670492122,59.38030857343507,64.00367270242569,54.75694444444444,55.83083877583851,86.46819558632627,25.19348196535075,0.0,1.0,25.0,275537.67999999993,68038.53520353985,1.0,0.0,12257.64,11570.047565013148,12205.24,11520.193550457388,12205.24,11520.193550457388,2.8799999999999994,0.9712534856222309,0.0,0.0,0.0,0.0,1.0,0.0

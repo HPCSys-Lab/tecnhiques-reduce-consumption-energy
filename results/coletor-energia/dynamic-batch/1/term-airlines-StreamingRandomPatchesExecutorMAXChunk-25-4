@@ -1,6 +1,33 @@
 Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 print extradionario!!!!
-FL, 262, XE, 2220, SHV, IAH, 7, 420 , 62, 0XE, 2448, LIT, IAH, 7, 420 , 84, 0
-java.lang.NumberFormatException: For input string: "IAH"
+AA, 1287, AUS, DFW, 3, 465US, 270, PHX, LAS, 3, 520 , 71, 0WN, 1002, AUS, HRL, 3, 520 , 60, 0
+java.lang.NumberFormatException: For input string: "465US"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-9001.0,124.89700317382812,6854.0,72.0673828125,9000.0,69.14444444444445,19.223772547484973,22.796775090353055,6.1189993238674685,61.023702331176956,79.6452393168658,36.27180899908173,63.98866686313631,71.46803472770323,56.50929899856938,58.321337885056124,89.93544115212713,26.707234617985126,0.0,1.0
+8751.0,122.57499694824219,3462.0,71.39302825927734,8750.0,64.84571428571428,24.40552734201381,18.10436634717785,16.729832160259868,62.90554758454182,73.01754385964912,49.581898671913436,64.23198976390465,65.59495665878644,62.86902286902287,61.63278115070982,82.33432245301682,40.93123984840282,0.0,1.0

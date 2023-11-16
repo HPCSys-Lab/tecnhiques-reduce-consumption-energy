@@ -1,4 +1,45 @@
 Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+N0.429096,3,0,0.056593,0.349152,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.429096"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+WN0.434229,5,0.957447,0.059385,0.420262,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.434229"
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.442635,1,0.574468,0.058995,0.360161,0.003398,0.194977,0.569737,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.442635"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+N0.456175,1,0.255319,0.017924,0.159774,0.001111,0.140601,0.883772,DOWN
+java.lang.NumberFormatException: For input string: "N0.456175"
+thread is open, sizeMB250
+print extradionario!!!!
+N0.460024,5,0.87234,0.030353,0.50238,0.002025,0.484464,0.346491,DOWN
+java.lang.NumberFormatException: For input string: "N0.460024"
+thread is open, sizeMB250
+thread is open, sizeMB250
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-26501.0,119.87699890136719,1929.0,221.06826782226562,26500.0,90.17735849056604,79.78003449367034,35.45747582444831,76.94624036843504,89.93283100276149,88.16441595052972,91.60512142419455,90.2481663663589,90.6159454154594,89.8803873172584,89.6196915876342,85.84204002125023,93.39734315401816,0.0,1.0
+26751.0,119.83799743652344,895.0,223.2263641357422,26750.0,90.25794392523365,79.94747340034597,35.923284976641234,77.1523759424864,90.02776813010844,88.2718831695664,91.6797087099556,90.34889478456077,90.81803005008348,89.87975951903807,89.70891614873027,85.86460890915468,93.55322338830585,0.0,1.0
