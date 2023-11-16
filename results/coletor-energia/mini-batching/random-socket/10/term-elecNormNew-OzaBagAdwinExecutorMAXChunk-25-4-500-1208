@@ -1,0 +1,24 @@
+Connected!
+linha fdp!!!!
+WN0.005,4,0.829787,0.042422,0.623178,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.005"
+linha fdp!!!!
+OWN0.438609,7,0.617021,0.050198,0.263017,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438609"
+linha fdp!!!!
+N0.876112,1,0.680851,0.024138,0.264653,0.000667,0.239254,0.856579,DOWN
+java.lang.NumberFormatException: For input string: "N0.876112"
+linha fdp!!!!
+OWN0.880713,1,0.234043,0.027531,0.070366,0.00085,0.104609,0.864474,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.880713"
+linha fdp!!!!
+N0.89027,1,0.340426,0.053441,0.443618,0.002692,0.261264,0.832018,DOWN
+java.lang.NumberFormatException: For input string: "N0.89027"
+linha fdp!!!!
+WN0.8985,6,0.191489,0.042032,0.228206,0.002746,0.271103,0.666228,DOWN
+java.lang.NumberFormatException: For input string: "WN0.8985"
+linha fdp!!!!
+OWN0.898987,3,0.702128,0.081302,0.566052,0.005268,0.636717,0.481579,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.898987"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,198.3040008544922,1215.0,228.49766540527344,44812.0,77.79612603766847,53.961098296174534,-50.8261330907989,47.65637329685938,77.08705169743033,72.49591989156595,81.39004226985374,77.53805224247127,76.4393630053083,78.63674147963424,76.64126730733314,68.93939393939394,84.34314067527232,0.0,1.0,25.0,16608.92,14388.259895715906,1.0,0.0,26.080000000000002,25.91318840539183,18.680000000000003,18.774361950986954,18.680000000000003,18.774361950986954,3.5999999999999996,2.629955639676583,0.0,0.0,0.0,0.0,1.0,0.0

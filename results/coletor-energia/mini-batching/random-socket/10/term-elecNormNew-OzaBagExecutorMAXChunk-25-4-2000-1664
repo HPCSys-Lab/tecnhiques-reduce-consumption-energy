@@ -1,0 +1,9 @@
+Connected!
+linha fdp!!!!
+N0.894518,6,0.680851,0.068782,0.624517,0.004566,0.581564,0.55,DOWN
+java.lang.NumberFormatException: For input string: "N0.894518"
+linha fdp!!!!
+P0.876156,5,0.382979,0.074186,0.539869,0.005021,0.5971,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.876156"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45312.0,114.10099792480469,3072.0,397.1218566894531,43312.0,76.05975249353529,50.49798973740782,-62.75309998430391,43.78727095305216,75.32208182550033,70.63354951995242,79.79654278642838,75.67576964309615,73.9401126593537,77.41142662683859,74.97168470802242,67.61006289308176,82.33330652296308,0.0,1.0,25.0,45353.04,225.7962724817803,1.0,0.0,72.83999999999999,9.414881836751855,51.440000000000005,7.735631842325486,51.440000000000005,7.735631842325486,9.12,1.2688577540449522,0.0,0.0,0.0,0.0,1.0,0.0
