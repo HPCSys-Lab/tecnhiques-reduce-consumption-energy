@@ -1,48 +1,6 @@
 Connected!
-linha fdp!!!!
-0.008628,2,0.340426,0.057734,0.626302,0.003467,0.42290.013893,3,0.148936,0.061967,0.279084,0.003467,0.422915,0.414912,DOWN0.013893,3,0.170213,0.059565,0.260934,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.018583,5,0.553191,0.053981,0.460726,0.003467,0.422915,0.414910.0223,5,0.148936,0.059926,0.141178,0.003467,0.422915,0.414912,UP0.0223,5,0.170213,0.059926,0.130913,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.027255,6,0.021277,0.086796,0.334420.030751,1,0.468085,0.11862,0.610681,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.424937,6,0.595745,0.066801,0.277298,0.003467,0.4220.433565,4,0.446809,0.068242,0.53258,0.003467,0.422915,0.414912,UP0.433565,4,0.468085,0.068242,0.530646,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.442281,6,0.510638,0.055963,0.396311,0.003467,0.422915,0.414910.44352,7,0.510638,0.046535,0.470396,0.003139,0.36406,0.575,DOWN0.44352,7,0.531915,0.045274,0.451056,0.003047,0.354997,0.564035,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.452237,2,0.140.456351,5,0.276596,0.033325,0.529158,0.002117,0.511134,0.574561,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-WN0.465201,3,0.978723,0.046355,0.461321,0.003232,0.432418,0.238158,DOWN
-java.lang.NumberFormatException: For input string: "WN0.465201"
-linha fdp!!!!
-0.86713,2,0.617021,0.064219,0.50.867882,5,0.170213,0.02636,0.185361,0.000841,0.242361,0.82807,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-OWN0.880404,1,0.489362,0.033806,0.366558,0.001278,0.242361,0.74386,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.880404"
-linha fdp!!!!
-0.880713,1,0.978723,0.032545,0.278786,0.001747,0.2890.977744,3,0.106383,0.036928,0.320887,0.00242,0.400829,0.642105,DOWN0.977744,3,0.12766,0.049267,0.272092,0.003209,0.380114,0.684211,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-OWN0.898633,2,0.191489,0.033596,0.191312,0.002208,0.266183,0.655702,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.898633"
-linha fdp!!!!
-0.8805810.906774,5,0.042553,0.043533,0.359714,0.002931,0.334801,0.469737,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-OWN0.907349,4,0.340426,0.072025,0.471437,0.004805,0.603055,0.45307,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.907349"
-linha fdp!!!!
-0.907659,4,0.87234,0.042512,0.442428,0.002889,0.53720.90788,2,0.93617,0.080221,0.420857,0.005312,0.301916,0.638596,UP0.90788,2,0.957447,0.042993,0.441535,0.002831,0.297255,0.626316,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-P0.912039,6,0.234043,0.083644,0.42889,0.005694,0.423097,0.446491,UP
-java.lang.NumberFormatException: For input string: "P0.912039"
+linha extraodinaria!!!!
+OWN0.876244,4,0.06383,0.024739,0.207528,0.000841,0.348783,0.710088,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.876244"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-29500.0,27.211999893188477,330.0,1084.08056640625,29000.0,75.3,46.840226539808896,-67.32071945807057,42.03754652856449,75.15707699115917,64.00442589146506,81.20703227499342,78.30306924446401,84.54690406590485,72.05923442302318,72.25411435847495,51.49308084486526,93.01514787208464,0.0,1.0,25.0,26054.679999999997,12564.551290966716,1.0,0.0,30.35999999999999,27.484662389534027,19.720000000000006,18.279131999815164,19.720000000000006,18.279131999815164,4.12,3.0044411571316667,0.0,0.0,0.0,0.0,1.0,0.0
+45000.0,210.13900756835938,1201.0,214.1439666748047,44500.0,77.20224719101122,52.759953733410356,-55.40747549019612,46.148946334731136,76.46042822151539,71.84568415209547,80.84728803639865,76.85166664236709,75.31129989526359,78.39203338947061,76.07315307733809,68.6849925705795,83.46131358409666,0.0,1.0,25.0,37114.2,24179.89529030264,1.0,0.0,47.36,38.43813210862359,30.880000000000006,24.52094342937618,30.880000000000006,24.52094342937618,4.84,3.2103997674225346,0.0,0.0,0.0,0.0,1.0,0.0

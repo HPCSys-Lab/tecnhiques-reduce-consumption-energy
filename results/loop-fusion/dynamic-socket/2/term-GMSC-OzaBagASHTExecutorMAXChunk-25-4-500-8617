@@ -1,25 +1,3 @@
 Connected!
-linha fdp!!!!
-0.0290.569592,46,0,0.258195,7900,11,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0,43,0,2.650.014283,63,0,0.350035,4310,7,0,1,0,0,00,47,1,0.544278,5950,11,0,3,0,4,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-1.004694,61,0,0.7210.619033,49,0,0.487367,9142,16,0,2,0,0,00.022458,68,0,2400,?,19,0,4,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.903163,61,0,0.141.00278,47,0,0.44025,4158,7,0,1,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.295462,53,0,0.3614460.633756,53,0,1.565797,1800,8,0,1,0,0,01.136116,47,1,0.081134,3068,3,1,0,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.068464,59,0,0.043790.041798,66,0,0.510919,8333,9,0,2,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.0040930.007602,79,0,0.050578,5100,10,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
-BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-72500.0,45.597999572753906,211.0,1589.9820556640625,72000.0,93.30555555555556,10.911329047712314,45.62274368231042,-1.3669821240799616,60.413226830881904,96.52104845115171,12.5,69.68720472541584,93.81149554354693,45.562913907284766,53.317703289096585,99.39177634024836,7.24363023794483,0.0,1.0,25.0,118666.76,140646.3657992034,1.0,0.0,25.600000000000005,23.935677693908453,10.44,12.264719048283713,10.44,12.264719048283713,3.999999999999999,4.1331989225457475,0.0,0.0,0.0,0.0,1.0,0.0
+150000.0,257.2309875488281,469.0,583.1334838867188,149500.0,93.32508361204013,3.5574974588129455,46.50477109467144,0.19003800760166412,60.003944427591804,96.54226106119565,4.057302182482454,72.89656852531812,93.43581695138064,52.357320099255574,50.986394824519806,99.86236756462273,2.1104220844168835,0.0,1.0,25.0,121215.4,43777.36329999786,1.0,0.0,47.239999999999995,42.8546769131834,14.919999999999996,19.28712869592914,14.919999999999996,19.28712869592914,4.4,4.847679857416329,0.0,0.0,0.0,0.0,1.0,0.0

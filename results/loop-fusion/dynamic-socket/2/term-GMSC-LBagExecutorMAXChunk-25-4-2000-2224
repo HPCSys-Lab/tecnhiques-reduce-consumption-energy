@@ -1,6 +1,42 @@
 Connected!
-linha fdp!!!!
-0.0.896152,40,1,0.645148,2431,5,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-148000.0,245.14300537109375,3264.0,603.729248046875,146000.0,93.53561643835616,16.13064513223699,48.2338745063624,3.4278113168934894,64.10524371216198,96.63551002074733,17.80332723630346,76.8681129597027,93.93517267189222,59.80105324751317,54.977073704069234,99.49569468607544,10.458452722063036,0.0,1.0,25.0,53.0,375277.7200000001,239824.68444774405,1.0,0.0,280.31999999999994,172.9081451715525,140.64,86.48789896087584,140.64,86.48789896087584,17.360000000000003,5.345403009440291,0.0,0.0,0.0,0.0,1.0,0.0
+76000.0,599.3709716796875,8695.0,126.79959869384766,74000.0,93.40810810810811,11.520745893750293,47.2648648648649,1.4744496061403152,62.29860110974229,96.5744382022472,12.892857142857144,74.68322678980327,93.74241659963735,55.62403697996918,53.437180582543284,99.58290489362626,7.291456271460311,0.0,1.0,25.0,17.0,333658.24,185801.98490783136,1.0,0.0,257.35999999999996,140.9446936449424,129.16000000000003,70.51044839832842,129.16000000000003,70.51044839832842,16.76,5.9180514811323945,0.0,0.0,0.0,0.0,1.0,0.0

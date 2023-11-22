@@ -1,33 +1,3 @@
 Connected!
-linha fdp!!!!
-0.016631,67,0,0.1680.018165,58,0,0.00558,4300,10,0,0,0,0,00.564554,31,0,0.533082,5833,12,0,2,0,1,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.166678,33,0,0.2736240.934507,43,0,0.461199,8620,9,0,3,1,3,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-3.275905,33,0,0.00.077099,52,0,0.492148,8850,11,0,3,0,1,00.890822,38,0,0.046969,3001,3,0,0,0,1,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.038542,61,0,0.1805980.103167,60,0,0.254391,5750,9,0,2,0,1,00.032421,48,0,0.18803,6833,3,0,1,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.050249,60,0,0.2196090.000771,45,0,0.184376,4300,7,0,1,0,1,00.010603,60,0,0.282103,7000,7,0,2,0,2,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.14238,28,0,0.38380.930199,64,0,1.142979,4685,13,0,1,0,1,00.381907,43,0,0.394256,9366,13,0,1,0,3,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.0761170.258624,54,1,0.325919,4000,7,0,1,0,4,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.063839,77,0,0.4380.005474,61,1,0.357807,7953,14,0,2,0,2,00.649761,50,0,0.469453,11866,16,0,1,0,2,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0.0862440.953047,31,2,0.102034,2900,3,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-0,36,0,0.10.317447,47,0,1.831205,1800,7,0,1,0,1,00.239763,58,0,0.121571,8200,6,0,0,0,0,0
-java.lang.NumberFormatException: multiple points
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-86425.0,159.08399963378906,41.0,543.2664794921875,86400.0,93.24768518518518,1.7699201342735542,46.19073971591952,-0.41308089500867046,57.805364173718424,96.50385696561396,2.0861372812920593,67.61384929891167,93.33580670593146,41.891891891891895,50.48211489595226,99.89452654828823,1.069703243616287,0.0,1.0,25.0,73178.23999999998,33120.470973754775,1.0,0.0,26.8,25.33607441311038,11.079999999999998,13.281942628998214,11.079999999999998,13.281942628998214,3.8799999999999994,4.548992562461862,0.0,0.0,0.0,0.0,1.0,0.0
+150000.0,449.3710021972656,38.0,333.7998962402344,149975.0,93.13818969828304,13.542461924620314,44.96202802438765,-2.6840949910197245,60.71831875905642,96.42371862369986,15.599114245878784,68.84353403732686,93.86218328202699,43.824884792626726,54.30858213687117,99.12898708128502,9.488177192457348,0.0,1.0,25.0,161964.31999999998,108062.50814911093,1.0,0.0,49.19999999999999,43.51532297172264,16.36,20.689933139895192,16.36,20.689933139895192,4.759999999999999,4.621327370644355,0.0,0.0,0.0,0.0,1.0,0.0

@@ -1,75 +1,9 @@
 Connected!
-linha fdp!!!!
-N0.031105,2,0,0.083794,0.365367,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "N0.031105"
-linha fdp!!!!
-OWN0.031238,5,0.617021,0.070764,0.427403,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.031238"
-linha fdp!!!!
-OWN0.031282,6,0.042553,0.053291,0.218834,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.031282"
-linha fdp!!!!
-OWN0.031282,6,0.489362,0.065119,0.337251,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.031282"
-linha fdp!!!!
-P0.031724,2,0.638298,0.115528,0.520381,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "P0.031724"
-linha fdp!!!!
-P0.031945,7,0.468085,0.067641,0.251116,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "P0.031945"
-linha fdp!!!!
-OWN0.44352,7,0.531915,0.045274,0.451056,0.003047,0.354997,0.564035,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.44352"
-linha fdp!!!!
-0.447724,5,0.319149,0.073166,0.691907,0.004902,0.623511,0.36220.456175,1,0.617021,0.024589,0.267629,0.000976,0.243915,0.704386,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-OWN0.456396,6,0.93617,0.033025,0.525588,0.002196,0.402123,0.692105,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.456396"
-linha fdp!!!!
-WN0.45675,7,0.468085,0.028732,0.43737,0.001874,0.35189,0.707018,DOWN
-java.lang.NumberFormatException: For input string: "WN0.45675"
-linha fdp!!!!
-WN0.460334,5,0.87234,0.044164,0.540315,0.003024,0.515018,0.341228,DOWN
-java.lang.NumberFormatException: For input string: "WN0.460334"
-linha fdp!!!!
-N0.460643,5,0.957447,0.035547,0.505058,0.002374,0.387623,0.613158,DOWN
-java.lang.NumberFormatException: For input string: "N0.460643"
-linha fdp!!!!
-P0.469183,3,0.404255,0.089738,0.56873,0.005847,0.519679,0.581579,UP
-java.lang.NumberFormatException: For input string: "P0.469183"
-linha fdp!!!!
-WN0.469846,4,0.93617,0.06584,0.512794,0.004435,0.350078,0.535526,DOWN
-java.lang.NumberFormatException: For input string: "WN0.469846"
-linha fdp!!!!
-P0.867307,6,0.723404,0.028732,0.41446,0.001961,0.447954,0.476316,DOWN
-java.lang.NumberFormatException: For input string: "P0.867307"
-linha fdp!!!!
-0.867351,7,0.0.880934,6,0.340426,0.028071,0.46147,0.001878,0.48783,0.594298,UP0.880934,6,0.361702,0.027471,0.480958,0.00184,0.511393,0.579386,UP
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-WN0.885271,6,0.234043,0.027171,0.255579,0.00178,0.259451,0.683333,DOWN
-java.lang.NumberFormatException: For input string: "WN0.885271"
-linha fdp!!!!
-WN0.889562,6,0.744681,0.035007,0.688634,0.002439,0.688762,0.23114,DOWN
-java.lang.NumberFormatException: For input string: "WN0.889562"
-linha fdp!!!!
-0.0.898102,4,0.148936,0.03942,0.256918,0.002551,0.342569,0.671053,DOWN
-java.lang.NumberFormatException: multiple points
-linha fdp!!!!
-P0.899075,5,0.851064,0.090969,0.68551,0.006072,0.60927,0.516228,UP
-java.lang.NumberFormatException: For input string: "P0.899075"
-linha fdp!!!!
-OWN0.906907,1,0.553191,0.031764,0.284142,0.00211,0.205852,0.585088,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.906907"
-linha fdp!!!!
-WN0.907836,1,0.978723,0.041702,0.287712,0.002815,0.325479,0.423246,UP
-java.lang.NumberFormatException: For input string: "WN0.907836"
-linha fdp!!!!
-WN0.911597,3,0.914894,0.042242,0.418625,0.002719,0.328068,0.698684,DOWN
-java.lang.NumberFormatException: For input string: "WN0.911597"
-linha fdp!!!!
-P0.915756,6,0.361702,0.102888,0.618417,0.006894,0.576126,0.394298,UP
-java.lang.NumberFormatException: For input string: "P0.915756"
+linha extraodinaria!!!!
+N0.452192,1,0.787234,0.047466,0.632847,0.003203,0.415588,0.425439,UP
+java.lang.NumberFormatException: For input string: "N0.452192"
+linha extraodinaria!!!!
+N0.880404,1,0.255319,0.024619,0.119756,0.00157,0.124288,0.825439,DOWN
+java.lang.NumberFormatException: For input string: "N0.880404"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-22000.0,24.18400001525879,359.0,909.6923828125,21500.0,73.96279069767442,44.201821608369265,-79.36558795257925,38.82635777510655,73.44628524270966,62.80154604824737,80.0057198012369,75.93283130658837,80.27257240204429,71.59309021113243,71.11742753431436,51.576182136602455,90.65867293202625,0.0,1.0,25.0,17425.720000000005,8152.398192761033,1.0,0.0,19.16,17.503999542961598,10.800000000000002,11.561430130683084,10.800000000000002,11.561430130683084,2.16,1.9295940851208404,0.0,0.0,0.0,0.0,1.0,0.0
+45000.0,214.21499633789062,1252.0,210.06932067871094,44500.0,77.66516853932585,52.85135476420913,-52.2518382352941,47.24522292993631,76.99040692953758,70.28675657088179,82.10962109621096,78.3919497072948,80.5055140763066,76.278385338283,75.63809929857513,62.36998514115899,88.90621345599126,0.0,1.0,25.0,39969.399999999994,24069.919990173068,1.0,0.0,41.00000000000001,35.48004133781885,19.680000000000003,22.32099161477076,19.680000000000003,22.32099161477076,3.2799999999999994,2.9512709126747407,0.0,0.0,0.0,0.0,1.0,0.0
