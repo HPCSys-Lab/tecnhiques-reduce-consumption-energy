@@ -1,15 +1,15 @@
 Connected!
 linha fdp!!!!
-N0.442547,6,0.702128,0.070884,0.552365,0.004738,0.494562,0.500526,DOWN
-java.lang.NumberFormatException: For input string: "N0.442547"
+0.0.018362,7,0.914894,0.073736,0.336656,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: multiple points
 linha fdp!!!!
-N0.45144,5,0.085106,0.04002,0.411633,0.002455,0.48291,0.59693,UP
-java.lang.NumberFormatException: For input string: "N0.45144"
+P0.469537,4,0.425532,0.041642,0.513835,0.002781,0.473071,0.432018,UP
+java.lang.NumberFormatException: For input string: "P0.469537"
 linha fdp!!!!
-WN0.881111,3,0.702128,0.036658,0.544927,0.002538,0.535733,0.401316,UP
-java.lang.NumberFormatException: For input string: "WN0.881111"
+WN0.876864,4,0.553191,0.029602,0.544778,0.002034,0.512429,0.376754,DOWN
+java.lang.NumberFormatException: For input string: "WN0.876864"
 linha fdp!!!!
-WN0.912216,3,0.191489,0.049177,0.212586,0.003292,0.269549,0.50614,DOWN
-java.lang.NumberFormatException: For input string: "WN0.912216"
+OWN0.899164,7,0.702128,0.05326,0.338292,0.003438,0.299845,0.690789,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.899164"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-44000.0,227.14700317382812,6402.0,193.7071533203125,42000.0,88.77142857142857,76.89368005402784,23.71400841151729,73.59462486002238,88.4804517071896,86.49686273386241,90.39393815944922,88.73705583779257,88.55449958934646,88.91961208623867,88.22532736019966,84.53267626141009,91.91797845898923,0.0,1.0
+44000.0,170.1179962158203,5238.0,258.6440124511719,42000.0,88.50238095238096,76.33490704019574,21.8102331606218,72.9588979728973,88.20190205651292,86.15587543728851,90.17364574639171,88.4656562502397,88.27193137082084,88.65938112965854,87.93971591726456,84.13889666760012,91.740535166929,0.0,1.0

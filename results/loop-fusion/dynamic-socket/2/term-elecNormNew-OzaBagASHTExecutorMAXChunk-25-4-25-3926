@@ -1,9 +1,120 @@
 Connected!
 linha fdp!!!!
-0.425601,7,0.212766,0.066741,0.083755,0.003467,0.422915,0.4140.429096,3,0.893617,0.085655,0.407319,0.003467,0.422915,0.414912,UP
+N0.000973,3,0.553191,0.043983,0.473073,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.000973"
+linha fdp!!!!
+WN0.001018,4,0.87234,0.043983,0.564267,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.001018"
+linha fdp!!!!
+WN0.004159,6,0.617021,0.043983,0.299762,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.004159"
+linha fdp!!!!
+OWN0.004248,1,0.361702,0.048367,0.546266,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.004248"
+linha fdp!!!!
+OWN0.00438,4,0.978723,0.077789,0.534365,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "OWN0.00438"
+linha fdp!!!!
+OWN0.009513,1,0.170213,0.041341,0.191461,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.009513"
+linha fdp!!!!
+OWN0.01376,7,0.212766,0.041131,0.112913,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.01376"
+linha fdp!!!!
+WN0.018583,5,0.425532,0.054281,0.528265,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.018583"
+linha fdp!!!!
+N0.03168,1,0.148936,0.051909,0.072746,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.03168"
+linha fdp!!!!
+OWN0.031769,3,0.744681,0.056923,0.178072,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.031769"
+linha fdp!!!!
+WN0.031813,4,0.617021,0.058394,0.221065,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.031813"
+linha fdp!!!!
+WN0.031857,5,0.042553,0.055242,0.087623,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.031857"
+linha fdp!!!!
+OWN0.429362,2,0.808511,0.061787,0.455222,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.429362"
+linha fdp!!!!
+P0.429406,3,0.234043,0.077219,0.397501,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.429406"
+linha fdp!!!!
+0.437940.437989,7,0.404255,0.046806,0.331895,0.003467,0.422915,0.414912,DOWN
 java.lang.NumberFormatException: multiple points
 linha fdp!!!!
-P0.912039,6,0.531915,0.049207,0.493306,0.003346,0.573278,0.369737,DOWN
-java.lang.NumberFormatException: For input string: "P0.912039"
+N0.438388,2,0.212766,0.053561,0.190271,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.438388"
+linha fdp!!!!
+OWN0.438742,3,0.042553,0.055782,0.374293,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438742"
+linha fdp!!!!
+0.44237,2,0.234043,0.042392,0.10.447458,6,0.553191,0.043053,0.567688,0.003016,0.576903,0.298246,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+N0.447768,6,0.680851,0.041702,0.564564,0.002869,0.503884,0.374561,DOWN
+java.lang.NumberFormatException: For input string: "N0.447768"
+linha fdp!!!!
+OWN0.451661,3,0.914894,0.033475,0.585242,0.002227,0.513465,0.664474,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.451661"
+linha fdp!!!!
+N0.456573,3,0,0.035037,0.563969,0.002297,0.497929,0.675877,DOWN
+java.lang.NumberFormatException: For input string: "N0.456573"
+linha fdp!!!!
+N0.460289,4,0.957447,0.039,0.497769,0.002651,0.383998,0.448246,DOWN
+java.lang.NumberFormatException: For input string: "N0.460289"
+linha fdp!!!!
+0.460466,1,0,0.02675,0.30.460909,4,0.106383,0.034526,0.297382,0.002354,0.300363,0.399561,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.468917,4,0.250.473165,2,0.702128,0.046085,0.601904,0.003033,0.525375,0.279825,UP0.473165,2,0.723404,0.045094,0.564862,0.003002,0.471258,0.350439,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.86730.867926,6,0,0.028522,0.373996,0.001159,0.346453,0.749123,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.871377,1,0.744681,0.035397,0.40.871687,1,0.851064,0.027321,0.339185,0.00171,0.2768,0.830263,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.87213,4,0.0.876997,7,0,0.036117,0.36269,0.00243,0.292853,0.469737,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.880440.875979,1,0.808511,0.03987,0.509819,0.002551,0.445365,0.693421,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+WN0.885359,1,0.042553,0.056233,0.258554,0.003693,0.358105,0.607456,DOWN
+java.lang.NumberFormatException: For input string: "WN0.885359"
+linha fdp!!!!
+OWN0.889695,2,0.06383,0.031614,0.299762,0.00205,0.380891,0.587719,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.889695"
+linha fdp!!!!
+WN0.889872,6,0.93617,0.086766,0.634781,0.005947,0.480839,0.529825,DOWN
+java.lang.NumberFormatException: For input string: "WN0.889872"
+linha fdp!!!!
+0.899164,7,0.12766,0.063318,0.245314,0.0042,0.343345,0.50.903323,4,0.87234,0.041011,0.441833,0.002798,0.48058,0.30307,DOWN0.903323,4,0.893617,0.028762,0.408212,0.001955,0.467374,0.327193,DOWN
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+P0.9035,1,0.87234,0.03993,0.343053,0.002212,0.27188,0.707895,UP
+java.lang.NumberFormatException: For input string: "P0.9035"
+linha fdp!!!!
+0.906863,7,0.617021,0.03978,0.3598630.907261,2,0.638298,0.156929,0.442874,0.010268,0.592957,0.47807,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+0.907703,5,0.361702,0.048847,0.487057,0.003342,0.5595550.907969,4,0.957447,0.044284,0.471437,0.002958,0.338685,0.549123,DOWN0.907969,4,0.978723,0.080881,0.468164,0.005426,0.460124,0.540351,UP
+java.lang.NumberFormatException: multiple points
+linha fdp!!!!
+OWN0.911376,5,0,0.046926,0.406724,0.003145,0.40523,0.546491,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.911376"
+linha fdp!!!!
+OWN0.911464,7,0.212766,0.038129,0.170039,0.002437,0.196271,0.846053,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.911464"
+linha fdp!!!!
+N0.911774,7,0.297872,0.043773,0.371764,0.002862,0.354221,0.681579,DOWN
+java.lang.NumberFormatException: For input string: "N0.911774"
+linha fdp!!!!
+0.911907,3,0.382979,0.086946,0.560994,0.005758,0.557483,0.470.915712,5,0.106383,0.042182,0.176436,0.00284,0.282496,0.497807,DOWN
+java.lang.NumberFormatException: multiple points
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-44800.0,95.2509994506836,30.0,470.3362731933594,44775.0,78.62199888330541,54.268546379122284,-45.449019905789456,49.482795017943836,78.37370825773188,69.94693377712187,83.41276580995131,80.91956224350206,86.34108527131784,75.49803921568628,75.98316105193531,58.785031931176434,93.18129017269419,0.0,1.0,25.0,29409.280000000002,17171.91433348847,1.0,0.0,33.4,33.307906969166744,14.319999999999997,17.999351840182097,14.319999999999997,17.999351840182097,2.8000000000000007,2.886751345948129,0.0,0.0,0.0,0.0,1.0,0.0
+28550.0,92.01000213623047,45.0,310.2923583984375,28525.0,78.32778264680104,53.668283876495884,-38.54773644105783,48.42316035374603,77.88066239519445,69.83333333333333,83.12397596941562,80.07750539500118,84.36574677247424,75.78926401752814,75.80113710765062,59.571798946223964,92.03047526907727,0.0,1.0,25.0,18874.000000000004,8561.20799011448,1.0,0.0,27.999999999999996,24.7352649739867,14.48,16.07824617301278,14.48,16.07824617301278,2.5199999999999996,2.3295206946208196,0.0,0.0,0.0,0.0,1.0,0.0

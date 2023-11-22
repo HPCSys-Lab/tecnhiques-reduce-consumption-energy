@@ -1,6 +1,18 @@
 Connected!
 linha fdp!!!!
-AA, 2435, ORD, PHX, 3,DL, 1386, LGA, BOS, 3, 870 , 66, 0DL, 1389, BOS, LGA, 3, 870 , 70, 0
-java.lang.NumberFormatException: For input string: "DL"
+DL, 1747, LGA, ATL, 3, 5EV, 7328, ATL, GSO, 3, 575 , 83, 0MQ, 2766, ABI, DFW, 3, 575 , 50, 0
+java.lang.NumberFormatException: For input string: "5EV"
+linha fdp!!!!
+9E, 3745, ATL, CO, 158, IAH, DCA, 2, 885 , 170, 1CO, 289, DTW, IAH, 2, 885 , 192, 1
+java.lang.NumberFormatException: For input string: "IAH"
+linha fdp!!!!
+9E, 3745, ATL, CO, 158, IAH, DCA, 2, 885 , 170, 1CO, 289, DTW, IAH, 2, 885 , 192, 1
+java.lang.NumberFormatException: For input string: "DCA"
+linha fdp!!!!
+OH, 6410, JFK, RIWN, 1520, OKC, BWI, 5, 770 , 165, 1WN, 1554, LAX, PHX, 5, 770 , 80, 0
+java.lang.NumberFormatException: For input string: "OKC"
+linha fdp!!!!
+OH, 6410, JFK, RIWN, 1520, OKC, BWI, 5, 770 , 165, 1WN, 1554, LAX, PHX, 5, 770 , 80, 0
+java.lang.NumberFormatException: For input string: "BWI"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-538350.0,458.75799560546875,42.0,1173.4945068359375,538300.0,62.13505480215493,23.242175023720584,9.734775850386841,14.972530337603612,61.62210054421878,66.06847367562402,57.17029382161415,61.6399860718178,65.68183849303415,57.59813365060143,61.60422539297852,66.45968765594596,56.74876313001109,0.0,1.0,25.0,530541.24,75072.47259664047,1.0,0.0,6554.360000000002,9398.673181536496,6421.4000000000015,9416.93563037715,6421.4000000000015,9416.93563037715,3.24,2.0872629605937694,0.0,0.0,0.0,0.0,1.0,0.0
+519800.0,556.9130249023438,49.0,933.359375,519750.0,62.33881673881674,20.722355993745477,10.161782591734179,14.87836909348663,61.0299219079681,70.4448135286124,48.10642714549691,62.12095488312923,62.6236215061153,61.61828826014316,59.97655118622504,80.49842645759718,39.454675914852906,0.0,1.0,25.0,402110.88000000006,160087.31434759806,1.0,0.0,8319.080000000002,11385.900099538318,8187.440000000001,11393.260983581478,8187.440000000001,11393.260983581478,2.68,1.7009801096230763,0.0,0.0,0.0,0.0,1.0,0.0

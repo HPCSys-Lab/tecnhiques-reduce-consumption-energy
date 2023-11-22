@@ -1,12 +1,12 @@
 Connected!
 linha fdp!!!!
-N0.446971,2,0.170213,0.002912,0.147575,0.000058,0.157431,0.62807,DOWN
-java.lang.NumberFormatException: For input string: "N0.446971"
+0.008982,3,0.82970.009159,7,0.553191,0.067581,0.424725,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: multiple points
 linha fdp!!!!
-N0.464581,3,0.212766,0.025339,0.148914,0.001697,0.225272,0.684211,DOWN
-java.lang.NumberFormatException: For input string: "N0.464581"
+P0.451617,2,0.744681,0.120572,0.852871,0.007979,0.757121,0.452193,UP
+java.lang.NumberFormatException: For input string: "P0.451617"
 linha fdp!!!!
-WN0.876244,4,0.042553,0.024919,0.244421,0.00097,0.363542,0.727632,DOWN
-java.lang.NumberFormatException: For input string: "WN0.876244"
+WN0.465378,7,0.276596,0.02621,0.198602,0.00157,0.189539,0.730702,DOWN
+java.lang.NumberFormatException: For input string: "WN0.465378"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-45000.0,41.26900100708008,341.0,1090.4068603515625,44500.0,84.32134831460674,67.40545117429988,-6.649342708651834,63.12952491676794,83.91062412272457,80.36046184173473,86.95570886383608,84.66910707313173,86.03473227206948,83.303481874194,83.16560980431089,75.38835464440452,90.94286496421728,0.0,1.0,25.0,10912.960000000001,9459.665253414978,1.0,0.0,17.04,16.22364529526785,12.000000000000002,11.528949070347508,12.000000000000002,11.528949070347508,3.0400000000000005,2.335950912726264,0.0,0.0,0.0,0.0,1.0,0.0
+45000.0,61.2859992980957,451.0,734.2623291015625,44500.0,84.71011235955056,68.34330330349923,-4.196018376722856,63.95995550611791,84.27392158891416,81.16712343935998,87.13380614657211,84.76978583818621,85.03480278422273,84.50476889214967,83.78382475837294,77.63596886088015,89.9316806558657,0.0,1.0,25.0,12833.279999999999,10943.228772167746,1.0,0.0,22.480000000000004,20.180683833805038,16.160000000000004,14.670491925403638,16.160000000000004,14.670491925403638,3.36,2.497999199359359,0.0,0.0,0.0,0.0,1.0,0.0
