@@ -76,25 +76,25 @@ X covtypeNorm.arff OBagAd 1149
 X covtypeNorm.arff OBagASHT 3314
 X covtypeNorm.arff OBag 3557
 
-X airlines.arff ARF
-X airlines.arff LBag
-X airlines.arff SRP
-X airlines.arff OBagAd
-X airlines.arff OBagASHT
-X airlines.arff OBag
+X airlines.arff ARF 292
+X airlines.arff LBag 440
+X airlines.arff SRP 277
+X airlines.arff OBagAd 970
+X airlines.arff OBagASHT 4989
+X airlines.arff OBag 6220
 
-X elecNormNew.arff ARF
-X elecNormNew.arff LBag
-X elecNormNew.arff SRP
-X elecNormNew.arff OBagAd
-X elecNormNew.arff OBagASHT
-X elecNormNew.arff OBag
+X elecNormNew.arff ARF 875
+X elecNormNew.arff LBag 1402
+X elecNormNew.arff SRP 519
+X elecNormNew.arff OBagAd 2528
+X elecNormNew.arff OBagASHT 4202
+X elecNormNew.arff OBag 4042
 
-X GMSC.arff ARF
-X GMSC.arff LBag
-X GMSC.arff SRP
-X GMSC.arff OBagAd
-X GMSC.arff OBagASHT
-X GMSC.arff OBag
+X GMSC.arff ARF 1801
+X GMSC.arff LBag 2224
+X GMSC.arff SRP 974
+X GMSC.arff OBagAd 4540
+X GMSC.arff OBagASHT 8906
+X GMSC.arff OBag 8410
 
 date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
