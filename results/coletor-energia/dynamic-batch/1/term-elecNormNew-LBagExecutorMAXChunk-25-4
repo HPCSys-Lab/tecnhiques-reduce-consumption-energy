@@ -1,24 +1,84 @@
 Connected!
 [newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 thread is open, sizeMB500
 [newChuckSize]:500
-thread is open, sizeMB500
-thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB250
 [newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
 thread is open, sizeMB500
 [newChuckSize]:500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 print extradionario!!!!
-WN0.013672,5,0.638298,0.041431,0.427551,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "WN0.013672"
+OWN0.456219,2,0.191489,0.024859,0.171526,0.000976,0.261264,0.875439,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.456219"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB500
+[newChuckSize]:500
 thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.474448,3,0.234043,0.034166,0.202023,0.002347,0.128172,0.453509,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.474448"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
+[newChuckSize]:500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
@@ -30,8 +90,66 @@ thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+P0.8762,3,0.829787,0.032515,0.466528,0.000899,0.481098,0.57193,UP
+java.lang.NumberFormatException: For input string: "P0.8762"
 thread is open, sizeMB500
 [newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-26694.0,119.34100341796875,1153.0,223.67835998535156,26500.0,89.70943396226416,78.7807971739042,32.58343634116193,75.74490794271992,89.44001788551411,87.52859364992221,91.2430557785556,89.78002835452217,90.1347404127014,89.42531629634293,89.10257304165545,85.06891951978656,93.13622656352433,0.0,1.0,25.0,67.0,44280.2,37152.79376215648,1.0,0.0,100.32000000000002,86.2722048711712,63.96000000000001,50.33759363868453,63.96000000000001,50.33759363868453,8.16,4.827697864061779,0.0,0.0,0.0,0.0,1.0,0.0
+40218.0,598.2769775390625,2358.0,67.2230453491211,39750.0,89.29559748427674,77.89136077585734,26.599965499396273,74.52400910070651,88.98068224318534,86.96398467432951,90.92421915002559,89.26170422273488,89.09125164855868,89.43215679691107,88.70142418922394,84.93593581606993,92.46691256237796,0.0,1.0,25.0,148.0,25589.399999999994,17991.944113963895,1.0,0.0,55.44000000000001,45.712944920813555,34.919999999999995,27.590638508982234,34.919999999999995,27.590638508982234,5.72,2.7616420236277306,0.0,0.0,0.0,0.0,1.0,0.0

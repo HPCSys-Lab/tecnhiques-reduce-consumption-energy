@@ -1,15 +1,22 @@
 Connected!
 [newChuckSize]:0
-thread is open, sizeMB2000
-[newChuckSize]:2000
-thread is open, sizeMB2000
+thread is open, sizeMB50
+[newChuckSize]:50
 thread is open, sizeMB50
 thread is open, sizeMB50
 thread is open, sizeMB50
 thread is open, sizeMB50
 thread is open, sizeMB50
+thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB50
 [newChuckSize]:50
 thread is open, sizeMB50
@@ -26,5 +33,101 @@ thread is open, sizeMB50
 thread is open, sizeMB50
 thread is open, sizeMB50
 thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB50
+[newChuckSize]:50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB50
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB50
+thread is open, sizeMB250
+thread is open, sizeMB50
+thread is open, sizeMB250
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-9568.0,122.65799713134766,9989.0,78.0055160522461,9250.0,61.686486486486494,16.84484661778043,10.073585384420209,7.39482623464857,58.88262042343545,70.84087543195655,44.153797667822246,59.793851470836,63.94830659536542,55.63939634630659,57.99874596587223,79.39874585023976,36.5987460815047,0.0,1.0,25.0,106.0,42047.92,25159.351750260445,1.0,0.0,15522.680000000002,9473.352494057564,15484.84,9450.036303633971,15484.84,9450.036303633971,1.96,0.8406346808612327,0.0,0.0,0.0,0.0,1.0,0.0
+9001.0,605.677978515625,3225.0,14.861032485961914,9000.0,62.2,16.408394870820427,12.387329384496514,6.099917195694175,58.72702132235435,71.85172927353963,42.47548190733852,59.77827527186823,64.70938897168406,54.84716157205241,57.71210284610533,80.76636904761905,34.65783664459161,0.0,1.0,25.0,117.0,41285.52,21499.02883488771,1.0,0.0,16586.879999999997,7997.535064630851,16547.28,7977.696777683811,16547.28,7977.696777683811,2.0400000000000005,0.6110100926607787,0.0,0.0,0.0,0.0,1.0,0.0

@@ -4,9 +4,62 @@ thread is open, sizeMB25
 [newChuckSize]:25
 thread is open, sizeMB25
 thread is open, sizeMB25
-print extradionario!!!!
-WN, 10WN, 702, LAS, ABQ, 3, 515 , 80, 0WN, 735, DEN, PDX, 3, 515 , 175, 1
-java.lang.NumberFormatException: For input string: "10WN"
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
@@ -18,8 +71,10 @@ thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB500
+[newChuckSize]:500
 thread is open, sizeMB500
 thread is open, sizeMB25
+[newChuckSize]:25
 thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
@@ -28,5 +83,61 @@ thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
 thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-41251.0,120.00599670410156,72.0,343.74114990234375,41250.0,69.41575757575758,22.62199692432808,24.640105131115224,11.342234715390008,63.00417215179229,79.51349420285149,39.69210174029451,66.45576707559606,70.83586494227931,62.07566920891282,59.89341422075418,90.61401236167141,29.172816079836956,0.0,1.0,25.0,4544.84,3658.767491473962,1.0,0.0,2093.28,1969.8592487789576,2089.3599999999997,1966.1424134583945,2089.3599999999997,1966.1424134583945,1.2400000000000004,0.9695359714832659,0.0,0.0,0.0,0.0,1.0,0.0
+31053.0,599.260009765625,1060.0,51.81890869140625,29650.0,67.11973018549747,25.36780306516863,19.70183675150318,14.632224168126099,63.485883991772496,76.06373836823886,47.50417317322707,65.26837606837607,68.84444444444443,61.69230769230769,61.79816408116935,84.97449119534807,38.62183696699063,0.0,1.0,25.0,7059.999999999999,5766.194592912498,1.0,0.0,4219.840000000001,4401.191578046411,4211.76,4392.714121891689,4211.76,4392.714121891689,1.08,0.9539392014169458,0.0,0.0,0.0,0.0,1.0,0.0

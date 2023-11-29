@@ -5,38 +5,24 @@ thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 print extradionario!!!!
-N0.009469,7,0.234043,0.041642,0.148616,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "N0.009469"
-thread is open, sizeMB250
-print extradionario!!!!
-OWN0.013583,3,0.382979,0.045545,0.594615,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.013583"
-thread is open, sizeMB250
+WN0.013097,6,0.744681,0.041582,0.519637,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.013097"
 thread is open, sizeMB250
 thread is open, sizeMB250
 print extradionario!!!!
-N0.026724,1,0.893617,0.059865,0.373252,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "N0.026724"
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
+P0.022123,1,0.468085,0.081542,0.322672,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.022123"
 print extradionario!!!!
-OWN0.461042,7,0.659574,0.027021,0.274472,0.001824,0.188503,0.542105,DOWN
-java.lang.NumberFormatException: For input string: "OWN0.461042"
-thread is open, sizeMB250
-thread is open, sizeMB250
-BYTES READ -1
+P0.469581,5,0.468085,0.054792,0.548497,0.003627,0.47566,0.479386,UP
+java.lang.NumberFormatException: For input string: "P0.469581"
+print extradionario!!!!
+OWN0.47343,1,0.276596,0.025339,0.206635,0.001714,0.153547,0.65307,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.47343"
+print extradionario!!!!
+WN0.867041,7,0.191489,0.024919,0.10726,0.001641,0.09477,0.880263,DOWN
+java.lang.NumberFormatException: For input string: "WN0.867041"
+print extradionario!!!!
+P0.912261,4,0.234043,0.094092,0.411038,0.006504,0.409891,0.377193,UP
+java.lang.NumberFormatException: For input string: "P0.912261"
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-27001.0,119.20800018310547,625.0,226.5032501220703,27000.0,86.02962962962964,71.1531330285263,7.684777288301536,67.2484153859512,85.67109814975265,82.96102016821924,88.16887271814817,86.12241811171059,86.55406680505756,85.69076941836362,85.22448376508855,79.65439388676624,90.79457364341084,0.0,1.0,25.0,7075.88,6193.553687235355,1.0,0.0,17.439999999999998,19.222556194915043,13.159999999999998,14.453027364535085,13.159999999999998,14.453027364535085,2.6799999999999997,2.9257477676655586,0.0,0.0,0.0,0.0,1.0,0.0
+45251.0,221.25900268554688,651.0,204.51597595214844,45250.0,84.5635359116022,67.97117789104075,-5.116629044394295,63.65953904583527,84.14029945212714,80.81657324980767,87.0937927464971,84.76762106428852,85.61532192339038,83.91992020518666,83.52219460135116,76.52721407014258,90.51717513255974,0.0,1.0,25.0,7822.799999999998,6047.888440053548,1.0,0.0,13.68,13.129864178023066,9.839999999999998,9.379410073844374,9.839999999999998,9.379410073844374,2.4800000000000004,2.12367605815953,0.0,0.0,0.0,0.0,1.0,0.0
