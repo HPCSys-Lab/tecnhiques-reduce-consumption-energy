@@ -7,10 +7,48 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB250
 [newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.438166,4,0.723404,0.076348,0.474859,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.438166"
+thread is open, sizeMB250
+print extradionario!!!!
+OWN0.446662,2,0,0.035817,0.395567,0.002318,0.398239,0.609211,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.446662"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+print extradionario!!!!
+P0.456794,1,0.425532,0.031674,0.415799,0.00166,0.259451,0.74693,UP
+java.lang.NumberFormatException: For input string: "P0.456794"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
@@ -20,30 +58,24 @@ thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB500
 [newChuckSize]:500
+print extradionario!!!!
+OWN0.867174,3,0.276596,0.035967,0.344689,0.002462,0.318747,0.310965,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.867174"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB250
 [newChuckSize]:250
 thread is open, sizeMB250
-print extradionario!!!!
-WN0.474227,5,0.148936,0.020716,0.031389,0.001381,0.054376,0.8,DOWN
-java.lang.NumberFormatException: For input string: "WN0.474227"
-thread is open, sizeMB250
 thread is open, sizeMB250
 print extradionario!!!!
-WN0.876908,5,0.808511,0.028972,0.493157,0.001936,0.46349,0.544298,DOWN
-java.lang.NumberFormatException: For input string: "WN0.876908"
-print extradionario!!!!
-WN0.880315,6,0.234043,0.040141,0.245016,0.002628,0.246504,0.522807,DOWN
-java.lang.NumberFormatException: For input string: "WN0.880315"
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
-thread is open, sizeMB250
+OWN0.893633,7,0.638298,0.063318,0.471288,0.00403,0.344122,0.694737,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.893633"
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-45069.0,157.1199951171875,624.0,286.8444519042969,44750.0,72.07597765363128,42.28506950636505,-90.80775690945185,34.071963701593326,71.1840355122502,65.85025831670447,76.38432172959898,71.42013090235086,68.3287950987066,74.51146670599513,70.9494959125145,63.54523872329201,78.35375310173698,0.0,1.0,25.0,30942.60000000001,13242.358415956984,1.0,0.0,34.84,28.658448434391328,15.16,15.05456741324705,15.16,15.05456741324705,3.16,2.5278449319529077,0.0,0.0,0.0,0.0,1.0,0.0
+45266.0,278.2179870605469,979.0,162.69976806640625,45000.0,77.69777777777777,52.990182714456445,-51.578311433318234,47.51320537628785,77.06047518756606,70.43813901411356,82.10004281432853,78.44581772239194,80.63819739593875,76.25343804884514,75.72321347563222,62.52877170956267,88.91765524170177,0.0,1.0,25.0,33984.28,19439.84743707282,1.0,0.0,37.00000000000001,30.17587336488098,17.880000000000003,18.612988296706508,17.880000000000003,18.612988296706508,3.559999999999999,3.2797357617141456,0.0,0.0,0.0,0.0,1.0,0.0

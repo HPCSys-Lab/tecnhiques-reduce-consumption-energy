@@ -1,83 +1,130 @@
-19/11/23 17:46:00
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 17:50:29
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 17:58:37
-19/11/23 17:58:53
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 18:09:35
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 18:18:48
-19/11/23 18:19:01
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 18:29:13
-19/11/23 18:29:13
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-LBagExecutorMAXChunk
-19/11/23 18:39:27
-19/11/23 18:39:27
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-StreamingRandomPatchesExecutorMAXChunk
-19/11/23 18:49:40
-19/11/23 18:49:40
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-OzaBagAdwinExecutorMAXChunk
-19/11/23 18:59:53
-19/11/23 18:59:53
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-OzaBagASHTExecutorMAXChunk
-19/11/23 19:10:07
-19/11/23 19:10:07
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//covtypeNorm-OzaBagExecutorMAXChunk
-19/11/23 19:20:21
-19/11/23 19:20:21
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 19:30:35
-19/11/23 19:30:35
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-LBagExecutorMAXChunk
-19/11/23 19:40:55
-19/11/23 19:40:55
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-StreamingRandomPatchesExecutorMAXChunk
-19/11/23 19:51:09
-19/11/23 19:51:09
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-OzaBagAdwinExecutorMAXChunk
-19/11/23 20:01:23
-19/11/23 20:01:23
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-OzaBagASHTExecutorMAXChunk
-19/11/23 20:11:37
-19/11/23 20:11:37
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//airlines-OzaBagExecutorMAXChunk
-19/11/23 20:21:51
-19/11/23 20:21:51
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 20:32:03
-19/11/23 20:32:03
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-LBagExecutorMAXChunk
-19/11/23 20:42:17
-19/11/23 20:42:17
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-StreamingRandomPatchesExecutorMAXChunk
-19/11/23 20:52:30
-19/11/23 20:52:30
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-OzaBagAdwinExecutorMAXChunk
-19/11/23 20:56:25
-19/11/23 20:56:25
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-OzaBagASHTExecutorMAXChunk
-19/11/23 20:59:17
-19/11/23 20:59:17
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//elecNormNew-OzaBagExecutorMAXChunk
-19/11/23 21:03:26
-19/11/23 21:03:26
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-AdaptiveRandomForestExecutorMAXChunk
-19/11/23 21:13:39
-19/11/23 21:13:39
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-LBagExecutorMAXChunk
-19/11/23 21:23:52
-19/11/23 21:23:52
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-StreamingRandomPatchesExecutorMAXChunk
-19/11/23 21:34:05
-19/11/23 21:34:05
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-OzaBagAdwinExecutorMAXChunk
-19/11/23 21:44:18
-19/11/23 21:44:19
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-OzaBagASHTExecutorMAXChunk
-19/11/23 21:50:47
-19/11/23 21:50:47
-/home/pi/reginaldojunior/experimentos/dynamic-batch/1-test//GMSC-OzaBagExecutorMAXChunk
-19/11/23 21:56:16
-19/11/23 21:56:16
+18/11/23 07:24:33
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 07:26:55
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 07:37:07
+18/11/23 07:37:08
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-LBagExecutorMAXChunk
+18/11/23 07:47:21
+18/11/23 07:47:21
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 07:57:34
+18/11/23 07:57:34
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-OzaBagAdwinExecutorMAXChunk
+18/11/23 08:07:48
+18/11/23 08:07:48
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-OzaBagASHTExecutorMAXChunk
+18/11/23 08:18:01
+18/11/23 08:18:01
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//covtypeNorm-OzaBagExecutorMAXChunk
+18/11/23 08:28:15
+18/11/23 08:28:15
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 08:28:28
+18/11/23 08:28:28
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-LBagExecutorMAXChunk
+18/11/23 08:29:41
+18/11/23 08:29:41
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 08:31:53
+18/11/23 08:31:53
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagAdwinExecutorMAXChunk
+18/11/23 08:34:07
+18/11/23 08:34:07
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagASHTExecutorMAXChunk
+18/11/23 08:35:21
+18/11/23 08:35:21
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagExecutorMAXChunk
+18/11/23 08:36:34
+18/11/23 08:36:34
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 08:41:46
+18/11/23 08:41:46
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-LBagExecutorMAXChunk
+18/11/23 08:44:00
+18/11/23 08:44:00
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 08:50:12
+18/11/23 08:50:13
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagAdwinExecutorMAXChunk
+18/11/23 08:50:26
+18/11/23 08:50:26
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagASHTExecutorMAXChunk
+18/11/23 08:52:39
+18/11/23 08:52:39
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagExecutorMAXChunk
+18/11/23 08:52:52
+18/11/23 08:52:52
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 08:56:04
+18/11/23 08:56:04
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-LBagExecutorMAXChunk
+18/11/23 08:59:17
+18/11/23 08:59:17
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 09:01:29
+18/11/23 09:01:29
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagAdwinExecutorMAXChunk
+18/11/23 09:04:42
+18/11/23 09:04:42
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagASHTExecutorMAXChunk
+18/11/23 09:04:55
+18/11/23 09:04:55
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagExecutorMAXChunk
+18/11/23 09:07:08
+18/11/23 09:07:08
+18/11/23 13:33:02
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 13:43:15
+18/11/23 13:43:15
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-LBagExecutorMAXChunk
+18/11/23 13:55:42
+18/11/23 13:55:42
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 14:05:55
+18/11/23 14:05:55
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagAdwinExecutorMAXChunk
+18/11/23 14:16:09
+18/11/23 14:16:09
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagASHTExecutorMAXChunk
+18/11/23 14:26:23
+18/11/23 14:26:23
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//airlines-OzaBagExecutorMAXChunk
+18/11/23 14:36:36
+18/11/23 14:36:36
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 14:46:49
+18/11/23 14:46:49
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-LBagExecutorMAXChunk
+18/11/23 14:57:03
+18/11/23 14:57:03
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 15:07:15
+18/11/23 15:07:15
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagAdwinExecutorMAXChunk
+18/11/23 15:11:58
+18/11/23 15:11:58
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagASHTExecutorMAXChunk
+18/11/23 15:16:50
+18/11/23 15:16:50
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//elecNormNew-OzaBagExecutorMAXChunk
+18/11/23 15:19:26
+18/11/23 15:19:26
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-AdaptiveRandomForestExecutorMAXChunk
+18/11/23 15:29:38
+18/11/23 15:29:38
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-LBagExecutorMAXChunk
+18/11/23 15:39:52
+18/11/23 15:39:52
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-StreamingRandomPatchesExecutorMAXChunk
+18/11/23 15:50:04
+18/11/23 15:50:05
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagAdwinExecutorMAXChunk
+18/11/23 16:00:18
+18/11/23 16:00:18
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagASHTExecutorMAXChunk
+18/11/23 16:05:42
+18/11/23 16:05:42
+/home/pi/reginaldojunior/experimentos/dynamic-batch/1//GMSC-OzaBagExecutorMAXChunk
+18/11/23 16:12:46
+18/11/23 16:12:46

@@ -1,0 +1,13 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),F1 Score for class 3 (percent),F1 Score for class 4 (percent),F1 Score for class 5 (percent),F1 Score for class 6 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Precision for class 3 (percent),Precision for class 4 (percent),Precision for class 5 (percent),Precision for class 6 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),Recall for class 3 (percent),Recall for class 4 (percent),Recall for class 5 (percent),Recall for class 6 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+18000.0,599.2360229492188,33519.0,30.03824806213379,16000.0,75.28125,71.44099178611692,35.82670777218887,67.97311523200258,?,?,68.21857387895123,77.91394335511981,64.42741208295763,84.2354970886349,76.33262260127933,62.25614927905006,62.68636375919364,0.0,68.67291563887518,77.30343150499866,61.62138852953859,78.78176684146834,74.5057232049948,77.91932059447984,?,?,67.77020447906524,78.53417513038704,67.50118091639112,90.50046339202966,78.25136612021858,51.836158192090394,0.0,1.0,25.0,9.0,89339.04000000001,33578.46242816964,1.0,0.0,25.519999999999996,9.032902818769465,13.239999999999998,4.57602447545902,13.239999999999998,4.57602447545902,5.559999999999999,1.7339742404853271,0.0,0.0,0.0,0.0,1.0,0.0

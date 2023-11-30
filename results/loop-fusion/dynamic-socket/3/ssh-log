@@ -1,0 +1,1746 @@
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-844
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-25-844
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59348]!
+Limit Per Second: 84, Porcentagem atual: 0
+Limit Per Second: 84, Porcentagem atual: 0
+Limit Per Second: 422, Porcentagem atual: 1
+Limit Per Second: 422, Porcentagem atual: 1
+Limit Per Second: 759, Porcentagem atual: 2
+Limit Per Second: 422, Porcentagem atual: 1
+Limit Per Second: 422, Porcentagem atual: 1
+Limit Per Second: 759, Porcentagem atual: 2
+Limit Per Second: 759, Porcentagem atual: 2
+Limit Per Second: 422, Porcentagem atual: 1
+
+Total Time Producer (s): 600.289
+Total instances Producer: 26692
+Producer Rate (inst per second): 44.46524923828356
+Closing socket and terminating program.
+ssh-covtypeNorm-LBagExecutorMAXChunk-25-575
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59352]!
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 57, Porcentagem atual: 0
+Limit Per Second: 287, Porcentagem atual: 1
+Limit Per Second: 517, Porcentagem atual: 2
+Limit Per Second: 517, Porcentagem atual: 2
+Limit Per Second: 57, Porcentagem atual: 0
+
+Total Time Producer (s): 600.257
+Total instances Producer: 16791
+Producer Rate (inst per second): 27.97301822386078
+Closing socket and terminating program.
+ssh-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-25-253
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59356]!
+Limit Per Second: 227, Porcentagem atual: 2
+Limit Per Second: 126, Porcentagem atual: 1
+Limit Per Second: 227, Porcentagem atual: 2
+Limit Per Second: 126, Porcentagem atual: 1
+Limit Per Second: 126, Porcentagem atual: 1
+Limit Per Second: 126, Porcentagem atual: 1
+Limit Per Second: 25, Porcentagem atual: 0
+Limit Per Second: 227, Porcentagem atual: 2
+Limit Per Second: 126, Porcentagem atual: 1
+Limit Per Second: 25, Porcentagem atual: 0
+
+Total Time Producer (s): 600.215
+Total instances Producer: 7797
+Producer Rate (inst per second): 12.990345126329732
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwinExecutorMAXChunk-25-794
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59360]!
+Limit Per Second: 714, Porcentagem atual: 2
+Limit Per Second: 79, Porcentagem atual: 0
+Limit Per Second: 397, Porcentagem atual: 1
+Limit Per Second: 79, Porcentagem atual: 0
+Limit Per Second: 714, Porcentagem atual: 2
+Limit Per Second: 397, Porcentagem atual: 1
+Limit Per Second: 79, Porcentagem atual: 0
+Limit Per Second: 79, Porcentagem atual: 0
+Limit Per Second: 397, Porcentagem atual: 1
+Limit Per Second: 714, Porcentagem atual: 2
+
+Total Time Producer (s): 600.234
+Total instances Producer: 21076
+Producer Rate (inst per second): 35.112972607349796
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagASHTExecutorMAXChunk-25-2709
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59364]!
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 2438, Porcentagem atual: 2
+Limit Per Second: 2438, Porcentagem atual: 2
+Limit Per Second: 1354, Porcentagem atual: 1
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 2438, Porcentagem atual: 2
+Limit Per Second: 1354, Porcentagem atual: 1
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 1354, Porcentagem atual: 1
+
+Total Time Producer (s): 600.307
+Total instances Producer: 71952
+Producer Rate (inst per second): 119.85867231266668
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagExecutorMAXChunk-25-2679
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59368]!
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 1339, Porcentagem atual: 1
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 1339, Porcentagem atual: 1
+Limit Per Second: 1339, Porcentagem atual: 1
+Limit Per Second: 1339, Porcentagem atual: 1
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 1339, Porcentagem atual: 1
+
+Total Time Producer (s): 600.28
+Total instances Producer: 52011
+Producer Rate (inst per second): 86.64456586926102
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-25-213
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59372]!
+Limit Per Second: 191, Porcentagem atual: 2
+Limit Per Second: 191, Porcentagem atual: 2
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 106, Porcentagem atual: 1
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 191, Porcentagem atual: 2
+Limit Per Second: 106, Porcentagem atual: 1
+Limit Per Second: 106, Porcentagem atual: 1
+Limit Per Second: 191, Porcentagem atual: 2
+Limit Per Second: 21, Porcentagem atual: 0
+
+Total Time Producer (s): 600.191
+Total instances Producer: 6604
+Producer Rate (inst per second): 11.003163992795626
+Closing socket and terminating program.
+ssh-airlines-LBagExecutorMAXChunk-25-210
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59376]!
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 189, Porcentagem atual: 2
+Limit Per Second: 105, Porcentagem atual: 1
+Limit Per Second: 189, Porcentagem atual: 2
+Limit Per Second: 105, Porcentagem atual: 1
+Limit Per Second: 189, Porcentagem atual: 2
+Limit Per Second: 105, Porcentagem atual: 1
+Limit Per Second: 105, Porcentagem atual: 1
+Limit Per Second: 105, Porcentagem atual: 1
+Limit Per Second: 189, Porcentagem atual: 2
+
+Total Time Producer (s): 600.195
+Total instances Producer: 7380
+Producer Rate (inst per second): 12.2960037987654
+Closing socket and terminating program.
+ssh-airlines-StreamingRandomPatchesExecutorMAXChunk-25-236
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59380]!
+Limit Per Second: 212, Porcentagem atual: 2
+Limit Per Second: 118, Porcentagem atual: 1
+Limit Per Second: 212, Porcentagem atual: 2
+Limit Per Second: 118, Porcentagem atual: 1
+Limit Per Second: 118, Porcentagem atual: 1
+Limit Per Second: 118, Porcentagem atual: 1
+Limit Per Second: 118, Porcentagem atual: 1
+Limit Per Second: 23, Porcentagem atual: 0
+Limit Per Second: 23, Porcentagem atual: 0
+Limit Per Second: 212, Porcentagem atual: 2
+
+Total Time Producer (s): 600.194
+Total instances Producer: 7194
+Producer Rate (inst per second): 11.98612448641606
+Closing socket and terminating program.
+ssh-airlines-OzaBagAdwinExecutorMAXChunk-25-717
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59384]!
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 358, Porcentagem atual: 1
+Limit Per Second: 645, Porcentagem atual: 2
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 358, Porcentagem atual: 1
+Limit Per Second: 71, Porcentagem atual: 0
+Limit Per Second: 645, Porcentagem atual: 2
+
+Total Time Producer (s): 600.207
+Total instances Producer: 13815
+Producer Rate (inst per second): 23.017059114605463
+Closing socket and terminating program.
+ssh-airlines-OzaBagASHTExecutorMAXChunk-25-2735
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59388]!
+Limit Per Second: 2461, Porcentagem atual: 2
+Limit Per Second: 1367, Porcentagem atual: 1
+Limit Per Second: 273, Porcentagem atual: 0
+Limit Per Second: 2461, Porcentagem atual: 2
+Limit Per Second: 2461, Porcentagem atual: 2
+Limit Per Second: 1367, Porcentagem atual: 1
+Limit Per Second: 1367, Porcentagem atual: 1
+Limit Per Second: 1367, Porcentagem atual: 1
+Limit Per Second: 273, Porcentagem atual: 0
+Limit Per Second: 1367, Porcentagem atual: 1
+
+Total Time Producer (s): 600.325
+Total instances Producer: 90335
+Producer Rate (inst per second): 150.47682505309623
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-25-4800
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59392]!
+Limit Per Second: 2400, Porcentagem atual: 1
+Limit Per Second: 4320, Porcentagem atual: 2
+Limit Per Second: 2400, Porcentagem atual: 1
+Limit Per Second: 4320, Porcentagem atual: 2
+Limit Per Second: 2400, Porcentagem atual: 1
+Limit Per Second: 480, Porcentagem atual: 0
+Limit Per Second: 480, Porcentagem atual: 0
+Limit Per Second: 480, Porcentagem atual: 0
+Limit Per Second: 2400, Porcentagem atual: 1
+Limit Per Second: 2400, Porcentagem atual: 1
+
+Total Time Producer (s): 600.303
+Total instances Producer: 132365
+Producer Rate (inst per second): 220.49698235724293
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-25-882
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59396]!
+Limit Per Second: 793, Porcentagem atual: 2
+Limit Per Second: 793, Porcentagem atual: 2
+Limit Per Second: 793, Porcentagem atual: 2
+Limit Per Second: 441, Porcentagem atual: 1
+Limit Per Second: 441, Porcentagem atual: 1
+Limit Per Second: 793, Porcentagem atual: 2
+Limit Per Second: 88, Porcentagem atual: 0
+Limit Per Second: 441, Porcentagem atual: 1
+Limit Per Second: 793, Porcentagem atual: 2
+Limit Per Second: 441, Porcentagem atual: 1
+
+Total Time Producer (s): 600.257
+Total instances Producer: 35706
+Producer Rate (inst per second): 59.484520796925324
+Closing socket and terminating program.
+ssh-elecNormNew-LBagExecutorMAXChunk-25-1258
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59400]!
+Limit Per Second: 629, Porcentagem atual: 1
+Limit Per Second: 629, Porcentagem atual: 1
+Limit Per Second: 125, Porcentagem atual: 0
+Limit Per Second: 629, Porcentagem atual: 1
+Limit Per Second: 125, Porcentagem atual: 0
+Limit Per Second: 1132, Porcentagem atual: 2
+Limit Per Second: 629, Porcentagem atual: 1
+Limit Per Second: 125, Porcentagem atual: 0
+Limit Per Second: 125, Porcentagem atual: 0
+Limit Per Second: 125, Porcentagem atual: 0
+
+Total Time Producer (s): 600.234
+Total instances Producer: 24821
+Producer Rate (inst per second): 41.35220597300386
+Closing socket and terminating program.
+ssh-elecNormNew-StreamingRandomPatchesExecutorMAXChunk-25-496
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59404]!
+Limit Per Second: 248, Porcentagem atual: 1
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 248, Porcentagem atual: 1
+Limit Per Second: 446, Porcentagem atual: 2
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+
+Total Time Producer (s): 600.198
+Total instances Producer: 7190
+Producer Rate (inst per second): 11.97938013788783
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagAdwinExecutorMAXChunk-25-2142
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59408]!
+Limit Per Second: 214, Porcentagem atual: 0
+Limit Per Second: 214, Porcentagem atual: 0
+Limit Per Second: 214, Porcentagem atual: 0
+Limit Per Second: 1927, Porcentagem atual: 2
+Limit Per Second: 1927, Porcentagem atual: 2
+Limit Per Second: 214, Porcentagem atual: 0
+Limit Per Second: 1071, Porcentagem atual: 1
+Limit Per Second: 1071, Porcentagem atual: 1
+Limit Per Second: 1071, Porcentagem atual: 1
+
+Total Time Producer (s): 505.253
+Total instances Producer: 45312
+Producer Rate (inst per second): 89.68180297791403
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagASHTExecutorMAXChunk-25-3926
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59412]!
+Limit Per Second: 3533, Porcentagem atual: 2
+Limit Per Second: 1963, Porcentagem atual: 1
+Limit Per Second: 3533, Porcentagem atual: 2
+
+Total Time Producer (s): 146.08
+Total instances Producer: 45312
+Producer Rate (inst per second): 310.18619934282583
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-25-3944
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59416]!
+Limit Per Second: 1972, Porcentagem atual: 1
+Limit Per Second: 1972, Porcentagem atual: 1
+Limit Per Second: 394, Porcentagem atual: 0
+Limit Per Second: 1972, Porcentagem atual: 1
+Limit Per Second: 3549, Porcentagem atual: 2
+
+Total Time Producer (s): 265.138
+Total instances Producer: 45312
+Producer Rate (inst per second): 170.89968242952727
+Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestExecutorMAXChunk-25-1574
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59420]!
+Limit Per Second: 1416, Porcentagem atual: 2
+Limit Per Second: 1416, Porcentagem atual: 2
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 157, Porcentagem atual: 0
+Limit Per Second: 1416, Porcentagem atual: 2
+Limit Per Second: 157, Porcentagem atual: 0
+
+Total Time Producer (s): 600.212
+Total instances Producer: 31547
+Producer Rate (inst per second): 52.55976221734987
+Closing socket and terminating program.
+ssh-GMSC-LBagExecutorMAXChunk-25-1861
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59424]!
+Limit Per Second: 930, Porcentagem atual: 1
+Limit Per Second: 1674, Porcentagem atual: 2
+Limit Per Second: 186, Porcentagem atual: 0
+Limit Per Second: 1674, Porcentagem atual: 2
+Limit Per Second: 1674, Porcentagem atual: 2
+Limit Per Second: 186, Porcentagem atual: 0
+Limit Per Second: 186, Porcentagem atual: 0
+Limit Per Second: 186, Porcentagem atual: 0
+Limit Per Second: 1674, Porcentagem atual: 2
+Limit Per Second: 1674, Porcentagem atual: 2
+
+Total Time Producer (s): 600.268
+Total instances Producer: 58178
+Producer Rate (inst per second): 96.92004238106978
+Closing socket and terminating program.
+ssh-GMSC-StreamingRandomPatchesExecutorMAXChunk-25-898
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59428]!
+Limit Per Second: 89, Porcentagem atual: 0
+Limit Per Second: 449, Porcentagem atual: 1
+Limit Per Second: 449, Porcentagem atual: 1
+Limit Per Second: 89, Porcentagem atual: 0
+Limit Per Second: 449, Porcentagem atual: 1
+Limit Per Second: 89, Porcentagem atual: 0
+Limit Per Second: 449, Porcentagem atual: 1
+Limit Per Second: 449, Porcentagem atual: 1
+Limit Per Second: 89, Porcentagem atual: 0
+Limit Per Second: 808, Porcentagem atual: 2
+
+Total Time Producer (s): 600.251
+Total instances Producer: 20969
+Producer Rate (inst per second): 34.93371939405349
+Closing socket and terminating program.
+ssh-GMSC-OzaBagAdwinExecutorMAXChunk-25-3066
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59432]!
+Limit Per Second: 1533, Porcentagem atual: 1
+Limit Per Second: 1533, Porcentagem atual: 1
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 306, Porcentagem atual: 0
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 2759, Porcentagem atual: 2
+Limit Per Second: 1533, Porcentagem atual: 1
+
+Total Time Producer (s): 600.326
+Total instances Producer: 126113
+Producer Rate (inst per second): 210.07419302179147
+Closing socket and terminating program.
+ssh-GMSC-OzaBagASHTExecutorMAXChunk-25-6863
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59436]!
+Limit Per Second: 3431, Porcentagem atual: 1
+Limit Per Second: 686, Porcentagem atual: 0
+Limit Per Second: 686, Porcentagem atual: 0
+Limit Per Second: 686, Porcentagem atual: 0
+Limit Per Second: 6176, Porcentagem atual: 2
+Limit Per Second: 3431, Porcentagem atual: 1
+Limit Per Second: 686, Porcentagem atual: 0
+Limit Per Second: 3431, Porcentagem atual: 1
+Limit Per Second: 6176, Porcentagem atual: 2
+
+Total Time Producer (s): 538.271
+Total instances Producer: 150000
+Producer Rate (inst per second): 278.6700379548592
+Closing socket and terminating program.
+ssh-GMSC-OzaBagExecutorMAXChunk-25-6653
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59440]!
+Limit Per Second: 665, Porcentagem atual: 0
+Limit Per Second: 5987, Porcentagem atual: 2
+Limit Per Second: 665, Porcentagem atual: 0
+Limit Per Second: 5987, Porcentagem atual: 2
+Limit Per Second: 3326, Porcentagem atual: 1
+Limit Per Second: 3326, Porcentagem atual: 1
+Limit Per Second: 3326, Porcentagem atual: 1
+Limit Per Second: 5987, Porcentagem atual: 2
+
+Total Time Producer (s): 449.245
+Total instances Producer: 150000
+Producer Rate (inst per second): 333.8935324822758
+Closing socket and terminating program.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-50-1012
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59444]!
+Limit Per Second: 101, Porcentagem atual: 0
+Limit Per Second: 910, Porcentagem atual: 2
+Limit Per Second: 101, Porcentagem atual: 0
+Limit Per Second: 910, Porcentagem atual: 2
+Limit Per Second: 506, Porcentagem atual: 1
+Limit Per Second: 910, Porcentagem atual: 2
+Limit Per Second: 910, Porcentagem atual: 2
+Limit Per Second: 910, Porcentagem atual: 2
+Limit Per Second: 101, Porcentagem atual: 0
+Limit Per Second: 910, Porcentagem atual: 2
+
+Total Time Producer (s): 600.291
+Total instances Producer: 36860
+Producer Rate (inst per second): 61.40355261031733
+Closing socket and terminating program.
+ssh-covtypeNorm-LBagExecutorMAXChunk-50-667
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59448]!
+Limit Per Second: 66, Porcentagem atual: 0
+Limit Per Second: 66, Porcentagem atual: 0
+Limit Per Second: 333, Porcentagem atual: 1
+Limit Per Second: 333, Porcentagem atual: 1
+Limit Per Second: 66, Porcentagem atual: 0
+Limit Per Second: 333, Porcentagem atual: 1
+Limit Per Second: 333, Porcentagem atual: 1
+Limit Per Second: 66, Porcentagem atual: 0
+Limit Per Second: 333, Porcentagem atual: 1
+Limit Per Second: 66, Porcentagem atual: 0
+
+Total Time Producer (s): 600.236
+Total instances Producer: 12080
+Producer Rate (inst per second): 20.1254173358479
+Closing socket and terminating program.
+ssh-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-50-255
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59452]!
+Limit Per Second: 127, Porcentagem atual: 1
+Limit Per Second: 127, Porcentagem atual: 1
+Limit Per Second: 25, Porcentagem atual: 0
+Limit Per Second: 25, Porcentagem atual: 0
+Limit Per Second: 229, Porcentagem atual: 2
+Limit Per Second: 25, Porcentagem atual: 0
+Limit Per Second: 127, Porcentagem atual: 1
+Limit Per Second: 127, Porcentagem atual: 1
+Limit Per Second: 25, Porcentagem atual: 0
+Limit Per Second: 229, Porcentagem atual: 2
+
+Total Time Producer (s): 600.192
+Total instances Producer: 6058
+Producer Rate (inst per second): 10.093436766901258
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwinExecutorMAXChunk-50-996
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59456]!
+Limit Per Second: 99, Porcentagem atual: 0
+Limit Per Second: 498, Porcentagem atual: 1
+Limit Per Second: 896, Porcentagem atual: 2
+Limit Per Second: 99, Porcentagem atual: 0
+Limit Per Second: 896, Porcentagem atual: 2
+Limit Per Second: 99, Porcentagem atual: 0
+Limit Per Second: 498, Porcentagem atual: 1
+Limit Per Second: 896, Porcentagem atual: 2
+Limit Per Second: 498, Porcentagem atual: 1
+Limit Per Second: 896, Porcentagem atual: 2
+
+Total Time Producer (s): 600.277
+Total instances Producer: 31798
+Producer Rate (inst per second): 52.972211162513304
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagASHTExecutorMAXChunk-50-2708
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59460]!
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 2437, Porcentagem atual: 2
+Limit Per Second: 2437, Porcentagem atual: 2
+Limit Per Second: 2437, Porcentagem atual: 2
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 1354, Porcentagem atual: 1
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 2437, Porcentagem atual: 2
+Limit Per Second: 270, Porcentagem atual: 0
+Limit Per Second: 1354, Porcentagem atual: 1
+
+Total Time Producer (s): 600.293
+Total instances Producer: 79397
+Producer Rate (inst per second): 132.2637445380839
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagExecutorMAXChunk-50-2675
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59464]!
+Limit Per Second: 2407, Porcentagem atual: 2
+Limit Per Second: 2407, Porcentagem atual: 2
+Limit Per Second: 2407, Porcentagem atual: 2
+Limit Per Second: 1337, Porcentagem atual: 1
+Limit Per Second: 1337, Porcentagem atual: 1
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 1337, Porcentagem atual: 1
+Limit Per Second: 1337, Porcentagem atual: 1
+Limit Per Second: 267, Porcentagem atual: 0
+Limit Per Second: 1337, Porcentagem atual: 1
+
+Total Time Producer (s): 600.321
+Total instances Producer: 83999
+Producer Rate (inst per second): 139.92347427459643
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-50-220
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59468]!
+Limit Per Second: 22, Porcentagem atual: 0
+Limit Per Second: 198, Porcentagem atual: 2
+Limit Per Second: 198, Porcentagem atual: 2
+Limit Per Second: 198, Porcentagem atual: 2
+Limit Per Second: 198, Porcentagem atual: 2
+Limit Per Second: 110, Porcentagem atual: 1
+Limit Per Second: 22, Porcentagem atual: 0
+Limit Per Second: 110, Porcentagem atual: 1
+Limit Per Second: 110, Porcentagem atual: 1
+Limit Per Second: 198, Porcentagem atual: 2
+
+Total Time Producer (s): 600.201
+Total instances Producer: 7991
+Producer Rate (inst per second): 13.313873185816085
+Closing socket and terminating program.
+ssh-airlines-LBagExecutorMAXChunk-50-214
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59472]!
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 192, Porcentagem atual: 2
+Limit Per Second: 192, Porcentagem atual: 2
+Limit Per Second: 192, Porcentagem atual: 2
+Limit Per Second: 21, Porcentagem atual: 0
+Limit Per Second: 107, Porcentagem atual: 1
+Limit Per Second: 192, Porcentagem atual: 2
+Limit Per Second: 21, Porcentagem atual: 0
+
+Total Time Producer (s): 600.191
+Total instances Producer: 5818
+Producer Rate (inst per second): 9.693580876754233
+Closing socket and terminating program.
+ssh-airlines-StreamingRandomPatchesExecutorMAXChunk-50-239
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59476]!
+Limit Per Second: 119, Porcentagem atual: 1
+Limit Per Second: 215, Porcentagem atual: 2
+Limit Per Second: 215, Porcentagem atual: 2
+Limit Per Second: 119, Porcentagem atual: 1
+Limit Per Second: 23, Porcentagem atual: 0
+Limit Per Second: 215, Porcentagem atual: 2
+Limit Per Second: 119, Porcentagem atual: 1
+Limit Per Second: 119, Porcentagem atual: 1
+Limit Per Second: 215, Porcentagem atual: 2
+Limit Per Second: 215, Porcentagem atual: 2
+
+Total Time Producer (s): 600.211
+Total instances Producer: 9153
+Producer Rate (inst per second): 15.24963721091416
+Closing socket and terminating program.
+ssh-airlines-OzaBagAdwinExecutorMAXChunk-50-683
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59480]!
+Limit Per Second: 614, Porcentagem atual: 2
+Limit Per Second: 68, Porcentagem atual: 0
+Limit Per Second: 614, Porcentagem atual: 2
+Limit Per Second: 341, Porcentagem atual: 1
+Limit Per Second: 68, Porcentagem atual: 0
+Limit Per Second: 341, Porcentagem atual: 1
+Limit Per Second: 68, Porcentagem atual: 0
+Limit Per Second: 341, Porcentagem atual: 1
+Limit Per Second: 68, Porcentagem atual: 0
+Limit Per Second: 68, Porcentagem atual: 0
+
+Total Time Producer (s): 600.194
+Total instances Producer: 15224
+Producer Rate (inst per second): 25.36513194067252
+Closing socket and terminating program.
+ssh-airlines-OzaBagASHTExecutorMAXChunk-50-3799
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59484]!
+Limit Per Second: 3419, Porcentagem atual: 2
+Limit Per Second: 379, Porcentagem atual: 0
+Limit Per Second: 3419, Porcentagem atual: 2
+Limit Per Second: 1899, Porcentagem atual: 1
+Limit Per Second: 3419, Porcentagem atual: 2
+Limit Per Second: 3419, Porcentagem atual: 2
+Limit Per Second: 1899, Porcentagem atual: 1
+Limit Per Second: 1899, Porcentagem atual: 1
+Limit Per Second: 1899, Porcentagem atual: 1
+Limit Per Second: 379, Porcentagem atual: 0
+
+Total Time Producer (s): 600.299
+Total instances Producer: 130459
+Producer Rate (inst per second): 217.3233671886843
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-50-5027
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59488]!
+Limit Per Second: 4524, Porcentagem atual: 2
+Limit Per Second: 2513, Porcentagem atual: 1
+Limit Per Second: 2513, Porcentagem atual: 1
+Limit Per Second: 4524, Porcentagem atual: 2
+Limit Per Second: 2513, Porcentagem atual: 1
+Limit Per Second: 502, Porcentagem atual: 0
+Limit Per Second: 2513, Porcentagem atual: 1
+Limit Per Second: 502, Porcentagem atual: 0
+Limit Per Second: 502, Porcentagem atual: 0
+Limit Per Second: 4524, Porcentagem atual: 2
+
+Total Time Producer (s): 600.305
+Total instances Producer: 146475
+Producer Rate (inst per second): 244.00096617552745
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-50-918
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59492]!
+Limit Per Second: 459, Porcentagem atual: 1
+Limit Per Second: 91, Porcentagem atual: 0
+Limit Per Second: 91, Porcentagem atual: 0
+Limit Per Second: 91, Porcentagem atual: 0
+Limit Per Second: 459, Porcentagem atual: 1
+Limit Per Second: 826, Porcentagem atual: 2
+Limit Per Second: 91, Porcentagem atual: 0
+Limit Per Second: 826, Porcentagem atual: 2
+Limit Per Second: 91, Porcentagem atual: 0
+Limit Per Second: 459, Porcentagem atual: 1
+
+Total Time Producer (s): 600.233
+Total instances Producer: 21458
+Producer Rate (inst per second): 35.74945063000535
+Closing socket and terminating program.
+ssh-elecNormNew-LBagExecutorMAXChunk-50-1316
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59496]!
+Limit Per Second: 131, Porcentagem atual: 0
+Limit Per Second: 658, Porcentagem atual: 1
+Limit Per Second: 1184, Porcentagem atual: 2
+Limit Per Second: 658, Porcentagem atual: 1
+Limit Per Second: 658, Porcentagem atual: 1
+Limit Per Second: 1184, Porcentagem atual: 2
+Limit Per Second: 131, Porcentagem atual: 0
+Limit Per Second: 1184, Porcentagem atual: 2
+Limit Per Second: 658, Porcentagem atual: 1
+Limit Per Second: 131, Porcentagem atual: 0
+
+Total Time Producer (s): 600.283
+Total instances Producer: 37943
+Producer Rate (inst per second): 63.20851998140877
+Closing socket and terminating program.
+ssh-elecNormNew-StreamingRandomPatchesExecutorMAXChunk-50-489
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59500]!
+Limit Per Second: 244, Porcentagem atual: 1
+Limit Per Second: 244, Porcentagem atual: 1
+Limit Per Second: 440, Porcentagem atual: 2
+Limit Per Second: 244, Porcentagem atual: 1
+Limit Per Second: 48, Porcentagem atual: 0
+Limit Per Second: 244, Porcentagem atual: 1
+Limit Per Second: 48, Porcentagem atual: 0
+Limit Per Second: 440, Porcentagem atual: 2
+Limit Per Second: 244, Porcentagem atual: 1
+Limit Per Second: 48, Porcentagem atual: 0
+
+Total Time Producer (s): 600.227
+Total instances Producer: 13385
+Producer Rate (inst per second): 22.299896539142694
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagAdwinExecutorMAXChunk-50-2523
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59504]!
+Limit Per Second: 252, Porcentagem atual: 0
+Limit Per Second: 252, Porcentagem atual: 0
+Limit Per Second: 2270, Porcentagem atual: 2
+Limit Per Second: 2270, Porcentagem atual: 2
+Limit Per Second: 1261, Porcentagem atual: 1
+Limit Per Second: 2270, Porcentagem atual: 2
+
+Total Time Producer (s): 345.195
+Total instances Producer: 45312
+Producer Rate (inst per second): 131.26493720940337
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagASHTExecutorMAXChunk-50-4141
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59508]!
+Limit Per Second: 2070, Porcentagem atual: 1
+Limit Per Second: 3726, Porcentagem atual: 2
+Limit Per Second: 414, Porcentagem atual: 0
+Limit Per Second: 414, Porcentagem atual: 0
+Limit Per Second: 414, Porcentagem atual: 0
+Limit Per Second: 414, Porcentagem atual: 0
+Limit Per Second: 3726, Porcentagem atual: 2
+
+Total Time Producer (s): 365.157
+Total instances Producer: 45312
+Producer Rate (inst per second): 124.08909044602733
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-50-4162
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59512]!
+Limit Per Second: 2081, Porcentagem atual: 1
+Limit Per Second: 2081, Porcentagem atual: 1
+Limit Per Second: 2081, Porcentagem atual: 1
+Limit Per Second: 3745, Porcentagem atual: 2
+
+Total Time Producer (s): 203.128
+Total instances Producer: 45312
+Producer Rate (inst per second): 223.07116694891891
+Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestExecutorMAXChunk-50-1699
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59516]!
+Limit Per Second: 169, Porcentagem atual: 0
+Limit Per Second: 1529, Porcentagem atual: 2
+Limit Per Second: 169, Porcentagem atual: 0
+Limit Per Second: 1529, Porcentagem atual: 2
+Limit Per Second: 849, Porcentagem atual: 1
+Limit Per Second: 1529, Porcentagem atual: 2
+Limit Per Second: 169, Porcentagem atual: 0
+Limit Per Second: 849, Porcentagem atual: 1
+Limit Per Second: 849, Porcentagem atual: 1
+Limit Per Second: 1529, Porcentagem atual: 2
+
+Total Time Producer (s): 600.278
+Total instances Producer: 55047
+Producer Rate (inst per second): 91.70251116982465
+Closing socket and terminating program.
+ssh-GMSC-LBagExecutorMAXChunk-50-2037
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59520]!
+Limit Per Second: 1018, Porcentagem atual: 1
+Limit Per Second: 203, Porcentagem atual: 0
+Limit Per Second: 1018, Porcentagem atual: 1
+Limit Per Second: 1833, Porcentagem atual: 2
+Limit Per Second: 203, Porcentagem atual: 0
+Limit Per Second: 1018, Porcentagem atual: 1
+Limit Per Second: 1833, Porcentagem atual: 2
+Limit Per Second: 1833, Porcentagem atual: 2
+Limit Per Second: 1833, Porcentagem atual: 2
+Limit Per Second: 203, Porcentagem atual: 0
+
+Total Time Producer (s): 600.294
+Total instances Producer: 67349
+Producer Rate (inst per second): 112.1933585876254
+Closing socket and terminating program.
+ssh-GMSC-StreamingRandomPatchesExecutorMAXChunk-50-958
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59524]!
+Limit Per Second: 95, Porcentagem atual: 0
+Limit Per Second: 862, Porcentagem atual: 2
+Limit Per Second: 479, Porcentagem atual: 1
+Limit Per Second: 479, Porcentagem atual: 1
+Limit Per Second: 862, Porcentagem atual: 2
+Limit Per Second: 862, Porcentagem atual: 2
+Limit Per Second: 479, Porcentagem atual: 1
+Limit Per Second: 479, Porcentagem atual: 1
+Limit Per Second: 95, Porcentagem atual: 0
+Limit Per Second: 95, Porcentagem atual: 0
+
+Total Time Producer (s): 600.246
+Total instances Producer: 28233
+Producer Rate (inst per second): 47.035715356703754
+Closing socket and terminating program.
+ssh-GMSC-OzaBagAdwinExecutorMAXChunk-50-4027
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59528]!
+Limit Per Second: 402, Porcentagem atual: 0
+Limit Per Second: 2013, Porcentagem atual: 1
+Limit Per Second: 3624, Porcentagem atual: 2
+Limit Per Second: 402, Porcentagem atual: 0
+Limit Per Second: 3624, Porcentagem atual: 2
+Limit Per Second: 3624, Porcentagem atual: 2
+Limit Per Second: 3624, Porcentagem atual: 2
+Limit Per Second: 2013, Porcentagem atual: 1
+Limit Per Second: 402, Porcentagem atual: 0
+Limit Per Second: 402, Porcentagem atual: 0
+
+Total Time Producer (s): 600.301
+Total instances Producer: 122099
+Producer Rate (inst per second): 203.3962961914106
+Closing socket and terminating program.
+ssh-GMSC-OzaBagASHTExecutorMAXChunk-50-7285
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59532]!
+Limit Per Second: 3642, Porcentagem atual: 1
+Limit Per Second: 728, Porcentagem atual: 0
+Limit Per Second: 728, Porcentagem atual: 0
+Limit Per Second: 728, Porcentagem atual: 0
+Limit Per Second: 728, Porcentagem atual: 0
+Limit Per Second: 728, Porcentagem atual: 0
+Limit Per Second: 6556, Porcentagem atual: 2
+Limit Per Second: 6556, Porcentagem atual: 2
+Limit Per Second: 3642, Porcentagem atual: 1
+Limit Per Second: 728, Porcentagem atual: 0
+
+Total Time Producer (s): 600.299
+Total instances Producer: 142961
+Producer Rate (inst per second): 238.14965542171484
+Closing socket and terminating program.
+ssh-GMSC-OzaBagExecutorMAXChunk-50-6990
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59536]!
+Limit Per Second: 6291, Porcentagem atual: 2
+Limit Per Second: 6291, Porcentagem atual: 2
+Limit Per Second: 699, Porcentagem atual: 0
+Limit Per Second: 6291, Porcentagem atual: 2
+Limit Per Second: 699, Porcentagem atual: 0
+Limit Per Second: 6291, Porcentagem atual: 2
+
+Total Time Producer (s): 344.174
+Total instances Producer: 150000
+Producer Rate (inst per second): 435.8260647230762
+Closing socket and terminating program.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-500-963
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59540]!
+Limit Per Second: 481, Porcentagem atual: 1
+Limit Per Second: 481, Porcentagem atual: 1
+Limit Per Second: 866, Porcentagem atual: 2
+Limit Per Second: 481, Porcentagem atual: 1
+Limit Per Second: 96, Porcentagem atual: 0
+Limit Per Second: 866, Porcentagem atual: 2
+Limit Per Second: 96, Porcentagem atual: 0
+Limit Per Second: 481, Porcentagem atual: 1
+Limit Per Second: 481, Porcentagem atual: 1
+Limit Per Second: 96, Porcentagem atual: 0
+
+Total Time Producer (s): 600.236
+Total instances Producer: 25589
+Producer Rate (inst per second): 42.631564917799
+Closing socket and terminating program.
+ssh-covtypeNorm-LBagExecutorMAXChunk-500-782
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59544]!
+Limit Per Second: 78, Porcentagem atual: 0
+Limit Per Second: 391, Porcentagem atual: 1
+Limit Per Second: 703, Porcentagem atual: 2
+Limit Per Second: 391, Porcentagem atual: 1
+Limit Per Second: 391, Porcentagem atual: 1
+Limit Per Second: 703, Porcentagem atual: 2
+Limit Per Second: 78, Porcentagem atual: 0
+Limit Per Second: 78, Porcentagem atual: 0
+Limit Per Second: 78, Porcentagem atual: 0
+Limit Per Second: 78, Porcentagem atual: 0
+
+Total Time Producer (s): 600.226
+Total instances Producer: 17275
+Producer Rate (inst per second): 28.780825888915174
+Closing socket and terminating program.
+ssh-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-500-276
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59548]!
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 248, Porcentagem atual: 2
+
+Total Time Producer (s): 600.23
+Total instances Producer: 11459
+Producer Rate (inst per second): 19.091015110874164
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwinExecutorMAXChunk-500-1154
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59552]!
+Limit Per Second: 577, Porcentagem atual: 1
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 1038, Porcentagem atual: 2
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 577, Porcentagem atual: 1
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 115, Porcentagem atual: 0
+Limit Per Second: 577, Porcentagem atual: 1
+
+Total Time Producer (s): 600.226
+Total instances Producer: 20703
+Producer Rate (inst per second): 34.49200801031611
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagASHTExecutorMAXChunk-500-3368
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59556]!
+Limit Per Second: 336, Porcentagem atual: 0
+Limit Per Second: 1684, Porcentagem atual: 1
+Limit Per Second: 3031, Porcentagem atual: 2
+Limit Per Second: 1684, Porcentagem atual: 1
+Limit Per Second: 336, Porcentagem atual: 0
+Limit Per Second: 336, Porcentagem atual: 0
+Limit Per Second: 3031, Porcentagem atual: 2
+Limit Per Second: 1684, Porcentagem atual: 1
+Limit Per Second: 336, Porcentagem atual: 0
+Limit Per Second: 1684, Porcentagem atual: 1
+
+Total Time Producer (s): 600.303
+Total instances Producer: 85095
+Producer Rate (inst per second): 141.75341452566454
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagExecutorMAXChunk-500-3708
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59560]!
+Limit Per Second: 1854, Porcentagem atual: 1
+Limit Per Second: 1854, Porcentagem atual: 1
+Limit Per Second: 3337, Porcentagem atual: 2
+Limit Per Second: 370, Porcentagem atual: 0
+Limit Per Second: 3337, Porcentagem atual: 2
+Limit Per Second: 1854, Porcentagem atual: 1
+Limit Per Second: 1854, Porcentagem atual: 1
+Limit Per Second: 3337, Porcentagem atual: 2
+Limit Per Second: 370, Porcentagem atual: 0
+Limit Per Second: 370, Porcentagem atual: 0
+
+Total Time Producer (s): 600.296
+Total instances Producer: 112694
+Producer Rate (inst per second): 187.73071951170755
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-500-276
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59564]!
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 248, Porcentagem atual: 2
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 27, Porcentagem atual: 0
+
+Total Time Producer (s): 600.195
+Total instances Producer: 8689
+Producer Rate (inst per second): 14.476961654129074
+Closing socket and terminating program.
+ssh-airlines-LBagExecutorMAXChunk-500-245
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59568]!
+Limit Per Second: 122, Porcentagem atual: 1
+Limit Per Second: 24, Porcentagem atual: 0
+Limit Per Second: 220, Porcentagem atual: 2
+Limit Per Second: 220, Porcentagem atual: 2
+Limit Per Second: 220, Porcentagem atual: 2
+Limit Per Second: 122, Porcentagem atual: 1
+Limit Per Second: 122, Porcentagem atual: 1
+Limit Per Second: 220, Porcentagem atual: 2
+Limit Per Second: 122, Porcentagem atual: 1
+Limit Per Second: 24, Porcentagem atual: 0
+
+Total Time Producer (s): 600.207
+Total instances Producer: 8256
+Producer Rate (inst per second): 13.75525443721916
+Closing socket and terminating program.
+ssh-airlines-StreamingRandomPatchesExecutorMAXChunk-500-266
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59572]!
+Limit Per Second: 26, Porcentagem atual: 0
+Limit Per Second: 26, Porcentagem atual: 0
+Limit Per Second: 239, Porcentagem atual: 2
+Limit Per Second: 26, Porcentagem atual: 0
+Limit Per Second: 133, Porcentagem atual: 1
+Limit Per Second: 26, Porcentagem atual: 0
+Limit Per Second: 26, Porcentagem atual: 0
+Limit Per Second: 239, Porcentagem atual: 2
+Limit Per Second: 133, Porcentagem atual: 1
+Limit Per Second: 239, Porcentagem atual: 2
+
+Total Time Producer (s): 600.197
+Total instances Producer: 6733
+Producer Rate (inst per second): 11.21798342877422
+Closing socket and terminating program.
+ssh-airlines-OzaBagAdwinExecutorMAXChunk-500-753
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59576]!
+Limit Per Second: 376, Porcentagem atual: 1
+Limit Per Second: 677, Porcentagem atual: 2
+Limit Per Second: 677, Porcentagem atual: 2
+Limit Per Second: 75, Porcentagem atual: 0
+Limit Per Second: 677, Porcentagem atual: 2
+Limit Per Second: 376, Porcentagem atual: 1
+Limit Per Second: 376, Porcentagem atual: 1
+Limit Per Second: 75, Porcentagem atual: 0
+Limit Per Second: 677, Porcentagem atual: 2
+Limit Per Second: 75, Porcentagem atual: 0
+
+Total Time Producer (s): 600.238
+Total instances Producer: 23968
+Producer Rate (inst per second): 39.93082743844941
+Closing socket and terminating program.
+ssh-airlines-OzaBagASHTExecutorMAXChunk-500-4856
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59580]!
+Limit Per Second: 4370, Porcentagem atual: 2
+Limit Per Second: 485, Porcentagem atual: 0
+Limit Per Second: 4370, Porcentagem atual: 2
+Limit Per Second: 2428, Porcentagem atual: 1
+Limit Per Second: 2428, Porcentagem atual: 1
+Limit Per Second: 2428, Porcentagem atual: 1
+Limit Per Second: 485, Porcentagem atual: 0
+Limit Per Second: 4370, Porcentagem atual: 2
+Limit Per Second: 485, Porcentagem atual: 0
+Limit Per Second: 2428, Porcentagem atual: 1
+
+Total Time Producer (s): 600.291
+Total instances Producer: 140796
+Producer Rate (inst per second): 234.54624507114048
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-500-6170
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59584]!
+Limit Per Second: 3085, Porcentagem atual: 1
+Limit Per Second: 617, Porcentagem atual: 0
+Limit Per Second: 617, Porcentagem atual: 0
+Limit Per Second: 5553, Porcentagem atual: 2
+Limit Per Second: 3085, Porcentagem atual: 1
+Limit Per Second: 3085, Porcentagem atual: 1
+Limit Per Second: 617, Porcentagem atual: 0
+Limit Per Second: 3085, Porcentagem atual: 1
+Limit Per Second: 5553, Porcentagem atual: 2
+Limit Per Second: 617, Porcentagem atual: 0
+
+Total Time Producer (s): 600.309
+Total instances Producer: 155099
+Producer Rate (inst per second): 258.3652752165968
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-500-930
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59588]!
+Limit Per Second: 837, Porcentagem atual: 2
+Limit Per Second: 465, Porcentagem atual: 1
+Limit Per Second: 465, Porcentagem atual: 1
+Limit Per Second: 93, Porcentagem atual: 0
+Limit Per Second: 93, Porcentagem atual: 0
+Limit Per Second: 837, Porcentagem atual: 2
+Limit Per Second: 93, Porcentagem atual: 0
+Limit Per Second: 837, Porcentagem atual: 2
+Limit Per Second: 837, Porcentagem atual: 2
+Limit Per Second: 837, Porcentagem atual: 2
+
+Total Time Producer (s): 600.269
+Total instances Producer: 33018
+Producer Rate (inst per second): 55.005339272892655
+Closing socket and terminating program.
+ssh-elecNormNew-LBagExecutorMAXChunk-500-1471
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59592]!
+Limit Per Second: 147, Porcentagem atual: 0
+Limit Per Second: 1323, Porcentagem atual: 2
+Limit Per Second: 735, Porcentagem atual: 1
+Limit Per Second: 147, Porcentagem atual: 0
+Limit Per Second: 735, Porcentagem atual: 1
+Limit Per Second: 1323, Porcentagem atual: 2
+Limit Per Second: 1323, Porcentagem atual: 2
+Limit Per Second: 147, Porcentagem atual: 0
+Limit Per Second: 147, Porcentagem atual: 0
+Limit Per Second: 735, Porcentagem atual: 1
+
+Total Time Producer (s): 600.277
+Total instances Producer: 39163
+Producer Rate (inst per second): 65.24154681921846
+Closing socket and terminating program.
+ssh-elecNormNew-StreamingRandomPatchesExecutorMAXChunk-500-494
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59596]!
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 247, Porcentagem atual: 1
+Limit Per Second: 247, Porcentagem atual: 1
+Limit Per Second: 247, Porcentagem atual: 1
+Limit Per Second: 444, Porcentagem atual: 2
+Limit Per Second: 49, Porcentagem atual: 0
+Limit Per Second: 247, Porcentagem atual: 1
+Limit Per Second: 444, Porcentagem atual: 2
+
+Total Time Producer (s): 600.234
+Total instances Producer: 11878
+Producer Rate (inst per second): 19.788948976565806
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagAdwinExecutorMAXChunk-500-2794
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59600]!
+Limit Per Second: 1397, Porcentagem atual: 1
+Limit Per Second: 2514, Porcentagem atual: 2
+Limit Per Second: 1397, Porcentagem atual: 1
+Limit Per Second: 2514, Porcentagem atual: 2
+
+Total Time Producer (s): 237.147
+Total instances Producer: 45312
+Producer Rate (inst per second): 191.0713608015282
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagASHTExecutorMAXChunk-500-4712
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59604]!
+Limit Per Second: 4240, Porcentagem atual: 2
+Limit Per Second: 4240, Porcentagem atual: 2
+
+Total Time Producer (s): 103.063
+Total instances Producer: 45312
+Producer Rate (inst per second): 439.65341587184537
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-500-4455
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59608]!
+Limit Per Second: 445, Porcentagem atual: 0
+Limit Per Second: 445, Porcentagem atual: 0
+Limit Per Second: 2227, Porcentagem atual: 1
+Limit Per Second: 2227, Porcentagem atual: 1
+Limit Per Second: 2227, Porcentagem atual: 1
+
+Total Time Producer (s): 292.182
+Total instances Producer: 45312
+Producer Rate (inst per second): 155.08142185350226
+Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestExecutorMAXChunk-500-1820
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59612]!
+Limit Per Second: 182, Porcentagem atual: 0
+Limit Per Second: 1638, Porcentagem atual: 2
+Limit Per Second: 182, Porcentagem atual: 0
+Limit Per Second: 910, Porcentagem atual: 1
+Limit Per Second: 182, Porcentagem atual: 0
+Limit Per Second: 1638, Porcentagem atual: 2
+Limit Per Second: 910, Porcentagem atual: 1
+Limit Per Second: 1638, Porcentagem atual: 2
+Limit Per Second: 1638, Porcentagem atual: 2
+Limit Per Second: 910, Porcentagem atual: 1
+
+Total Time Producer (s): 600.286
+Total instances Producer: 58994
+Producer Rate (inst per second): 98.27648820728787
+Closing socket and terminating program.
+ssh-GMSC-LBagExecutorMAXChunk-500-2271
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59616]!
+Limit Per Second: 1135, Porcentagem atual: 1
+Limit Per Second: 1135, Porcentagem atual: 1
+Limit Per Second: 227, Porcentagem atual: 0
+Limit Per Second: 227, Porcentagem atual: 0
+Limit Per Second: 227, Porcentagem atual: 0
+Limit Per Second: 2043, Porcentagem atual: 2
+Limit Per Second: 2043, Porcentagem atual: 2
+Limit Per Second: 1135, Porcentagem atual: 1
+Limit Per Second: 227, Porcentagem atual: 0
+Limit Per Second: 2043, Porcentagem atual: 2
+
+Total Time Producer (s): 600.259
+Total instances Producer: 60199
+Producer Rate (inst per second): 100.28837551790144
+Closing socket and terminating program.
+ssh-GMSC-StreamingRandomPatchesExecutorMAXChunk-500-1019
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59620]!
+Limit Per Second: 509, Porcentagem atual: 1
+Limit Per Second: 917, Porcentagem atual: 2
+Limit Per Second: 509, Porcentagem atual: 1
+Limit Per Second: 101, Porcentagem atual: 0
+Limit Per Second: 917, Porcentagem atual: 2
+Limit Per Second: 509, Porcentagem atual: 1
+Limit Per Second: 917, Porcentagem atual: 2
+Limit Per Second: 509, Porcentagem atual: 1
+Limit Per Second: 917, Porcentagem atual: 2
+Limit Per Second: 101, Porcentagem atual: 0
+
+Total Time Producer (s): 600.245
+Total instances Producer: 33081
+Producer Rate (inst per second): 55.11249573090988
+Closing socket and terminating program.
+ssh-GMSC-OzaBagAdwinExecutorMAXChunk-500-4733
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59624]!
+Limit Per Second: 473, Porcentagem atual: 0
+Limit Per Second: 473, Porcentagem atual: 0
+Limit Per Second: 473, Porcentagem atual: 0
+Limit Per Second: 4259, Porcentagem atual: 2
+Limit Per Second: 2366, Porcentagem atual: 1
+Limit Per Second: 4259, Porcentagem atual: 2
+Limit Per Second: 4259, Porcentagem atual: 2
+Limit Per Second: 4259, Porcentagem atual: 2
+Limit Per Second: 2366, Porcentagem atual: 1
+Limit Per Second: 473, Porcentagem atual: 0
+
+Total Time Producer (s): 600.326
+Total instances Producer: 145127
+Producer Rate (inst per second): 241.74698413861802
+Closing socket and terminating program.
+ssh-GMSC-OzaBagASHTExecutorMAXChunk-500-8617
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59628]!
+Limit Per Second: 4308, Porcentagem atual: 1
+Limit Per Second: 861, Porcentagem atual: 0
+Limit Per Second: 7755, Porcentagem atual: 2
+Limit Per Second: 861, Porcentagem atual: 0
+Limit Per Second: 4308, Porcentagem atual: 1
+Limit Per Second: 4308, Porcentagem atual: 1
+Limit Per Second: 4308, Porcentagem atual: 1
+
+Total Time Producer (s): 390.218
+Total instances Producer: 150000
+Producer Rate (inst per second): 384.40051458415553
+Closing socket and terminating program.
+ssh-GMSC-OzaBagExecutorMAXChunk-500-8499
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59632]!
+Limit Per Second: 849, Porcentagem atual: 0
+Limit Per Second: 849, Porcentagem atual: 0
+Limit Per Second: 4249, Porcentagem atual: 1
+Limit Per Second: 4249, Porcentagem atual: 1
+Limit Per Second: 7649, Porcentagem atual: 2
+Limit Per Second: 4249, Porcentagem atual: 1
+Limit Per Second: 4249, Porcentagem atual: 1
+
+Total Time Producer (s): 412.249
+Total instances Producer: 150000
+Producer Rate (inst per second): 363.8577655737188
+Closing socket and terminating program.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk-2000-1080
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59636]!
+Limit Per Second: 108, Porcentagem atual: 0
+Limit Per Second: 540, Porcentagem atual: 1
+Limit Per Second: 108, Porcentagem atual: 0
+Limit Per Second: 108, Porcentagem atual: 0
+Limit Per Second: 972, Porcentagem atual: 2
+Limit Per Second: 972, Porcentagem atual: 2
+Limit Per Second: 972, Porcentagem atual: 2
+Limit Per Second: 972, Porcentagem atual: 2
+Limit Per Second: 972, Porcentagem atual: 2
+Limit Per Second: 108, Porcentagem atual: 0
+
+Total Time Producer (s): 600.302
+Total instances Producer: 33965
+Producer Rate (inst per second): 56.579854806414104
+Closing socket and terminating program.
+ssh-covtypeNorm-LBagExecutorMAXChunk-2000-702
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59640]!
+Limit Per Second: 631, Porcentagem atual: 2
+Limit Per Second: 70, Porcentagem atual: 0
+Limit Per Second: 70, Porcentagem atual: 0
+Limit Per Second: 70, Porcentagem atual: 0
+Limit Per Second: 351, Porcentagem atual: 1
+Limit Per Second: 70, Porcentagem atual: 0
+Limit Per Second: 631, Porcentagem atual: 2
+Limit Per Second: 70, Porcentagem atual: 0
+Limit Per Second: 631, Porcentagem atual: 2
+Limit Per Second: 631, Porcentagem atual: 2
+
+Total Time Producer (s): 600.223
+Total instances Producer: 18849
+Producer Rate (inst per second): 31.403328429600336
+Closing socket and terminating program.
+ssh-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk-2000-291
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59644]!
+Limit Per Second: 145, Porcentagem atual: 1
+Limit Per Second: 261, Porcentagem atual: 2
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 145, Porcentagem atual: 1
+Limit Per Second: 261, Porcentagem atual: 2
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 145, Porcentagem atual: 1
+Limit Per Second: 29, Porcentagem atual: 0
+
+Total Time Producer (s): 600.198
+Total instances Producer: 6216
+Producer Rate (inst per second): 10.356582327831816
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagAdwinExecutorMAXChunk-2000-1149
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59648]!
+Limit Per Second: 574, Porcentagem atual: 1
+Limit Per Second: 574, Porcentagem atual: 1
+Limit Per Second: 574, Porcentagem atual: 1
+Limit Per Second: 1034, Porcentagem atual: 2
+Limit Per Second: 574, Porcentagem atual: 1
+Limit Per Second: 574, Porcentagem atual: 1
+Limit Per Second: 114, Porcentagem atual: 0
+Limit Per Second: 114, Porcentagem atual: 0
+Limit Per Second: 114, Porcentagem atual: 0
+Limit Per Second: 574, Porcentagem atual: 1
+
+Total Time Producer (s): 600.263
+Total instances Producer: 28735
+Producer Rate (inst per second): 47.87068335046471
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagASHTExecutorMAXChunk-2000-3314
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59652]!
+Limit Per Second: 1657, Porcentagem atual: 1
+Limit Per Second: 2982, Porcentagem atual: 2
+Limit Per Second: 2982, Porcentagem atual: 2
+Limit Per Second: 331, Porcentagem atual: 0
+Limit Per Second: 1657, Porcentagem atual: 1
+Limit Per Second: 2982, Porcentagem atual: 2
+Limit Per Second: 1657, Porcentagem atual: 1
+Limit Per Second: 1657, Porcentagem atual: 1
+Limit Per Second: 331, Porcentagem atual: 0
+Limit Per Second: 331, Porcentagem atual: 0
+
+Total Time Producer (s): 600.295
+Total instances Producer: 98987
+Producer Rate (inst per second): 164.8972588477332
+Closing socket and terminating program.
+ssh-covtypeNorm-OzaBagExecutorMAXChunk-2000-3557
+read 581071 lines to memory from file /home/gcassales/bases/covtypeNorm.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59656]!
+Limit Per Second: 3201, Porcentagem atual: 2
+Limit Per Second: 1778, Porcentagem atual: 1
+Limit Per Second: 1778, Porcentagem atual: 1
+Limit Per Second: 1778, Porcentagem atual: 1
+Limit Per Second: 3201, Porcentagem atual: 2
+Limit Per Second: 355, Porcentagem atual: 0
+Limit Per Second: 3201, Porcentagem atual: 2
+Limit Per Second: 1778, Porcentagem atual: 1
+Limit Per Second: 3201, Porcentagem atual: 2
+Limit Per Second: 1778, Porcentagem atual: 1
+
+Total Time Producer (s): 600.323
+Total instances Producer: 134967
+Producer Rate (inst per second): 224.8239697629443
+Closing socket and terminating program.
+ssh-airlines-AdaptiveRandomForestExecutorMAXChunk-2000-292
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59660]!
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 262, Porcentagem atual: 2
+Limit Per Second: 262, Porcentagem atual: 2
+Limit Per Second: 262, Porcentagem atual: 2
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 146, Porcentagem atual: 1
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 146, Porcentagem atual: 1
+Limit Per Second: 29, Porcentagem atual: 0
+Limit Per Second: 262, Porcentagem atual: 2
+
+Total Time Producer (s): 600.198
+Total instances Producer: 8227
+Producer Rate (inst per second): 13.707143309374574
+Closing socket and terminating program.
+ssh-airlines-LBagExecutorMAXChunk-2000-440
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59664]!
+Limit Per Second: 396, Porcentagem atual: 2
+Limit Per Second: 396, Porcentagem atual: 2
+Limit Per Second: 44, Porcentagem atual: 0
+Limit Per Second: 220, Porcentagem atual: 1
+Limit Per Second: 220, Porcentagem atual: 1
+Limit Per Second: 44, Porcentagem atual: 0
+Limit Per Second: 44, Porcentagem atual: 0
+Limit Per Second: 220, Porcentagem atual: 1
+Limit Per Second: 396, Porcentagem atual: 2
+Limit Per Second: 44, Porcentagem atual: 0
+
+Total Time Producer (s): 600.204
+Total instances Producer: 12021
+Producer Rate (inst per second): 20.028190415258813
+Closing socket and terminating program.
+ssh-airlines-StreamingRandomPatchesExecutorMAXChunk-2000-277
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59668]!
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 249, Porcentagem atual: 2
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 27, Porcentagem atual: 0
+Limit Per Second: 138, Porcentagem atual: 1
+Limit Per Second: 138, Porcentagem atual: 1
+
+Total Time Producer (s): 600.196
+Total instances Producer: 6117
+Producer Rate (inst per second): 10.19167072089784
+Closing socket and terminating program.
+ssh-airlines-OzaBagAdwinExecutorMAXChunk-2000-970
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59672]!
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 873, Porcentagem atual: 2
+Limit Per Second: 485, Porcentagem atual: 1
+Limit Per Second: 485, Porcentagem atual: 1
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 485, Porcentagem atual: 1
+Limit Per Second: 485, Porcentagem atual: 1
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 873, Porcentagem atual: 2
+Limit Per Second: 97, Porcentagem atual: 0
+
+Total Time Producer (s): 600.234
+Total instances Producer: 24879
+Producer Rate (inst per second): 41.4488349543678
+Closing socket and terminating program.
+ssh-airlines-OzaBagASHTExecutorMAXChunk-2000-4989
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59676]!
+Limit Per Second: 4490, Porcentagem atual: 2
+Limit Per Second: 4490, Porcentagem atual: 2
+Limit Per Second: 2494, Porcentagem atual: 1
+Limit Per Second: 4490, Porcentagem atual: 2
+Limit Per Second: 498, Porcentagem atual: 0
+Limit Per Second: 498, Porcentagem atual: 0
+Limit Per Second: 2494, Porcentagem atual: 1
+Limit Per Second: 2494, Porcentagem atual: 1
+Limit Per Second: 498, Porcentagem atual: 0
+Limit Per Second: 4490, Porcentagem atual: 2
+
+Total Time Producer (s): 600.292
+Total instances Producer: 166917
+Producer Rate (inst per second): 278.0596776235565
+Closing socket and terminating program.
+ssh-airlines-OzaBagExecutorMAXChunk-2000-6220
+read 539395 lines to memory from file /home/gcassales/bases/airlines.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59680]!
+Limit Per Second: 622, Porcentagem atual: 0
+Limit Per Second: 3110, Porcentagem atual: 1
+Limit Per Second: 5598, Porcentagem atual: 2
+Limit Per Second: 622, Porcentagem atual: 0
+Limit Per Second: 3110, Porcentagem atual: 1
+Limit Per Second: 622, Porcentagem atual: 0
+Limit Per Second: 5598, Porcentagem atual: 2
+Limit Per Second: 3110, Porcentagem atual: 1
+Limit Per Second: 622, Porcentagem atual: 0
+Limit Per Second: 5598, Porcentagem atual: 2
+
+Total Time Producer (s): 600.303
+Total instances Producer: 168017
+Producer Rate (inst per second): 279.8869904031797
+Closing socket and terminating program.
+ssh-elecNormNew-AdaptiveRandomForestExecutorMAXChunk-2000-875
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59684]!
+Limit Per Second: 787, Porcentagem atual: 2
+Limit Per Second: 437, Porcentagem atual: 1
+Limit Per Second: 87, Porcentagem atual: 0
+Limit Per Second: 437, Porcentagem atual: 1
+Limit Per Second: 87, Porcentagem atual: 0
+Limit Per Second: 787, Porcentagem atual: 2
+Limit Per Second: 437, Porcentagem atual: 1
+Limit Per Second: 437, Porcentagem atual: 1
+Limit Per Second: 787, Porcentagem atual: 2
+Limit Per Second: 787, Porcentagem atual: 2
+
+Total Time Producer (s): 600.269
+Total instances Producer: 29364
+Producer Rate (inst per second): 48.918068399334295
+Closing socket and terminating program.
+ssh-elecNormNew-LBagExecutorMAXChunk-2000-1402
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59688]!
+Limit Per Second: 701, Porcentagem atual: 1
+Limit Per Second: 701, Porcentagem atual: 1
+Limit Per Second: 140, Porcentagem atual: 0
+Limit Per Second: 1261, Porcentagem atual: 2
+Limit Per Second: 701, Porcentagem atual: 1
+Limit Per Second: 1261, Porcentagem atual: 2
+Limit Per Second: 140, Porcentagem atual: 0
+Limit Per Second: 140, Porcentagem atual: 0
+Limit Per Second: 1261, Porcentagem atual: 2
+Limit Per Second: 701, Porcentagem atual: 1
+
+Total Time Producer (s): 600.28
+Total instances Producer: 41755
+Producer Rate (inst per second): 69.5592057040048
+Closing socket and terminating program.
+ssh-elecNormNew-StreamingRandomPatchesExecutorMAXChunk-2000-519
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59692]!
+Limit Per Second: 51, Porcentagem atual: 0
+Limit Per Second: 467, Porcentagem atual: 2
+Limit Per Second: 51, Porcentagem atual: 0
+Limit Per Second: 51, Porcentagem atual: 0
+Limit Per Second: 467, Porcentagem atual: 2
+Limit Per Second: 51, Porcentagem atual: 0
+Limit Per Second: 259, Porcentagem atual: 1
+Limit Per Second: 467, Porcentagem atual: 2
+Limit Per Second: 259, Porcentagem atual: 1
+Limit Per Second: 51, Porcentagem atual: 0
+
+Total Time Producer (s): 600.22
+Total instances Producer: 12776
+Producer Rate (inst per second): 21.28552863949885
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagAdwinExecutorMAXChunk-2000-2528
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59696]!
+Limit Per Second: 252, Porcentagem atual: 0
+Limit Per Second: 1264, Porcentagem atual: 1
+Limit Per Second: 1264, Porcentagem atual: 1
+Limit Per Second: 1264, Porcentagem atual: 1
+Limit Per Second: 2275, Porcentagem atual: 2
+Limit Per Second: 1264, Porcentagem atual: 1
+
+Total Time Producer (s): 352.211
+Total instances Producer: 45312
+Producer Rate (inst per second): 128.6501557305138
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagASHTExecutorMAXChunk-2000-4202
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59700]!
+Limit Per Second: 420, Porcentagem atual: 0
+Limit Per Second: 3781, Porcentagem atual: 2
+Limit Per Second: 2101, Porcentagem atual: 1
+Limit Per Second: 420, Porcentagem atual: 0
+Limit Per Second: 3781, Porcentagem atual: 2
+
+Total Time Producer (s): 258.139
+Total instances Producer: 45312
+Producer Rate (inst per second): 175.53333669069764
+Closing socket and terminating program.
+ssh-elecNormNew-OzaBagExecutorMAXChunk-2000-4042
+read 45325 lines to memory from file /home/gcassales/bases/elecNormNew.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59704]!
+Limit Per Second: 3637, Porcentagem atual: 2
+Limit Per Second: 404, Porcentagem atual: 0
+Limit Per Second: 3637, Porcentagem atual: 2
+
+Total Time Producer (s): 178.095
+Total instances Producer: 45312
+Producer Rate (inst per second): 254.4260085909206
+Closing socket and terminating program.
+ssh-GMSC-AdaptiveRandomForestExecutorMAXChunk-2000-1801
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59708]!
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 180, Porcentagem atual: 0
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 900, Porcentagem atual: 1
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 1620, Porcentagem atual: 2
+Limit Per Second: 1620, Porcentagem atual: 2
+
+Total Time Producer (s): 600.314
+Total instances Producer: 82244
+Producer Rate (inst per second): 137.00163581059246
+Closing socket and terminating program.
+ssh-GMSC-LBagExecutorMAXChunk-2000-2224
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59712]!
+Limit Per Second: 1112, Porcentagem atual: 1
+Limit Per Second: 1112, Porcentagem atual: 1
+Limit Per Second: 1112, Porcentagem atual: 1
+Limit Per Second: 2001, Porcentagem atual: 2
+Limit Per Second: 222, Porcentagem atual: 0
+Limit Per Second: 222, Porcentagem atual: 0
+Limit Per Second: 2001, Porcentagem atual: 2
+Limit Per Second: 222, Porcentagem atual: 0
+Limit Per Second: 2001, Porcentagem atual: 2
+Limit Per Second: 1112, Porcentagem atual: 1
+
+Total Time Producer (s): 600.272
+Total instances Producer: 68148
+Producer Rate (inst per second): 113.5285337313751
+Closing socket and terminating program.
+ssh-GMSC-StreamingRandomPatchesExecutorMAXChunk-2000-974
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59716]!
+Limit Per Second: 487, Porcentagem atual: 1
+Limit Per Second: 876, Porcentagem atual: 2
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 97, Porcentagem atual: 0
+Limit Per Second: 876, Porcentagem atual: 2
+Limit Per Second: 876, Porcentagem atual: 2
+Limit Per Second: 487, Porcentagem atual: 1
+Limit Per Second: 487, Porcentagem atual: 1
+Limit Per Second: 487, Porcentagem atual: 1
+
+Total Time Producer (s): 600.232
+Total instances Producer: 28342
+Producer Rate (inst per second): 47.218408881899
+Closing socket and terminating program.
+ssh-GMSC-OzaBagAdwinExecutorMAXChunk-2000-4540
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59720]!
+Limit Per Second: 454, Porcentagem atual: 0
+Limit Per Second: 454, Porcentagem atual: 0
+Limit Per Second: 454, Porcentagem atual: 0
+Limit Per Second: 2270, Porcentagem atual: 1
+Limit Per Second: 454, Porcentagem atual: 0
+Limit Per Second: 4086, Porcentagem atual: 2
+Limit Per Second: 454, Porcentagem atual: 0
+Limit Per Second: 4086, Porcentagem atual: 2
+Limit Per Second: 2270, Porcentagem atual: 1
+Limit Per Second: 2270, Porcentagem atual: 1
+
+Total Time Producer (s): 600.318
+Total instances Producer: 104615
+Producer Rate (inst per second): 174.26597236797832
+Closing socket and terminating program.
+ssh-GMSC-OzaBagASHTExecutorMAXChunk-2000-8906
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59724]!
+Limit Per Second: 4453, Porcentagem atual: 1
+Limit Per Second: 8015, Porcentagem atual: 2
+Limit Per Second: 890, Porcentagem atual: 0
+Limit Per Second: 8015, Porcentagem atual: 2
+Limit Per Second: 890, Porcentagem atual: 0
+Limit Per Second: 890, Porcentagem atual: 0
+Limit Per Second: 890, Porcentagem atual: 0
+Limit Per Second: 4453, Porcentagem atual: 1
+
+Total Time Producer (s): 425.213
+Total instances Producer: 150000
+Producer Rate (inst per second): 352.7643792640394
+Closing socket and terminating program.
+ssh-GMSC-OzaBagExecutorMAXChunk-2000-8410
+read 150015 lines to memory from file /home/gcassales/bases/GMSC.arff.
+ServerSocketChannel awaiting connections.../192.168.0.11:9004
+Connection from java.nio.channels.SocketChannel[connected local=/192.168.0.11:9004 remote=/192.168.0.32:59728]!
+Limit Per Second: 841, Porcentagem atual: 0
+Limit Per Second: 7569, Porcentagem atual: 2
+Limit Per Second: 7569, Porcentagem atual: 2
+Limit Per Second: 4205, Porcentagem atual: 1
+Limit Per Second: 4205, Porcentagem atual: 1
+Limit Per Second: 4205, Porcentagem atual: 1
+
+Total Time Producer (s): 316.183
+Total instances Producer: 150000
+Producer Rate (inst per second): 474.4088075576486
+Closing socket and terminating program.
