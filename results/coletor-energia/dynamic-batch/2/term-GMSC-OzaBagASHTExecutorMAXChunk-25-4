@@ -1,5 +1,72 @@
 Connected!
 [newChuckSize]:0
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
 thread is open, sizeMB500
 [newChuckSize]:500
 thread is open, sizeMB500
@@ -7,24 +74,10 @@ thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-thread is open, sizeMB500
-BYTES READ -1
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-90501.0,119.20099639892578,367.0,759.230224609375,90500.0,93.38232044198895,1.1414478453821353,46.51723522057513,-0.03340571237671631,58.92499818389475,96.57636439510435,1.3181743285549514,71.1016288036755,93.42276980247296,48.78048780487805,50.30920887556967,99.950303503603,0.6681142475363288,0.0,1.0,25.0,59411.68,33339.8043557047,1.0,0.0,28.599999999999998,27.498484806742837,9.639999999999999,12.720980046102317,9.639999999999999,12.720980046102317,3.3999999999999986,4.153311931459037,0.0,0.0,0.0,0.0,1.0,0.0
+149990.0,376.3089904785156,77.0,398.58203125,149925.0,93.30531932632982,5.401434652627993,46.308976142077654,-0.1596647041213293,59.77811077441605,96.52877927988683,6.205027567517055,71.16575981459621,93.50799021742772,48.8235294117647,51.532150308003686,99.75125800548948,3.3130426105179125,0.0,1.0,25.0,127734.0,40967.89065841687,1.0,0.0,48.19999999999998,44.922154890432395,14.639999999999995,19.529635599945703,14.639999999999995,19.529635599945703,4.079999999999999,4.881256668796127,0.0,0.0,0.0,0.0,1.0,0.0

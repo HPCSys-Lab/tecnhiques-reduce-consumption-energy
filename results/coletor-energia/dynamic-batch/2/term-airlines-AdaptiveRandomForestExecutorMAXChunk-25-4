@@ -1,5 +1,10 @@
 Connected!
 [newChuckSize]:0
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
 thread is open, sizeMB250
 [newChuckSize]:250
 thread is open, sizeMB250
@@ -7,30 +12,126 @@ thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
 thread is open, sizeMB250
-thread is open, sizeMB250
-print extradionario!!!!
-AS, 689WN, 3504, AUS, MCO, 3, 770 , 145, 0WN, 474, ORF, BNA, 3, 770 , 125, 1
-java.lang.NumberFormatException: For input string: "689WN"
-thread is open, sizeMB250
-thread is open, sizeMB250
+[newChuckSize]:250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB250
 thread is open, sizeMB500
+[newChuckSize]:500
 thread is open, sizeMB500
 thread is open, sizeMB500
 thread is open, sizeMB500
-print extradionario!!!!
-US, 1524, CLT, SYR, 3, 990 WN, 843, MHT, BWI, 7, 525 , 95, 0WN, 894, MSY, TPA, 7, 525 , 85, 0
-java.lang.NumberFormatException: For input string: "990 WN"
 thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-10001.0,122.08200073242188,3017.0,81.92034912109375,10000.0,65.82000000000001,26.152275132165386,19.062278001420793,16.71539961013645,63.55102388364592,73.65500231231692,51.366742596810944,64.62754015074844,67.49540895606724,61.759671345429645,62.5097835899465,81.05173876166243,43.96782841823057,0.0,1.0
+8195.0,599.2119750976562,4427.0,13.676295280456543,7700.0,64.71428571428571,21.592391521069153,18.749999999999993,11.584770582492666,61.47605031770924,73.83726528647087,45.82253240279163,62.88517428402503,66.57405799617989,59.19629057187017,60.12869327027992,82.87937743190662,37.378009108653224,0.0,1.0
