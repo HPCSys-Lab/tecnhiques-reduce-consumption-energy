@@ -1,0 +1,62 @@
+Connected!
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+print extradionario!!!!
+N0.000398,4,0.212766,0.081122,0.199494,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.000398"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB25
+[newChuckSize]:25
+print extradionario!!!!
+OWN0.018008,6,0.12766,0.064639,0.227611,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.018008"
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+print extradionario!!!!
+N0.439007,2,1,0.053321,0.43856,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.439007"
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+print extradionario!!!!
+WN0.469227,4,0.978723,0.045184,0.426956,0.002973,0.333506,0.563596,UP
+java.lang.NumberFormatException: For input string: "WN0.469227"
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+print extradionario!!!!
+N0.885448,3,0.595745,0.029362,0.520827,0.00198,0.549456,0.473246,DOWN
+java.lang.NumberFormatException: For input string: "N0.885448"
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+print extradionario!!!!
+N0.903633,4,0.085106,0.035367,0.260637,0.00237,0.24521,0.639474,DOWN
+java.lang.NumberFormatException: For input string: "N0.903633"
+print extradionario!!!!
+P0.907261,2,0.702128,0.164015,0.475751,0.010704,0.635422,0.555702,UP
+java.lang.NumberFormatException: For input string: "P0.907261"
+thread is open, sizeMB25
+thread is open, sizeMB25
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+45300.0,170.1199951171875,93.0,266.2826232910156,44850.0,78.61761426978818,54.92559356595886,-45.30303030303029,49.58999158957106,?,71.67636890162821,82.8317189765993,?,?,81.87402956862215,77.01168558777508,?,51.11366551365695,63.73764977927265,89.60334676169818,0.0,0.0,1.0,25.0,25911.519999999997,19516.14367030536,1.0,0.0,36.32,36.650056843975925,17.12,22.853373201054296,17.12,22.853373201054296,3.079999999999999,3.426854728950927,0.0,0.0,0.0,0.0,1.0,0.0
