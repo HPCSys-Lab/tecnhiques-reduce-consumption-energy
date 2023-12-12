@@ -1,0 +1,10 @@
+Connected!
+linha extraodinaria!!!!
+WN0.014026,6,0.191489,0.040651,0.180899,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.014026"
+linha extraodinaria!!!!
+WN0.447812,7,0.255319,0.028492,0.249331,0.00128,0.210513,0.765789,DOWN
+java.lang.NumberFormatException: For input string: "WN0.447812"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+27900.0,599.4739990234375,270.0,46.540802001953125,27875.0,89.30941704035874,78.01772792474306,28.296438883541825,74.94745691467001,89.04596856457368,87.177058215639,90.83753535850448,89.31531912884623,89.3468667255075,89.28377153218496,88.778237690963,85.11013956616782,92.44633581575819,0.0,1.0

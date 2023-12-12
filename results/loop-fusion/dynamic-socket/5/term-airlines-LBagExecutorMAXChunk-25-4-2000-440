@@ -1,0 +1,8 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+10000.0,691.9760131835938,126667.0,14.45136833190918,6000.0,58.53333333333334,11.537222100476622,8.596620132255701,5.793260128739131,56.44502110981655,68.60963916225083,38.92979872361316,57.43712555452959,59.535800306546975,55.338450802512206,55.48660772107781,80.9467103304555,30.026505111700114,0.0,1.0,25.0,4.0,45585.52,10331.152465238329,1.0,0.0,19206.0,4110.51530630082,19159.44,4100.556832919157,19159.44,4100.556832919157,2.16,0.6244997998398397,0.0,0.0,0.0,0.0,1.0,0.0

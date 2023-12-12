@@ -1,0 +1,100 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+numberOfChangesDetected: 17
+numberOfChangesDetected: 18
+numberOfChangesDetected: 19
+numberOfChangesDetected: 20
+numberOfChangesDetected: 21
+numberOfChangesDetected: 22
+numberOfChangesDetected: 23
+numberOfChangesDetected: 24
+numberOfChangesDetected: 25
+numberOfChangesDetected: 26
+numberOfChangesDetected: 27
+numberOfChangesDetected: 28
+numberOfChangesDetected: 29
+numberOfChangesDetected: 30
+numberOfChangesDetected: 31
+numberOfChangesDetected: 32
+numberOfChangesDetected: 33
+linha extraodinaria!!!!
+P0.446794,5,0.446809,0.043863,0.598185,0.003035,0.550233,0.430263,UP
+java.lang.NumberFormatException: For input string: "P0.446794"
+numberOfChangesDetected: 34
+numberOfChangesDetected: 35
+numberOfChangesDetected: 36
+numberOfChangesDetected: 37
+numberOfChangesDetected: 38
+numberOfChangesDetected: 39
+numberOfChangesDetected: 40
+numberOfChangesDetected: 41
+numberOfChangesDetected: 42
+numberOfChangesDetected: 43
+numberOfChangesDetected: 44
+numberOfChangesDetected: 45
+numberOfChangesDetected: 46
+numberOfChangesDetected: 47
+numberOfChangesDetected: 48
+numberOfChangesDetected: 49
+numberOfChangesDetected: 50
+numberOfChangesDetected: 51
+numberOfChangesDetected: 52
+numberOfChangesDetected: 53
+numberOfChangesDetected: 54
+numberOfChangesDetected: 55
+numberOfChangesDetected: 56
+numberOfChangesDetected: 57
+numberOfChangesDetected: 58
+numberOfChangesDetected: 59
+numberOfChangesDetected: 60
+numberOfChangesDetected: 61
+numberOfChangesDetected: 62
+numberOfChangesDetected: 63
+numberOfChangesDetected: 64
+numberOfChangesDetected: 65
+numberOfChangesDetected: 66
+numberOfChangesDetected: 67
+numberOfChangesDetected: 68
+linha extraodinaria!!!!
+WN0.889076,2,0.489362,0.027591,0.538679,0.001903,0.553599,0.456579,DOWN
+java.lang.NumberFormatException: For input string: "WN0.889076"
+numberOfChangesDetected: 69
+numberOfChangesDetected: 70
+numberOfChangesDetected: 71
+numberOfChangesDetected: 72
+numberOfChangesDetected: 73
+numberOfChangesDetected: 74
+numberOfChangesDetected: 75
+numberOfChangesDetected: 76
+linha extraodinaria!!!!
+P0.898766,5,0.765957,0.091269,0.73133,0.00597,0.688244,0.52807,UP
+java.lang.NumberFormatException: For input string: "P0.898766"
+numberOfChangesDetected: 77
+numberOfChangesDetected: 78
+numberOfChangesDetected: 79
+numberOfChangesDetected: 80
+numberOfChangesDetected: 81
+numberOfChangesDetected: 82
+numberOfChangesDetected: 83
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+43500.0,599.5440063476562,3845.0,72.55513763427734,43000.0,88.7,76.71180146483557,23.056215360253354,73.38555074765843,88.40138236042898,86.327817178881,90.37550777766768,88.71592348009835,88.79689671144048,88.63495024875621,88.08906376349736,83.99233296823658,92.18579455875813,0.0,1.0,25.0,84.0,62546.600000000006,67511.87791665504,1.0,0.0,126.87999999999998,142.21354834660914,75.19999999999999,75.50772587402342,75.19999999999999,75.50772587402342,7.76,4.205948168962618,0.0,0.0,0.0,0.0,1.0,0.0
