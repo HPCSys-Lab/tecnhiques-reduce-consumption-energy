@@ -1,0 +1,32 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+58000.0,600.0709838867188,11594.0,96.65523529052734,54000.0,93.36666666666666,12.262507124123916,47.02750665483584,1.1043622308116583,62.1541178481018,96.55066155653564,13.769860375541649,73.76007629607422,93.76075409590783,53.75939849624061,53.70394078086069,99.51169161141769,7.8961899503037,0.0,1.0,25.0,7.0,285161.60000000003,128697.67341169511,1.0,0.0,218.07999999999998,96.43906539018995,109.52,48.26672421727692,109.52,48.26672421727692,16.48,4.7707441767506245,0.0,0.0,0.0,0.0,1.0,0.0

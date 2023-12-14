@@ -1,0 +1,35 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+numberOfChangesDetected: 17
+numberOfChangesDetected: 18
+numberOfChangesDetected: 19
+numberOfChangesDetected: 20
+numberOfChangesDetected: 21
+numberOfChangesDetected: 22
+numberOfChangesDetected: 23
+numberOfChangesDetected: 24
+numberOfChangesDetected: 25
+numberOfChangesDetected: 26
+numberOfChangesDetected: 27
+numberOfChangesDetected: 28
+numberOfChangesDetected: 29
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),F1 Score for class 2 (percent),F1 Score for class 3 (percent),F1 Score for class 4 (percent),F1 Score for class 5 (percent),F1 Score for class 6 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Precision for class 2 (percent),Precision for class 3 (percent),Precision for class 4 (percent),Precision for class 5 (percent),Precision for class 6 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),Recall for class 2 (percent),Recall for class 3 (percent),Recall for class 4 (percent),Recall for class 5 (percent),Recall for class 6 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+15500.0,599.2589721679688,10630.0,25.865278244018555,15000.0,73.35333333333334,69.66345730956505,41.07327141382871,68.79781420765028,?,?,66.87425149700599,61.86920117673682,65.69084054113993,84.46748757831064,79.19020715630886,64.21716479298053,60.981874842866446,0.0,67.14766714766715,61.163310961968676,63.04810557684121,79.18185500202512,77.58302583025831,78.74915938130465,?,?,66.6030534351145,62.591575091575095,68.56481481481481,90.50925925925925,80.86538461538461,54.21296296296296,0.0,1.0,25.0,30.0,48734.880000000005,33258.515541537134,1.0,0.0,18.000000000000004,10.336021155809103,9.48,5.2051256789181695,9.48,5.2051256789181695,4.199999999999999,1.8708286933869707,0.0,0.0,0.0,0.0,1.0,0.0

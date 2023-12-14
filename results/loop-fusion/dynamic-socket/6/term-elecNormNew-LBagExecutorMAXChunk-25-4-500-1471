@@ -1,0 +1,100 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+linha extraodinaria!!!!
+WN0.004159,6,0.12766,0.044043,0.210503,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.004159"
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+numberOfChangesDetected: 17
+numberOfChangesDetected: 18
+numberOfChangesDetected: 19
+numberOfChangesDetected: 20
+numberOfChangesDetected: 21
+numberOfChangesDetected: 22
+numberOfChangesDetected: 23
+numberOfChangesDetected: 24
+numberOfChangesDetected: 25
+numberOfChangesDetected: 26
+numberOfChangesDetected: 27
+numberOfChangesDetected: 28
+numberOfChangesDetected: 29
+numberOfChangesDetected: 30
+numberOfChangesDetected: 31
+numberOfChangesDetected: 32
+numberOfChangesDetected: 33
+numberOfChangesDetected: 34
+numberOfChangesDetected: 35
+numberOfChangesDetected: 36
+numberOfChangesDetected: 37
+numberOfChangesDetected: 38
+numberOfChangesDetected: 39
+numberOfChangesDetected: 40
+numberOfChangesDetected: 41
+numberOfChangesDetected: 42
+numberOfChangesDetected: 43
+numberOfChangesDetected: 44
+linha extraodinaria!!!!
+WN0.456528,2,0.978723,0.036778,0.593425,0.002403,0.532626,0.637281,DOWN
+java.lang.NumberFormatException: For input string: "WN0.456528"
+numberOfChangesDetected: 45
+numberOfChangesDetected: 46
+numberOfChangesDetected: 47
+numberOfChangesDetected: 48
+numberOfChangesDetected: 49
+numberOfChangesDetected: 50
+numberOfChangesDetected: 51
+numberOfChangesDetected: 52
+numberOfChangesDetected: 53
+numberOfChangesDetected: 54
+numberOfChangesDetected: 55
+numberOfChangesDetected: 56
+numberOfChangesDetected: 57
+numberOfChangesDetected: 58
+numberOfChangesDetected: 59
+numberOfChangesDetected: 60
+numberOfChangesDetected: 61
+numberOfChangesDetected: 62
+numberOfChangesDetected: 63
+numberOfChangesDetected: 64
+numberOfChangesDetected: 65
+numberOfChangesDetected: 66
+numberOfChangesDetected: 67
+numberOfChangesDetected: 68
+numberOfChangesDetected: 69
+numberOfChangesDetected: 70
+numberOfChangesDetected: 71
+numberOfChangesDetected: 72
+numberOfChangesDetected: 73
+numberOfChangesDetected: 74
+numberOfChangesDetected: 75
+linha extraodinaria!!!!
+P0.894164,5,0.382979,0.089798,0.770158,0.006047,0.7768,0.417544,UP
+java.lang.NumberFormatException: For input string: "P0.894164"
+numberOfChangesDetected: 76
+numberOfChangesDetected: 77
+numberOfChangesDetected: 78
+linha extraodinaria!!!!
+P0.898456,5,0.340426,0.097124,0.63731,0.006531,0.662092,0.407018,UP
+java.lang.NumberFormatException: For input string: "P0.898456"
+numberOfChangesDetected: 79
+numberOfChangesDetected: 80
+numberOfChangesDetected: 81
+numberOfChangesDetected: 82
+numberOfChangesDetected: 83
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+42000.0,599.302978515625,3902.0,70.08141326904297,41500.0,88.75662650602409,76.80657606961546,23.407747866053818,73.46451319381255,88.45421749270642,86.3521975771054,90.44692966285692,88.78890685809662,88.94984326018809,88.62797045600513,88.12204187173526,83.90196747412715,92.34211626934336,0.0,1.0,25.0,84.0,55146.23999999999,44840.88833613059,1.0,0.0,113.11999999999998,98.0358437851517,68.08000000000001,57.54557614042398,68.08000000000001,57.54557614042398,8.239999999999998,4.35201102939779,0.0,0.0,0.0,0.0,1.0,0.0
