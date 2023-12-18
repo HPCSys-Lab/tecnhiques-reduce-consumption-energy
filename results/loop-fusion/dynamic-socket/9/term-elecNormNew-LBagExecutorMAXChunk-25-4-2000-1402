@@ -1,0 +1,41 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+linha extraodinaria!!!!
+WN0.014026,6,0.212766,0.041552,0.182684,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.014026"
+linha extraodinaria!!!!
+OWN0.014203,3,0.680851,0.040711,0.463404,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.014203"
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+linha extraodinaria!!!!
+WN0.026857,4,1,0.097184,0.39765,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.026857"
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+linha extraodinaria!!!!
+P0.429848,6,0.553191,0.091209,0.487057,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "P0.429848"
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+linha extraodinaria!!!!
+OWN0.439051,3,0.276596,0.053321,0.411336,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.439051"
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+numberOfChangesDetected: 17
+numberOfChangesDetected: 18
+numberOfChangesDetected: 19
+numberOfChangesDetected: 20
+numberOfChangesDetected: 21
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+44000.0,599.3159790039062,14124.0,73.41703033447266,42000.0,87.16190476190476,73.56795575992152,12.877686217482633,69.81132075471697,86.82301403210799,84.52548456568557,89.03803131991052,87.09309690470232,86.73463374388591,87.45156006551875,86.55460107945603,82.4260752688172,90.68312689009487,0.0,1.0,25.0,22.0,173413.12,99255.31119807476,1.0,0.0,344.08000000000004,199.80405401292538,189.19999999999996,103.57525444493648,189.19999999999996,103.57525444493648,12.52,4.942334131426837,0.0,0.0,0.0,0.0,1.0,0.0

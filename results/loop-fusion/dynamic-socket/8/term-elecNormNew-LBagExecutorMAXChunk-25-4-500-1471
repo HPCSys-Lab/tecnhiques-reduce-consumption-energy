@@ -1,0 +1,106 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+linha extraodinaria!!!!
+N0.004779,6,0.87234,0.062598,0.503868,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.004779"
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+numberOfChangesDetected: 16
+numberOfChangesDetected: 17
+numberOfChangesDetected: 18
+numberOfChangesDetected: 19
+numberOfChangesDetected: 20
+numberOfChangesDetected: 21
+numberOfChangesDetected: 22
+numberOfChangesDetected: 23
+numberOfChangesDetected: 24
+numberOfChangesDetected: 25
+numberOfChangesDetected: 26
+numberOfChangesDetected: 27
+numberOfChangesDetected: 28
+numberOfChangesDetected: 29
+numberOfChangesDetected: 30
+numberOfChangesDetected: 31
+numberOfChangesDetected: 32
+numberOfChangesDetected: 33
+linha extraodinaria!!!!
+N0.442193,4,0.297872,0.055662,0.419072,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "N0.442193"
+numberOfChangesDetected: 34
+numberOfChangesDetected: 35
+numberOfChangesDetected: 36
+numberOfChangesDetected: 37
+numberOfChangesDetected: 38
+numberOfChangesDetected: 39
+numberOfChangesDetected: 40
+numberOfChangesDetected: 41
+numberOfChangesDetected: 42
+numberOfChangesDetected: 43
+numberOfChangesDetected: 44
+numberOfChangesDetected: 45
+numberOfChangesDetected: 46
+numberOfChangesDetected: 47
+numberOfChangesDetected: 48
+numberOfChangesDetected: 49
+numberOfChangesDetected: 50
+numberOfChangesDetected: 51
+numberOfChangesDetected: 52
+numberOfChangesDetected: 53
+numberOfChangesDetected: 54
+numberOfChangesDetected: 55
+numberOfChangesDetected: 56
+numberOfChangesDetected: 57
+numberOfChangesDetected: 58
+numberOfChangesDetected: 59
+numberOfChangesDetected: 60
+numberOfChangesDetected: 61
+numberOfChangesDetected: 62
+numberOfChangesDetected: 63
+numberOfChangesDetected: 64
+numberOfChangesDetected: 65
+numberOfChangesDetected: 66
+linha extraodinaria!!!!
+N0.880448,2,0.042553,0.034226,0.22285,0.002221,0.312015,0.55614,UP
+java.lang.NumberFormatException: For input string: "N0.880448"
+numberOfChangesDetected: 67
+linha extraodinaria!!!!
+N0.8812,5,0.234043,0.029002,0.226569,0.00183,0.311497,0.756579,DOWN
+java.lang.NumberFormatException: For input string: "N0.8812"
+numberOfChangesDetected: 68
+numberOfChangesDetected: 69
+numberOfChangesDetected: 70
+numberOfChangesDetected: 71
+numberOfChangesDetected: 72
+numberOfChangesDetected: 73
+linha extraodinaria!!!!
+OWN0.889961,1,0.085106,0.033205,0.260934,0.001624,0.369498,0.558772,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.889961"
+numberOfChangesDetected: 74
+numberOfChangesDetected: 75
+numberOfChangesDetected: 76
+numberOfChangesDetected: 77
+numberOfChangesDetected: 78
+numberOfChangesDetected: 79
+numberOfChangesDetected: 80
+numberOfChangesDetected: 81
+numberOfChangesDetected: 82
+numberOfChangesDetected: 83
+linha extraodinaria!!!!
+N0.903633,4,0.276596,0.041492,0.370872,0.002723,0.283273,0.60307,DOWN
+java.lang.NumberFormatException: For input string: "N0.903633"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+42000.0,599.2769775390625,3812.0,70.08445739746094,41500.0,88.70843373493976,76.7107885583117,23.054187192118224,73.35531926991528,88.40660686993317,86.30593740859901,90.40057371170987,88.73515254126971,88.86881098662812,88.60149409591132,88.08048513248484,83.88674095974528,92.27422930522441,0.0,1.0,25.0,84.0,76156.84000000001,72194.32324675305,1.0,0.0,155.59999999999994,147.76501615741122,92.80000000000001,83.43959891242687,92.80000000000001,83.43959891242687,8.96,5.143604443060009,0.0,0.0,0.0,0.0,1.0,0.0

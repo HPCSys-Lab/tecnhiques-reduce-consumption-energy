@@ -1,0 +1,23 @@
+Connected!
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 0
+numberOfChangesDetected: 1
+numberOfChangesDetected: 2
+numberOfChangesDetected: 3
+numberOfChangesDetected: 4
+numberOfChangesDetected: 5
+numberOfChangesDetected: 6
+numberOfChangesDetected: 7
+numberOfChangesDetected: 8
+numberOfChangesDetected: 9
+numberOfChangesDetected: 10
+numberOfChangesDetected: 11
+numberOfChangesDetected: 12
+numberOfChangesDetected: 13
+numberOfChangesDetected: 14
+numberOfChangesDetected: 15
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,change detections,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+10000.0,779.3909912109375,29933.0,12.830531120300293,9000.0,60.58888888888889,14.392846488940188,10.04311437991378,5.539280958721723,57.69995721473254,70.20579588408233,41.80475799835931,58.61691516983891,62.71949572264746,54.51433461703038,56.811245763584296,79.72148035101107,33.90101117615753,0.0,1.0,25.0,16.0,54280.35999999999,16271.322856178596,1.0,0.0,19985.64,6018.319185896784,19937.520000000004,6004.066636594456,19937.520000000004,6004.066636594456,2.0000000000000004,0.5773502691896257,0.0,0.0,0.0,0.0,1.0,0.0

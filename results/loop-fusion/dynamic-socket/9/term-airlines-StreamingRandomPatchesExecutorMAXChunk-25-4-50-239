@@ -1,0 +1,4 @@
+Connected!
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+5150.0,599.197998046875,3291.0,8.59482192993164,5100.0,68.23529411764706,14.435503197328403,23.331755797444394,3.628792385484831,59.10398075574217,79.48328267477204,29.6875,62.493622657054736,70.09157918248827,54.89566613162119,56.06312764916077,91.78122257970168,20.34503271861987,0.0,1.0
