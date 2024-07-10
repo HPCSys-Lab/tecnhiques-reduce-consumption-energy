@@ -1,2 +1,14 @@
 results/coletor-energia/dynamic-batch-fuzzy/* filter=lfs diff=lfs merge=lfs -text
 results/dynamic-batch-fuzzy.zip filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/ filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_1/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_10/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_3/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_2/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_4/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/99.Exp_1-bkp/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_8/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_9/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/999.Exp_3-bkp/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_7/ssh-log filter=lfs diff=lfs merge=lfs -text
+results/coletor-energia/dynamic-batch-fuzzy/Exp_6/ssh-log filter=lfs diff=lfs merge=lfs -text
