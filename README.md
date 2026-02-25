@@ -7,6 +7,8 @@ This project is base code to support experiments of paper about XUE3M with mini 
 
 ## Dependends
 
+* Python 3.9
+* Packages in requirements.txt to run notebooks
 * cpuset_1.5.6-5.1_all.deb
 * libcpufreq0_008-1.1_armhf.deb
 * cpuset_1.5.6-5.1_all.deb
